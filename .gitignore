@@ -3,6 +3,7 @@
 .orchestrator/*
 !.orchestrator/config.json
 __pycache__/
+/.venv
 
 # Large architecture feasibility artifacts
 docs/architecture/evidence/**/*.mp4
