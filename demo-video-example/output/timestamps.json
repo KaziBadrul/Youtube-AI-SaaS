@@ -1,0 +1,497 @@
+{
+  "script": "projects/10_parents/script.txt",
+  "audio": "projects/10_parents/narration.wav",
+  "scene_count": 49,
+  "results": [
+    {
+      "scene": 1,
+      "image": "1.png",
+      "text": "Okay, so... it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it.",
+      "start": 0.0,
+      "end": 7.2,
+      "duration": 7.2,
+      "match_score": 97.5,
+      "status": "OK"
+    },
+    {
+      "scene": 2,
+      "image": "2.png",
+      "text": "At some point between when you're like twelve and twenty-two, your brain just... glitches.",
+      "start": 7.2,
+      "end": 15.2,
+      "duration": 8.0,
+      "match_score": 87.9,
+      "status": "OK"
+    },
+    {
+      "scene": 3,
+      "image": "3.png",
+      "text": "You’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you.",
+      "start": 15.2,
+      "end": 25.18,
+      "duration": 9.98,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 4,
+      "image": "4.png",
+      "text": "He’s not this all-knowing architect of reality.",
+      "start": 25.18,
+      "end": 28.88,
+      "duration": 3.7,
+      "match_score": 97.8,
+      "status": "OK"
+    },
+    {
+      "scene": 5,
+      "image": "5.png",
+      "text": "He’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything.",
+      "start": 28.88,
+      "end": 37.78,
+      "duration": 8.9,
+      "match_score": 99.6,
+      "status": "OK"
+    },
+    {
+      "scene": 6,
+      "image": "6.png",
+      "text": "Because think about when you were five.",
+      "start": 37.78,
+      "end": 40.06,
+      "duration": 2.28,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 7,
+      "image": "7.png",
+      "text": "Your parents aren't even people to you back then.",
+      "start": 40.06,
+      "end": 42.76,
+      "duration": 2.7,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 8,
+      "image": "8.png",
+      "text": "They're like... mythical creatures.",
+      "start": 42.76,
+      "end": 45.46,
+      "duration": 2.7,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 9,
+      "image": "9.png",
+      "text": "They know where the spare lightbulbs are kept.",
+      "start": 45.46,
+      "end": 47.74,
+      "duration": 2.28,
+      "match_score": 98.9,
+      "status": "OK"
+    },
+    {
+      "scene": 10,
+      "image": "10.png",
+      "text": "They deal with wasps.",
+      "start": 47.74,
+      "end": 48.74,
+      "duration": 1.0,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 11,
+      "image": "11.png",
+      "text": "They carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major.",
+      "start": 48.74,
+      "end": 55.92,
+      "duration": 7.18,
+      "match_score": 99.2,
+      "status": "OK"
+    },
+    {
+      "scene": 12,
+      "image": "12.png",
+      "text": "They're just environmental facts.",
+      "start": 55.92,
+      "end": 58.88,
+      "duration": 2.96,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 13,
+      "image": "13.png",
+      "text": "Like gravity, or the roof.",
+      "start": 58.88,
+      "end": 60.68,
+      "duration": 1.8,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 14,
+      "image": "14.png",
+      "text": "And then you get older, and the cracks start showing.",
+      "start": 60.68,
+      "end": 66.32,
+      "duration": 5.64,
+      "match_score": 99.0,
+      "status": "OK"
+    },
+    {
+      "scene": 15,
+      "image": "15.png",
+      "text": "Maybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag.",
+      "start": 66.32,
+      "end": 75.92,
+      "duration": 9.6,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 16,
+      "image": "16.png",
+      "text": "Or you hear your dad tell a casual story about his twenties and you realize... wait, he was a total menace who barely survived his own terrible choices?",
+      "start": 75.92,
+      "end": 85.84,
+      "duration": 9.92,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 17,
+      "image": "17.png",
+      "text": "Or even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for.",
+      "start": 85.84,
+      "end": 100.52,
+      "duration": 14.68,
+      "match_score": 99.8,
+      "status": "OK"
+    },
+    {
+      "scene": 18,
+      "image": "18.png",
+      "text": "I actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\"",
+      "start": 100.52,
+      "end": 106.22,
+      "duration": 5.7,
+      "match_score": 98.5,
+      "status": "OK"
+    },
+    {
+      "scene": 19,
+      "image": "19.png",
+      "text": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel.",
+      "start": 106.22,
+      "end": 120.62,
+      "duration": 14.4,
+      "match_score": 99.6,
+      "status": "OK"
+    },
+    {
+      "scene": 20,
+      "image": "20.png",
+      "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks.",
+      "start": 120.62,
+      "end": 128.32,
+      "duration": 7.7,
+      "match_score": 99.6,
+      "status": "OK"
+    },
+    {
+      "scene": 21,
+      "image": "21.png",
+      "text": "And if you do the math, it’s even wilder.",
+      "start": 128.32,
+      "end": 131.06,
+      "duration": 2.74,
+      "match_score": 98.7,
+      "status": "OK"
+    },
+    {
+      "scene": 22,
+      "image": "22.png",
+      "text": "When you were born, your parents were probably in their twenties or early thirties.",
+      "start": 131.06,
+      "end": 135.48,
+      "duration": 4.42,
+      "match_score": 88.5,
+      "status": "OK"
+    },
+    {
+      "scene": 23,
+      "image": "23.png",
+      "text": "Look at anyone who's twenty-four right now.",
+      "start": 135.48,
+      "end": 137.88,
+      "duration": 2.4,
+      "match_score": 83.8,
+      "status": "OK"
+    },
+    {
+      "scene": 24,
+      "image": "24.png",
+      "text": "They are a disaster zone.",
+      "start": 137.88,
+      "end": 139.62,
+      "duration": 1.74,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 25,
+      "image": "25.png",
+      "text": "They eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time.",
+      "start": 139.62,
+      "end": 147.94,
+      "duration": 8.32,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 26,
+      "image": "26.png",
+      "text": "Your parents were *those exact people*.",
+      "start": 147.94,
+      "end": 150.58,
+      "duration": 2.64,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 27,
+      "image": "27.png",
+      "text": "They didn't get summoned from some ancient order of wise elders.",
+      "start": 150.58,
+      "end": 154.4,
+      "duration": 3.82,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 28,
+      "image": "28.png",
+      "text": "They were literally just two random young adults who got handed a screaming baby and went, \"Oh... cool. Guess we're doing this now.\"",
+      "start": 154.4,
+      "end": 162.72,
+      "duration": 8.32,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 29,
+      "image": "29.png",
+      "text": "Every rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling.",
+      "start": 162.72,
+      "end": 169.34,
+      "duration": 6.62,
+      "match_score": 99.5,
+      "status": "OK"
+    },
+    {
+      "scene": 30,
+      "image": "30.png",
+      "text": "Making it up on the spot.",
+      "start": 169.34,
+      "end": 171.54,
+      "duration": 2.2,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 31,
+      "image": "31.png",
+      "text": "And once you notice it, you can't unsee it.",
+      "start": 171.54,
+      "end": 174.08,
+      "duration": 2.54,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 32,
+      "image": "32.png",
+      "text": "You start seeing their weird habits not as \"parent traits,\" but as human flaws.",
+      "start": 174.08,
+      "end": 179.04,
+      "duration": 4.96,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 33,
+      "image": "33.png",
+      "text": "You notice your mom is genuinely insecure about her cooking.",
+      "start": 179.04,
+      "end": 181.96,
+      "duration": 2.92,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 34,
+      "image": "34.png",
+      "text": "You notice your dad gets angry because he’s actually just overwhelmed and doesn't know what else to do.",
+      "start": 181.96,
+      "end": 187.74,
+      "duration": 5.78,
+      "match_score": 99.5,
+      "status": "OK"
+    },
+    {
+      "scene": 35,
+      "image": "35.png",
+      "text": "You realize they have high school stuff they never got over, bad habits they can't break.",
+      "start": 187.74,
+      "end": 193.02,
+      "duration": 5.28,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 36,
+      "image": "36.png",
+      "text": "And honestly, it kind of sucks at first.",
+      "start": 193.02,
+      "end": 196.26,
+      "duration": 3.24,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 37,
+      "image": "37.png",
+      "text": "Because when you stop seeing them as superheroes, you lose that safety net.",
+      "start": 196.26,
+      "end": 200.66,
+      "duration": 4.4,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 38,
+      "image": "38.png",
+      "text": "You realize no one is secretly steering the ship.",
+      "start": 200.66,
+      "end": 203.96,
+      "duration": 3.3,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 39,
+      "image": "39.png",
+      "text": "There is no shadow committee of adults who have it all figured out.",
+      "start": 203.96,
+      "end": 208.1,
+      "duration": 4.14,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 40,
+      "image": "40.png",
+      "text": "It’s just eight billion people pretending they know what’s going on while trying not to spill coffee on themselves.",
+      "start": 208.1,
+      "end": 214.5,
+      "duration": 6.4,
+      "match_score": 96.9,
+      "status": "OK"
+    },
+    {
+      "scene": 41,
+      "image": "41.png",
+      "text": "But... I don't know, it’s also kind of nice?",
+      "start": 214.5,
+      "end": 218.14,
+      "duration": 3.64,
+      "match_score": 98.7,
+      "status": "OK"
+    },
+    {
+      "scene": 42,
+      "image": "42.png",
+      "text": "Because once you stop expecting them to be perfect, you can actually like... meet them.",
+      "start": 218.14,
+      "end": 224.1,
+      "duration": 5.96,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 43,
+      "image": "43.png",
+      "text": "As actual people.",
+      "start": 224.1,
+      "end": 225.92,
+      "duration": 1.82,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 44,
+      "image": "44.png",
+      "text": "You stop asking \"why did my parents ruin my life?\" and you start going, \"man, what kind of chaotic mess were they dealing with when they were my age?\"",
+      "start": 225.92,
+      "end": 235.24,
+      "duration": 9.32,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 45,
+      "image": "45.png",
+      "text": "It turns it from this weird hierarchy into a real relationship.",
+      "start": 235.24,
+      "end": 239.4,
+      "duration": 4.16,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 46,
+      "image": "46.png",
+      "text": "You’re not just living in their kingdom anymore.",
+      "start": 239.4,
+      "end": 242.04,
+      "duration": 2.64,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 47,
+      "image": "47.png",
+      "text": "You’re just two adults standing in the same room, both mildly confused by the universe, both trying to figure out how to make dinner without burning the kitchen down.",
+      "start": 242.04,
+      "end": 250.16,
+      "duration": 8.12,
+      "match_score": 100.0,
+      "status": "OK"
+    },
+    {
+      "scene": 48,
+      "image": "48.png",
+      "text": "So next time your mom is struggling to open a PDF, or your dad is staring blankly at a shelf in the hardware store... just give them a break.",
+      "start": 250.16,
+      "end": 259.78,
+      "duration": 9.62,
+      "match_score": 98.9,
+      "status": "OK"
+    },
+    {
+      "scene": 49,
+      "image": "49.png",
+      "text": "They’re doing a live playthrough of life with no tutorial, exactly like you.",
+      "start": 259.78,
+      "end": 264.6,
+      "duration": 4.82,
+      "match_score": 100.0,
+      "status": "OK"
+    }
+  ]
+}

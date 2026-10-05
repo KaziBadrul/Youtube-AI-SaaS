@@ -1,0 +1,10 @@
+{
+  "source_sha256": "e23e3a3b94ade47c89fc537db86bd81265010f4eed899e166dc5ae784b063afd",
+  "adapted_sha256": "7c2dc22a7747e7c037317a572bbf57d2ec1077fccd5504804fa4776bac898903",
+  "changes": [
+    "source/output and font paths only",
+    "FFmpeg/ffprobe Linux paths",
+    "explicit 30fps packet timestamp grid at stream-copy final mux"
+  ],
+  "render_parameters_changed": "timestamp metadata only; frames/audio unchanged"
+}

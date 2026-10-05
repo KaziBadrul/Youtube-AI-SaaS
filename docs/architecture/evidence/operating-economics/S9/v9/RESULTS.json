@@ -1,0 +1,815 @@
+{
+  "S9": "NOT_YET_PASS",
+  "envelopes": [
+    {
+      "envelope": "1cpu-2gb",
+      "application_status": "FAIL_OR_PARTIAL",
+      "whole_host_qualification": "NOT_ESTABLISHED",
+      "environment": {
+        "platform": "Linux-7.0.14-linuxkit-x86_64-with-glibc2.36",
+        "machine": "x86_64",
+        "python": "3.12.14 (main, Sep 19 2026, 01:05:48) [GCC 12.2.0]",
+        "cpu.max": "100000 100000",
+        "memory.max": "1999998976",
+        "memory.swap.max": "0",
+        "pids.max": "256",
+        "cgroup_start_cpu": {
+          "usage_usec": 171861,
+          "user_usec": 145882,
+          "system_usec": 25979,
+          "nice_usec": 0,
+          "nr_periods": 2,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "cgroup_start_memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "ffmpeg": "ffmpeg version 5.1.9-0+deb12u1 Copyright (c) 2000-2026 the FFmpeg developers\nbuilt with gcc 12 (Debian 12.2.0-14+deb12u1)\nconfiguration: --prefix=/usr --extra-version=0+deb12u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librist --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --disable-sndio --enable-libjxl --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-libplacebo --enable-librav1e --enable-shared\nlibavutil      57. 28.100 / 57. 28.100\nlibavcodec     59. 37.100 / 59. 37.100\nlibavformat    59. 27.100 / 59. 27.100\nlibavdevice    59.  7.100 / 59.  7.100\nlibavfilter     8. 44.100 /  8. 44.100\nlibswscale      6.  7.100 /  6.  7.100\nlibswresample   4.  7.100 /  4.  7.100\nlibpostproc    56.  6.100 / 56.  6.100\n",
+        "python_packages": "anyio==4.15.1\nasgiref==3.12.1\nav==19.0.1\ncertifi==2026.7.22\ncffi==2.1.1\nclick==8.5.0\ncryptography==46.0.3\nctranslate2==4.8.2\nDjango==5.2.17\nfaster-whisper==1.2.1\nfilelock==4.0.10\nflatbuffers==25.12.19\nfonttools==4.61.1\nfreetype-py==2.5.1\nfsspec==2026.9.0\ngunicorn==23.0.0\nh11==0.16.0\nhf-xet==1.6.0\nhttpcore==1.0.9\nhttpx==0.28.1\nhuggingface_hub==1.33.0\nidna==3.20\nnumpy==2.2.6\nonnxruntime==1.30.0\npackaging==26.3\npillow==12.0.0\nprotobuf==7.36.2\npsutil==7.2.2\npycparser==3.0\nPyYAML==6.0.3\nsqlparse==0.6.0\ntokenizers==0.23.2\ntqdm==4.70.1\ntyping_extensions==4.16.0\nuharfbuzz==0.52.0\n",
+        "database_bytes": 4096,
+        "model_files": [
+          {
+            "name": "model.bin",
+            "bytes": 145217532
+          },
+          {
+            "name": "config.json",
+            "bytes": 2309
+          },
+          {
+            "name": "tokenizer.json",
+            "bytes": 2203239
+          },
+          {
+            "name": "vocabulary.txt",
+            "bytes": 459861
+          }
+        ],
+        "network": "none; loopback only",
+        "limitations": [
+          "application cgroup excludes Linux VM kernel/daemon",
+          "x86_64 emulation on arm64 Mac",
+          "no native host performance certification"
+        ]
+      },
+      "memory_peak_bytes": 1999998976,
+      "memory_events": {
+        "low": 0,
+        "high": 0,
+        "max": 803,
+        "oom": 1,
+        "oom_kill": 1,
+        "oom_group_kill": 0,
+        "sock_throttled": 0
+      },
+      "sample_disk_peak_bytes": 538729157,
+      "web_failures": 0,
+      "phases": [
+        {
+          "phase": "backup_standalone",
+          "pid": 13,
+          "exit": 0,
+          "wall_seconds": 3.767347918999974,
+          "status": "PASS",
+          "log": "backup_standalone.log",
+          "sample_current_peak_bytes": 1864589312,
+          "sample_rss_peak_bytes": 1762906112,
+          "web_requests": 15,
+          "web_failures": 0,
+          "web_p95_seconds": 0.004569624999987809
+        },
+        {
+          "phase": "backup_overlap",
+          "pid": 91,
+          "exit": -9,
+          "wall_seconds": 5.341776544000027,
+          "status": "FAIL",
+          "log": "backup_overlap.log",
+          "sample_current_peak_bytes": 1999998976,
+          "sample_rss_peak_bytes": 1977753600,
+          "web_requests": 19,
+          "web_failures": 0,
+          "web_p95_seconds": 0.05000141599998642
+        },
+        {
+          "phase": "render",
+          "pid": 14,
+          "exit": 1,
+          "wall_seconds": 383.025532424,
+          "status": "FAIL",
+          "log": "render.log",
+          "sample_current_peak_bytes": 459268096,
+          "sample_rss_peak_bytes": 425369600,
+          "web_requests": 1408,
+          "web_failures": 0,
+          "web_p95_seconds": 0.047240207999948325
+        },
+        {
+          "phase": "alignment",
+          "pid": 2188,
+          "exit": 0,
+          "wall_seconds": 48.75405794000005,
+          "status": "PASS",
+          "log": "alignment.log",
+          "sample_current_peak_bytes": 1163096064,
+          "sample_rss_peak_bytes": 947695616,
+          "web_requests": 179,
+          "web_failures": 0,
+          "web_p95_seconds": 0.04834804199992959
+        },
+        {
+          "phase": "cancellation",
+          "status": "PASS",
+          "details": {
+            "pid": 2219,
+            "pgid": 2219,
+            "exit": 255,
+            "cessation_seconds": 0.07085920800000167,
+            "escalated": false,
+            "live_group_members": [],
+            "incomplete_registered": false,
+            "previous_export_preserved": true,
+            "previous_export_available": false
+          },
+          "sample_current_peak_bytes": 693477376,
+          "sample_rss_peak_bytes": 442785792,
+          "web_requests": 8,
+          "web_failures": 0,
+          "web_p95_seconds": 0.0029165409999905023
+        }
+      ],
+      "errors": [],
+      "alignment-result.json": {
+        "source_sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+        "model": "existing local faster-whisper-base",
+        "load_seconds": 0.343402167000022,
+        "total_seconds": 48.32369439800004,
+        "duration": 171.48,
+        "coverage_verdict": "RESOURCE_TEST_ONLY; no replacement of accepted S5 mappings/fidelity review",
+        "word_count": 504
+      },
+      "backup-standalone-result.json": {
+        "wall_seconds": 2.829297001000043,
+        "file_count": 311,
+        "uncompressed_payload_bytes": 426714542,
+        "archive_bytes": 426781033,
+        "sha256": "27c0c475e0df9080cc6a2f5c7c794265982af274926b8ea5245841be27e25d66",
+        "restore_hashes_verified": true,
+        "implementation": "in-memory full archive + AES-GCM stress, ZIP_STORED avoids hiding cost through compression",
+        "remote_proof": false,
+        "key_retained": false
+      },
+      "cancellation-result.json": {
+        "pid": 2219,
+        "pgid": 2219,
+        "exit": 255,
+        "cessation_seconds": 0.07085920800000167,
+        "escalated": false,
+        "live_group_members": [],
+        "incomplete_registered": false,
+        "previous_export_preserved": true,
+        "previous_export_available": false
+      }
+    },
+    {
+      "envelope": "2cpu-4gb",
+      "application_status": "PASS",
+      "whole_host_qualification": "NOT_ESTABLISHED",
+      "environment": {
+        "platform": "Linux-7.0.14-linuxkit-x86_64-with-glibc2.36",
+        "machine": "x86_64",
+        "python": "3.12.14 (main, Sep 19 2026, 01:05:48) [GCC 12.2.0]",
+        "cpu.max": "200000 100000",
+        "memory.max": "3999997952",
+        "memory.swap.max": "0",
+        "pids.max": "256",
+        "cgroup_start_cpu": {
+          "usage_usec": 187682,
+          "user_usec": 151356,
+          "system_usec": 36325,
+          "nice_usec": 0,
+          "nr_periods": 2,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "cgroup_start_memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "ffmpeg": "ffmpeg version 5.1.9-0+deb12u1 Copyright (c) 2000-2026 the FFmpeg developers\nbuilt with gcc 12 (Debian 12.2.0-14+deb12u1)\nconfiguration: --prefix=/usr --extra-version=0+deb12u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librist --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --disable-sndio --enable-libjxl --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-libplacebo --enable-librav1e --enable-shared\nlibavutil      57. 28.100 / 57. 28.100\nlibavcodec     59. 37.100 / 59. 37.100\nlibavformat    59. 27.100 / 59. 27.100\nlibavdevice    59.  7.100 / 59.  7.100\nlibavfilter     8. 44.100 /  8. 44.100\nlibswscale      6.  7.100 /  6.  7.100\nlibswresample   4.  7.100 /  4.  7.100\nlibpostproc    56.  6.100 / 56.  6.100\n",
+        "python_packages": "anyio==4.15.1\nasgiref==3.12.1\nav==19.0.1\ncertifi==2026.7.22\ncffi==2.1.1\nclick==8.5.0\ncryptography==46.0.3\nctranslate2==4.8.2\nDjango==5.2.17\nfaster-whisper==1.2.1\nfilelock==4.0.10\nflatbuffers==25.12.19\nfonttools==4.61.1\nfreetype-py==2.5.1\nfsspec==2026.9.0\ngunicorn==23.0.0\nh11==0.16.0\nhf-xet==1.6.0\nhttpcore==1.0.9\nhttpx==0.28.1\nhuggingface_hub==1.33.0\nidna==3.20\nnumpy==2.2.6\nonnxruntime==1.30.0\npackaging==26.3\npillow==12.0.0\nprotobuf==7.36.2\npsutil==7.2.2\npycparser==3.0\nPyYAML==6.0.3\nsqlparse==0.6.0\ntokenizers==0.23.2\ntqdm==4.70.1\ntyping_extensions==4.16.0\nuharfbuzz==0.52.0\n",
+        "database_bytes": 4096,
+        "model_files": [
+          {
+            "name": "model.bin",
+            "bytes": 145217532
+          },
+          {
+            "name": "config.json",
+            "bytes": 2309
+          },
+          {
+            "name": "tokenizer.json",
+            "bytes": 2203239
+          },
+          {
+            "name": "vocabulary.txt",
+            "bytes": 459861
+          }
+        ],
+        "network": "none; loopback only",
+        "limitations": [
+          "application cgroup excludes Linux VM kernel/daemon",
+          "x86_64 emulation on arm64 Mac",
+          "no native host performance certification"
+        ]
+      },
+      "memory_peak_bytes": 2252619776,
+      "memory_events": {
+        "low": 0,
+        "high": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0,
+        "sock_throttled": 0
+      },
+      "sample_disk_peak_bytes": 430948423,
+      "web_failures": 0,
+      "phases": [
+        {
+          "phase": "backup_standalone",
+          "pid": 13,
+          "exit": 0,
+          "wall_seconds": 3.801117793000003,
+          "status": "PASS",
+          "log": "backup_standalone.log",
+          "sample_current_peak_bytes": 1970413568,
+          "sample_rss_peak_bytes": 1944387584,
+          "web_requests": 15,
+          "web_failures": 0,
+          "web_p95_seconds": 0.003610666999975365
+        },
+        {
+          "phase": "backup_overlap",
+          "pid": 167,
+          "exit": 0,
+          "wall_seconds": 5.050957877000201,
+          "status": "PASS",
+          "log": "backup_overlap.log",
+          "sample_current_peak_bytes": 2116628480,
+          "sample_rss_peak_bytes": 1802002432,
+          "web_requests": 20,
+          "web_failures": 0,
+          "web_p95_seconds": 0.014148083000009137
+        },
+        {
+          "phase": "render",
+          "pid": 14,
+          "exit": 0,
+          "wall_seconds": 276.28876745900016,
+          "status": "PASS",
+          "log": "render.log",
+          "sample_current_peak_bytes": 940994560,
+          "sample_rss_peak_bytes": 702808064,
+          "web_requests": 1055,
+          "web_failures": 0,
+          "web_p95_seconds": 0.007672166000020297
+        },
+        {
+          "phase": "alignment",
+          "pid": 2384,
+          "exit": 0,
+          "wall_seconds": 29.74686301299994,
+          "status": "PASS",
+          "log": "alignment.log",
+          "sample_current_peak_bytes": 1275092992,
+          "sample_rss_peak_bytes": 964370432,
+          "web_requests": 116,
+          "web_failures": 0,
+          "web_p95_seconds": 0.005128374999912921
+        },
+        {
+          "phase": "cancellation",
+          "status": "PASS",
+          "details": {
+            "pid": 2412,
+            "pgid": 2412,
+            "exit": 255,
+            "cessation_seconds": 0.19569183300018267,
+            "escalated": false,
+            "live_group_members": [],
+            "incomplete_registered": false,
+            "previous_export_preserved": true,
+            "previous_export_available": true
+          },
+          "sample_current_peak_bytes": 788291584,
+          "sample_rss_peak_bytes": 442626048,
+          "web_requests": 9,
+          "web_failures": 0,
+          "web_p95_seconds": 0.0032896249999794236
+        }
+      ],
+      "errors": [],
+      "render-result.json": {
+        "render": {
+          "label": "linux-600",
+          "duration": 600,
+          "scene_count": 112,
+          "output": "/out/s6/exports/linux-600-4ea3af388384.mp4",
+          "sha256": "4ea3af38838475f8dac664549aed4c0fff696a6e11ed252cbc0fadc3620c4156",
+          "bytes": 60008518,
+          "render_wall_seconds": 249.13446703,
+          "peak_ffmpeg_rss_bytes": 209166336,
+          "cpu_seconds": 364.66,
+          "scratch_peak_bytes": 109009291,
+          "config": {
+            "captions": true,
+            "motion": true,
+            "music": true
+          },
+          "attempt": "/out/s6/scratch/linux-600-1dbcaf41"
+        },
+        "validation": {
+          "status": "PASS",
+          "transition_tolerance_seconds": 0.03333333333333333,
+          "decoded_frame_count": 18000,
+          "blank_frames": 0,
+          "source_narration_samples": 28800000,
+          "decoded_audio_samples": 28800000,
+          "audio_snr_db": 56.94478988647461,
+          "audio_min_10ms_rms": 0.10825896263122559,
+          "audio_peak": 0.21071448922157288,
+          "caption_samples": [
+            {
+              "scene_id": 1,
+              "white_text_pixels": 9596,
+              "enabled": true
+            },
+            {
+              "scene_id": 57,
+              "white_text_pixels": 9544,
+              "enabled": true
+            },
+            {
+              "scene_id": 112,
+              "white_text_pixels": 9904,
+              "enabled": true
+            }
+          ],
+          "limits": "synthetic audio proves rendering continuity, not speech intelligibility or narration quality",
+          "registered_after_validation": true
+        },
+        "transition_count": 111
+      },
+      "alignment-result.json": {
+        "source_sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+        "model": "existing local faster-whisper-base",
+        "load_seconds": 0.2428746250000131,
+        "total_seconds": 29.30267063799988,
+        "duration": 171.48,
+        "coverage_verdict": "RESOURCE_TEST_ONLY; no replacement of accepted S5 mappings/fidelity review",
+        "word_count": 504
+      },
+      "backup-standalone-result.json": {
+        "wall_seconds": 2.8182882930000233,
+        "file_count": 311,
+        "uncompressed_payload_bytes": 426714542,
+        "archive_bytes": 426781033,
+        "sha256": "739cbb883bd76db9bae43c2bddf20de09c755f0472678d4aceae61893434f0b2",
+        "restore_hashes_verified": true,
+        "implementation": "in-memory full archive + AES-GCM stress, ZIP_STORED avoids hiding cost through compression",
+        "remote_proof": false,
+        "key_retained": false
+      },
+      "backup-overlap-result.json": {
+        "wall_seconds": 3.5235999600001833,
+        "file_count": 311,
+        "uncompressed_payload_bytes": 426714542,
+        "archive_bytes": 426781033,
+        "sha256": "92435d0fbb79bef16c132c1a79eee832c2c87838831d2356e739481790121934",
+        "restore_hashes_verified": true,
+        "implementation": "in-memory full archive + AES-GCM stress, ZIP_STORED avoids hiding cost through compression",
+        "remote_proof": false,
+        "key_retained": false
+      },
+      "cancellation-result.json": {
+        "pid": 2412,
+        "pgid": 2412,
+        "exit": 255,
+        "cessation_seconds": 0.19569183300018267,
+        "escalated": false,
+        "live_group_members": [],
+        "incomplete_registered": false,
+        "previous_export_preserved": true,
+        "previous_export_available": true
+      }
+    },
+    {
+      "envelope": "1cpu-2gb-serial",
+      "application_status": "PASS",
+      "whole_host_qualification": "NOT_ESTABLISHED",
+      "environment": {
+        "platform": "Linux-7.0.14-linuxkit-x86_64-with-glibc2.36",
+        "machine": "x86_64",
+        "python": "3.12.14 (main, Sep 19 2026, 01:05:48) [GCC 12.2.0]",
+        "cpu.max": "100000 100000",
+        "memory.max": "1999998976",
+        "memory.swap.max": "0",
+        "pids.max": "256",
+        "cgroup_start_cpu": {
+          "usage_usec": 190493,
+          "user_usec": 142869,
+          "system_usec": 47623,
+          "nice_usec": 0,
+          "nr_periods": 2,
+          "nr_throttled": 0,
+          "throttled_usec": 0,
+          "nr_bursts": 0,
+          "burst_usec": 0
+        },
+        "cgroup_start_memory_events": {
+          "low": 0,
+          "high": 0,
+          "max": 0,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0,
+          "sock_throttled": 0
+        },
+        "ffmpeg": "ffmpeg version 5.1.9-0+deb12u1 Copyright (c) 2000-2026 the FFmpeg developers\nbuilt with gcc 12 (Debian 12.2.0-14+deb12u1)\nconfiguration: --prefix=/usr --extra-version=0+deb12u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librist --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --disable-sndio --enable-libjxl --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-libplacebo --enable-librav1e --enable-shared\nlibavutil      57. 28.100 / 57. 28.100\nlibavcodec     59. 37.100 / 59. 37.100\nlibavformat    59. 27.100 / 59. 27.100\nlibavdevice    59.  7.100 / 59.  7.100\nlibavfilter     8. 44.100 /  8. 44.100\nlibswscale      6.  7.100 /  6.  7.100\nlibswresample   4.  7.100 /  4.  7.100\nlibpostproc    56.  6.100 / 56.  6.100\n",
+        "python_packages": "anyio==4.15.1\nasgiref==3.12.1\nav==19.0.1\ncertifi==2026.7.22\ncffi==2.1.1\nclick==8.5.0\ncryptography==46.0.3\nctranslate2==4.8.2\nDjango==5.2.17\nfaster-whisper==1.2.1\nfilelock==4.0.10\nflatbuffers==25.12.19\nfonttools==4.61.1\nfreetype-py==2.5.1\nfsspec==2026.9.0\ngunicorn==23.0.0\nh11==0.16.0\nhf-xet==1.6.0\nhttpcore==1.0.9\nhttpx==0.28.1\nhuggingface_hub==1.33.0\nidna==3.20\nnumpy==2.2.6\nonnxruntime==1.30.0\npackaging==26.3\npillow==12.0.0\nprotobuf==7.36.2\npsutil==7.2.2\npycparser==3.0\nPyYAML==6.0.3\nsqlparse==0.6.0\ntokenizers==0.23.2\ntqdm==4.70.1\ntyping_extensions==4.16.0\nuharfbuzz==0.52.0\n",
+        "database_bytes": 4096,
+        "model_files": [
+          {
+            "name": "model.bin",
+            "bytes": 145217532
+          },
+          {
+            "name": "config.json",
+            "bytes": 2309
+          },
+          {
+            "name": "tokenizer.json",
+            "bytes": 2203239
+          },
+          {
+            "name": "vocabulary.txt",
+            "bytes": 459861
+          }
+        ],
+        "network": "none; loopback only",
+        "limitations": [
+          "application cgroup excludes Linux VM kernel/daemon",
+          "x86_64 emulation on arm64 Mac",
+          "no native host performance certification"
+        ]
+      },
+      "memory_peak_bytes": 1972355072,
+      "memory_events": {
+        "low": 0,
+        "high": 0,
+        "max": 0,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0,
+        "sock_throttled": 0
+      },
+      "sample_disk_peak_bytes": 426842391,
+      "web_failures": 0,
+      "phases": [
+        {
+          "phase": "backup_standalone",
+          "pid": 13,
+          "exit": 0,
+          "wall_seconds": 3.8086646680001195,
+          "status": "PASS",
+          "log": "backup_standalone.log",
+          "sample_current_peak_bytes": 1854410752,
+          "sample_rss_peak_bytes": 1700413440,
+          "web_requests": 15,
+          "web_failures": 0,
+          "web_p95_seconds": 0.0030913749999399442
+        },
+        {
+          "phase": "render",
+          "pid": 14,
+          "exit": 0,
+          "wall_seconds": 100.51172158899999,
+          "status": "PASS",
+          "log": "render.log",
+          "sample_current_peak_bytes": 1041567744,
+          "sample_rss_peak_bytes": 854601728,
+          "web_requests": 344,
+          "web_failures": 0,
+          "web_p95_seconds": 0.05342116699989674
+        },
+        {
+          "phase": "alignment",
+          "pid": 242,
+          "exit": 0,
+          "wall_seconds": 50.52000923100013,
+          "status": "PASS",
+          "log": "alignment.log",
+          "sample_current_peak_bytes": 1245081600,
+          "sample_rss_peak_bytes": 934580224,
+          "web_requests": 182,
+          "web_failures": 0,
+          "web_p95_seconds": 0.04922016600016832
+        },
+        {
+          "phase": "cancellation",
+          "status": "PASS",
+          "details": {
+            "pid": 280,
+            "pgid": 280,
+            "exit": 255,
+            "cessation_seconds": 0.1917195419998734,
+            "escalated": false,
+            "live_group_members": [],
+            "incomplete_registered": false,
+            "previous_export_preserved": true,
+            "previous_export_available": true
+          },
+          "sample_current_peak_bytes": 785928192,
+          "sample_rss_peak_bytes": 440778752,
+          "web_requests": 9,
+          "web_failures": 0,
+          "web_p95_seconds": 0.0031447919998299767
+        }
+      ],
+      "errors": [],
+      "render-result.json": {
+        "render": {
+          "label": "linux-600-serial",
+          "duration": 600,
+          "scene_count": 112,
+          "output": "/out/s6/exports/linux-600-serial-4ea3af388384.mp4",
+          "sha256": "4ea3af38838475f8dac664549aed4c0fff696a6e11ed252cbc0fadc3620c4156",
+          "bytes": 60008518,
+          "render_wall_seconds": 5.816791961000035,
+          "peak_ffmpeg_rss_bytes": 211087360,
+          "cpu_seconds": 361.24,
+          "scratch_peak_bytes": 109010295,
+          "config": {
+            "captions": true,
+            "motion": true,
+            "music": true
+          },
+          "attempt": "/out/s6/scratch/reused-encodes",
+          "original_scene_encode_wall_seconds": 382.0959357990001,
+          "resource_mode": "REUSED_ENCODINGS_FROM_FIRST_1CPU_RUN; repaired mux/full validation with Django live; no duplicate encoding-time claim"
+        },
+        "validation": {
+          "status": "PASS",
+          "transition_tolerance_seconds": 0.03333333333333333,
+          "decoded_frame_count": 18000,
+          "blank_frames": 0,
+          "source_narration_samples": 28800000,
+          "decoded_audio_samples": 28800000,
+          "audio_snr_db": 56.94478988647461,
+          "audio_min_10ms_rms": 0.10825896263122559,
+          "audio_peak": 0.21071448922157288,
+          "caption_samples": [
+            {
+              "scene_id": 1,
+              "white_text_pixels": 9596,
+              "enabled": true
+            },
+            {
+              "scene_id": 57,
+              "white_text_pixels": 9544,
+              "enabled": true
+            },
+            {
+              "scene_id": 112,
+              "white_text_pixels": 9904,
+              "enabled": true
+            }
+          ],
+          "limits": "synthetic audio proves rendering continuity, not speech intelligibility or narration quality",
+          "registered_after_validation": true
+        },
+        "transition_count": 111
+      },
+      "alignment-result.json": {
+        "source_sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+        "model": "existing local faster-whisper-base",
+        "load_seconds": 0.2701765419999447,
+        "total_seconds": 50.06264918900001,
+        "duration": 171.48,
+        "coverage_verdict": "RESOURCE_TEST_ONLY; no replacement of accepted S5 mappings/fidelity review",
+        "word_count": 504
+      },
+      "backup-standalone-result.json": {
+        "wall_seconds": 2.831940584999984,
+        "file_count": 311,
+        "uncompressed_payload_bytes": 426714542,
+        "archive_bytes": 426781033,
+        "sha256": "f6a6aa8fb29d73d7dd1f4e0b7c3175e74a632eb49d8704f6e5dab577f0bfcf29",
+        "restore_hashes_verified": true,
+        "implementation": "in-memory full archive + AES-GCM stress, ZIP_STORED avoids hiding cost through compression",
+        "remote_proof": false,
+        "key_retained": false
+      },
+      "cancellation-result.json": {
+        "pid": 280,
+        "pgid": 280,
+        "exit": 255,
+        "cessation_seconds": 0.1917195419998734,
+        "escalated": false,
+        "live_group_members": [],
+        "incomplete_registered": false,
+        "previous_export_preserved": true,
+        "previous_export_available": true
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "1cpu-2gb_failed_child_cannot_publish_old_receipt",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb_no_swap",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb_hard_CPU_quota",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_no_swap",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_hard_CPU_quota",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_no_swap",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_hard_CPU_quota",
+      "PASS": true
+    },
+    {
+      "name": "all_prior_evidence_unchanged_or_exact_index_archived",
+      "PASS": true
+    },
+    {
+      "name": "overlap_2GB_OOM_is_not_a_pass",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_18000_frames",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_111_transitions",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_no_blank_frames",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_continuous_audio",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_no_clipping",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_three_caption_samples",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_no_oom",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_web_no_failures",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_bounded_cancel_no_child",
+      "PASS": true
+    },
+    {
+      "name": "2cpu-4gb_previous_export_preserved",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_18000_frames",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_111_transitions",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_no_blank_frames",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_continuous_audio",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_no_clipping",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_three_caption_samples",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_no_oom",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_web_no_failures",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_bounded_cancel_no_child",
+      "PASS": true
+    },
+    {
+      "name": "1cpu-2gb-serial_previous_export_preserved",
+      "PASS": true
+    },
+    {
+      "name": "Linux_en_exact_reference_RGBA",
+      "PASS": true
+    },
+    {
+      "name": "Linux_es_exact_reference_RGBA",
+      "PASS": true
+    },
+    {
+      "name": "Linux_fr_exact_reference_RGBA",
+      "PASS": true
+    },
+    {
+      "name": "Linux_bn_exact_reference_RGBA",
+      "PASS": true
+    },
+    {
+      "name": "Linux_hi_exact_reference_RGBA",
+      "PASS": true
+    },
+    {
+      "name": "original_model_model.bin_unchanged",
+      "PASS": true
+    },
+    {
+      "name": "original_model_config.json_unchanged",
+      "PASS": true
+    },
+    {
+      "name": "original_model_tokenizer.json_unchanged",
+      "PASS": true
+    },
+    {
+      "name": "original_model_vocabulary.txt_unchanged",
+      "PASS": true
+    }
+  ],
+  "preserved_prior_files": 2034,
+  "provider_calls": 0,
+  "paid_spend_USD": 0,
+  "separate_Whisper_model_downloads": 0,
+  "bundled_VAD_asset": "included in downloaded faster-whisper package; no separate model-fetch",
+  "dependency_downloads": "yes, disposable Debian/PyPI image only",
+  "production_touched": false,
+  "TASKS_touched": false,
+  "deployment": false,
+  "purchase": false,
+  "global_limitations": [
+    "Shared Docker VM kernel/daemon outside application cgroup",
+    "x86_64 emulation on Apple Silicon",
+    "synthetic render/backup sensitivity, not production workload distribution",
+    "no off-machine backup or hosting purchase",
+    "V7 token-preflight not exercised"
+  ]
+}

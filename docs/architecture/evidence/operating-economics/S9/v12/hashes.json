@@ -1,0 +1,66 @@
+{
+  "docs/architecture/evidence/operating-economics/S9/v12/preservation-before.json": {
+    "bytes": 664491,
+    "sha256": "3c7df15f05d1c2239e6cf10e97f4cebff06828745399abee9b9ecff75d327a9f"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/preservation-result.json": {
+    "bytes": 187,
+    "sha256": "957bb479065945c1ea052c3c70b9effa3315b2709f1280172ced5e3dc4274a7e"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/RESULTS.json": {
+    "bytes": 4241,
+    "sha256": "dfd4a2f6667c6292b27d2e0a4df03559779afe74845ad42067c17d766df9b116"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/documentation-diff.patch": {
+    "bytes": 30242,
+    "sha256": "4072574051de1205a65f1489af913e250c17e7644bc7279aef4620d721fe47a8"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__VALIDATION_PLAN.md": {
+    "bytes": 3694,
+    "sha256": "9bcb42a5602acbe8969b6f2edeabf16a58592ea082a2da8d0d7de5f31c191c28"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__PRODUCT_DECISIONS.md": {
+    "bytes": 24233,
+    "sha256": "ce6e6c67c1e49cfadd935749a8614089024fef2266f41f7e280cc0a8ed952653"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__ARCHITECTURE.md": {
+    "bytes": 27027,
+    "sha256": "79fff536bbcbcc8b7db30d2e7a7423097de4cfbe365cd71d5ce909be3c6929e3"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__FEATURE_ROADMAP.md": {
+    "bytes": 9914,
+    "sha256": "c67fab222de5f20f37eca73790d0a0093e77e7b20e3560849d62a001645b4599"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__COST_MODEL.md": {
+    "bytes": 21845,
+    "sha256": "e4540244ed5cd3781337e5353069ccf0f959f5155dc478f5cd22b647fd072045"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__ARCHITECTURE_SPIKES.md": {
+    "bytes": 21697,
+    "sha256": "de77931ef940a9b8461bfc22d75a8a5ba0a0cc17f0c25d7646f6c36121b7ca06"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__ALPHA_PRODUCT_SPEC.md": {
+    "bytes": 27758,
+    "sha256": "2f9b675dca54734a6466a438902b04a2a9deb3105d95270ef665efa93b2b9d23"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__ARCHITECTURE_DISCOVERY.md": {
+    "bytes": 26306,
+    "sha256": "372008588f8b2f3f0362a390790d49c7a99bb8a545dddb7d5a402a3ba3532fec"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__architecture__evidence__operating-economics__S9__README.md": {
+    "bytes": 14581,
+    "sha256": "1a41ba26c3509848bbf85e6b1eb4f0a167c5cd0f91213f0e9dcaaa35c3e19038"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v12/before/docs__README.md": {
+    "bytes": 14364,
+    "sha256": "12f878f544b491db6e254dc5dfb4ed9a447180864c62b9a2f2158ee495ae5d71"
+  },
+  "spikes/operating-economics/v12/budget_revision.py": {
+    "bytes": 6732,
+    "sha256": "8683c815b8454fba24a6fb893d2b2c32d250c6f303e7442a5d562b69f312f6cd"
+  },
+  "docs/architecture/evidence/operating-economics/S9/CREDITS-v12.md": {
+    "bytes": 12445,
+    "sha256": "2df1d7a03e2a9b3bb12b9d47179e85dfec8893b5ff616ec0a4baf8f356e85bbf"
+  }
+}

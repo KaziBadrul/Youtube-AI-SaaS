@@ -1,0 +1,18 @@
+{
+  "label": "linux-600",
+  "duration": 600,
+  "scene_count": 112,
+  "output": "/out/s6/scratch/linux-600-1dbcaf41/candidate.mp4",
+  "sha256": "4ea3af38838475f8dac664549aed4c0fff696a6e11ed252cbc0fadc3620c4156",
+  "bytes": 60008518,
+  "render_wall_seconds": 249.13446703,
+  "peak_ffmpeg_rss_bytes": 209166336,
+  "cpu_seconds": 364.66,
+  "scratch_peak_bytes": 109009291,
+  "config": {
+    "captions": true,
+    "motion": true,
+    "music": true
+  },
+  "attempt": "/out/s6/scratch/linux-600-1dbcaf41"
+}

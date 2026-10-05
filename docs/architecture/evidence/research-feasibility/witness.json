@@ -1,0 +1,192 @@
+{
+  "scope": "Synthetic research only; no quality/provider/account evidence",
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "httpx": "0.28.1",
+  "httpx_transport_source_sha256": "03379a454c95c0271c4f2c8d25ec437f49f57457f3cf2769748420bf0ecf2e79",
+  "cases": [
+    {
+      "case": "planner_adversarial",
+      "pass": true,
+      "rejected_plans": 6,
+      "provider_submissions": 0
+    },
+    {
+      "case": "bounded_plan_and_recovery",
+      "N": 2,
+      "attempts": 6,
+      "remote_submissions": 2,
+      "upper_submission_bound": 6,
+      "evidence_count": 6,
+      "persisted_policy_survives_restart": true,
+      "pass": true
+    },
+    {
+      "case": "bounded_plan_and_recovery",
+      "N": 4,
+      "attempts": 12,
+      "remote_submissions": 4,
+      "upper_submission_bound": 12,
+      "evidence_count": 12,
+      "persisted_policy_survives_restart": true,
+      "pass": true
+    },
+    {
+      "case": "bounded_plan_and_recovery",
+      "N": 8,
+      "attempts": 24,
+      "remote_submissions": 8,
+      "upper_submission_bound": 24,
+      "evidence_count": 24,
+      "persisted_policy_survives_restart": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": "timeout",
+      "submissions": 1,
+      "held_microUSD": 8000,
+      "held_credit": 1,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": 429,
+      "submissions": 1,
+      "held_microUSD": 8000,
+      "held_credit": 1,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": 500,
+      "submissions": 1,
+      "held_microUSD": 8000,
+      "held_credit": 1,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": 432,
+      "submissions": 1,
+      "held_microUSD": 8000,
+      "held_credit": 1,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": "redirect",
+      "submissions": 1,
+      "held_microUSD": 8000,
+      "held_credit": 1,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": "oversize",
+      "submissions": 1,
+      "held_microUSD": 8000,
+      "held_credit": 1,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": "missing_usage",
+      "submissions": 1,
+      "held_microUSD": 8000,
+      "held_credit": 1,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": "bad_query",
+      "submissions": 1,
+      "held_microUSD": 8000,
+      "held_credit": 1,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": "bad_url",
+      "submissions": 1,
+      "held_microUSD": 8000,
+      "held_credit": 1,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "uncertain_no_retry",
+      "behavior": "overcharge",
+      "submissions": 1,
+      "held_microUSD": 16000,
+      "held_credit": 2,
+      "previous_evidence_preserved": true,
+      "pass": true
+    },
+    {
+      "case": "quota_admission",
+      "submissions": 0,
+      "pass": true
+    },
+    {
+      "case": "citation_link_and_script_preservation",
+      "result": {
+        "warnings": [
+          {
+            "evidence_ids": [
+              "retrieved-id"
+            ],
+            "text": "Claim needs review"
+          }
+        ],
+        "original_script": "Original approved script words.",
+        "proposed_changes": [
+          "Suggestion only"
+        ],
+        "requires_creator_approval": true
+      },
+      "pass": true
+    }
+  ],
+  "economics": [
+    {
+      "N": 2,
+      "search_initial_microUSD": 16000,
+      "search_three_attempt_microUSD": 48000,
+      "total_full_input_fallback_three_attempt_microUSD": 1973838,
+      "total_tighter_validated_input_three_attempt_microUSD": 108522,
+      "free_1000_credit_projects_initial": 500,
+      "free_1000_credit_projects_worst_search": 166,
+      "tighter_budget_is_conditional_not_tokenization_verified": true
+    },
+    {
+      "N": 4,
+      "search_initial_microUSD": 32000,
+      "search_three_attempt_microUSD": 96000,
+      "total_full_input_fallback_three_attempt_microUSD": 2021838,
+      "total_tighter_validated_input_three_attempt_microUSD": 156522,
+      "free_1000_credit_projects_initial": 250,
+      "free_1000_credit_projects_worst_search": 83,
+      "tighter_budget_is_conditional_not_tokenization_verified": true
+    },
+    {
+      "N": 8,
+      "search_initial_microUSD": 64000,
+      "search_three_attempt_microUSD": 192000,
+      "total_full_input_fallback_three_attempt_microUSD": 2117838,
+      "total_tighter_validated_input_three_attempt_microUSD": 252522,
+      "free_1000_credit_projects_initial": 125,
+      "free_1000_credit_projects_worst_search": 41,
+      "tighter_budget_is_conditional_not_tokenization_verified": true
+    }
+  ],
+  "pass": true,
+  "live_calls": 0
+}

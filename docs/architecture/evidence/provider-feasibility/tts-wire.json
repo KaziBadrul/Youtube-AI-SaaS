@@ -1,0 +1,68 @@
+{
+  "pass": true,
+  "scope": "Synthetic SDK schema only; no server cap compliance/audio validation/quality evidence",
+  "requests": [
+    {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "Synthetic words"
+            }
+          ],
+          "role": "user"
+        }
+      ],
+      "generationConfig": {
+        "candidateCount": 1,
+        "maxOutputTokens": 128,
+        "responseModalities": [
+          "AUDIO"
+        ],
+        "speechConfig": {
+          "voice_config": {
+            "prebuilt_voice_config": {
+              "voice_name": "Charon"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "response": {
+    "sdk_http_response": {
+      "headers": {
+        "x-request-id": "fake-audio-request",
+        "content-length": "319",
+        "content-type": "application/json"
+      }
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "inline_data": {
+                "data": "Tk9ULVJFQUwtQVVESU8=",
+                "mime_type": "audio/wav"
+              }
+            }
+          ]
+        },
+        "finish_reason": "STOP"
+      }
+    ],
+    "response_id": "fake-audio-response",
+    "usage_metadata": {
+      "candidates_token_count": 25,
+      "candidates_tokens_details": [
+        {
+          "modality": "AUDIO",
+          "token_count": 25
+        }
+      ],
+      "prompt_token_count": 12,
+      "total_token_count": 37
+    }
+  }
+}

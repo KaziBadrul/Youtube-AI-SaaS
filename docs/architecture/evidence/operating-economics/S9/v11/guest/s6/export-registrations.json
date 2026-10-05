@@ -1,0 +1,8 @@
+{
+  "linux-600": {
+    "path": "/out/s6/exports/linux-600-2c958a022b2f.mp4",
+    "sha256": "2c958a022b2f905255c1cba13647e0f2fc89ec98ae820863848404cf90a4a63e",
+    "validation": "PASS",
+    "source_narration_sha256": "7ab577bccd78a31457bcf459323421725fc61d709cbbe013bd2158d27b4f028a"
+  }
+}

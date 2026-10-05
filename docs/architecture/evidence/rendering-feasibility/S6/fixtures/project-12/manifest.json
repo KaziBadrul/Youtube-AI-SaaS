@@ -1,0 +1,114 @@
+{
+  "duration": 12,
+  "scene_count": 3,
+  "source_s5_mapping_sha256": "53e83b442fe9125cf454579448a5195d93932d62977c5a401b84b9462c56efa8",
+  "fixture_kind": "deterministic synthetic, S5-density and duration pattern; no speech quality claim",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "image_id": "image-001",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/image-001.png",
+      "image_sha256": "6aa839cb4fdfd254c04149fafb9cc5e51c442b084acd15dd8418457ecd6928cf",
+      "mapped_narration_start": 0.0,
+      "visual_start": 0.0,
+      "visual_end": 3.076320939334638,
+      "frame_start": 0,
+      "frame_end": 93,
+      "color": [
+        45,
+        50,
+        55
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/caption-001.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 2,
+      "image_id": "image-002",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/image-002.png",
+      "image_sha256": "8a6dd0093cf7f89151a0b6d77641c9e8724bae39620faf3de2a0f4aa7083b5ef",
+      "mapped_narration_start": 3.076320939334638,
+      "visual_start": 3.076320939334638,
+      "visual_end": 6.880626223091977,
+      "frame_start": 93,
+      "frame_end": 207,
+      "color": [
+        82,
+        111,
+        138
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/caption-002.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    },
+    {
+      "scene_id": 3,
+      "image_id": "image-003",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/image-003.png",
+      "image_sha256": "2011ecf625439b112c6576b9a4f42b8690d4be15a0c8d319ccbbf64e0c294f25",
+      "mapped_narration_start": 6.880626223091977,
+      "visual_start": 6.880626223091977,
+      "visual_end": 12.0,
+      "frame_start": 207,
+      "frame_end": 360,
+      "color": [
+        119,
+        172,
+        76
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/caption-003.png",
+      "caption_sha256": "9268285059d51782f23dd4e5ef4f56facfcd11bfe6dc6d82d45f472702ec94cb",
+      "caption_lines": [
+        "This long caption wraps onto a second readable line while",
+        "narration continues through every visual change."
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "scene_id": 1,
+      "start": 0.0,
+      "end": 2.9,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 2,
+      "start": 3.1,
+      "end": 6.699999999999999,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 3,
+      "start": 6.9,
+      "end": 11.8,
+      "text": "This long caption wraps onto a second readable line while narration continues through every visual change.",
+      "font": "Noto Sans"
+    }
+  ],
+  "narration": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/narration.wav",
+  "narration_sha256": "41b92ea5b74e3d89255b1100d83746a60eabcfc1dadb920e21530dc156d9a36e",
+  "music": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/music.wav",
+  "music_sha256": "8766bb10966667f21a4c7c41a68ed77dea58f94c675c7898ec9722732414310a",
+  "config": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "captions": true,
+    "motion": true,
+    "music": true,
+    "font": "Noto Sans",
+    "music_gain": 0.12
+  },
+  "registry": {
+    "image-001": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/image-001.png",
+    "image-002": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/image-002.png",
+    "image-003": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/image-003.png"
+  }
+}

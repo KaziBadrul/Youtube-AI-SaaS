@@ -1,0 +1,200 @@
+{
+  "real_mapping_checks": [
+    {
+      "call": 4,
+      "status": "VALID_AT_REVIEWED_FIXTURE_SCOPE",
+      "negative_cases": [
+        {
+          "case": "omission",
+          "reason": "incomplete_or_repeated_accounting"
+        },
+        {
+          "case": "repetition",
+          "reason": "incomplete_or_repeated_accounting"
+        },
+        {
+          "case": "unresolved_timestamp",
+          "reason": "untrusted_or_invalid_token_range"
+        },
+        {
+          "case": "truncation",
+          "reason": "untrusted_or_invalid_token_range"
+        },
+        {
+          "case": "unreviewed_substitution",
+          "reason": "unreviewed_difference"
+        },
+        {
+          "case": "version_mismatch",
+          "reason": "source_version_mismatch"
+        },
+        {
+          "case": "ambiguous_scene",
+          "reason": "ambiguous_scene_membership"
+        },
+        {
+          "case": "wrong_image_transition",
+          "reason": "wrong_visual_transition"
+        }
+      ]
+    },
+    {
+      "call": 6,
+      "status": "VALID_AT_REVIEWED_FIXTURE_SCOPE",
+      "negative_cases": [
+        {
+          "case": "omission",
+          "reason": "incomplete_or_repeated_accounting"
+        },
+        {
+          "case": "repetition",
+          "reason": "incomplete_or_repeated_accounting"
+        },
+        {
+          "case": "unresolved_timestamp",
+          "reason": "untrusted_or_invalid_token_range"
+        },
+        {
+          "case": "truncation",
+          "reason": "untrusted_or_invalid_token_range"
+        },
+        {
+          "case": "unreviewed_substitution",
+          "reason": "unreviewed_difference"
+        },
+        {
+          "case": "version_mismatch",
+          "reason": "source_version_mismatch"
+        },
+        {
+          "case": "ambiguous_scene",
+          "reason": "ambiguous_scene_membership"
+        },
+        {
+          "case": "wrong_image_transition",
+          "reason": "wrong_visual_transition"
+        }
+      ]
+    }
+  ],
+  "sequence_fixture_results": [
+    {
+      "name": "normal",
+      "expected": "VALID",
+      "result": {
+        "status": "VALID",
+        "reason": "reviewed_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "very_short_scene",
+      "expected": "VALID",
+      "result": {
+        "status": "VALID",
+        "reason": "reviewed_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "punctuation",
+      "expected": "VALID",
+      "result": {
+        "status": "VALID",
+        "reason": "reviewed_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "natural_pause",
+      "expected": "VALID",
+      "result": {
+        "status": "VALID",
+        "reason": "reviewed_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "asr_substitution",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "missing_scene"
+      },
+      "passed": true
+    },
+    {
+      "name": "omitted_word",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "missing_scene"
+      },
+      "passed": true
+    },
+    {
+      "name": "repeated_word",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "unexpected_or_repeated_or_reordered_speech"
+      },
+      "passed": true
+    },
+    {
+      "name": "repeated_phrase_boundary",
+      "expected": "REVIEW_REQUIRED",
+      "result": {
+        "status": "REVIEW_REQUIRED",
+        "reason": "ambiguous_match"
+      },
+      "passed": true
+    },
+    {
+      "name": "ambiguous_boundary",
+      "expected": "REVIEW_REQUIRED",
+      "result": {
+        "status": "REVIEW_REQUIRED",
+        "reason": "ambiguous_match"
+      },
+      "passed": true
+    },
+    {
+      "name": "truncated_audio",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "missing_scene"
+      },
+      "passed": true
+    },
+    {
+      "name": "overlap",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "overlap"
+      },
+      "passed": true
+    },
+    {
+      "name": "no_reference",
+      "expected": "REVIEW_REQUIRED",
+      "result": {
+        "status": "REVIEW_REQUIRED",
+        "reason": "no_acoustic_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "scene_order_error",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "unexpected_or_repeated_or_reordered_speech"
+      },
+      "passed": true
+    }
+  ],
+  "limits": "structural acceptance of owner-reviewed fixtures; not automated acoustic verification"
+}

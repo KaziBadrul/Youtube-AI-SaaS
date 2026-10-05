@@ -1,0 +1,212 @@
+{
+  "S9": "PASS FOR PRIVATE-ALPHA ARCHITECTURE FEASIBILITY",
+  "scope": "documentation/planning arithmetic; live provider/owner charge proof UNKNOWN and paid activation blocked",
+  "new_checks_passed": 50,
+  "checks": [
+    {
+      "name": "active_calendar_ceiling_exactly_40",
+      "result": "PASS"
+    },
+    {
+      "name": "host_sizing_already_qualified_closed",
+      "result": "PASS"
+    },
+    {
+      "name": "no_new_host_selection",
+      "result": "PASS"
+    },
+    {
+      "name": "paid_backups_not_promotional_free",
+      "result": "PASS"
+    },
+    {
+      "name": "31_day_storage_proration_rounded_up",
+      "result": "PASS"
+    },
+    {
+      "name": "nominal_fixed_components_sum",
+      "result": "PASS"
+    },
+    {
+      "name": "all_backup_versions_and_authority_within_candidate_quota",
+      "result": "PASS"
+    },
+    {
+      "name": "backup_download_max_one_decimal_GB",
+      "result": "PASS"
+    },
+    {
+      "name": "no_live_requests_enabled",
+      "result": "PASS"
+    },
+    {
+      "name": "no_unknown_costs_filled_zero",
+      "result": "PASS"
+    },
+    {
+      "name": "no_credit_or_allowance_formula",
+      "result": "PASS"
+    },
+    {
+      "name": "no_owner_reserve_percentage_selected",
+      "result": "PASS"
+    },
+    {
+      "name": "reference_scope_not_final_operating_cap",
+      "result": "PASS"
+    },
+    {
+      "name": "preliminary_images_3_minutes",
+      "result": "PASS"
+    },
+    {
+      "name": "complete_nominal_provider_arithmetic_3",
+      "result": "PASS"
+    },
+    {
+      "name": "complete_nominal_plus_cash_bucket_3",
+      "result": "PASS"
+    },
+    {
+      "name": "uplift_sensitivity_arithmetic_3",
+      "result": "PASS"
+    },
+    {
+      "name": "attempt_limit_not_expected_or_automatic_authority_3",
+      "result": "PASS"
+    },
+    {
+      "name": "no_final_TTS_grouping_constant_3",
+      "result": "PASS"
+    },
+    {
+      "name": "preliminary_images_5_minutes",
+      "result": "PASS"
+    },
+    {
+      "name": "complete_nominal_provider_arithmetic_5",
+      "result": "PASS"
+    },
+    {
+      "name": "complete_nominal_plus_cash_bucket_5",
+      "result": "PASS"
+    },
+    {
+      "name": "uplift_sensitivity_arithmetic_5",
+      "result": "PASS"
+    },
+    {
+      "name": "attempt_limit_not_expected_or_automatic_authority_5",
+      "result": "PASS"
+    },
+    {
+      "name": "no_final_TTS_grouping_constant_5",
+      "result": "PASS"
+    },
+    {
+      "name": "preliminary_images_10_minutes",
+      "result": "PASS"
+    },
+    {
+      "name": "complete_nominal_provider_arithmetic_10",
+      "result": "PASS"
+    },
+    {
+      "name": "complete_nominal_plus_cash_bucket_10",
+      "result": "PASS"
+    },
+    {
+      "name": "uplift_sensitivity_arithmetic_10",
+      "result": "PASS"
+    },
+    {
+      "name": "attempt_limit_not_expected_or_automatic_authority_10",
+      "result": "PASS"
+    },
+    {
+      "name": "no_final_TTS_grouping_constant_10",
+      "result": "PASS"
+    },
+    {
+      "name": "useful_three_minute_positive_cash_capacity",
+      "result": "PASS"
+    },
+    {
+      "name": "three_minute_30_percent_is_positive_sensitivity_only",
+      "result": "PASS"
+    },
+    {
+      "name": "five_minute_positive_conditional_capacity",
+      "result": "PASS"
+    },
+    {
+      "name": "ten_minute_fallback_denied",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_required_cash_coverage_denied",
+      "result": "PASS"
+    },
+    {
+      "name": "cash_coverage_over_capacity_denied",
+      "result": "PASS"
+    },
+    {
+      "name": "prior_paid_spend_or_issued_liability_reduces_fit",
+      "result": "PASS"
+    },
+    {
+      "name": "no_blanket_three_attempt_project_admitted",
+      "result": "PASS"
+    },
+    {
+      "name": "V13_invariants_reused_not_rerun",
+      "result": "PASS"
+    },
+    {
+      "name": "quality_and_expected_cost_not_claimed",
+      "result": "PASS"
+    },
+    {
+      "name": "provider_proof_gate_preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "scope_expansion_requires_reauthorization",
+      "result": "PASS"
+    },
+    {
+      "name": "no_universal_density_or_segment_constant",
+      "result": "PASS"
+    },
+    {
+      "name": "retained_deleted_content_and_private_purge_maintained",
+      "result": "PASS"
+    },
+    {
+      "name": "live_commitments_not_authorized",
+      "result": "PASS"
+    },
+    {
+      "name": "current_docs_scope_qualified_PASS_and_40",
+      "result": "PASS"
+    },
+    {
+      "name": "current_docs_link_revision14",
+      "result": "PASS"
+    },
+    {
+      "name": "V1_V13_and_all_other_prior_evidence_scripts_preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "original_current_index_archived",
+      "result": "PASS"
+    }
+  ],
+  "prior_V13_checks_referenced_not_rerun": 80,
+  "prior_V13_scenarios_referenced_not_rerun": 32,
+  "provider_API_calls": 0,
+  "paid_spend_USD": "0",
+  "downloads": 0
+}

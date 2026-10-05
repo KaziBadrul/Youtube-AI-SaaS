@@ -1,0 +1,78 @@
+{
+  "retrieved": "2026-10-05",
+  "currency": "USD",
+  "generation_calls": 0,
+  "account_verification": false,
+  "sources": [
+    {
+      "id": "do-host",
+      "url": "https://www.digitalocean.com/pricing/droplets",
+      "facts": "Regular Basic: 1vCPU/2GiB/50GiB/2000GiB transfer $12; 2vCPU/2GiB/60GiB/3000GiB $18; 2vCPU/4GiB/80GiB/4000GiB $24 monthly. Shared CPU, per-second billing monthly caps, minimum 60 seconds or $.01."
+    },
+    {
+      "id": "do-traffic",
+      "url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+      "facts": "Ingress free; outbound over included accrued pool $.01/GiB. Pool depends on uptime."
+    },
+    {
+      "id": "do-disk",
+      "url": "https://docs.digitalocean.com/products/volumes/details/pricing/",
+      "facts": "Additional network block storage $.10/GiB/month; billed even unattached. Not selected for SQLite."
+    },
+    {
+      "id": "do-tax",
+      "url": "https://docs.digitalocean.com/platform/billing/taxes/",
+      "facts": "Account/jurisdiction determines applicable taxes. Bangladesh absence from extracted list is not proof of no tax."
+    },
+    {
+      "id": "hetzner-rate",
+      "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/",
+      "facts": "EU CX23 new rate June15 2026 $6.49/month excluding IPv4 and VAT."
+    },
+    {
+      "id": "hetzner-capability",
+      "url": "https://www.hetzner.com/cloud/cost-optimized/",
+      "facts": "CX23 2vCPU/4GB/40GB NVMe, 20TB EU transfer, currently unavailable; low-medium CPU usage; billed until deleted. No available cheap-host assumption."
+    },
+    {
+      "id": "akamai",
+      "url": "https://www.akamai.com/cloud/pricing/north-america",
+      "facts": "Shared Linode4GB 2CPU80GB4TB $24/month $.036/hour. Core egress overage $.005/GB. Extra block storage $ .10/GB-month (must verify specific disk option before adoption). No account tax determination."
+    },
+    {
+      "id": "render-free",
+      "url": "https://render.com/docs/free",
+      "facts": "Free web sleeps after 15min idle; ephemeral filesystem, no persistent disk. Unsuitable for selected invited-Alpha topology; owner/mock development only."
+    },
+    {
+      "id": "b2-storage",
+      "url": "https://www.backblaze.com/cloud-storage/pricing",
+      "facts": "Paygo $6.95/TB/30days, first10GB advertised free; no minimum file size/storage duration; egress3x average stored bytes included then $.01/GB; API A/B/C free; D $.004/10000 after2500/day."
+    },
+    {
+      "id": "b2-api",
+      "url": "https://www.backblaze.com/cloud-storage/transaction-pricing",
+      "facts": "Upload/version-delete A, reads B, version-list C are free paygo. D event notifications excluded from candidate. Page also shows stale/conflicting $.005/GB storage note; model uses higher main pricing $.00695/GB pending account quote."
+    },
+    {
+      "id": "b2-versions",
+      "url": "https://www.backblaze.com/docs/cloud-storage-file-versions",
+      "facts": "Hiding a file does not delete retained versions. Enumerate and delete every affected version; no immutable lock adopted."
+    },
+    {
+      "id": "r2-pricing",
+      "url": "https://developers.cloudflare.com/r2/pricing/",
+      "facts": "Standard $.015/GB-month, A $4.50/million, B $.36/million, usage rounds up to billing units. Advertised free10GB/1M A/10M B. Egress free; DeleteObject free; Standard no minimum duration. No IA adopted."
+    },
+    {
+      "id": "r2-consistency",
+      "url": "https://developers.cloudflare.com/r2/reference/consistency/",
+      "facts": "Direct object deletion/listing strongly consistent; cached custom domain can retain deleted content. Candidate private backup uses direct API, not cached/public media."
+    },
+    {
+      "id": "bd-payment",
+      "url": "https://www.ebl.com.bd/downloads/Debit_card_awareness_FAQ_CUSTOMER_004.pdf",
+      "facts": "Official card FAQ points to applicable current card charge schedule for FX markup/fees. Not evidence of owner bank/card or exact rate; no tax/FX policy selected."
+    }
+  ]
+}

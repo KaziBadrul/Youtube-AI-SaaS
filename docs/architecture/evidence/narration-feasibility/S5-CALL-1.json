@@ -1,0 +1,16 @@
+{
+  "stage": 1,
+  "call": 1,
+  "status": "succeeded",
+  "real_provider_submissions": 1,
+  "automatic_retries": 0,
+  "calls_2_to_8_executed": false,
+  "server_acceptance": "PROVEN_FOR_CALL_1_REQUEST",
+  "audio_format_validation": "PASS",
+  "audio_quality_alignment": "NOT_EVALUATED",
+  "maximum_tariff_USD": 0.1024,
+  "usage_derived_tariff_estimate_USD": 0.0026655,
+  "actual_billed_cost": "Not independently established; owner reported free tier",
+  "audio_path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-01/attempt-01/source.wav",
+  "separate_continuation_authorization_required": true
+}

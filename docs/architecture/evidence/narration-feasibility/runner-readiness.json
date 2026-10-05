@@ -1,0 +1,12 @@
+{
+  "status": "READY_FOR_CALL_1_LOCAL_SCOPE",
+  "classification": "D_DIRECT_REST_REQUIRED",
+  "transport": "httpx 0.28.1 HTTPTransport retries=0",
+  "SDK_execution_path": false,
+  "server_acceptance": "UNPROVEN",
+  "real_requests": 0,
+  "live_stages_executed": [],
+  "persisted_submission_intents": 0,
+  "fees": "No known additional fee supplied; nonzero fee admission rejected",
+  "account_evidence": "Owner reports Free tier and ten available; reconfirm freshness before execution"
+}

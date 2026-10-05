@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "font_size_pixels": 54,
+  "max_lines": 2,
+  "caption_box": {
+    "x": 160,
+    "y": 880,
+    "width": 1600,
+    "height": 180
+  },
+  "text_safe_width": 1500,
+  "within_frame": true,
+  "wrapping_case": [
+    "This long caption wraps onto a second readable line while",
+    "narration continues through every visual change."
+  ],
+  "checks": "explicit cmap coverage; no fallback/notdef; glyph bounds within box; fixed position; exact caption cue metadata in manifests",
+  "timing_quantization_seconds": 0.03333333333333333,
+  "limitations": "fixed style is spike parameter, not frozen product font or layout"
+}

@@ -1,0 +1,56 @@
+{
+  "platform": "Linux-7.0.14-linuxkit-x86_64-with-glibc2.36",
+  "machine": "x86_64",
+  "python": "3.12.14 (main, Sep 19 2026, 01:05:48) [GCC 12.2.0]",
+  "cpu.max": "100000 100000",
+  "memory.max": "1999998976",
+  "memory.swap.max": "0",
+  "pids.max": "256",
+  "cgroup_start_cpu": {
+    "usage_usec": 171861,
+    "user_usec": 145882,
+    "system_usec": 25979,
+    "nice_usec": 0,
+    "nr_periods": 2,
+    "nr_throttled": 0,
+    "throttled_usec": 0,
+    "nr_bursts": 0,
+    "burst_usec": 0
+  },
+  "cgroup_start_memory_events": {
+    "low": 0,
+    "high": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0,
+    "sock_throttled": 0
+  },
+  "ffmpeg": "ffmpeg version 5.1.9-0+deb12u1 Copyright (c) 2000-2026 the FFmpeg developers\nbuilt with gcc 12 (Debian 12.2.0-14+deb12u1)\nconfiguration: --prefix=/usr --extra-version=0+deb12u1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librist --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --disable-sndio --enable-libjxl --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-libplacebo --enable-librav1e --enable-shared\nlibavutil      57. 28.100 / 57. 28.100\nlibavcodec     59. 37.100 / 59. 37.100\nlibavformat    59. 27.100 / 59. 27.100\nlibavdevice    59.  7.100 / 59.  7.100\nlibavfilter     8. 44.100 /  8. 44.100\nlibswscale      6.  7.100 /  6.  7.100\nlibswresample   4.  7.100 /  4.  7.100\nlibpostproc    56.  6.100 / 56.  6.100\n",
+  "python_packages": "anyio==4.15.1\nasgiref==3.12.1\nav==19.0.1\ncertifi==2026.7.22\ncffi==2.1.1\nclick==8.5.0\ncryptography==46.0.3\nctranslate2==4.8.2\nDjango==5.2.17\nfaster-whisper==1.2.1\nfilelock==4.0.10\nflatbuffers==25.12.19\nfonttools==4.61.1\nfreetype-py==2.5.1\nfsspec==2026.9.0\ngunicorn==23.0.0\nh11==0.16.0\nhf-xet==1.6.0\nhttpcore==1.0.9\nhttpx==0.28.1\nhuggingface_hub==1.33.0\nidna==3.20\nnumpy==2.2.6\nonnxruntime==1.30.0\npackaging==26.3\npillow==12.0.0\nprotobuf==7.36.2\npsutil==7.2.2\npycparser==3.0\nPyYAML==6.0.3\nsqlparse==0.6.0\ntokenizers==0.23.2\ntqdm==4.70.1\ntyping_extensions==4.16.0\nuharfbuzz==0.52.0\n",
+  "database_bytes": 4096,
+  "model_files": [
+    {
+      "name": "model.bin",
+      "bytes": 145217532
+    },
+    {
+      "name": "config.json",
+      "bytes": 2309
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 2203239
+    },
+    {
+      "name": "vocabulary.txt",
+      "bytes": 459861
+    }
+  ],
+  "network": "none; loopback only",
+  "limitations": [
+    "application cgroup excludes Linux VM kernel/daemon",
+    "x86_64 emulation on arm64 Mac",
+    "no native host performance certification"
+  ]
+}

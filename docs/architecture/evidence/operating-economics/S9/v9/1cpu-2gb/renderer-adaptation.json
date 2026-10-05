@@ -1,0 +1,9 @@
+{
+  "source_sha256": "e23e3a3b94ade47c89fc537db86bd81265010f4eed899e166dc5ae784b063afd",
+  "adapted_sha256": "3654ba107e3ef796ab991d669a0627c3bc88f10418b17a317d919d86bfbb02a1",
+  "changes": [
+    "source/output and font paths only",
+    "FFmpeg/ffprobe Linux paths"
+  ],
+  "render_parameters_changed": false
+}

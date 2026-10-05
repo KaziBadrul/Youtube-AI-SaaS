@@ -1,0 +1,156 @@
+{
+  "S9": "NOT_YET_PASS",
+  "active_total_monthly_ceiling_USD": "40",
+  "previous_ceiling_USD": "30",
+  "host_nominal_USD": "24",
+  "measured_archive_bytes": 426785130,
+  "snapshot_copies_sensitivity_not_retention_policy": 2,
+  "backup_storage_only_paid_equivalent_USD": "0.0059323133070",
+  "partial_fixed_USD": "24.0059323133070",
+  "complete_fixed_cash_USD": null,
+  "nominal_remainder_before_reserves_spend_holds_USD": "15.9940676866930",
+  "increase_USD": "10.0000000000000",
+  "actual_admittable_generation_budget_USD": null,
+  "safety_fees_FX_reserve_USD": null,
+  "current_settled_spend_USD": null,
+  "current_liabilities_reservations_USD": null,
+  "five_minute_partial_image_TTS_proxy_USD": "2.074187543736878936319104269",
+  "complete_expected_project_USD": null,
+  "usable_whole_project_maximum_USD": null,
+  "optimistic_partial_only_floor_not_capacity_or_allowance": 7,
+  "guaranteed_capacity": null,
+  "creator_allowances": null,
+  "final_credit_conversion": null,
+  "expected_versus_maximum": "Existing partial projections and conditional caps stay qualified; no new expected usage/retry probabilities invented.",
+  "pricing_provenance": "Preserved V8 official-price capture and V11 measured archive; nominal sensitivities, not refreshed account quotes or provider selection.",
+  "host_sizing_closed": true,
+  "further_sizing_only_on_failure": true,
+  "checks": [
+    {
+      "name": "explicit_active_owner_ceiling",
+      "result": "PASS"
+    },
+    {
+      "name": "qualified_host_local_scope_preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "measured_backup_arithmetic",
+      "result": "PASS"
+    },
+    {
+      "name": "nominal_fixed_arithmetic",
+      "result": "PASS"
+    },
+    {
+      "name": "new_nominal_remainder",
+      "result": "PASS"
+    },
+    {
+      "name": "change_is_exactly_ten_USD",
+      "result": "PASS"
+    },
+    {
+      "name": "complete_fixed_unknown_not_zero",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_reserve_prevents_actual_headroom_claim",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_current_spending_prevents_actual_headroom_claim",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_liability_prevents_actual_headroom_claim",
+      "result": "PASS"
+    },
+    {
+      "name": "existing_spend_and_holds_preserved_in_budget_revision",
+      "result": "PASS"
+    },
+    {
+      "name": "higher_monthly_cap_does_not_raise_request_authority",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_outcome_still_blocks_blind_duplicate",
+      "result": "PASS"
+    },
+    {
+      "name": "known_holds_consumed_once",
+      "result": "PASS"
+    },
+    {
+      "name": "negative_balance_denies_admission",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_admission_denied",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_project_expected_not_replaced_by_partial",
+      "result": "PASS"
+    },
+    {
+      "name": "optimistic_partial_floor_not_allowance",
+      "result": "PASS"
+    },
+    {
+      "name": "image_and_TTS_partial_preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "conditional_text_cap_not_expected_or_usable_max",
+      "result": "PASS"
+    },
+    {
+      "name": "current_docs_have_explicit_40_authority",
+      "result": "PASS"
+    },
+    {
+      "name": "cost_authority_table_updated",
+      "result": "PASS"
+    },
+    {
+      "name": "product_requirement_updated",
+      "result": "PASS"
+    },
+    {
+      "name": "validation_constraint_updated",
+      "result": "PASS"
+    },
+    {
+      "name": "current_S9_monthly_invariant_updated",
+      "result": "PASS"
+    },
+    {
+      "name": "owner_last_sizing_rule_preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "all_prior_evidence_and_spike_files_unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "prior_live_index_bytes_archived",
+      "result": "PASS"
+    },
+    {
+      "name": "V1_V11_reports_preserved",
+      "result": "PASS"
+    }
+  ],
+  "checks_passed": 29,
+  "provider_API_calls": 0,
+  "paid_spend_USD": "0",
+  "production_changes": false,
+  "TASKS_changes": false,
+  "hosting_selected": false,
+  "deployments": false,
+  "purchases": false,
+  "new_experiments": false,
+  "architecture_frozen": false
+}

@@ -1,0 +1,11 @@
+{
+  "pid": 280,
+  "pgid": 280,
+  "exit": 255,
+  "cessation_seconds": 0.1917195419998734,
+  "escalated": false,
+  "live_group_members": [],
+  "incomplete_registered": false,
+  "previous_export_preserved": true,
+  "previous_export_available": true
+}

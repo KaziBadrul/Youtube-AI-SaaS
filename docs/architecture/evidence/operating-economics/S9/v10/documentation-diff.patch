@@ -1,0 +1,36 @@
+--- docs/README.md (before V10)
++++ docs/README.md (V10 current)
+@@ -1,4 +1,6 @@
+ # Product and architecture documentation
++
++S9 revision 10, 2026-10-05: **NOT_YET_PASS**. [Whole-Linux-guest evidence](architecture/evidence/operating-economics/S9/CREDITS-v10.md): native ARM64 Ubuntu VM, actual 1 vCPU / 2 GiB, normal OS services included, serialized maintenance. All phases/media/cancellation completed, swap/OOM 0, but backup minimum available RAM 31.90 MB (1.486%): **MARGINAL**, ~$12 host class not resource-qualified. ~$24 / 4 GiB remains a candidate pending whole-guest proof; $30 ceiling unchanged. No provider generation, production, host selection, credits/allowances, tokenizer experiment or architecture freeze. Historical V1–V9 preserved.
+ 
+ S9 revision 9, 2026-10-05: **NOT_YET_PASS**. [Local Linux resource envelopes](architecture/evidence/operating-economics/S9/CREDITS-v9.md): one-CPU/2-GB serialized application phases pass at 1.972 GB peak; backup/render overlap causes OOM. Two-CPU/4-GB phases including overlap pass at 2.253 GB peak. Documented exact-frame mux repair preserves source audio; full scene/audio validator and five-language reference pixels pass. Emulated container tests exclude full VM OS overhead; no host selection, production, provider generation or token preflight. $30/credits/allowances unchanged.
+ 
+--- docs/COST_MODEL.md (before V10)
++++ docs/COST_MODEL.md (V10 current)
+@@ -1,4 +1,6 @@
+ # Spending authorization, allowance and reconciliation
++
++S9 revision 10, 2026-10-05: **NOT_YET_PASS**. [Whole-Linux-guest evidence](architecture/evidence/operating-economics/S9/CREDITS-v10.md): native ARM64 Ubuntu VM, actual 1 vCPU / 2 GiB, normal OS services included, serialized maintenance. All phases/media/cancellation completed, swap/OOM 0, but backup minimum available RAM 31.90 MB (1.486%): **MARGINAL**, ~$12 host class not resource-qualified. ~$24 / 4 GiB remains a candidate pending whole-guest proof; $30 ceiling unchanged. No provider generation, production, host selection, credits/allowances, tokenizer experiment or architecture freeze. Historical V1–V9 preserved.
+ 
+ S9 revision 9, 2026-10-05: **NOT_YET_PASS**. [Local Linux resource envelopes](architecture/evidence/operating-economics/S9/CREDITS-v9.md): one-CPU/2-GB serialized application phases pass at 1.972 GB peak; backup/render overlap causes OOM. Two-CPU/4-GB phases including overlap pass at 2.253 GB peak. Documented exact-frame mux repair preserves source audio; full scene/audio validator and five-language reference pixels pass. Emulated container tests exclude full VM OS overhead; no host selection, production, provider generation or token preflight. $30/credits/allowances unchanged.
+ 
+--- docs/ARCHITECTURE_SPIKES.md (before V10)
++++ docs/ARCHITECTURE_SPIKES.md (V10 current)
+@@ -1,4 +1,6 @@
+ # Architecture feasibility gates
++
++S9 revision 10, 2026-10-05: **NOT_YET_PASS**. [Whole-Linux-guest evidence](architecture/evidence/operating-economics/S9/CREDITS-v10.md): native ARM64 Ubuntu VM, actual 1 vCPU / 2 GiB, normal OS services included, serialized maintenance. All phases/media/cancellation completed, swap/OOM 0, but backup minimum available RAM 31.90 MB (1.486%): **MARGINAL**, ~$12 host class not resource-qualified. ~$24 / 4 GiB remains a candidate pending whole-guest proof; $30 ceiling unchanged. No provider generation, production, host selection, credits/allowances, tokenizer experiment or architecture freeze. Historical V1–V9 preserved.
+ 
+ S9 revision 9, 2026-10-05: **NOT_YET_PASS**. [Local Linux resource envelopes](architecture/evidence/operating-economics/S9/CREDITS-v9.md): one-CPU/2-GB serialized application phases pass at 1.972 GB peak; backup/render overlap causes OOM. Two-CPU/4-GB phases including overlap pass at 2.253 GB peak. Documented exact-frame mux repair preserves source audio; full scene/audio validator and five-language reference pixels pass. Emulated container tests exclude full VM OS overhead; no host selection, production, provider generation or token preflight. $30/credits/allowances unchanged.
+ 
+--- docs/architecture/evidence/operating-economics/S9/README.md (before V10)
++++ docs/architecture/evidence/operating-economics/S9/README.md (V10 current)
+@@ -1,4 +1,6 @@
+ # S9 — operating economics
++
++S9 revision 10, 2026-10-05: **NOT_YET_PASS**. [Whole-Linux-guest evidence](CREDITS-v10.md): native ARM64 Ubuntu VM, actual 1 vCPU / 2 GiB, normal OS services included, serialized maintenance. All phases/media/cancellation completed, swap/OOM 0, but backup minimum available RAM 31.90 MB (1.486%): **MARGINAL**, ~$12 host class not resource-qualified. ~$24 / 4 GiB remains a candidate pending whole-guest proof; $30 ceiling unchanged. No provider generation, production, host selection, credits/allowances, tokenizer experiment or architecture freeze. Historical V1–V9 preserved.
+ 
+ S9 revision 9, 2026-10-05: **NOT_YET_PASS**. [Local Linux resource envelopes](CREDITS-v9.md): one-CPU/2-GB serialized application phases pass at 1.972 GB peak; backup/render overlap causes OOM. Two-CPU/4-GB phases including overlap pass at 2.253 GB peak. Documented exact-frame mux repair preserves source audio; full scene/audio validator and five-language reference pixels pass. Emulated container tests exclude full VM OS overhead; no host selection, production, provider generation or token preflight. $30/credits/allowances unchanged.
+ 

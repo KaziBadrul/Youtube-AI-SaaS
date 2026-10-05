@@ -1,0 +1,18 @@
+{
+  "label": "control-all-off",
+  "duration": 12,
+  "scene_count": 3,
+  "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/control-all-off-0a57edaab9f7.mp4",
+  "sha256": "0a57edaab9f794d254060666174da2ad2e6c5b83a2bdbda8766fb0bdd679cacc",
+  "bytes": 273554,
+  "render_wall_seconds": 2.9240624160156585,
+  "peak_ffmpeg_rss_bytes": 121978880,
+  "cpu_seconds": 3.428830869,
+  "scratch_peak_bytes": 331146,
+  "config": {
+    "captions": false,
+    "motion": false,
+    "music": false
+  },
+  "attempt": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/scratch/control-all-off-13285c69"
+}

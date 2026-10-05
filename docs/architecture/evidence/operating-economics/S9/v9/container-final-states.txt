@@ -1,0 +1,5 @@
+/s9-v9-1cpu exited exit=0 OOM=true
+/s9-v9-2cpu exited exit=0 OOM=false
+/s9-v9-serial exited exit=0 OOM=false
+/s9-v9-grid exited exit=0 OOM=false
+/s9-v9-remux exited exit=1 OOM=false

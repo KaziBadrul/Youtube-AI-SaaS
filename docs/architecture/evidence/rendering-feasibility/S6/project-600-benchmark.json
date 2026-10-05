@@ -1,0 +1,18 @@
+{
+  "label": "project-600",
+  "duration": 600,
+  "scene_count": 112,
+  "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/project-600-fc0e76cd606c.mp4",
+  "sha256": "fc0e76cd606c63655017698f10a6d68deaba410001bbfd440c37bd6d783af0f8",
+  "bytes": 59553320,
+  "render_wall_seconds": 237.20484245801345,
+  "peak_ffmpeg_rss_bytes": 149979136,
+  "cpu_seconds": 314.230260477,
+  "scratch_peak_bytes": 107515868,
+  "config": {
+    "captions": true,
+    "motion": true,
+    "music": true
+  },
+  "attempt": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/scratch/project-600-71db73df"
+}

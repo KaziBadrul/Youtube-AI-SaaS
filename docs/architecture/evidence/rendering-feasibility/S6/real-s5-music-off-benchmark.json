@@ -1,0 +1,18 @@
+{
+  "label": "real-s5-music-off",
+  "duration": 12,
+  "scene_count": 3,
+  "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/real-s5-music-off-764f21961bb8.mp4",
+  "sha256": "764f21961bb847b4248b02c86dbeefaf313549baa74871698f856b7eca27c18c",
+  "bytes": 315211,
+  "render_wall_seconds": 3.0252440830226988,
+  "peak_ffmpeg_rss_bytes": 121946112,
+  "cpu_seconds": 3.568185496,
+  "scratch_peak_bytes": 373713,
+  "config": {
+    "captions": false,
+    "motion": false,
+    "music": false
+  },
+  "attempt": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/scratch/real-s5-music-off-32173758"
+}

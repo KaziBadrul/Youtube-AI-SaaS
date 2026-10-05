@@ -1,0 +1,177 @@
+{
+  "retrieved": "2026-10-05",
+  "material_downloads": [
+    {
+      "kind": "Lima official release",
+      "source": "https://github.com/lima-vm/lima/releases/download/v2.2.1/lima-2.2.1-Darwin-arm64.tar.gz",
+      "bytes": 38328082,
+      "sha256": "9e9eacce88f37e185c346bad73aa6136f738d8cdf8c3bb23cd42b071824bc66e"
+    },
+    {
+      "kind": "Ubuntu official server ARM64 cloud image",
+      "source": "https://cloud-images.ubuntu.com/releases/noble/release/ubuntu-24.04-server-cloudimg-arm64.img",
+      "bytes": 620224512,
+      "sha256": "1d6bffe64b848468ac97f821d369a4846d983de1800ccf6b5ec8853e85cefc55"
+    },
+    {
+      "kind": "APT repository metadata",
+      "bytes_approx": 39300000
+    },
+    {
+      "kind": "APT package archives",
+      "bytes_approx": 108000000,
+      "sources": "ports.ubuntu.com; see guest-setup.log"
+    },
+    {
+      "kind": "PyPI native ARM64 software wheels",
+      "wheels": [
+        {
+          "name": "django-5.2.17-py3-none-any.whl",
+          "display_size": "8.3 MB"
+        },
+        {
+          "name": "gunicorn-23.0.0-py3-none-any.whl",
+          "display_size": "85 kB"
+        },
+        {
+          "name": "numpy-2.2.6-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "display_size": "14.0 MB"
+        },
+        {
+          "name": "pillow-12.0.0-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+          "display_size": "6.3 MB"
+        },
+        {
+          "name": "psutil-7.2.2-cp36-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+          "display_size": "156 kB"
+        },
+        {
+          "name": "uharfbuzz-0.52.0-cp310-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+          "display_size": "1.7 MB"
+        },
+        {
+          "name": "freetype_py-2.5.1-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "display_size": "1.1 MB"
+        },
+        {
+          "name": "fonttools-4.61.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+          "display_size": "5.0 MB"
+        },
+        {
+          "name": "cryptography-46.0.3-cp311-abi3-manylinux_2_34_aarch64.whl",
+          "display_size": "4.3 MB"
+        },
+        {
+          "name": "faster_whisper-1.2.1-py3-none-any.whl",
+          "display_size": "1.1 MB"
+        },
+        {
+          "name": "ctranslate2-4.8.2-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+          "display_size": "16.9 MB"
+        },
+        {
+          "name": "asgiref-3.12.1-py3-none-any.whl",
+          "display_size": "25 kB"
+        },
+        {
+          "name": "av-19.0.1-cp312-abi3-manylinux_2_28_aarch64.whl",
+          "display_size": "32.7 MB"
+        },
+        {
+          "name": "cffi-2.1.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl",
+          "display_size": "222 kB"
+        },
+        {
+          "name": "onnxruntime-1.30.0-cp312-cp312-manylinux_2_28_aarch64.whl",
+          "display_size": "21.3 MB"
+        },
+        {
+          "name": "packaging-26.3-py3-none-any.whl",
+          "display_size": "129 kB"
+        },
+        {
+          "name": "pyyaml-6.0.3-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+          "display_size": "775 kB"
+        },
+        {
+          "name": "sqlparse-0.6.0-py3-none-any.whl",
+          "display_size": "50 kB"
+        },
+        {
+          "name": "tokenizers-0.23.2-cp310-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "display_size": "3.5 MB"
+        },
+        {
+          "name": "huggingface_hub-1.33.0-py3-none-any.whl",
+          "display_size": "846 kB"
+        },
+        {
+          "name": "tqdm-4.70.1-py3-none-any.whl",
+          "display_size": "80 kB"
+        },
+        {
+          "name": "click-8.5.0-py3-none-any.whl",
+          "display_size": "125 kB"
+        },
+        {
+          "name": "filelock-4.0.10-py3-none-any.whl",
+          "display_size": "111 kB"
+        },
+        {
+          "name": "fsspec-2026.9.0-py3-none-any.whl",
+          "display_size": "221 kB"
+        },
+        {
+          "name": "hf_xet-1.6.0-cp38-abi3-manylinux_2_28_aarch64.whl",
+          "display_size": "4.3 MB"
+        },
+        {
+          "name": "httpx-0.28.1-py3-none-any.whl",
+          "display_size": "73 kB"
+        },
+        {
+          "name": "httpcore-1.0.9-py3-none-any.whl",
+          "display_size": "78 kB"
+        },
+        {
+          "name": "protobuf-7.36.2-cp310-abi3-manylinux2014_aarch64.whl",
+          "display_size": "344 kB"
+        },
+        {
+          "name": "typing_extensions-4.16.0-py3-none-any.whl",
+          "display_size": "45 kB"
+        },
+        {
+          "name": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+          "display_size": "26 kB"
+        },
+        {
+          "name": "pycparser-3.0-py3-none-any.whl",
+          "display_size": "48 kB"
+        },
+        {
+          "name": "anyio-4.15.1-py3-none-any.whl",
+          "display_size": "132 kB"
+        },
+        {
+          "name": "idna-3.20-py3-none-any.whl",
+          "display_size": "69 kB"
+        },
+        {
+          "name": "certifi-2026.7.22-py3-none-any.whl",
+          "display_size": "136 kB"
+        },
+        {
+          "name": "h11-0.16.0-py3-none-any.whl",
+          "display_size": "37 kB"
+        }
+      ],
+      "sources": "PyPI; see guest-setup.log",
+      "note": "faster-whisper wheel includes bundled VAD asset; no separate base Whisper weights fetched",
+      "bytes_approx_from_displayed_wheel_sizes": 124313000,
+      "metadata_bytes": "additional small metadata transfers retained in setup log; not exact-byte-metered"
+    }
+  ],
+  "local_reuse": "existing model /private/tmp/s9-v9-model; fonts /private/tmp/s6-render-fonts; existing source-inputs.json media",
+  "total_material_bytes_approx": 930165594
+}

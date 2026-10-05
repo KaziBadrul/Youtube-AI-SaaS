@@ -1,0 +1,54 @@
+{
+  "model": "/Users/kazibadrul/.cache/huggingface/hub/models--Systran--faster-whisper-base/snapshots/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+  "model_name": "Systran/faster-whisper-base",
+  "calls": {
+    "4": {
+      "audio_sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "expected_tokens": 498,
+      "recognized_words": 504,
+      "matched_tokens": 483,
+      "unmatched_expected_words": 15,
+      "unexpected_recognized_words": 21,
+      "scene_count": 32,
+      "valid_scenes": 22,
+      "review_required_scenes": 10,
+      "invalid_scenes": 0
+    },
+    "5": {
+      "audio_sha256": "dd232e22174d51507758290eae48d87e0a66070db714ccb10e151470ec1a9f95",
+      "expected_tokens": 23,
+      "recognized_words": 23,
+      "matched_tokens": 23,
+      "unmatched_expected_words": 0,
+      "unexpected_recognized_words": 0,
+      "scene_count": 1,
+      "valid_scenes": 1,
+      "review_required_scenes": 0,
+      "invalid_scenes": 0
+    },
+    "6": {
+      "audio_sha256": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "expected_tokens": 498,
+      "recognized_words": 505,
+      "matched_tokens": 486,
+      "unmatched_expected_words": 12,
+      "unexpected_recognized_words": 19,
+      "scene_count": 32,
+      "valid_scenes": 23,
+      "review_required_scenes": 9,
+      "invalid_scenes": 0
+    },
+    "7": {
+      "audio_sha256": "67fe8d87ff0e6946c466bfe9e148b3a7304d3d0ef43b10425b7d8653d3ca35cb",
+      "expected_tokens": 73,
+      "recognized_words": 74,
+      "matched_tokens": 72,
+      "unmatched_expected_words": 1,
+      "unexpected_recognized_words": 2,
+      "scene_count": 3,
+      "valid_scenes": 2,
+      "review_required_scenes": 1,
+      "invalid_scenes": 0
+    }
+  }
+}

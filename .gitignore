@@ -1,0 +1,20 @@
+.env
+# Local development orchestration runtime (config is intentional tooling)
+.orchestrator/*
+!.orchestrator/config.json
+__pycache__/
+
+# Large architecture feasibility artifacts
+docs/architecture/evidence/**/*.mp4
+docs/architecture/evidence/**/*.wav
+docs/architecture/evidence/**/*.enc
+
+# Large generated demo artifacts
+demo-video-example/**/*.mp4
+demo-video-example/**/*.wav
+demo-video-example/**/*.zip
+
+# docs/architecture/evidence/**/scratch/
+# docs/architecture/evidence/**/exports/
+# docs/architecture/evidence/**/fixtures/
+

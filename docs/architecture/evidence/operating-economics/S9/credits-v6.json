@@ -1,0 +1,531 @@
+{
+  "S9": "NOT_YET_PASS",
+  "date": "2026-10-05",
+  "paid_equivalent_receipts": {
+    "1": {
+      "input_tokens": 51,
+      "audio_tokens": 440,
+      "seconds": "13.72",
+      "paid_equivalent_USD": "0.0026655",
+      "source_sha256": "8215aa482ab0a8a8acfad564283d239f6e37e56446cf40c1a0db633bcee970c8"
+    },
+    "2": {
+      "input_tokens": 30,
+      "audio_tokens": 250,
+      "seconds": "7.8",
+      "paid_equivalent_USD": "0.001515",
+      "source_sha256": "f06d98575eeb23fc7f6f75cdac4fffa432b66858403c0fbbba5d003fbc67763f"
+    },
+    "3": {
+      "input_tokens": 15,
+      "audio_tokens": 89,
+      "seconds": "2.76",
+      "paid_equivalent_USD": "0.0005415",
+      "source_sha256": "f2cf9ccb7b28309de27891ccb99497ed0945442c807159a109bf412817092b54"
+    },
+    "4": {
+      "input_tokens": 664,
+      "audio_tokens": 5488,
+      "seconds": "171.48",
+      "paid_equivalent_USD": "0.03326",
+      "source_sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa"
+    },
+    "5": {
+      "input_tokens": 30,
+      "audio_tokens": 260,
+      "seconds": "8.12",
+      "paid_equivalent_USD": "0.001575",
+      "source_sha256": "dd232e22174d51507758290eae48d87e0a66070db714ccb10e151470ec1a9f95"
+    },
+    "6": {
+      "input_tokens": 664,
+      "audio_tokens": 5466,
+      "seconds": "170.8",
+      "paid_equivalent_USD": "0.033128",
+      "source_sha256": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4"
+    },
+    "7": {
+      "input_tokens": 96,
+      "audio_tokens": 754,
+      "seconds": "23.56",
+      "paid_equivalent_USD": "0.004572",
+      "source_sha256": "67fe8d87ff0e6946c466bfe9e148b3a7304d3d0ef43b10425b7d8653d3ca35cb"
+    },
+    "8": {
+      "input_tokens": 30,
+      "audio_tokens": 283,
+      "seconds": "8.84",
+      "paid_equivalent_USD": "0.001713",
+      "source_sha256": "4bbc9c73e677fbf330673be67349c2c251fe960ee0dba7d185a416e21d4e55b9"
+    }
+  },
+  "topic_projects": [
+    {
+      "minutes": 3,
+      "preliminary_images": 36,
+      "preliminary_credits": "0.6",
+      "operations": {
+        "research_search": null,
+        "research_planner_synthesis": null,
+        "script_generation": null,
+        "pasted_script_factual_check": "NOT_APPLICABLE_TOPIC",
+        "scene_visual_prompt_planning": null,
+        "image_output": "1.2096",
+        "image_input_text_thinking": null,
+        "TTS_duration_proxy": "0.03491252624212736179146256123",
+        "expected_paid_failure_retry_reserve": null,
+        "render_compute_allocation": null,
+        "storage_backup_egress_allocation": null,
+        "tax_fee_FX": null
+      },
+      "image_plus_TTS_proxy_subtotal": "1.244512526242127361791462561",
+      "complete_expected_variable_USD": null,
+      "conditional_image_initial_max_USD": "5.013504",
+      "conditional_image_three_attempt_max_USD": "15.040512",
+      "complete_authorized_variable_max_USD": null,
+      "possible_actual_cash_USD": null
+    },
+    {
+      "minutes": 5,
+      "preliminary_images": 60,
+      "preliminary_credits": "1",
+      "operations": {
+        "research_search": null,
+        "research_planner_synthesis": null,
+        "script_generation": null,
+        "pasted_script_factual_check": "NOT_APPLICABLE_TOPIC",
+        "scene_visual_prompt_planning": null,
+        "image_output": "2.0160",
+        "image_input_text_thinking": null,
+        "TTS_duration_proxy": "0.05818754373687893631910426872",
+        "expected_paid_failure_retry_reserve": null,
+        "render_compute_allocation": null,
+        "storage_backup_egress_allocation": null,
+        "tax_fee_FX": null
+      },
+      "image_plus_TTS_proxy_subtotal": "2.074187543736878936319104269",
+      "complete_expected_variable_USD": null,
+      "conditional_image_initial_max_USD": "8.355840",
+      "conditional_image_three_attempt_max_USD": "25.067520",
+      "complete_authorized_variable_max_USD": null,
+      "possible_actual_cash_USD": null
+    },
+    {
+      "minutes": 10,
+      "preliminary_images": 120,
+      "preliminary_credits": "2",
+      "operations": {
+        "research_search": null,
+        "research_planner_synthesis": null,
+        "script_generation": null,
+        "pasted_script_factual_check": "NOT_APPLICABLE_TOPIC",
+        "scene_visual_prompt_planning": null,
+        "image_output": "4.0320",
+        "image_input_text_thinking": null,
+        "TTS_duration_proxy": "0.1163750874737578726382085374",
+        "expected_paid_failure_retry_reserve": null,
+        "render_compute_allocation": null,
+        "storage_backup_egress_allocation": null,
+        "tax_fee_FX": null
+      },
+      "image_plus_TTS_proxy_subtotal": "4.148375087473757872638208537",
+      "complete_expected_variable_USD": null,
+      "conditional_image_initial_max_USD": "16.711680",
+      "conditional_image_three_attempt_max_USD": "50.135040",
+      "complete_authorized_variable_max_USD": null,
+      "possible_actual_cash_USD": null
+    }
+  ],
+  "known_script": {
+    "source": "S5 Call 4 exact approved block_original, 498 words, 32 historical scene memberships",
+    "sentence_scope": {
+      "counter_version": "s9-local-terminal-punctuation-v1",
+      "script_sha256": "333db790f6e8dda32f42fd40bd03ddd29998128ab59aff9d60197494a39e6b95",
+      "sentence_count": 38,
+      "predicted_image_count": 38,
+      "spans": [
+        {
+          "start": 0,
+          "end": 11,
+          "text": "Okay, so..."
+        },
+        {
+          "start": 12,
+          "end": 105,
+          "text": "it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it."
+        },
+        {
+          "start": 107,
+          "end": 187,
+          "text": "At some point between when you're like twelve and twenty-two, your brain just..."
+        },
+        {
+          "start": 188,
+          "end": 197,
+          "text": "glitches."
+        },
+        {
+          "start": 199,
+          "end": 363,
+          "text": "You’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you."
+        },
+        {
+          "start": 365,
+          "end": 412,
+          "text": "He’s not this all-knowing architect of reality."
+        },
+        {
+          "start": 414,
+          "end": 541,
+          "text": "He’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything."
+        },
+        {
+          "start": 543,
+          "end": 582,
+          "text": "Because think about when you were five."
+        },
+        {
+          "start": 584,
+          "end": 633,
+          "text": "Your parents aren't even people to you back then."
+        },
+        {
+          "start": 635,
+          "end": 650,
+          "text": "They're like..."
+        },
+        {
+          "start": 651,
+          "end": 670,
+          "text": "mythical creatures."
+        },
+        {
+          "start": 672,
+          "end": 718,
+          "text": "They know where the spare lightbulbs are kept."
+        },
+        {
+          "start": 720,
+          "end": 741,
+          "text": "They deal with wasps."
+        },
+        {
+          "start": 743,
+          "end": 877,
+          "text": "They carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major."
+        },
+        {
+          "start": 879,
+          "end": 912,
+          "text": "They're just environmental facts."
+        },
+        {
+          "start": 914,
+          "end": 940,
+          "text": "Like gravity, or the roof."
+        },
+        {
+          "start": 942,
+          "end": 995,
+          "text": "And then you get older, and the cracks start showing."
+        },
+        {
+          "start": 997,
+          "end": 1183,
+          "text": "Maybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag."
+        },
+        {
+          "start": 1185,
+          "end": 1263,
+          "text": "Or you hear your dad tell a casual story about his twenties and you realize..."
+        },
+        {
+          "start": 1264,
+          "end": 1337,
+          "text": "wait, he was a total menace who barely survived his own terrible choices?"
+        },
+        {
+          "start": 1339,
+          "end": 1555,
+          "text": "Or even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for."
+        },
+        {
+          "start": 1557,
+          "end": 1658,
+          "text": "I actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\""
+        },
+        {
+          "start": 1660,
+          "end": 1898,
+          "text": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel."
+        },
+        {
+          "start": 1900,
+          "end": 2022,
+          "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks."
+        },
+        {
+          "start": 2024,
+          "end": 2065,
+          "text": "And if you do the math, it’s even wilder."
+        },
+        {
+          "start": 2067,
+          "end": 2150,
+          "text": "When you were born, your parents were probably in their twenties or early thirties."
+        },
+        {
+          "start": 2152,
+          "end": 2195,
+          "text": "Look at anyone who's twenty-four right now."
+        },
+        {
+          "start": 2197,
+          "end": 2222,
+          "text": "They are a disaster zone."
+        },
+        {
+          "start": 2224,
+          "end": 2363,
+          "text": "They eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time."
+        },
+        {
+          "start": 2365,
+          "end": 2404,
+          "text": "Your parents were *those exact people*."
+        },
+        {
+          "start": 2406,
+          "end": 2470,
+          "text": "They didn't get summoned from some ancient order of wise elders."
+        },
+        {
+          "start": 2472,
+          "end": 2569,
+          "text": "They were literally just two random young adults who got handed a screaming baby and went, \"Oh..."
+        },
+        {
+          "start": 2570,
+          "end": 2575,
+          "text": "cool."
+        },
+        {
+          "start": 2576,
+          "end": 2604,
+          "text": "Guess we're doing this now.\""
+        },
+        {
+          "start": 2606,
+          "end": 2718,
+          "text": "Every rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling."
+        },
+        {
+          "start": 2720,
+          "end": 2745,
+          "text": "Making it up on the spot."
+        },
+        {
+          "start": 2747,
+          "end": 2790,
+          "text": "And once you notice it, you can't unsee it."
+        },
+        {
+          "start": 2792,
+          "end": 2871,
+          "text": "You start seeing their weird habits not as \"parent traits,\" but as human flaws."
+        }
+      ],
+      "review_flags": [
+        "ellipses",
+        "quotation_or_bracket"
+      ],
+      "segmentation_status": "REVIEW_REQUIRED"
+    },
+    "image_output_USD": "1.2768",
+    "measured_TTS_USD": "0.03326",
+    "image_output_plus_measured_TTS_subtotal": "1.31006",
+    "pasted_script_generation_USD": "0",
+    "pasted_script_generation_status": "NOT_APPLICABLE_PRESERVE_WORDS",
+    "pasted_factual_check_USD": null,
+    "planning_USD": null,
+    "complete_expected_variable_USD": null,
+    "warning": "Sentence-parser REVIEW_REQUIRED is explicit; count is local economics evidence, not production parser certification. No new images generated."
+  },
+  "corrections": {
+    "one_image_output_USD": "0.0336",
+    "one_image_complete_expected_USD": null,
+    "one_image_conditional_max_one_attempt_USD": "0.139264",
+    "one_image_conditional_max_three_attempts_USD": "0.417792",
+    "B_segment_measured_call6_USD": "0.033128",
+    "B_segment_seconds": "170.8",
+    "B_segment_words": 498,
+    "B_segment_conditional_max_one_attempt_USD": "0.1024",
+    "B_segment_conditional_max_three_attempts_USD": "0.3072",
+    "final_correction_credits": null
+  },
+  "conditional_text_full_cap_attempt_USD": "0.4784128",
+  "TTS_audio_tokens_per_second_call4": "32.00373221366923256356426405",
+  "tests": [
+    {
+      "name": "image_3_min",
+      "PASS": true
+    },
+    {
+      "name": "scope_3_min",
+      "PASS": true
+    },
+    {
+      "name": "proxy_sum_3_min",
+      "PASS": true
+    },
+    {
+      "name": "unknown_total_3_min",
+      "PASS": true
+    },
+    {
+      "name": "retry_not_expected_3_min",
+      "PASS": true
+    },
+    {
+      "name": "image_5_min",
+      "PASS": true
+    },
+    {
+      "name": "scope_5_min",
+      "PASS": true
+    },
+    {
+      "name": "proxy_sum_5_min",
+      "PASS": true
+    },
+    {
+      "name": "unknown_total_5_min",
+      "PASS": true
+    },
+    {
+      "name": "retry_not_expected_5_min",
+      "PASS": true
+    },
+    {
+      "name": "image_10_min",
+      "PASS": true
+    },
+    {
+      "name": "scope_10_min",
+      "PASS": true
+    },
+    {
+      "name": "proxy_sum_10_min",
+      "PASS": true
+    },
+    {
+      "name": "unknown_total_10_min",
+      "PASS": true
+    },
+    {
+      "name": "retry_not_expected_10_min",
+      "PASS": true
+    },
+    {
+      "name": "call4_cost",
+      "PASS": true
+    },
+    {
+      "name": "call6_correction_cost",
+      "PASS": true
+    },
+    {
+      "name": "eight_call_total",
+      "PASS": true
+    },
+    {
+      "name": "text_token_arithmetic_synthetic",
+      "PASS": true
+    },
+    {
+      "name": "search_arithmetic_synthetic_not_normal_query_count",
+      "PASS": true
+    },
+    {
+      "name": "complete_known_expected_fixture_sum",
+      "PASS": true
+    },
+    {
+      "name": "complete_known_max_fixture_sum",
+      "PASS": true
+    },
+    {
+      "name": "unknown_expected_not_zero",
+      "PASS": true
+    },
+    {
+      "name": "unknown_max_not_zero",
+      "PASS": true
+    },
+    {
+      "name": "known_pasted_no_topic_heuristic",
+      "PASS": true
+    },
+    {
+      "name": "pasted_check_unknown_not_free",
+      "PASS": true
+    },
+    {
+      "name": "same_script_deterministic",
+      "PASS": true
+    },
+    {
+      "name": "correction_image_output",
+      "PASS": true
+    },
+    {
+      "name": "correction_image_retry_max",
+      "PASS": true
+    },
+    {
+      "name": "correction_TTS_retry_max",
+      "PASS": true
+    },
+    {
+      "name": "free_does_not_erase_paid_equivalent",
+      "PASS": true
+    },
+    {
+      "name": "unverified_free_not_zero",
+      "PASS": true
+    },
+    {
+      "name": "zero_image_quota_blocks_not_zero_cost",
+      "PASS": true
+    },
+    {
+      "name": "partial_verified_free_arithmetic",
+      "PASS": true
+    },
+    {
+      "name": "invalid_attempts_0_rejected",
+      "PASS": true
+    },
+    {
+      "name": "invalid_attempts_4_rejected",
+      "PASS": true
+    },
+    {
+      "name": "new_credits_unresolved",
+      "PASS": true
+    }
+  ],
+  "test_count": 37,
+  "provider_API_generation_calls": 0,
+  "paid_spend_USD": "0",
+  "final_credit_formula": null,
+  "prelaunch_monthly_ceiling_USD": "30",
+  "source_hashes": {
+    "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/ledger.json": "855a482a5707bfaa697bf86485e9e8ae639d55d87bf8c409a023be91165a7806",
+    "docs/architecture/evidence/narration-feasibility/fixture-manifest.json": "63f667db388b1b9d9e71e807001b0c8d48ca8c1d53cbeaaf1d7cafe47f773d11",
+    "docs/architecture/evidence/operating-economics/S9/analysis.json": "544baf699375a49e3e0800245327739e73c12b27742f575dd80f2c4c1ae2991a",
+    "docs/architecture/evidence/operating-economics/S9/pricing-v6.json": "f8867cac4900b19d5471afa5c929cefba1913e87068ba971c5ba58c3aec3070e"
+  },
+  "cash_view": "UNKNOWN complete cash total; images BLOCKED on owner Free tier zero quotas. Published text/TTS free and Tavily 1000 monthly need verified unused account entitlement; no account activation assumed.",
+  "precision": "Decimal arithmetic; values unrounded in JSON; displayed proxies rounded separately. No empirical retry probability available."
+}

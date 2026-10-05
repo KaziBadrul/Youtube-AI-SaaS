@@ -1,0 +1,148 @@
+{
+  "status": "LOCAL_PREPARATION_ONLY",
+  "checks": [
+    {
+      "name": "script.txt chosen explicitly; JSON not substituted",
+      "pass": true
+    },
+    {
+      "name": "exact once ordered scene membership 2000",
+      "pass": true
+    },
+    {
+      "name": "exact approved words/punctuation 2000",
+      "pass": true
+    },
+    {
+      "name": "byte ceiling 2000",
+      "pass": true
+    },
+    {
+      "name": "exact once ordered scene membership 3000",
+      "pass": true
+    },
+    {
+      "name": "exact approved words/punctuation 3000",
+      "pass": true
+    },
+    {
+      "name": "byte ceiling 3000",
+      "pass": true
+    },
+    {
+      "name": "exact once ordered scene membership 4000",
+      "pass": true
+    },
+    {
+      "name": "exact approved words/punctuation 4000",
+      "pass": true
+    },
+    {
+      "name": "byte ceiling 4000",
+      "pass": true
+    },
+    {
+      "name": "oversized scene blocked, not truncated",
+      "pass": true
+    },
+    {
+      "name": "surgical untouched prefix byte identical",
+      "pass": true
+    },
+    {
+      "name": "surgical untouched suffix byte identical",
+      "pass": true
+    },
+    {
+      "name": "later offset shifts 200 samples without source mutation",
+      "pass": true
+    },
+    {
+      "name": "reorder/delete uses ranges only",
+      "pass": true
+    },
+    {
+      "name": "exact word coverage accepted for review",
+      "pass": true
+    },
+    {
+      "name": "missing word rejected",
+      "pass": true
+    },
+    {
+      "name": "repeated word rejected",
+      "pass": true
+    },
+    {
+      "name": "overlapping word ranges rejected",
+      "pass": true
+    },
+    {
+      "name": "were not falsely normalized to we are",
+      "pass": true
+    }
+  ],
+  "provider_calls": 0,
+  "quality_evidence": false,
+  "asr_executed": false,
+  "alignment_runtime": "faster_whisper and rapidfuzz unavailable in current python3; no model downloaded",
+  "historical_audio": {
+    "sha256": "af74c519e22cecd394b1610e29b0be85f0dfd887e543e17b58a7131e84d02c8b",
+    "seconds": 265.0,
+    "rate": 24000,
+    "channels": 1,
+    "width": 2
+  },
+  "historical_timestamp_statuses": [
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK"
+  ],
+  "sample_rate_synthetic": 24000
+}

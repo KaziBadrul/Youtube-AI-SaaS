@@ -1,0 +1,113 @@
+[
+  {
+    "case": "missing_image",
+    "result": "REJECTED",
+    "error": "missing_image",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "corrupt_image",
+    "result": "REJECTED",
+    "error": "cannot identify image file '/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/corrupt.png'",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "missing_narration",
+    "result": "REJECTED",
+    "error": "[Errno 2] No such file or directory: '/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/missing.wav'",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "corrupt_narration",
+    "result": "REJECTED",
+    "error": "file does not start with RIFF id",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "invalid_scene_mapping",
+    "result": "REJECTED",
+    "error": "invalid_mapping",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "scene_order_error",
+    "result": "REJECTED",
+    "error": "scene_order",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "caption_outside_duration",
+    "result": "REJECTED",
+    "error": "invalid_caption_timing",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "invalid_caption_font",
+    "result": "REJECTED",
+    "error": "invalid_caption_font",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "caption_overflow",
+    "result": "REJECTED",
+    "error": "caption_exceeds_safe_box",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "unsafe_asset_path",
+    "result": "REJECTED",
+    "error": "unsafe_path",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "unsafe_audio_path",
+    "result": "REJECTED",
+    "error": "unsafe_audio_path",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "unsafe_output_path",
+    "result": "REJECTED",
+    "error": "unsafe_output_label",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "filename_and_caption_injection",
+    "result": "PASS",
+    "construction": "argv list; text rendered as glyph pixels; internal paths only"
+  },
+  {
+    "case": "disabled_caption_branch",
+    "result": "PASS"
+  },
+  {
+    "case": "ffmpeg_nonzero",
+    "result": "REJECTED",
+    "exit_code": 69,
+    "registered": false
+  },
+  {
+    "case": "incomplete_output",
+    "result": "REJECTED",
+    "error": "(1, ['/opt/homebrew/bin/ffprobe', '-v', 'error', '-show_streams', '-show_format', '-of', 'json', '/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/incomplete.mp4'], '[mov,mp4,m4a,3gp,3g2,mj2 @ 0xcaec38000] stream 0, contradictionary STSC and STCO\\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0xcae",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "missing_audio_stream",
+    "result": "REJECTED",
+    "error": "missing_stream",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "wrong_resolution",
+    "result": "REJECTED",
+    "error": "wrong_resolution",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "persistent_cancel_blocks_next_step",
+    "result": "REJECTED",
+    "error": "cancelled_before_next_media_step",
+    "previous_export_preserved": true
+  }
+]

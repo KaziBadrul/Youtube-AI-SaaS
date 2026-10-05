@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "pid": 5057,
+  "start_identity": 1791158672.76,
+  "pgid": 5057,
+  "exit": 255,
+  "cessation_seconds": 0.16222468499995557,
+  "escalated": false,
+  "live_group_members": [],
+  "lock_released_after_confirmed_cessation": true,
+  "incomplete_registered": false,
+  "previous_export_preserved": true,
+  "status_request_during_render_succeeded": true
+}

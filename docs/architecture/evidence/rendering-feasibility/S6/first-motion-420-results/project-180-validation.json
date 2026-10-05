@@ -1,0 +1,363 @@
+{
+  "status": "PASS",
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Constrained Baseline",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.42c028",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 0,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2764800,
+        "duration": "180.000000",
+        "bit_rate": "690545",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "5400",
+        "extradata_size": 39,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 8640000,
+        "duration": "180.000000",
+        "bit_rate": "142867",
+        "nb_frames": "8439",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/project-180.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "180.000000",
+      "size": "18908986",
+      "bit_rate": "840399",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.102"
+      }
+    }
+  },
+  "transition_tolerance_seconds": 0.03333333333333333,
+  "transitions": [
+    {
+      "scene_id": 2,
+      "expected": 5.148471615720524,
+      "rendered": 5.166666666666667,
+      "error_seconds": 0.01819505094614282
+    },
+    {
+      "scene_id": 3,
+      "expected": 11.51528384279476,
+      "rendered": 11.533333333333333,
+      "error_seconds": 0.018049490538572854
+    },
+    {
+      "scene_id": 4,
+      "expected": 20.082969432314414,
+      "rendered": 20.1,
+      "error_seconds": 0.017030567685587528
+    },
+    {
+      "scene_id": 5,
+      "expected": 24.465065502183407,
+      "rendered": 24.466666666666665,
+      "error_seconds": 0.0016011644832580885
+    },
+    {
+      "scene_id": 6,
+      "expected": 31.617903930131003,
+      "rendered": 31.633333333333333,
+      "error_seconds": 0.01542940320232944
+    },
+    {
+      "scene_id": 7,
+      "expected": 33.05240174672489,
+      "rendered": 33.06666666666667,
+      "error_seconds": 0.014264919941780363
+    },
+    {
+      "scene_id": 8,
+      "expected": 36.03930131004367,
+      "rendered": 36.06666666666667,
+      "error_seconds": 0.02736535662300099
+    },
+    {
+      "scene_id": 9,
+      "expected": 38.24017467248909,
+      "rendered": 38.266666666666666,
+      "error_seconds": 0.02649199417757586
+    },
+    {
+      "scene_id": 10,
+      "expected": 40.57860262008733,
+      "rendered": 40.6,
+      "error_seconds": 0.021397379912670544
+    },
+    {
+      "scene_id": 11,
+      "expected": 41.91484716157205,
+      "rendered": 41.93333333333333,
+      "error_seconds": 0.018486171761281867
+    },
+    {
+      "scene_id": 12,
+      "expected": 48.91048034934498,
+      "rendered": 48.93333333333333,
+      "error_seconds": 0.022852983988350672
+    },
+    {
+      "scene_id": 13,
+      "expected": 52.093886462882104,
+      "rendered": 52.1,
+      "error_seconds": 0.006113537117897749
+    },
+    {
+      "scene_id": 14,
+      "expected": 53.41048034934498,
+      "rendered": 53.43333333333333,
+      "error_seconds": 0.022852983988350672
+    },
+    {
+      "scene_id": 15,
+      "expected": 57.69432314410481,
+      "rendered": 57.7,
+      "error_seconds": 0.0056768558951958425
+    },
+    {
+      "scene_id": 16,
+      "expected": 67.69650655021836,
+      "rendered": 67.7,
+      "error_seconds": 0.003493449781643676
+    },
+    {
+      "scene_id": 17,
+      "expected": 76.08733624454149,
+      "rendered": 76.1,
+      "error_seconds": 0.012663755458504511
+    },
+    {
+      "scene_id": 18,
+      "expected": 91.13973799126637,
+      "rendered": 91.16666666666667,
+      "error_seconds": 0.026928675400299085
+    },
+    {
+      "scene_id": 19,
+      "expected": 96.48471615720524,
+      "rendered": 96.5,
+      "error_seconds": 0.015283842794758584
+    },
+    {
+      "scene_id": 20,
+      "expected": 110.06331877729258,
+      "rendered": 110.06666666666666,
+      "error_seconds": 0.003347889374083479
+    },
+    {
+      "scene_id": 21,
+      "expected": 117.68777292576421,
+      "rendered": 117.7,
+      "error_seconds": 0.012227074235795499
+    },
+    {
+      "scene_id": 22,
+      "expected": 120.61572052401748,
+      "rendered": 120.63333333333334,
+      "error_seconds": 0.017612809315863842
+    },
+    {
+      "scene_id": 23,
+      "expected": 125.17467248908298,
+      "rendered": 125.2,
+      "error_seconds": 0.025327510917023233
+    },
+    {
+      "scene_id": 24,
+      "expected": 127.98471615720524,
+      "rendered": 128.0,
+      "error_seconds": 0.015283842794758584
+    },
+    {
+      "scene_id": 25,
+      "expected": 129.87117903930132,
+      "rendered": 129.9,
+      "error_seconds": 0.02882096069868112
+    },
+    {
+      "scene_id": 26,
+      "expected": 137.75109170305674,
+      "rendered": 137.76666666666668,
+      "error_seconds": 0.015574963609935821
+    },
+    {
+      "scene_id": 27,
+      "expected": 140.73799126637556,
+      "rendered": 140.76666666666668,
+      "error_seconds": 0.028675400291120923
+    },
+    {
+      "scene_id": 28,
+      "expected": 144.11790393013104,
+      "rendered": 144.13333333333333,
+      "error_seconds": 0.01542940320229036
+    },
+    {
+      "scene_id": 29,
+      "expected": 152.82314410480348,
+      "rendered": 152.83333333333334,
+      "error_seconds": 0.010189228529867478
+    },
+    {
+      "scene_id": 30,
+      "expected": 159.3471615720524,
+      "rendered": 159.36666666666667,
+      "error_seconds": 0.019505094614260088
+    },
+    {
+      "scene_id": 31,
+      "expected": 160.76200873362447,
+      "rendered": 160.76666666666668,
+      "error_seconds": 0.004657933042210516
+    },
+    {
+      "scene_id": 32,
+      "expected": 163.57205240174673,
+      "rendered": 163.6,
+      "error_seconds": 0.027947598253263095
+    },
+    {
+      "scene_id": 33,
+      "expected": 168.48471615720524,
+      "rendered": 168.5,
+      "error_seconds": 0.015283842794758584
+    },
+    {
+      "scene_id": 34,
+      "expected": 173.63318777292577,
+      "rendered": 173.63333333333333,
+      "error_seconds": 0.00014556040756019684
+    }
+  ],
+  "decoded_frame_count": 5400,
+  "blank_frames": 0,
+  "source_narration_samples": 8640000,
+  "decoded_audio_samples": 8640000,
+  "audio_snr_db": 57.38429641723633,
+  "audio_min_10ms_rms": 0.10825895518064499,
+  "audio_peak": 0.21013504266738892,
+  "caption_samples": [
+    {
+      "scene_id": 1,
+      "white_text_pixels": 9596,
+      "enabled": true
+    },
+    {
+      "scene_id": 18,
+      "white_text_pixels": 1791,
+      "enabled": true
+    },
+    {
+      "scene_id": 34,
+      "white_text_pixels": 1794,
+      "enabled": true
+    }
+  ],
+  "limits": "synthetic audio proves rendering continuity, not speech intelligibility or narration quality"
+}

@@ -1,0 +1,248 @@
+{
+  "text_operations": [
+    {
+      "name": "research_planner",
+      "model": "gemini-3.5-flash-lite",
+      "input_cap": 4096,
+      "output_including_thinking_cap": 1024,
+      "max_requests": 1,
+      "max_attempts": 3,
+      "billing_unit": "input and total output/thinking tokens",
+      "thinking_cap": "shares configured total output; no unbounded extra reasoning",
+      "maximum_input_proof_status": "UNKNOWN",
+      "artifact": "Research Query Plan",
+      "depends_on": [],
+      "price_source": "pricing-v6.json and S4 capabilities.json",
+      "v7_candidate_attempt_USD": "0.003789",
+      "serving_input_fallback_attempt_USD": "0.317133",
+      "expected_USD": null,
+      "enabled": false,
+      "bound_evidence": "V7 candidate narrow input unvalidated; S4 serving fallback conditional; output total/transport/rate/account proof required",
+      "usable_max_USD": null
+    },
+    {
+      "name": "research_synthesis",
+      "model": "gemini-3.5-flash-lite",
+      "input_cap": 16384,
+      "output_including_thinking_cap": 4096,
+      "max_requests": 1,
+      "max_attempts": 3,
+      "billing_unit": "input and total output/thinking tokens",
+      "thinking_cap": "shares configured total output; no unbounded extra reasoning",
+      "maximum_input_proof_status": "UNKNOWN",
+      "artifact": "Research Results with source IDs/limitations",
+      "depends_on": [
+        "research_planner",
+        "basic_search"
+      ],
+      "price_source": "pricing-v6.json and S4 capabilities.json",
+      "v7_candidate_attempt_USD": "0.015156",
+      "serving_input_fallback_attempt_USD": "0.324813",
+      "expected_USD": null,
+      "enabled": false,
+      "bound_evidence": "V7 candidate narrow input unvalidated; S4 serving fallback conditional; output total/transport/rate/account proof required",
+      "usable_max_USD": null
+    },
+    {
+      "name": "script_generation",
+      "model": "gemini-3.5-flash-lite",
+      "input_cap": 12288,
+      "output_including_thinking_cap": 8192,
+      "max_requests": 1,
+      "max_attempts": 3,
+      "billing_unit": "input and total output/thinking tokens",
+      "thinking_cap": "shares configured total output; no unbounded extra reasoning",
+      "maximum_input_proof_status": "UNKNOWN",
+      "artifact": "Versioned Script",
+      "depends_on": [
+        "research_synthesis"
+      ],
+      "price_source": "pricing-v6.json and S4 capabilities.json",
+      "v7_candidate_attempt_USD": "0.024167",
+      "serving_input_fallback_attempt_USD": "0.335053",
+      "expected_USD": null,
+      "enabled": false,
+      "bound_evidence": "V7 candidate narrow input unvalidated; S4 serving fallback conditional; output total/transport/rate/account proof required",
+      "usable_max_USD": null
+    },
+    {
+      "name": "visual_prompt_planning",
+      "model": "gemini-3.5-flash-lite",
+      "input_cap": 16384,
+      "output_including_thinking_cap": 16384,
+      "max_requests": 1,
+      "max_attempts": 3,
+      "billing_unit": "input and total output/thinking tokens",
+      "thinking_cap": "shares configured total output; no unbounded extra reasoning",
+      "maximum_input_proof_status": "UNKNOWN",
+      "artifact": "Scene Visual Descriptions and Image Prompts",
+      "depends_on": [
+        "script_generation",
+        "local_sentence_mapping"
+      ],
+      "price_source": "pricing-v6.json and S4 capabilities.json",
+      "v7_candidate_attempt_USD": "0.045876",
+      "serving_input_fallback_attempt_USD": "0.355533",
+      "expected_USD": null,
+      "enabled": false,
+      "bound_evidence": "V7 candidate narrow input unvalidated; S4 serving fallback conditional; output total/transport/rate/account proof required",
+      "usable_max_USD": null
+    }
+  ],
+  "search": {
+    "provider": "Tavily Basic",
+    "queries_max": 6,
+    "attempts_max_per_query": 3,
+    "unit": "one credit per pinned Basic request",
+    "one_attempt_query_batch_USD": "0.048",
+    "three_attempt_query_batch_USD": "0.144",
+    "enabled": false,
+    "reason": "account/terms/rate/transport proof before enablement; no verified free credits"
+  },
+  "image": {
+    "model": "gemini-3.1-flash-lite-image",
+    "output_tariff_USD": ".0336",
+    "tariff_status": "Owner-fixed 1K-resolution output sensitivity, V6 dated evidence; not permanent or complete",
+    "input_serving_fallback_tokens": 65536,
+    "all_output_serving_fallback_tokens": 4096,
+    "conditional_attempt_full_modal_worst_rate_USD": "0.139264",
+    "enabled": false,
+    "usable_attempt_bound_USD": null,
+    "reason": "exact endpoint/output/thinking/single-send/billing rate proof unresolved"
+  },
+  "TTS": {
+    "model": "gemini-3.8-flash-lite-tts",
+    "B_initial_and_B_corrections": true,
+    "conditional_attempt_serving_USD": "0.1024",
+    "input_tokens_max": 8192,
+    "audio_output_tokens_max": 16384,
+    "enabled": false,
+    "usable_attempt_bound_USD": null,
+    "rate_valid_through": "2026-12-31",
+    "segment_count": "derive deterministic scope; not frozen",
+    "empirical_S5_eight_call_paid_equivalent_USD": ".07897"
+  },
+  "projects": [
+    {
+      "kind": "topic",
+      "requested_minutes": 3,
+      "preliminary_images": 36,
+      "preliminary_credits": "0.6",
+      "actual_images": null,
+      "B_segment_count": null,
+      "expected_total_USD": null,
+      "usable_whole_project_max_USD": null,
+      "image_output_only_first_attempt_USD": "1.2096",
+      "image_output_only_three_attempt_USD": "3.6288",
+      "conditional_provider_max_formula": "A_text*T_text + A_image*N*I + A_TTS*K*T; actual N/K re-admitted; excludes unknown cash extras",
+      "conditional_IF_preliminary_N_and_one_B_segment_single_attempt_USD": "6.496436",
+      "conditional_IF_preliminary_N_and_one_B_segment_three_attempt_USD": "19.489308",
+      "enabled": false
+    },
+    {
+      "kind": "topic",
+      "requested_minutes": 5,
+      "preliminary_images": 60,
+      "preliminary_credits": "1",
+      "actual_images": null,
+      "B_segment_count": null,
+      "expected_total_USD": null,
+      "usable_whole_project_max_USD": null,
+      "image_output_only_first_attempt_USD": "2.0160",
+      "image_output_only_three_attempt_USD": "6.0480",
+      "conditional_provider_max_formula": "A_text*T_text + A_image*N*I + A_TTS*K*T; actual N/K re-admitted; excludes unknown cash extras",
+      "conditional_IF_preliminary_N_and_one_B_segment_single_attempt_USD": "9.838772",
+      "conditional_IF_preliminary_N_and_one_B_segment_three_attempt_USD": "29.516316",
+      "enabled": false
+    },
+    {
+      "kind": "topic",
+      "requested_minutes": 10,
+      "preliminary_images": 120,
+      "preliminary_credits": "2",
+      "actual_images": null,
+      "B_segment_count": null,
+      "expected_total_USD": null,
+      "usable_whole_project_max_USD": null,
+      "image_output_only_first_attempt_USD": "4.0320",
+      "image_output_only_three_attempt_USD": "12.0960",
+      "conditional_provider_max_formula": "A_text*T_text + A_image*N*I + A_TTS*K*T; actual N/K re-admitted; excludes unknown cash extras",
+      "conditional_IF_preliminary_N_and_one_B_segment_single_attempt_USD": "18.194612",
+      "conditional_IF_preliminary_N_and_one_B_segment_three_attempt_USD": "54.583836",
+      "enabled": false
+    },
+    {
+      "kind": "pasted",
+      "fixture_text": "The sky appears blue. Tiny particles scatter light. We see that scattered light.",
+      "actual_images": 3,
+      "sentence_review_status": "local limited parser unambiguous fixture only",
+      "script_generation_required": false,
+      "B_segment_count": null,
+      "conditional_check_search_one_attempt_USD": "1.045479",
+      "usable_whole_project_max_USD": null,
+      "expected_total_USD": null,
+      "conditional_IF_one_B_segment_single_attempt_USD": "1.565671",
+      "conditional_IF_one_B_segment_three_attempt_USD": "4.697013",
+      "enabled": false
+    },
+    {
+      "kind": "pasted_existing_representative",
+      "source": "demo-video-example/02_script_humanized.txt",
+      "source_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+      "actual_local_count": 59,
+      "segmentation_review_required": true,
+      "reason": "V7 ellipsis/quote flags; local count is not reviewed production sentence scope",
+      "B_segment_count": null,
+      "script_generation_required": false,
+      "expected_total_USD": null,
+      "usable_whole_project_max_USD": null,
+      "conditional_IF_count_accepted_and_one_B_segment_single_attempt_USD": "9.364455",
+      "conditional_IF_count_accepted_and_one_B_segment_three_attempt_USD": "28.093365",
+      "enabled": false
+    }
+  ],
+  "text_search_conditional_serving_fallback_single_attempt_USD": "1.380532",
+  "text_search_conditional_serving_fallback_three_attempt_USD": "4.141596",
+  "v7_text_search_narrow_three_attempt_USD": ".410964",
+  "fixed_partial_USD": "24.005932313307",
+  "ceiling_USD": "40",
+  "nominal_remainder_USD": "15.994067686693",
+  "sensitivities": [
+    {
+      "total_cash_uplift_percent_sensitivity_NOT_POLICY": 0,
+      "nominal_pre_uplift_provider_headroom_USD": "15.994067686693",
+      "complete_authorized_generation_budget_USD": null
+    },
+    {
+      "total_cash_uplift_percent_sensitivity_NOT_POLICY": 10,
+      "nominal_pre_uplift_provider_headroom_USD": "12.35770405032936363636363636",
+      "complete_authorized_generation_budget_USD": null
+    },
+    {
+      "total_cash_uplift_percent_sensitivity_NOT_POLICY": 20,
+      "nominal_pre_uplift_provider_headroom_USD": "9.32740102002633333333333333",
+      "complete_authorized_generation_budget_USD": null
+    },
+    {
+      "total_cash_uplift_percent_sensitivity_NOT_POLICY": 30,
+      "nominal_pre_uplift_provider_headroom_USD": "6.76329845592376923076923077",
+      "complete_authorized_generation_budget_USD": null
+    }
+  ],
+  "complete_fixed_cash_envelope_USD": null,
+  "owner_reserve_policy": null,
+  "current_account_spend_and_liabilities": null,
+  "pricing_provenance": "Reused dated S4/V6/V7/V8/V11/V12 captures; no public price refresh/current provider assertion; quotes invalidate before enablement",
+  "local_operations": [
+    "sentence counting and membership",
+    "alignment",
+    "captions",
+    "FFmpeg render",
+    "validation"
+  ],
+  "local_generation_allowance_debit": 0,
+  "local_infrastructure_cost_is_not_zero": true,
+  "optional_discovery_operations": "excluded from normal video; disabled until separately bounded/entitled",
+  "credit_formula": null,
+  "Alpha_allowances": null
+}

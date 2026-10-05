@@ -1,0 +1,76 @@
+{
+  "phases": [
+    {
+      "phase": "alignment",
+      "pid": 3748,
+      "exit": 0,
+      "start": 214.85384635,
+      "end": 282.591687607,
+      "wall_seconds": 67.73784138200003,
+      "status": "PASS"
+    },
+    {
+      "phase": "render",
+      "pid": 3766,
+      "exit": 0,
+      "start": 282.592557746,
+      "end": 537.293694473,
+      "wall_seconds": 254.70113705999995,
+      "status": "PASS"
+    },
+    {
+      "phase": "validation",
+      "pid": 5029,
+      "exit": 0,
+      "start": 537.297389069,
+      "end": 555.15069813,
+      "wall_seconds": 17.853309519999925,
+      "status": "PASS"
+    },
+    {
+      "phase": "backup",
+      "pid": 5056,
+      "exit": 0,
+      "start": 555.151983185,
+      "end": 556.672927688,
+      "wall_seconds": 1.5209448370000018,
+      "status": "PASS"
+    },
+    {
+      "phase": "cancellation",
+      "start": 556.756440287,
+      "end": 558.932435191,
+      "wall_seconds": 2.175994945999946,
+      "status": "PASS",
+      "pid": 5057,
+      "start_identity": 1791158672.76,
+      "pgid": 5057,
+      "exit": 255,
+      "cessation_seconds": 0.16222468499995557,
+      "escalated": false,
+      "live_group_members": [],
+      "lock_released_after_confirmed_cessation": true,
+      "incomplete_registered": false,
+      "previous_export_preserved": true,
+      "status_request_during_render_succeeded": true
+    }
+  ],
+  "errors": [],
+  "global_samples": 3453,
+  "probe_count": 1406,
+  "probe_failures": 0,
+  "memory_total": 2053734400,
+  "whole_peak_used_minus_available": 2021830656,
+  "minimum_available": 31903744,
+  "peak_swap": 0,
+  "peak_disk_used": 4172697600,
+  "disk_after": {
+    "total": 50884108288,
+    "used": 3750940672,
+    "free": 47116390400,
+    "percent": 7.4
+  },
+  "provider_generation_calls": 0,
+  "maintenance_serialized": true,
+  "application_complete": true
+}

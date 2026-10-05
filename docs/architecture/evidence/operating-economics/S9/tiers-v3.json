@@ -1,0 +1,169 @@
+{
+  "status": "NOT_YET_PASS",
+  "owner_direction": {
+    "default_script_target_minutes": 5,
+    "one_video_credit_approximate_minutes": 5,
+    "ten_minute_video_credits": 2,
+    "six_minute_video_credits": "1.2",
+    "duration_conversion": "minutes / 5",
+    "plan_purpose": "Future paid subscriptions; not private Alpha allowance amendment",
+    "tiers": [
+      "1 five-minute equivalent/week",
+      "3 five-minute equivalents/week",
+      "1 five-minute equivalent/day"
+    ]
+  },
+  "tier_projections": [
+    {
+      "tier": "one_per_week",
+      "five_minute_equivalents_28_days": 4,
+      "five_minute_equivalents_average_month": "4.333333333333333333333333333",
+      "average_basis": "52 weekly units per illustrative year",
+      "initial_image_output_USD_28_days": "7.5264",
+      "initial_image_output_USD_average_month": "8.153599999999999999999999999",
+      "illustrative_variable_USD_average_month": "9.695900689526475390716118498",
+      "image_plus_12_USD_host_average_month": "20.15360000000000000000000000"
+    },
+    {
+      "tier": "three_per_week",
+      "five_minute_equivalents_28_days": 12,
+      "five_minute_equivalents_average_month": "13",
+      "average_basis": "156 weekly units per illustrative year",
+      "initial_image_output_USD_28_days": "22.5792",
+      "initial_image_output_USD_average_month": "24.4608",
+      "illustrative_variable_USD_average_month": "29.08770206857942617214835550",
+      "image_plus_12_USD_host_average_month": "36.4608"
+    },
+    {
+      "tier": "one_per_day",
+      "five_minute_equivalents_28_days": 28,
+      "five_minute_equivalents_average_month": "30.41666666666666666666666667",
+      "average_basis": "365 daily units per non-leap illustrative year",
+      "initial_image_output_USD_28_days": "52.6848",
+      "initial_image_output_USD_average_month": "57.23200000000000000000000001",
+      "illustrative_variable_USD_average_month": "68.05776445533006764637275486",
+      "image_plus_12_USD_host_average_month": "69.23200000000000000000000001"
+    }
+  ],
+  "cohort_projections": [
+    {
+      "tier": "one_per_week",
+      "creators": 1,
+      "average_month_equivalents": "4.333333333333333333333333333",
+      "initial_image_output_USD": "8.153599999999999999999999999",
+      "shared_12_USD_host_plus_initial_images": "20.15360000000000000000000000",
+      "exceeds_30_from_image_host_alone": false,
+      "illustrative_variable_plus_shared_host_USD": "21.69590068952647539071611850",
+      "proven_full_budget_fit": false
+    },
+    {
+      "tier": "one_per_week",
+      "creators": 3,
+      "average_month_equivalents": "13.00000000000000000000000000",
+      "initial_image_output_USD": "24.46080000000000000000000000",
+      "shared_12_USD_host_plus_initial_images": "36.46080000000000000000000000",
+      "exceeds_30_from_image_host_alone": true,
+      "illustrative_variable_plus_shared_host_USD": "41.08770206857942617214835550",
+      "proven_full_budget_fit": false
+    },
+    {
+      "tier": "one_per_week",
+      "creators": 5,
+      "average_month_equivalents": "21.66666666666666666666666666",
+      "initial_image_output_USD": "40.76799999999999999999999999",
+      "shared_12_USD_host_plus_initial_images": "52.76799999999999999999999999",
+      "exceeds_30_from_image_host_alone": true,
+      "illustrative_variable_plus_shared_host_USD": "60.47950344763237695358059248",
+      "proven_full_budget_fit": false
+    },
+    {
+      "tier": "three_per_week",
+      "creators": 1,
+      "average_month_equivalents": "13",
+      "initial_image_output_USD": "24.4608",
+      "shared_12_USD_host_plus_initial_images": "36.4608",
+      "exceeds_30_from_image_host_alone": true,
+      "illustrative_variable_plus_shared_host_USD": "41.08770206857942617214835550",
+      "proven_full_budget_fit": false
+    },
+    {
+      "tier": "three_per_week",
+      "creators": 3,
+      "average_month_equivalents": "39",
+      "initial_image_output_USD": "73.3824",
+      "shared_12_USD_host_plus_initial_images": "85.3824",
+      "exceeds_30_from_image_host_alone": true,
+      "illustrative_variable_plus_shared_host_USD": "99.26310620573827851644506649",
+      "proven_full_budget_fit": false
+    },
+    {
+      "tier": "three_per_week",
+      "creators": 5,
+      "average_month_equivalents": "65",
+      "initial_image_output_USD": "122.3040",
+      "shared_12_USD_host_plus_initial_images": "134.3040",
+      "exceeds_30_from_image_host_alone": true,
+      "illustrative_variable_plus_shared_host_USD": "157.4385103428971308607417775",
+      "proven_full_budget_fit": false
+    },
+    {
+      "tier": "one_per_day",
+      "creators": 1,
+      "average_month_equivalents": "30.41666666666666666666666667",
+      "initial_image_output_USD": "57.23200000000000000000000001",
+      "shared_12_USD_host_plus_initial_images": "69.23200000000000000000000001",
+      "exceeds_30_from_image_host_alone": true,
+      "illustrative_variable_plus_shared_host_USD": "80.05776445533006764637275486",
+      "proven_full_budget_fit": false
+    },
+    {
+      "tier": "one_per_day",
+      "creators": 3,
+      "average_month_equivalents": "91.25000000000000000000000001",
+      "initial_image_output_USD": "171.6960000000000000000000000",
+      "shared_12_USD_host_plus_initial_images": "183.6960000000000000000000000",
+      "exceeds_30_from_image_host_alone": true,
+      "illustrative_variable_plus_shared_host_USD": "216.1732933659902029391182646",
+      "proven_full_budget_fit": false
+    },
+    {
+      "tier": "one_per_day",
+      "creators": 5,
+      "average_month_equivalents": "152.0833333333333333333333334",
+      "initial_image_output_USD": "286.1600000000000000000000001",
+      "shared_12_USD_host_plus_initial_images": "298.1600000000000000000000001",
+      "exceeds_30_from_image_host_alone": true,
+      "illustrative_variable_plus_shared_host_USD": "352.2888222766503382318637744",
+      "proven_full_budget_fit": false
+    }
+  ],
+  "scene_density_sensitivity_per_five_minutes": [
+    {
+      "images_assumed": 30,
+      "initial_image_output_USD": "1.0080"
+    },
+    {
+      "images_assumed": 56,
+      "initial_image_output_USD": "1.8816"
+    },
+    {
+      "images_assumed": 80,
+      "initial_image_output_USD": "2.6880"
+    }
+  ],
+  "open_product_decisions": [
+    "weekly/daily reset and carryover",
+    "authoritative duration measurement and precision",
+    "charging/reservation point and edits treatment if credit system adopted",
+    "subscription prices and margin target"
+  ],
+  "qualification": "Workload equivalent only; not a monetary exchange rate, subscription price, actual bill, month-reset policy or implemented entitlement. Existing USD liability accounting retained.",
+  "tests": [
+    "10-minute output equivalence",
+    "weekly tier ratios",
+    "shared host charged once",
+    "no unknown full-budget PASS"
+  ],
+  "provider_calls": 0,
+  "production_implementation": false
+}

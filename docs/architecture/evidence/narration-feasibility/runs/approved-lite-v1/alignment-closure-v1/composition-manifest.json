@@ -1,0 +1,39 @@
+{
+  "status": "DERIVED_PENDING_FINAL_SPLICE_LISTENING",
+  "source_call_4": {
+    "path": "../audio/call-04/attempt-04/source.wav",
+    "sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa"
+  },
+  "source_call_5": {
+    "path": "../audio/call-05/attempt-05/source.wav",
+    "sha256": "dd232e22174d51507758290eae48d87e0a66070db714ccb10e151470ec1a9f95"
+  },
+  "scene_20_replacement": {
+    "call_4_source_start_seconds": 112.02,
+    "call_4_source_end_seconds": 119.78,
+    "call_4_source_duration_seconds": 7.76,
+    "call_5_insert_start_seconds": 0.0,
+    "call_5_insert_end_seconds": 7.58,
+    "call_5_insert_duration_seconds": 7.594667,
+    "requested_duration_delta_seconds": -0.18,
+    "derived_full_duration_seconds": 171.337333,
+    "measured_derived_duration_delta_seconds": -0.142667,
+    "join_locations_in_derived_seconds": [112.042667, 119.637333],
+    "silence_pause_treatment": "Preserve source ranges and the Call 5 file boundaries; no added or removed silence.",
+    "processing": "Deterministic PCM WAV trims and stream-copy concatenation only; no crossfade, normalization, time stretch, pitch correction or concealment."
+  },
+  "compact_scene_19_21": {
+    "call_4_prefix_start_seconds": 98.2,
+    "call_4_prefix_end_seconds": 112.02,
+    "call_5_insert_duration_seconds": 8.12,
+    "call_4_suffix_start_seconds": 119.78,
+    "call_4_suffix_end_seconds": 122.76,
+    "resulting_duration_seconds": 24.405333
+  },
+  "composition": [
+    {"scenes": "1-19", "source": "Call 4 validated/partially reviewed ranges"},
+    {"scenes": "20", "source": "Call 5 isolated corrected source"},
+    {"scenes": "21-32", "source": "Call 4 ranges"}
+  ],
+  "boundary_caveat": "Call 4 Scene 19 remains REVIEW_REQUIRED; the Scene 20 start/end ranges and Call 5 Scene 20 mapping are complete according to the local word alignment, but the final splice is not publishable until owner listening confirms the new derived file. FFmpeg stream-copy trims resolve to the nearest PCM frame and the measured durations above are authoritative for this derived file."
+}

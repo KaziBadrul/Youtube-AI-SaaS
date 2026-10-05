@@ -1,0 +1,38 @@
+[
+  {
+    "phase": "alignment",
+    "pid": 3748,
+    "exit": 0,
+    "start": 214.85384635,
+    "end": 282.591687607,
+    "wall_seconds": 67.73784138200003,
+    "status": "PASS"
+  },
+  {
+    "phase": "render",
+    "pid": 3766,
+    "exit": 0,
+    "start": 282.592557746,
+    "end": 537.293694473,
+    "wall_seconds": 254.70113705999995,
+    "status": "PASS"
+  },
+  {
+    "phase": "validation",
+    "pid": 5029,
+    "exit": 0,
+    "start": 537.297389069,
+    "end": 555.15069813,
+    "wall_seconds": 17.853309519999925,
+    "status": "PASS"
+  },
+  {
+    "phase": "backup",
+    "pid": 5056,
+    "exit": 0,
+    "start": 555.151983185,
+    "end": 556.672927688,
+    "wall_seconds": 1.5209448370000018,
+    "status": "PASS"
+  }
+]

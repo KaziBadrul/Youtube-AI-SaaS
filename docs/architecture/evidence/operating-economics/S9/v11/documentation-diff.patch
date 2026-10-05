@@ -1,0 +1,36 @@
+--- docs/README.md beforeV11
++++ docs/README.md currentV11
+@@ -1,4 +1,6 @@
+ # Product and architecture documentation
++
++S9 revision 11, 2026-10-05: **NOT_YET_PASS**. [Final local host-sizing evidence](architecture/evidence/operating-economics/S9/CREDITS-v11.md): whole native Linux guest 2 vCPU / 4 GiB, serialized maintenance, all unchanged workloads/media checks PASS. Minimum available RAM 1.791 GB (41.698%), no swap/OOM or failed status probes: **SAFE_ENOUGH_FOR_ALPHA at this local fixture scope**. ~$24 host class locally resource-qualified; no vendor selection or full economics PASS. Owner requires **no further host-sizing experiments unless failure**; sizing is closed here. $30/credits/allowances unchanged, no production/provider generation/downloads/token preflight/architecture freeze. V1–V10 preserved.
+ 
+ S9 revision 10, 2026-10-05: **NOT_YET_PASS**. [Whole-Linux-guest evidence](architecture/evidence/operating-economics/S9/CREDITS-v10.md): native ARM64 Ubuntu VM, actual 1 vCPU / 2 GiB, normal OS services included, serialized maintenance. All phases/media/cancellation completed, swap/OOM 0, but backup minimum available RAM 31.90 MB (1.486%): **MARGINAL**, ~$12 host class not resource-qualified. ~$24 / 4 GiB remains a candidate pending whole-guest proof; $30 ceiling unchanged. No provider generation, production, host selection, credits/allowances, tokenizer experiment or architecture freeze. Historical V1–V9 preserved.
+ 
+--- docs/COST_MODEL.md beforeV11
++++ docs/COST_MODEL.md currentV11
+@@ -1,4 +1,6 @@
+ # Spending authorization, allowance and reconciliation
++
++S9 revision 11, 2026-10-05: **NOT_YET_PASS**. [Final local host-sizing evidence](architecture/evidence/operating-economics/S9/CREDITS-v11.md): whole native Linux guest 2 vCPU / 4 GiB, serialized maintenance, all unchanged workloads/media checks PASS. Minimum available RAM 1.791 GB (41.698%), no swap/OOM or failed status probes: **SAFE_ENOUGH_FOR_ALPHA at this local fixture scope**. ~$24 host class locally resource-qualified; no vendor selection or full economics PASS. Owner requires **no further host-sizing experiments unless failure**; sizing is closed here. $30/credits/allowances unchanged, no production/provider generation/downloads/token preflight/architecture freeze. V1–V10 preserved.
+ 
+ S9 revision 10, 2026-10-05: **NOT_YET_PASS**. [Whole-Linux-guest evidence](architecture/evidence/operating-economics/S9/CREDITS-v10.md): native ARM64 Ubuntu VM, actual 1 vCPU / 2 GiB, normal OS services included, serialized maintenance. All phases/media/cancellation completed, swap/OOM 0, but backup minimum available RAM 31.90 MB (1.486%): **MARGINAL**, ~$12 host class not resource-qualified. ~$24 / 4 GiB remains a candidate pending whole-guest proof; $30 ceiling unchanged. No provider generation, production, host selection, credits/allowances, tokenizer experiment or architecture freeze. Historical V1–V9 preserved.
+ 
+--- docs/ARCHITECTURE_SPIKES.md beforeV11
++++ docs/ARCHITECTURE_SPIKES.md currentV11
+@@ -1,4 +1,6 @@
+ # Architecture feasibility gates
++
++S9 revision 11, 2026-10-05: **NOT_YET_PASS**. [Final local host-sizing evidence](architecture/evidence/operating-economics/S9/CREDITS-v11.md): whole native Linux guest 2 vCPU / 4 GiB, serialized maintenance, all unchanged workloads/media checks PASS. Minimum available RAM 1.791 GB (41.698%), no swap/OOM or failed status probes: **SAFE_ENOUGH_FOR_ALPHA at this local fixture scope**. ~$24 host class locally resource-qualified; no vendor selection or full economics PASS. Owner requires **no further host-sizing experiments unless failure**; sizing is closed here. $30/credits/allowances unchanged, no production/provider generation/downloads/token preflight/architecture freeze. V1–V10 preserved.
+ 
+ S9 revision 10, 2026-10-05: **NOT_YET_PASS**. [Whole-Linux-guest evidence](architecture/evidence/operating-economics/S9/CREDITS-v10.md): native ARM64 Ubuntu VM, actual 1 vCPU / 2 GiB, normal OS services included, serialized maintenance. All phases/media/cancellation completed, swap/OOM 0, but backup minimum available RAM 31.90 MB (1.486%): **MARGINAL**, ~$12 host class not resource-qualified. ~$24 / 4 GiB remains a candidate pending whole-guest proof; $30 ceiling unchanged. No provider generation, production, host selection, credits/allowances, tokenizer experiment or architecture freeze. Historical V1–V9 preserved.
+ 
+--- docs/architecture/evidence/operating-economics/S9/README.md beforeV11
++++ docs/architecture/evidence/operating-economics/S9/README.md currentV11
+@@ -1,4 +1,6 @@
+ # S9 — operating economics
++
++S9 revision 11, 2026-10-05: **NOT_YET_PASS**. [Final local host-sizing evidence](CREDITS-v11.md): whole native Linux guest 2 vCPU / 4 GiB, serialized maintenance, all unchanged workloads/media checks PASS. Minimum available RAM 1.791 GB (41.698%), no swap/OOM or failed status probes: **SAFE_ENOUGH_FOR_ALPHA at this local fixture scope**. ~$24 host class locally resource-qualified; no vendor selection or full economics PASS. Owner requires **no further host-sizing experiments unless failure**; sizing is closed here. $30/credits/allowances unchanged, no production/provider generation/downloads/token preflight/architecture freeze. V1–V10 preserved.
+ 
+ S9 revision 10, 2026-10-05: **NOT_YET_PASS**. [Whole-Linux-guest evidence](CREDITS-v10.md): native ARM64 Ubuntu VM, actual 1 vCPU / 2 GiB, normal OS services included, serialized maintenance. All phases/media/cancellation completed, swap/OOM 0, but backup minimum available RAM 31.90 MB (1.486%): **MARGINAL**, ~$12 host class not resource-qualified. ~$24 / 4 GiB remains a candidate pending whole-guest proof; $30 ceiling unchanged. No provider generation, production, host selection, credits/allowances, tokenizer experiment or architecture freeze. Historical V1–V9 preserved.
+ 

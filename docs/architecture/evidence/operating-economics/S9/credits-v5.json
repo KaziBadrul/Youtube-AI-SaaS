@@ -1,0 +1,4670 @@
+{
+  "S9": "NOT_YET_PASS",
+  "local_witness_result": "PASS",
+  "counter_version": "s9-local-terminal-punctuation-v1",
+  "rate_provenance": {
+    "file": "docs/architecture/evidence/operating-economics/S9/analysis.json",
+    "sha256": "544baf699375a49e3e0800245327739e73c12b27742f575dd80f2c4c1ae2991a",
+    "expected_image_output_USD_per_image": "0.0336",
+    "conditional_historical_attempt_bound_USD": "0.139264",
+    "bound_scope": "S4 full-serving-cap bound before fees, historical conditional evidence; not refreshed or certified for live execution"
+  },
+  "topic_preliminary": [
+    {
+      "phase": "TOPIC_PRELIMINARY",
+      "predicted_images": 36,
+      "credit_estimate": "0.6",
+      "credit_state": "PRELIMINARY_DURATION_ESTIMATE",
+      "image_output_expected_USD": "1.2096",
+      "image_output_rate": {
+        "model": "gemini-3.1-flash-lite-image",
+        "USD_per_1K_image": ".0336",
+        "source": "Owner-fixed S9 tariff; prior README.md / analysis.json, 2026-10-05"
+      },
+      "complete_expected_USD": null,
+      "unresolved_components": [
+        "research/script real project usage",
+        "factual checking where applicable",
+        "image input/text/thinking",
+        "TTS request usage",
+        "justified retry distribution",
+        "render/compute",
+        "retained storage/backups/egress",
+        "tax/fees/FX"
+      ],
+      "qualification": "Known image-output subtotal only, not complete cost or financial authority"
+    },
+    {
+      "phase": "TOPIC_PRELIMINARY",
+      "predicted_images": 60,
+      "credit_estimate": "1",
+      "credit_state": "PRELIMINARY_DURATION_ESTIMATE",
+      "image_output_expected_USD": "2.0160",
+      "image_output_rate": {
+        "model": "gemini-3.1-flash-lite-image",
+        "USD_per_1K_image": ".0336",
+        "source": "Owner-fixed S9 tariff; prior README.md / analysis.json, 2026-10-05"
+      },
+      "complete_expected_USD": null,
+      "unresolved_components": [
+        "research/script real project usage",
+        "factual checking where applicable",
+        "image input/text/thinking",
+        "TTS request usage",
+        "justified retry distribution",
+        "render/compute",
+        "retained storage/backups/egress",
+        "tax/fees/FX"
+      ],
+      "qualification": "Known image-output subtotal only, not complete cost or financial authority"
+    },
+    {
+      "phase": "TOPIC_PRELIMINARY",
+      "predicted_images": 120,
+      "credit_estimate": "2",
+      "credit_state": "PRELIMINARY_DURATION_ESTIMATE",
+      "image_output_expected_USD": "4.0320",
+      "image_output_rate": {
+        "model": "gemini-3.1-flash-lite-image",
+        "USD_per_1K_image": ".0336",
+        "source": "Owner-fixed S9 tariff; prior README.md / analysis.json, 2026-10-05"
+      },
+      "complete_expected_USD": null,
+      "unresolved_components": [
+        "research/script real project usage",
+        "factual checking where applicable",
+        "image input/text/thinking",
+        "TTS request usage",
+        "justified retry distribution",
+        "render/compute",
+        "retained storage/backups/egress",
+        "tax/fees/FX"
+      ],
+      "qualification": "Known image-output subtotal only, not complete cost or financial authority"
+    }
+  ],
+  "generated_47": {
+    "prior_preliminary_estimate": {
+      "phase": "TOPIC_PRELIMINARY",
+      "predicted_images": 60,
+      "credit_estimate": "1",
+      "credit_state": "PRELIMINARY_DURATION_ESTIMATE",
+      "image_output_expected_USD": "2.0160",
+      "image_output_rate": {
+        "model": "gemini-3.1-flash-lite-image",
+        "USD_per_1K_image": ".0336",
+        "source": "Owner-fixed S9 tariff; prior README.md / analysis.json, 2026-10-05"
+      },
+      "complete_expected_USD": null,
+      "unresolved_components": [
+        "research/script real project usage",
+        "factual checking where applicable",
+        "image input/text/thinking",
+        "TTS request usage",
+        "justified retry distribution",
+        "render/compute",
+        "retained storage/backups/egress",
+        "tax/fees/FX"
+      ],
+      "qualification": "Known image-output subtotal only, not complete cost or financial authority"
+    },
+    "script_scope": {
+      "counter_version": "s9-local-terminal-punctuation-v1",
+      "script_sha256": "027e5857736fd97927e41ac72f4525c2e00eef116d54dfc35c41ef4969a27e13",
+      "sentence_count": 47,
+      "predicted_image_count": 47,
+      "spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "text": "Sentence number 1 explains a simple idea."
+        },
+        {
+          "start": 42,
+          "end": 83,
+          "text": "Sentence number 2 explains a simple idea."
+        },
+        {
+          "start": 84,
+          "end": 125,
+          "text": "Sentence number 3 explains a simple idea."
+        },
+        {
+          "start": 126,
+          "end": 167,
+          "text": "Sentence number 4 explains a simple idea."
+        },
+        {
+          "start": 168,
+          "end": 209,
+          "text": "Sentence number 5 explains a simple idea."
+        },
+        {
+          "start": 210,
+          "end": 251,
+          "text": "Sentence number 6 explains a simple idea."
+        },
+        {
+          "start": 252,
+          "end": 293,
+          "text": "Sentence number 7 explains a simple idea."
+        },
+        {
+          "start": 294,
+          "end": 335,
+          "text": "Sentence number 8 explains a simple idea."
+        },
+        {
+          "start": 336,
+          "end": 377,
+          "text": "Sentence number 9 explains a simple idea."
+        },
+        {
+          "start": 378,
+          "end": 420,
+          "text": "Sentence number 10 explains a simple idea."
+        },
+        {
+          "start": 421,
+          "end": 463,
+          "text": "Sentence number 11 explains a simple idea."
+        },
+        {
+          "start": 464,
+          "end": 506,
+          "text": "Sentence number 12 explains a simple idea."
+        },
+        {
+          "start": 507,
+          "end": 549,
+          "text": "Sentence number 13 explains a simple idea."
+        },
+        {
+          "start": 550,
+          "end": 592,
+          "text": "Sentence number 14 explains a simple idea."
+        },
+        {
+          "start": 593,
+          "end": 635,
+          "text": "Sentence number 15 explains a simple idea."
+        },
+        {
+          "start": 636,
+          "end": 678,
+          "text": "Sentence number 16 explains a simple idea."
+        },
+        {
+          "start": 679,
+          "end": 721,
+          "text": "Sentence number 17 explains a simple idea."
+        },
+        {
+          "start": 722,
+          "end": 764,
+          "text": "Sentence number 18 explains a simple idea."
+        },
+        {
+          "start": 765,
+          "end": 807,
+          "text": "Sentence number 19 explains a simple idea."
+        },
+        {
+          "start": 808,
+          "end": 850,
+          "text": "Sentence number 20 explains a simple idea."
+        },
+        {
+          "start": 851,
+          "end": 893,
+          "text": "Sentence number 21 explains a simple idea."
+        },
+        {
+          "start": 894,
+          "end": 936,
+          "text": "Sentence number 22 explains a simple idea."
+        },
+        {
+          "start": 937,
+          "end": 979,
+          "text": "Sentence number 23 explains a simple idea."
+        },
+        {
+          "start": 980,
+          "end": 1022,
+          "text": "Sentence number 24 explains a simple idea."
+        },
+        {
+          "start": 1023,
+          "end": 1065,
+          "text": "Sentence number 25 explains a simple idea."
+        },
+        {
+          "start": 1066,
+          "end": 1108,
+          "text": "Sentence number 26 explains a simple idea."
+        },
+        {
+          "start": 1109,
+          "end": 1151,
+          "text": "Sentence number 27 explains a simple idea."
+        },
+        {
+          "start": 1152,
+          "end": 1194,
+          "text": "Sentence number 28 explains a simple idea."
+        },
+        {
+          "start": 1195,
+          "end": 1237,
+          "text": "Sentence number 29 explains a simple idea."
+        },
+        {
+          "start": 1238,
+          "end": 1280,
+          "text": "Sentence number 30 explains a simple idea."
+        },
+        {
+          "start": 1281,
+          "end": 1323,
+          "text": "Sentence number 31 explains a simple idea."
+        },
+        {
+          "start": 1324,
+          "end": 1366,
+          "text": "Sentence number 32 explains a simple idea."
+        },
+        {
+          "start": 1367,
+          "end": 1409,
+          "text": "Sentence number 33 explains a simple idea."
+        },
+        {
+          "start": 1410,
+          "end": 1452,
+          "text": "Sentence number 34 explains a simple idea."
+        },
+        {
+          "start": 1453,
+          "end": 1495,
+          "text": "Sentence number 35 explains a simple idea."
+        },
+        {
+          "start": 1496,
+          "end": 1538,
+          "text": "Sentence number 36 explains a simple idea."
+        },
+        {
+          "start": 1539,
+          "end": 1581,
+          "text": "Sentence number 37 explains a simple idea."
+        },
+        {
+          "start": 1582,
+          "end": 1624,
+          "text": "Sentence number 38 explains a simple idea."
+        },
+        {
+          "start": 1625,
+          "end": 1667,
+          "text": "Sentence number 39 explains a simple idea."
+        },
+        {
+          "start": 1668,
+          "end": 1710,
+          "text": "Sentence number 40 explains a simple idea."
+        },
+        {
+          "start": 1711,
+          "end": 1753,
+          "text": "Sentence number 41 explains a simple idea."
+        },
+        {
+          "start": 1754,
+          "end": 1796,
+          "text": "Sentence number 42 explains a simple idea."
+        },
+        {
+          "start": 1797,
+          "end": 1839,
+          "text": "Sentence number 43 explains a simple idea."
+        },
+        {
+          "start": 1840,
+          "end": 1882,
+          "text": "Sentence number 44 explains a simple idea."
+        },
+        {
+          "start": 1883,
+          "end": 1925,
+          "text": "Sentence number 45 explains a simple idea."
+        },
+        {
+          "start": 1926,
+          "end": 1968,
+          "text": "Sentence number 46 explains a simple idea."
+        },
+        {
+          "start": 1969,
+          "end": 2011,
+          "text": "Sentence number 47 explains a simple idea."
+        }
+      ],
+      "review_flags": [],
+      "segmentation_status": "LOCAL_FIXTURE_VALID"
+    },
+    "consumed": {
+      "events": [
+        {
+          "attempt_id": "fixture-research-1",
+          "kind": "valid_research",
+          "USD": ".008",
+          "credits": null
+        },
+        {
+          "attempt_id": "fixture-script-1",
+          "kind": "valid_script",
+          "USD": ".012",
+          "credits": null
+        }
+      ],
+      "recorded_USD": "0.020",
+      "known_consumed_credits": "0",
+      "total_consumed_credits": null,
+      "pending_credit_policy_attempts": [
+        "fixture-research-1",
+        "fixture-script-1"
+      ],
+      "qualification": "All event amounts are synthetic accounting fixtures, not real spend/rates"
+    },
+    "remaining_estimate": {
+      "phase": "SCRIPT_KNOWN",
+      "predicted_images": 47,
+      "credit_estimate": null,
+      "credit_state": "UNRESOLVED_POST_SCRIPT_POLICY",
+      "image_output_expected_USD": "1.5792",
+      "image_output_rate": {
+        "model": "gemini-3.1-flash-lite-image",
+        "USD_per_1K_image": ".0336",
+        "source": "Owner-fixed S9 tariff; prior README.md / analysis.json, 2026-10-05"
+      },
+      "complete_expected_USD": null,
+      "unresolved_components": [
+        "research/script real project usage",
+        "factual checking where applicable",
+        "image input/text/thinking",
+        "TTS request usage",
+        "justified retry distribution",
+        "render/compute",
+        "retained storage/backups/egress",
+        "tax/fees/FX"
+      ],
+      "qualification": "Known image-output subtotal only, not complete cost or financial authority"
+    },
+    "projected_total": {
+      "known_recorded_plus_image_output_USD": "1.5992",
+      "complete_expected_USD": null,
+      "credits": null
+    },
+    "old_estimate_is_not_added_to_total": true,
+    "provider_calls": 0
+  },
+  "pasted_7": {
+    "prior_preliminary_estimate": {
+      "phase": "PASTED_SCRIPT_NO_IMAGE_HEURISTIC"
+    },
+    "script_scope": {
+      "counter_version": "s9-local-terminal-punctuation-v1",
+      "script_sha256": "644a10d1f5eb0394bd54867e0533c099d2c7b1acdfbc2a2ee162407e492d1422",
+      "sentence_count": 7,
+      "predicted_image_count": 7,
+      "spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "text": "Sentence number 1 explains a simple idea."
+        },
+        {
+          "start": 42,
+          "end": 83,
+          "text": "Sentence number 2 explains a simple idea."
+        },
+        {
+          "start": 84,
+          "end": 125,
+          "text": "Sentence number 3 explains a simple idea."
+        },
+        {
+          "start": 126,
+          "end": 167,
+          "text": "Sentence number 4 explains a simple idea."
+        },
+        {
+          "start": 168,
+          "end": 209,
+          "text": "Sentence number 5 explains a simple idea."
+        },
+        {
+          "start": 210,
+          "end": 251,
+          "text": "Sentence number 6 explains a simple idea."
+        },
+        {
+          "start": 252,
+          "end": 293,
+          "text": "Sentence number 7 explains a simple idea."
+        }
+      ],
+      "review_flags": [],
+      "segmentation_status": "LOCAL_FIXTURE_VALID"
+    },
+    "consumed": {
+      "events": [],
+      "recorded_USD": "0",
+      "known_consumed_credits": "0",
+      "total_consumed_credits": "0",
+      "pending_credit_policy_attempts": [],
+      "qualification": "All event amounts are synthetic accounting fixtures, not real spend/rates"
+    },
+    "remaining_estimate": {
+      "phase": "SCRIPT_KNOWN",
+      "predicted_images": 7,
+      "credit_estimate": null,
+      "credit_state": "UNRESOLVED_POST_SCRIPT_POLICY",
+      "image_output_expected_USD": "0.2352",
+      "image_output_rate": {
+        "model": "gemini-3.1-flash-lite-image",
+        "USD_per_1K_image": ".0336",
+        "source": "Owner-fixed S9 tariff; prior README.md / analysis.json, 2026-10-05"
+      },
+      "complete_expected_USD": null,
+      "unresolved_components": [
+        "research/script real project usage",
+        "factual checking where applicable",
+        "image input/text/thinking",
+        "TTS request usage",
+        "justified retry distribution",
+        "render/compute",
+        "retained storage/backups/egress",
+        "tax/fees/FX"
+      ],
+      "qualification": "Known image-output subtotal only, not complete cost or financial authority"
+    },
+    "projected_total": {
+      "known_recorded_plus_image_output_USD": "0.2352",
+      "complete_expected_USD": null,
+      "credits": null
+    },
+    "old_estimate_is_not_added_to_total": true,
+    "provider_calls": 0
+  },
+  "future_tier_topic_heuristic_only": [
+    {
+      "tier": "one_per_week",
+      "average_month_images": "260",
+      "image_output_USD_average_month": "8.7360"
+    },
+    {
+      "tier": "three_per_week",
+      "average_month_images": "780",
+      "image_output_USD_average_month": "26.2080"
+    },
+    {
+      "tier": "one_per_day",
+      "average_month_images": "1825",
+      "image_output_USD_average_month": "61.3200"
+    }
+  ],
+  "generated_214": {
+    "prior_preliminary_estimate": {
+      "phase": "TOPIC_PRELIMINARY",
+      "predicted_images": 60,
+      "credit_estimate": "1",
+      "credit_state": "PRELIMINARY_DURATION_ESTIMATE",
+      "image_output_expected_USD": "2.0160",
+      "image_output_rate": {
+        "model": "gemini-3.1-flash-lite-image",
+        "USD_per_1K_image": ".0336",
+        "source": "Owner-fixed S9 tariff; prior README.md / analysis.json, 2026-10-05"
+      },
+      "complete_expected_USD": null,
+      "unresolved_components": [
+        "research/script real project usage",
+        "factual checking where applicable",
+        "image input/text/thinking",
+        "TTS request usage",
+        "justified retry distribution",
+        "render/compute",
+        "retained storage/backups/egress",
+        "tax/fees/FX"
+      ],
+      "qualification": "Known image-output subtotal only, not complete cost or financial authority"
+    },
+    "script_scope": {
+      "counter_version": "s9-local-terminal-punctuation-v1",
+      "script_sha256": "2e89e95ba1255329ae1b4c4655e34180630f07cfa26c2e4e334d705e7e80377b",
+      "sentence_count": 214,
+      "predicted_image_count": 214,
+      "spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "text": "Sentence number 1 explains a simple idea."
+        },
+        {
+          "start": 42,
+          "end": 83,
+          "text": "Sentence number 2 explains a simple idea."
+        },
+        {
+          "start": 84,
+          "end": 125,
+          "text": "Sentence number 3 explains a simple idea."
+        },
+        {
+          "start": 126,
+          "end": 167,
+          "text": "Sentence number 4 explains a simple idea."
+        },
+        {
+          "start": 168,
+          "end": 209,
+          "text": "Sentence number 5 explains a simple idea."
+        },
+        {
+          "start": 210,
+          "end": 251,
+          "text": "Sentence number 6 explains a simple idea."
+        },
+        {
+          "start": 252,
+          "end": 293,
+          "text": "Sentence number 7 explains a simple idea."
+        },
+        {
+          "start": 294,
+          "end": 335,
+          "text": "Sentence number 8 explains a simple idea."
+        },
+        {
+          "start": 336,
+          "end": 377,
+          "text": "Sentence number 9 explains a simple idea."
+        },
+        {
+          "start": 378,
+          "end": 420,
+          "text": "Sentence number 10 explains a simple idea."
+        },
+        {
+          "start": 421,
+          "end": 463,
+          "text": "Sentence number 11 explains a simple idea."
+        },
+        {
+          "start": 464,
+          "end": 506,
+          "text": "Sentence number 12 explains a simple idea."
+        },
+        {
+          "start": 507,
+          "end": 549,
+          "text": "Sentence number 13 explains a simple idea."
+        },
+        {
+          "start": 550,
+          "end": 592,
+          "text": "Sentence number 14 explains a simple idea."
+        },
+        {
+          "start": 593,
+          "end": 635,
+          "text": "Sentence number 15 explains a simple idea."
+        },
+        {
+          "start": 636,
+          "end": 678,
+          "text": "Sentence number 16 explains a simple idea."
+        },
+        {
+          "start": 679,
+          "end": 721,
+          "text": "Sentence number 17 explains a simple idea."
+        },
+        {
+          "start": 722,
+          "end": 764,
+          "text": "Sentence number 18 explains a simple idea."
+        },
+        {
+          "start": 765,
+          "end": 807,
+          "text": "Sentence number 19 explains a simple idea."
+        },
+        {
+          "start": 808,
+          "end": 850,
+          "text": "Sentence number 20 explains a simple idea."
+        },
+        {
+          "start": 851,
+          "end": 893,
+          "text": "Sentence number 21 explains a simple idea."
+        },
+        {
+          "start": 894,
+          "end": 936,
+          "text": "Sentence number 22 explains a simple idea."
+        },
+        {
+          "start": 937,
+          "end": 979,
+          "text": "Sentence number 23 explains a simple idea."
+        },
+        {
+          "start": 980,
+          "end": 1022,
+          "text": "Sentence number 24 explains a simple idea."
+        },
+        {
+          "start": 1023,
+          "end": 1065,
+          "text": "Sentence number 25 explains a simple idea."
+        },
+        {
+          "start": 1066,
+          "end": 1108,
+          "text": "Sentence number 26 explains a simple idea."
+        },
+        {
+          "start": 1109,
+          "end": 1151,
+          "text": "Sentence number 27 explains a simple idea."
+        },
+        {
+          "start": 1152,
+          "end": 1194,
+          "text": "Sentence number 28 explains a simple idea."
+        },
+        {
+          "start": 1195,
+          "end": 1237,
+          "text": "Sentence number 29 explains a simple idea."
+        },
+        {
+          "start": 1238,
+          "end": 1280,
+          "text": "Sentence number 30 explains a simple idea."
+        },
+        {
+          "start": 1281,
+          "end": 1323,
+          "text": "Sentence number 31 explains a simple idea."
+        },
+        {
+          "start": 1324,
+          "end": 1366,
+          "text": "Sentence number 32 explains a simple idea."
+        },
+        {
+          "start": 1367,
+          "end": 1409,
+          "text": "Sentence number 33 explains a simple idea."
+        },
+        {
+          "start": 1410,
+          "end": 1452,
+          "text": "Sentence number 34 explains a simple idea."
+        },
+        {
+          "start": 1453,
+          "end": 1495,
+          "text": "Sentence number 35 explains a simple idea."
+        },
+        {
+          "start": 1496,
+          "end": 1538,
+          "text": "Sentence number 36 explains a simple idea."
+        },
+        {
+          "start": 1539,
+          "end": 1581,
+          "text": "Sentence number 37 explains a simple idea."
+        },
+        {
+          "start": 1582,
+          "end": 1624,
+          "text": "Sentence number 38 explains a simple idea."
+        },
+        {
+          "start": 1625,
+          "end": 1667,
+          "text": "Sentence number 39 explains a simple idea."
+        },
+        {
+          "start": 1668,
+          "end": 1710,
+          "text": "Sentence number 40 explains a simple idea."
+        },
+        {
+          "start": 1711,
+          "end": 1753,
+          "text": "Sentence number 41 explains a simple idea."
+        },
+        {
+          "start": 1754,
+          "end": 1796,
+          "text": "Sentence number 42 explains a simple idea."
+        },
+        {
+          "start": 1797,
+          "end": 1839,
+          "text": "Sentence number 43 explains a simple idea."
+        },
+        {
+          "start": 1840,
+          "end": 1882,
+          "text": "Sentence number 44 explains a simple idea."
+        },
+        {
+          "start": 1883,
+          "end": 1925,
+          "text": "Sentence number 45 explains a simple idea."
+        },
+        {
+          "start": 1926,
+          "end": 1968,
+          "text": "Sentence number 46 explains a simple idea."
+        },
+        {
+          "start": 1969,
+          "end": 2011,
+          "text": "Sentence number 47 explains a simple idea."
+        },
+        {
+          "start": 2012,
+          "end": 2054,
+          "text": "Sentence number 48 explains a simple idea."
+        },
+        {
+          "start": 2055,
+          "end": 2097,
+          "text": "Sentence number 49 explains a simple idea."
+        },
+        {
+          "start": 2098,
+          "end": 2140,
+          "text": "Sentence number 50 explains a simple idea."
+        },
+        {
+          "start": 2141,
+          "end": 2183,
+          "text": "Sentence number 51 explains a simple idea."
+        },
+        {
+          "start": 2184,
+          "end": 2226,
+          "text": "Sentence number 52 explains a simple idea."
+        },
+        {
+          "start": 2227,
+          "end": 2269,
+          "text": "Sentence number 53 explains a simple idea."
+        },
+        {
+          "start": 2270,
+          "end": 2312,
+          "text": "Sentence number 54 explains a simple idea."
+        },
+        {
+          "start": 2313,
+          "end": 2355,
+          "text": "Sentence number 55 explains a simple idea."
+        },
+        {
+          "start": 2356,
+          "end": 2398,
+          "text": "Sentence number 56 explains a simple idea."
+        },
+        {
+          "start": 2399,
+          "end": 2441,
+          "text": "Sentence number 57 explains a simple idea."
+        },
+        {
+          "start": 2442,
+          "end": 2484,
+          "text": "Sentence number 58 explains a simple idea."
+        },
+        {
+          "start": 2485,
+          "end": 2527,
+          "text": "Sentence number 59 explains a simple idea."
+        },
+        {
+          "start": 2528,
+          "end": 2570,
+          "text": "Sentence number 60 explains a simple idea."
+        },
+        {
+          "start": 2571,
+          "end": 2613,
+          "text": "Sentence number 61 explains a simple idea."
+        },
+        {
+          "start": 2614,
+          "end": 2656,
+          "text": "Sentence number 62 explains a simple idea."
+        },
+        {
+          "start": 2657,
+          "end": 2699,
+          "text": "Sentence number 63 explains a simple idea."
+        },
+        {
+          "start": 2700,
+          "end": 2742,
+          "text": "Sentence number 64 explains a simple idea."
+        },
+        {
+          "start": 2743,
+          "end": 2785,
+          "text": "Sentence number 65 explains a simple idea."
+        },
+        {
+          "start": 2786,
+          "end": 2828,
+          "text": "Sentence number 66 explains a simple idea."
+        },
+        {
+          "start": 2829,
+          "end": 2871,
+          "text": "Sentence number 67 explains a simple idea."
+        },
+        {
+          "start": 2872,
+          "end": 2914,
+          "text": "Sentence number 68 explains a simple idea."
+        },
+        {
+          "start": 2915,
+          "end": 2957,
+          "text": "Sentence number 69 explains a simple idea."
+        },
+        {
+          "start": 2958,
+          "end": 3000,
+          "text": "Sentence number 70 explains a simple idea."
+        },
+        {
+          "start": 3001,
+          "end": 3043,
+          "text": "Sentence number 71 explains a simple idea."
+        },
+        {
+          "start": 3044,
+          "end": 3086,
+          "text": "Sentence number 72 explains a simple idea."
+        },
+        {
+          "start": 3087,
+          "end": 3129,
+          "text": "Sentence number 73 explains a simple idea."
+        },
+        {
+          "start": 3130,
+          "end": 3172,
+          "text": "Sentence number 74 explains a simple idea."
+        },
+        {
+          "start": 3173,
+          "end": 3215,
+          "text": "Sentence number 75 explains a simple idea."
+        },
+        {
+          "start": 3216,
+          "end": 3258,
+          "text": "Sentence number 76 explains a simple idea."
+        },
+        {
+          "start": 3259,
+          "end": 3301,
+          "text": "Sentence number 77 explains a simple idea."
+        },
+        {
+          "start": 3302,
+          "end": 3344,
+          "text": "Sentence number 78 explains a simple idea."
+        },
+        {
+          "start": 3345,
+          "end": 3387,
+          "text": "Sentence number 79 explains a simple idea."
+        },
+        {
+          "start": 3388,
+          "end": 3430,
+          "text": "Sentence number 80 explains a simple idea."
+        },
+        {
+          "start": 3431,
+          "end": 3473,
+          "text": "Sentence number 81 explains a simple idea."
+        },
+        {
+          "start": 3474,
+          "end": 3516,
+          "text": "Sentence number 82 explains a simple idea."
+        },
+        {
+          "start": 3517,
+          "end": 3559,
+          "text": "Sentence number 83 explains a simple idea."
+        },
+        {
+          "start": 3560,
+          "end": 3602,
+          "text": "Sentence number 84 explains a simple idea."
+        },
+        {
+          "start": 3603,
+          "end": 3645,
+          "text": "Sentence number 85 explains a simple idea."
+        },
+        {
+          "start": 3646,
+          "end": 3688,
+          "text": "Sentence number 86 explains a simple idea."
+        },
+        {
+          "start": 3689,
+          "end": 3731,
+          "text": "Sentence number 87 explains a simple idea."
+        },
+        {
+          "start": 3732,
+          "end": 3774,
+          "text": "Sentence number 88 explains a simple idea."
+        },
+        {
+          "start": 3775,
+          "end": 3817,
+          "text": "Sentence number 89 explains a simple idea."
+        },
+        {
+          "start": 3818,
+          "end": 3860,
+          "text": "Sentence number 90 explains a simple idea."
+        },
+        {
+          "start": 3861,
+          "end": 3903,
+          "text": "Sentence number 91 explains a simple idea."
+        },
+        {
+          "start": 3904,
+          "end": 3946,
+          "text": "Sentence number 92 explains a simple idea."
+        },
+        {
+          "start": 3947,
+          "end": 3989,
+          "text": "Sentence number 93 explains a simple idea."
+        },
+        {
+          "start": 3990,
+          "end": 4032,
+          "text": "Sentence number 94 explains a simple idea."
+        },
+        {
+          "start": 4033,
+          "end": 4075,
+          "text": "Sentence number 95 explains a simple idea."
+        },
+        {
+          "start": 4076,
+          "end": 4118,
+          "text": "Sentence number 96 explains a simple idea."
+        },
+        {
+          "start": 4119,
+          "end": 4161,
+          "text": "Sentence number 97 explains a simple idea."
+        },
+        {
+          "start": 4162,
+          "end": 4204,
+          "text": "Sentence number 98 explains a simple idea."
+        },
+        {
+          "start": 4205,
+          "end": 4247,
+          "text": "Sentence number 99 explains a simple idea."
+        },
+        {
+          "start": 4248,
+          "end": 4291,
+          "text": "Sentence number 100 explains a simple idea."
+        },
+        {
+          "start": 4292,
+          "end": 4335,
+          "text": "Sentence number 101 explains a simple idea."
+        },
+        {
+          "start": 4336,
+          "end": 4379,
+          "text": "Sentence number 102 explains a simple idea."
+        },
+        {
+          "start": 4380,
+          "end": 4423,
+          "text": "Sentence number 103 explains a simple idea."
+        },
+        {
+          "start": 4424,
+          "end": 4467,
+          "text": "Sentence number 104 explains a simple idea."
+        },
+        {
+          "start": 4468,
+          "end": 4511,
+          "text": "Sentence number 105 explains a simple idea."
+        },
+        {
+          "start": 4512,
+          "end": 4555,
+          "text": "Sentence number 106 explains a simple idea."
+        },
+        {
+          "start": 4556,
+          "end": 4599,
+          "text": "Sentence number 107 explains a simple idea."
+        },
+        {
+          "start": 4600,
+          "end": 4643,
+          "text": "Sentence number 108 explains a simple idea."
+        },
+        {
+          "start": 4644,
+          "end": 4687,
+          "text": "Sentence number 109 explains a simple idea."
+        },
+        {
+          "start": 4688,
+          "end": 4731,
+          "text": "Sentence number 110 explains a simple idea."
+        },
+        {
+          "start": 4732,
+          "end": 4775,
+          "text": "Sentence number 111 explains a simple idea."
+        },
+        {
+          "start": 4776,
+          "end": 4819,
+          "text": "Sentence number 112 explains a simple idea."
+        },
+        {
+          "start": 4820,
+          "end": 4863,
+          "text": "Sentence number 113 explains a simple idea."
+        },
+        {
+          "start": 4864,
+          "end": 4907,
+          "text": "Sentence number 114 explains a simple idea."
+        },
+        {
+          "start": 4908,
+          "end": 4951,
+          "text": "Sentence number 115 explains a simple idea."
+        },
+        {
+          "start": 4952,
+          "end": 4995,
+          "text": "Sentence number 116 explains a simple idea."
+        },
+        {
+          "start": 4996,
+          "end": 5039,
+          "text": "Sentence number 117 explains a simple idea."
+        },
+        {
+          "start": 5040,
+          "end": 5083,
+          "text": "Sentence number 118 explains a simple idea."
+        },
+        {
+          "start": 5084,
+          "end": 5127,
+          "text": "Sentence number 119 explains a simple idea."
+        },
+        {
+          "start": 5128,
+          "end": 5171,
+          "text": "Sentence number 120 explains a simple idea."
+        },
+        {
+          "start": 5172,
+          "end": 5215,
+          "text": "Sentence number 121 explains a simple idea."
+        },
+        {
+          "start": 5216,
+          "end": 5259,
+          "text": "Sentence number 122 explains a simple idea."
+        },
+        {
+          "start": 5260,
+          "end": 5303,
+          "text": "Sentence number 123 explains a simple idea."
+        },
+        {
+          "start": 5304,
+          "end": 5347,
+          "text": "Sentence number 124 explains a simple idea."
+        },
+        {
+          "start": 5348,
+          "end": 5391,
+          "text": "Sentence number 125 explains a simple idea."
+        },
+        {
+          "start": 5392,
+          "end": 5435,
+          "text": "Sentence number 126 explains a simple idea."
+        },
+        {
+          "start": 5436,
+          "end": 5479,
+          "text": "Sentence number 127 explains a simple idea."
+        },
+        {
+          "start": 5480,
+          "end": 5523,
+          "text": "Sentence number 128 explains a simple idea."
+        },
+        {
+          "start": 5524,
+          "end": 5567,
+          "text": "Sentence number 129 explains a simple idea."
+        },
+        {
+          "start": 5568,
+          "end": 5611,
+          "text": "Sentence number 130 explains a simple idea."
+        },
+        {
+          "start": 5612,
+          "end": 5655,
+          "text": "Sentence number 131 explains a simple idea."
+        },
+        {
+          "start": 5656,
+          "end": 5699,
+          "text": "Sentence number 132 explains a simple idea."
+        },
+        {
+          "start": 5700,
+          "end": 5743,
+          "text": "Sentence number 133 explains a simple idea."
+        },
+        {
+          "start": 5744,
+          "end": 5787,
+          "text": "Sentence number 134 explains a simple idea."
+        },
+        {
+          "start": 5788,
+          "end": 5831,
+          "text": "Sentence number 135 explains a simple idea."
+        },
+        {
+          "start": 5832,
+          "end": 5875,
+          "text": "Sentence number 136 explains a simple idea."
+        },
+        {
+          "start": 5876,
+          "end": 5919,
+          "text": "Sentence number 137 explains a simple idea."
+        },
+        {
+          "start": 5920,
+          "end": 5963,
+          "text": "Sentence number 138 explains a simple idea."
+        },
+        {
+          "start": 5964,
+          "end": 6007,
+          "text": "Sentence number 139 explains a simple idea."
+        },
+        {
+          "start": 6008,
+          "end": 6051,
+          "text": "Sentence number 140 explains a simple idea."
+        },
+        {
+          "start": 6052,
+          "end": 6095,
+          "text": "Sentence number 141 explains a simple idea."
+        },
+        {
+          "start": 6096,
+          "end": 6139,
+          "text": "Sentence number 142 explains a simple idea."
+        },
+        {
+          "start": 6140,
+          "end": 6183,
+          "text": "Sentence number 143 explains a simple idea."
+        },
+        {
+          "start": 6184,
+          "end": 6227,
+          "text": "Sentence number 144 explains a simple idea."
+        },
+        {
+          "start": 6228,
+          "end": 6271,
+          "text": "Sentence number 145 explains a simple idea."
+        },
+        {
+          "start": 6272,
+          "end": 6315,
+          "text": "Sentence number 146 explains a simple idea."
+        },
+        {
+          "start": 6316,
+          "end": 6359,
+          "text": "Sentence number 147 explains a simple idea."
+        },
+        {
+          "start": 6360,
+          "end": 6403,
+          "text": "Sentence number 148 explains a simple idea."
+        },
+        {
+          "start": 6404,
+          "end": 6447,
+          "text": "Sentence number 149 explains a simple idea."
+        },
+        {
+          "start": 6448,
+          "end": 6491,
+          "text": "Sentence number 150 explains a simple idea."
+        },
+        {
+          "start": 6492,
+          "end": 6535,
+          "text": "Sentence number 151 explains a simple idea."
+        },
+        {
+          "start": 6536,
+          "end": 6579,
+          "text": "Sentence number 152 explains a simple idea."
+        },
+        {
+          "start": 6580,
+          "end": 6623,
+          "text": "Sentence number 153 explains a simple idea."
+        },
+        {
+          "start": 6624,
+          "end": 6667,
+          "text": "Sentence number 154 explains a simple idea."
+        },
+        {
+          "start": 6668,
+          "end": 6711,
+          "text": "Sentence number 155 explains a simple idea."
+        },
+        {
+          "start": 6712,
+          "end": 6755,
+          "text": "Sentence number 156 explains a simple idea."
+        },
+        {
+          "start": 6756,
+          "end": 6799,
+          "text": "Sentence number 157 explains a simple idea."
+        },
+        {
+          "start": 6800,
+          "end": 6843,
+          "text": "Sentence number 158 explains a simple idea."
+        },
+        {
+          "start": 6844,
+          "end": 6887,
+          "text": "Sentence number 159 explains a simple idea."
+        },
+        {
+          "start": 6888,
+          "end": 6931,
+          "text": "Sentence number 160 explains a simple idea."
+        },
+        {
+          "start": 6932,
+          "end": 6975,
+          "text": "Sentence number 161 explains a simple idea."
+        },
+        {
+          "start": 6976,
+          "end": 7019,
+          "text": "Sentence number 162 explains a simple idea."
+        },
+        {
+          "start": 7020,
+          "end": 7063,
+          "text": "Sentence number 163 explains a simple idea."
+        },
+        {
+          "start": 7064,
+          "end": 7107,
+          "text": "Sentence number 164 explains a simple idea."
+        },
+        {
+          "start": 7108,
+          "end": 7151,
+          "text": "Sentence number 165 explains a simple idea."
+        },
+        {
+          "start": 7152,
+          "end": 7195,
+          "text": "Sentence number 166 explains a simple idea."
+        },
+        {
+          "start": 7196,
+          "end": 7239,
+          "text": "Sentence number 167 explains a simple idea."
+        },
+        {
+          "start": 7240,
+          "end": 7283,
+          "text": "Sentence number 168 explains a simple idea."
+        },
+        {
+          "start": 7284,
+          "end": 7327,
+          "text": "Sentence number 169 explains a simple idea."
+        },
+        {
+          "start": 7328,
+          "end": 7371,
+          "text": "Sentence number 170 explains a simple idea."
+        },
+        {
+          "start": 7372,
+          "end": 7415,
+          "text": "Sentence number 171 explains a simple idea."
+        },
+        {
+          "start": 7416,
+          "end": 7459,
+          "text": "Sentence number 172 explains a simple idea."
+        },
+        {
+          "start": 7460,
+          "end": 7503,
+          "text": "Sentence number 173 explains a simple idea."
+        },
+        {
+          "start": 7504,
+          "end": 7547,
+          "text": "Sentence number 174 explains a simple idea."
+        },
+        {
+          "start": 7548,
+          "end": 7591,
+          "text": "Sentence number 175 explains a simple idea."
+        },
+        {
+          "start": 7592,
+          "end": 7635,
+          "text": "Sentence number 176 explains a simple idea."
+        },
+        {
+          "start": 7636,
+          "end": 7679,
+          "text": "Sentence number 177 explains a simple idea."
+        },
+        {
+          "start": 7680,
+          "end": 7723,
+          "text": "Sentence number 178 explains a simple idea."
+        },
+        {
+          "start": 7724,
+          "end": 7767,
+          "text": "Sentence number 179 explains a simple idea."
+        },
+        {
+          "start": 7768,
+          "end": 7811,
+          "text": "Sentence number 180 explains a simple idea."
+        },
+        {
+          "start": 7812,
+          "end": 7855,
+          "text": "Sentence number 181 explains a simple idea."
+        },
+        {
+          "start": 7856,
+          "end": 7899,
+          "text": "Sentence number 182 explains a simple idea."
+        },
+        {
+          "start": 7900,
+          "end": 7943,
+          "text": "Sentence number 183 explains a simple idea."
+        },
+        {
+          "start": 7944,
+          "end": 7987,
+          "text": "Sentence number 184 explains a simple idea."
+        },
+        {
+          "start": 7988,
+          "end": 8031,
+          "text": "Sentence number 185 explains a simple idea."
+        },
+        {
+          "start": 8032,
+          "end": 8075,
+          "text": "Sentence number 186 explains a simple idea."
+        },
+        {
+          "start": 8076,
+          "end": 8119,
+          "text": "Sentence number 187 explains a simple idea."
+        },
+        {
+          "start": 8120,
+          "end": 8163,
+          "text": "Sentence number 188 explains a simple idea."
+        },
+        {
+          "start": 8164,
+          "end": 8207,
+          "text": "Sentence number 189 explains a simple idea."
+        },
+        {
+          "start": 8208,
+          "end": 8251,
+          "text": "Sentence number 190 explains a simple idea."
+        },
+        {
+          "start": 8252,
+          "end": 8295,
+          "text": "Sentence number 191 explains a simple idea."
+        },
+        {
+          "start": 8296,
+          "end": 8339,
+          "text": "Sentence number 192 explains a simple idea."
+        },
+        {
+          "start": 8340,
+          "end": 8383,
+          "text": "Sentence number 193 explains a simple idea."
+        },
+        {
+          "start": 8384,
+          "end": 8427,
+          "text": "Sentence number 194 explains a simple idea."
+        },
+        {
+          "start": 8428,
+          "end": 8471,
+          "text": "Sentence number 195 explains a simple idea."
+        },
+        {
+          "start": 8472,
+          "end": 8515,
+          "text": "Sentence number 196 explains a simple idea."
+        },
+        {
+          "start": 8516,
+          "end": 8559,
+          "text": "Sentence number 197 explains a simple idea."
+        },
+        {
+          "start": 8560,
+          "end": 8603,
+          "text": "Sentence number 198 explains a simple idea."
+        },
+        {
+          "start": 8604,
+          "end": 8647,
+          "text": "Sentence number 199 explains a simple idea."
+        },
+        {
+          "start": 8648,
+          "end": 8691,
+          "text": "Sentence number 200 explains a simple idea."
+        },
+        {
+          "start": 8692,
+          "end": 8735,
+          "text": "Sentence number 201 explains a simple idea."
+        },
+        {
+          "start": 8736,
+          "end": 8779,
+          "text": "Sentence number 202 explains a simple idea."
+        },
+        {
+          "start": 8780,
+          "end": 8823,
+          "text": "Sentence number 203 explains a simple idea."
+        },
+        {
+          "start": 8824,
+          "end": 8867,
+          "text": "Sentence number 204 explains a simple idea."
+        },
+        {
+          "start": 8868,
+          "end": 8911,
+          "text": "Sentence number 205 explains a simple idea."
+        },
+        {
+          "start": 8912,
+          "end": 8955,
+          "text": "Sentence number 206 explains a simple idea."
+        },
+        {
+          "start": 8956,
+          "end": 8999,
+          "text": "Sentence number 207 explains a simple idea."
+        },
+        {
+          "start": 9000,
+          "end": 9043,
+          "text": "Sentence number 208 explains a simple idea."
+        },
+        {
+          "start": 9044,
+          "end": 9087,
+          "text": "Sentence number 209 explains a simple idea."
+        },
+        {
+          "start": 9088,
+          "end": 9131,
+          "text": "Sentence number 210 explains a simple idea."
+        },
+        {
+          "start": 9132,
+          "end": 9175,
+          "text": "Sentence number 211 explains a simple idea."
+        },
+        {
+          "start": 9176,
+          "end": 9219,
+          "text": "Sentence number 212 explains a simple idea."
+        },
+        {
+          "start": 9220,
+          "end": 9263,
+          "text": "Sentence number 213 explains a simple idea."
+        },
+        {
+          "start": 9264,
+          "end": 9307,
+          "text": "Sentence number 214 explains a simple idea."
+        }
+      ],
+      "review_flags": [],
+      "segmentation_status": "LOCAL_FIXTURE_VALID"
+    },
+    "consumed": {
+      "events": [
+        {
+          "attempt_id": "fixture-research-1",
+          "kind": "valid_research",
+          "USD": ".008",
+          "credits": null
+        },
+        {
+          "attempt_id": "fixture-script-1",
+          "kind": "valid_script",
+          "USD": ".012",
+          "credits": null
+        }
+      ],
+      "recorded_USD": "0.020",
+      "known_consumed_credits": "0",
+      "total_consumed_credits": null,
+      "pending_credit_policy_attempts": [
+        "fixture-research-1",
+        "fixture-script-1"
+      ],
+      "qualification": "All event amounts are synthetic accounting fixtures, not real spend/rates"
+    },
+    "remaining_estimate": {
+      "phase": "SCRIPT_KNOWN",
+      "predicted_images": 214,
+      "credit_estimate": null,
+      "credit_state": "UNRESOLVED_POST_SCRIPT_POLICY",
+      "image_output_expected_USD": "7.1904",
+      "image_output_rate": {
+        "model": "gemini-3.1-flash-lite-image",
+        "USD_per_1K_image": ".0336",
+        "source": "Owner-fixed S9 tariff; prior README.md / analysis.json, 2026-10-05"
+      },
+      "complete_expected_USD": null,
+      "unresolved_components": [
+        "research/script real project usage",
+        "factual checking where applicable",
+        "image input/text/thinking",
+        "TTS request usage",
+        "justified retry distribution",
+        "render/compute",
+        "retained storage/backups/egress",
+        "tax/fees/FX"
+      ],
+      "qualification": "Known image-output subtotal only, not complete cost or financial authority"
+    },
+    "projected_total": {
+      "known_recorded_plus_image_output_USD": "7.2104",
+      "complete_expected_USD": null,
+      "credits": null
+    },
+    "old_estimate_is_not_added_to_total": true,
+    "provider_calls": 0
+  },
+  "large_scope_admission": {
+    "state": "ADDITIONAL_AUTHORIZATION_OR_BUDGET_HANDLING_REQUIRED",
+    "reasons": [
+      "REVISED_SCOPE_REQUIRES_SUFFICIENT_AUTHORIZATION",
+      "IMAGE_EXPOSURE_EXCEEDS_OPERATION_AUTHORITY",
+      "WHOLE_REQUEST_EXPOSURE_EXCEEDED",
+      "SHARED_BUDGET_INSUFFICIENT",
+      "PROVIDER_QUOTA_INSUFFICIENT"
+    ],
+    "conditional_image_liability_USD": "29.802496",
+    "available_shared_USD_after_consumed_and_holds": "17.480",
+    "consumed_retained": {
+      "events": [
+        {
+          "attempt_id": "fixture-research-1",
+          "kind": "valid_research",
+          "USD": ".008",
+          "credits": null
+        },
+        {
+          "attempt_id": "fixture-script-1",
+          "kind": "valid_script",
+          "USD": ".012",
+          "credits": null
+        }
+      ],
+      "recorded_USD": "0.020",
+      "known_consumed_credits": "0",
+      "total_consumed_credits": null,
+      "pending_credit_policy_attempts": [
+        "fixture-research-1",
+        "fixture-script-1"
+      ],
+      "qualification": "All event amounts are synthetic accounting fixtures, not real spend/rates"
+    },
+    "authority_unchanged": {
+      "fixture_authorized_image_count": 60,
+      "image_liability_ceiling_USD": "8.355840",
+      "whole_request_ceiling_USD": "8.50",
+      "recurring_obligations_USD": "12",
+      "other_spend_USD": "0",
+      "unknown_liabilities_USD": ".5",
+      "available_image_requests": 60
+    },
+    "maximum_complete_project_exposure": null,
+    "can_submit_provider_request": false,
+    "provider_calls": 0,
+    "qualification": "Financial fixture only. Final scope thresholds/full-project caps, endpoint, taxes and real quotas unestablished; no live authority."
+  },
+  "small_scope_admission": {
+    "state": "WITHIN_SYNTHETIC_IMAGE_AUTHORITY_ONLY",
+    "reasons": [],
+    "conditional_image_liability_USD": "6.545408",
+    "available_shared_USD_after_consumed_and_holds": "17.480",
+    "consumed_retained": {
+      "events": [
+        {
+          "attempt_id": "fixture-research-1",
+          "kind": "valid_research",
+          "USD": ".008",
+          "credits": null
+        },
+        {
+          "attempt_id": "fixture-script-1",
+          "kind": "valid_script",
+          "USD": ".012",
+          "credits": null
+        }
+      ],
+      "recorded_USD": "0.020",
+      "known_consumed_credits": "0",
+      "total_consumed_credits": null,
+      "pending_credit_policy_attempts": [
+        "fixture-research-1",
+        "fixture-script-1"
+      ],
+      "qualification": "All event amounts are synthetic accounting fixtures, not real spend/rates"
+    },
+    "authority_unchanged": {
+      "fixture_authorized_image_count": 60,
+      "image_liability_ceiling_USD": "8.355840",
+      "whole_request_ceiling_USD": "8.50",
+      "recurring_obligations_USD": "12",
+      "other_spend_USD": "0",
+      "unknown_liabilities_USD": ".5",
+      "available_image_requests": 60
+    },
+    "maximum_complete_project_exposure": null,
+    "can_submit_provider_request": false,
+    "provider_calls": 0,
+    "qualification": "Financial fixture only. Final scope thresholds/full-project caps, endpoint, taxes and real quotas unestablished; no live authority."
+  },
+  "sentence_edge_cases": [
+    {
+      "fixture": {
+        "text": "A fact. A question? Yes!",
+        "count": 3
+      },
+      "output": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "70bc6792225d3b326f08a9ba5cc25ab0bc625a84c500c4c25ffc2313785b9d68",
+        "sentence_count": 3,
+        "predicted_image_count": 3,
+        "spans": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "A fact."
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "text": "A question?"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "text": "Yes!"
+          }
+        ],
+        "review_flags": [],
+        "segmentation_status": "LOCAL_FIXTURE_VALID"
+      }
+    },
+    {
+      "fixture": {
+        "text": "Price is 3.14 units. Next.",
+        "count": 2
+      },
+      "output": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "a569c11754dc8617afeb3567037bf2faa4c6c331323cb54d82b80a902ff8cfae",
+        "sentence_count": 2,
+        "predicted_image_count": 2,
+        "spans": [
+          {
+            "start": 0,
+            "end": 20,
+            "text": "Price is 3.14 units."
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "text": "Next."
+          }
+        ],
+        "review_flags": [
+          "decimal_or_numeric_punctuation"
+        ],
+        "segmentation_status": "REVIEW_REQUIRED"
+      }
+    },
+    {
+      "fixture": {
+        "text": "Dr. Smith arrived. Next.",
+        "count": 3
+      },
+      "output": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "d44162cdfd3c4301f031b17d09d4620a2027e0dc6ee9b01f81d2761fc5141490",
+        "sentence_count": 3,
+        "predicted_image_count": 3,
+        "spans": [
+          {
+            "start": 0,
+            "end": 3,
+            "text": "Dr."
+          },
+          {
+            "start": 4,
+            "end": 18,
+            "text": "Smith arrived."
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "text": "Next."
+          }
+        ],
+        "review_flags": [
+          "abbreviation_or_initial"
+        ],
+        "segmentation_status": "REVIEW_REQUIRED"
+      }
+    },
+    {
+      "fixture": {
+        "text": "Wait... then continue.",
+        "count": 2
+      },
+      "output": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "af7303e45e138a74990e5b19e729ea0ff60d807e77205ce38c08679b28ccfc68",
+        "sentence_count": 2,
+        "predicted_image_count": 2,
+        "spans": [
+          {
+            "start": 0,
+            "end": 7,
+            "text": "Wait..."
+          },
+          {
+            "start": 8,
+            "end": 22,
+            "text": "then continue."
+          }
+        ],
+        "review_flags": [
+          "ellipses"
+        ],
+        "segmentation_status": "REVIEW_REQUIRED"
+      }
+    },
+    {
+      "fixture": {
+        "text": "প্রথম বাক্য। দ্বিতীয় বাক্য।",
+        "count": 2
+      },
+      "output": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "481ca67c19ef64143bbadeded88841b964ecae8f05824da1f2e794f82136d0e7",
+        "sentence_count": 2,
+        "predicted_image_count": 2,
+        "spans": [
+          {
+            "start": 0,
+            "end": 12,
+            "text": "প্রথম বাক্য।"
+          },
+          {
+            "start": 13,
+            "end": 28,
+            "text": "দ্বিতীয় বাক্য।"
+          }
+        ],
+        "review_flags": [],
+        "segmentation_status": "LOCAL_FIXTURE_VALID"
+      }
+    },
+    {
+      "fixture": {
+        "text": "पहला वाक्य। दूसरा वाक्य।",
+        "count": 2
+      },
+      "output": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "7d8e7c862b335fa7389cfd7430dfde3f0cfa8aa68a3c8602d505125f94cb7049",
+        "sentence_count": 2,
+        "predicted_image_count": 2,
+        "spans": [
+          {
+            "start": 0,
+            "end": 11,
+            "text": "पहला वाक्य।"
+          },
+          {
+            "start": 12,
+            "end": 24,
+            "text": "दूसरा वाक्य।"
+          }
+        ],
+        "review_flags": [],
+        "segmentation_status": "LOCAL_FIXTURE_VALID"
+      }
+    },
+    {
+      "fixture": {
+        "text": "Unpunctuated fragment",
+        "count": 1
+      },
+      "output": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "e6f02b49c1314ca52a0034ea1d1c6123d21ca0aa8385ad79a3686a697ecfa540",
+        "sentence_count": 1,
+        "predicted_image_count": 1,
+        "spans": [
+          {
+            "start": 0,
+            "end": 21,
+            "text": "Unpunctuated fragment"
+          }
+        ],
+        "review_flags": [
+          "unterminated_tail_counted_as_one_fragment"
+        ],
+        "segmentation_status": "REVIEW_REQUIRED"
+      }
+    },
+    {
+      "fixture": {
+        "text": "Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. Word. ",
+        "count": 500
+      },
+      "output": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "c8cb754930fc336eab31f85ac471fb11e70ffefdddfd9f8da0cfd5f7fe0382e7",
+        "sentence_count": 500,
+        "predicted_image_count": 500,
+        "spans": [
+          {
+            "start": 0,
+            "end": 5,
+            "text": "Word."
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "text": "Word."
+          },
+          {
+            "start": 12,
+            "end": 17,
+            "text": "Word."
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "text": "Word."
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "text": "Word."
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "text": "Word."
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "text": "Word."
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "text": "Word."
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "text": "Word."
+          },
+          {
+            "start": 54,
+            "end": 59,
+            "text": "Word."
+          },
+          {
+            "start": 60,
+            "end": 65,
+            "text": "Word."
+          },
+          {
+            "start": 66,
+            "end": 71,
+            "text": "Word."
+          },
+          {
+            "start": 72,
+            "end": 77,
+            "text": "Word."
+          },
+          {
+            "start": 78,
+            "end": 83,
+            "text": "Word."
+          },
+          {
+            "start": 84,
+            "end": 89,
+            "text": "Word."
+          },
+          {
+            "start": 90,
+            "end": 95,
+            "text": "Word."
+          },
+          {
+            "start": 96,
+            "end": 101,
+            "text": "Word."
+          },
+          {
+            "start": 102,
+            "end": 107,
+            "text": "Word."
+          },
+          {
+            "start": 108,
+            "end": 113,
+            "text": "Word."
+          },
+          {
+            "start": 114,
+            "end": 119,
+            "text": "Word."
+          },
+          {
+            "start": 120,
+            "end": 125,
+            "text": "Word."
+          },
+          {
+            "start": 126,
+            "end": 131,
+            "text": "Word."
+          },
+          {
+            "start": 132,
+            "end": 137,
+            "text": "Word."
+          },
+          {
+            "start": 138,
+            "end": 143,
+            "text": "Word."
+          },
+          {
+            "start": 144,
+            "end": 149,
+            "text": "Word."
+          },
+          {
+            "start": 150,
+            "end": 155,
+            "text": "Word."
+          },
+          {
+            "start": 156,
+            "end": 161,
+            "text": "Word."
+          },
+          {
+            "start": 162,
+            "end": 167,
+            "text": "Word."
+          },
+          {
+            "start": 168,
+            "end": 173,
+            "text": "Word."
+          },
+          {
+            "start": 174,
+            "end": 179,
+            "text": "Word."
+          },
+          {
+            "start": 180,
+            "end": 185,
+            "text": "Word."
+          },
+          {
+            "start": 186,
+            "end": 191,
+            "text": "Word."
+          },
+          {
+            "start": 192,
+            "end": 197,
+            "text": "Word."
+          },
+          {
+            "start": 198,
+            "end": 203,
+            "text": "Word."
+          },
+          {
+            "start": 204,
+            "end": 209,
+            "text": "Word."
+          },
+          {
+            "start": 210,
+            "end": 215,
+            "text": "Word."
+          },
+          {
+            "start": 216,
+            "end": 221,
+            "text": "Word."
+          },
+          {
+            "start": 222,
+            "end": 227,
+            "text": "Word."
+          },
+          {
+            "start": 228,
+            "end": 233,
+            "text": "Word."
+          },
+          {
+            "start": 234,
+            "end": 239,
+            "text": "Word."
+          },
+          {
+            "start": 240,
+            "end": 245,
+            "text": "Word."
+          },
+          {
+            "start": 246,
+            "end": 251,
+            "text": "Word."
+          },
+          {
+            "start": 252,
+            "end": 257,
+            "text": "Word."
+          },
+          {
+            "start": 258,
+            "end": 263,
+            "text": "Word."
+          },
+          {
+            "start": 264,
+            "end": 269,
+            "text": "Word."
+          },
+          {
+            "start": 270,
+            "end": 275,
+            "text": "Word."
+          },
+          {
+            "start": 276,
+            "end": 281,
+            "text": "Word."
+          },
+          {
+            "start": 282,
+            "end": 287,
+            "text": "Word."
+          },
+          {
+            "start": 288,
+            "end": 293,
+            "text": "Word."
+          },
+          {
+            "start": 294,
+            "end": 299,
+            "text": "Word."
+          },
+          {
+            "start": 300,
+            "end": 305,
+            "text": "Word."
+          },
+          {
+            "start": 306,
+            "end": 311,
+            "text": "Word."
+          },
+          {
+            "start": 312,
+            "end": 317,
+            "text": "Word."
+          },
+          {
+            "start": 318,
+            "end": 323,
+            "text": "Word."
+          },
+          {
+            "start": 324,
+            "end": 329,
+            "text": "Word."
+          },
+          {
+            "start": 330,
+            "end": 335,
+            "text": "Word."
+          },
+          {
+            "start": 336,
+            "end": 341,
+            "text": "Word."
+          },
+          {
+            "start": 342,
+            "end": 347,
+            "text": "Word."
+          },
+          {
+            "start": 348,
+            "end": 353,
+            "text": "Word."
+          },
+          {
+            "start": 354,
+            "end": 359,
+            "text": "Word."
+          },
+          {
+            "start": 360,
+            "end": 365,
+            "text": "Word."
+          },
+          {
+            "start": 366,
+            "end": 371,
+            "text": "Word."
+          },
+          {
+            "start": 372,
+            "end": 377,
+            "text": "Word."
+          },
+          {
+            "start": 378,
+            "end": 383,
+            "text": "Word."
+          },
+          {
+            "start": 384,
+            "end": 389,
+            "text": "Word."
+          },
+          {
+            "start": 390,
+            "end": 395,
+            "text": "Word."
+          },
+          {
+            "start": 396,
+            "end": 401,
+            "text": "Word."
+          },
+          {
+            "start": 402,
+            "end": 407,
+            "text": "Word."
+          },
+          {
+            "start": 408,
+            "end": 413,
+            "text": "Word."
+          },
+          {
+            "start": 414,
+            "end": 419,
+            "text": "Word."
+          },
+          {
+            "start": 420,
+            "end": 425,
+            "text": "Word."
+          },
+          {
+            "start": 426,
+            "end": 431,
+            "text": "Word."
+          },
+          {
+            "start": 432,
+            "end": 437,
+            "text": "Word."
+          },
+          {
+            "start": 438,
+            "end": 443,
+            "text": "Word."
+          },
+          {
+            "start": 444,
+            "end": 449,
+            "text": "Word."
+          },
+          {
+            "start": 450,
+            "end": 455,
+            "text": "Word."
+          },
+          {
+            "start": 456,
+            "end": 461,
+            "text": "Word."
+          },
+          {
+            "start": 462,
+            "end": 467,
+            "text": "Word."
+          },
+          {
+            "start": 468,
+            "end": 473,
+            "text": "Word."
+          },
+          {
+            "start": 474,
+            "end": 479,
+            "text": "Word."
+          },
+          {
+            "start": 480,
+            "end": 485,
+            "text": "Word."
+          },
+          {
+            "start": 486,
+            "end": 491,
+            "text": "Word."
+          },
+          {
+            "start": 492,
+            "end": 497,
+            "text": "Word."
+          },
+          {
+            "start": 498,
+            "end": 503,
+            "text": "Word."
+          },
+          {
+            "start": 504,
+            "end": 509,
+            "text": "Word."
+          },
+          {
+            "start": 510,
+            "end": 515,
+            "text": "Word."
+          },
+          {
+            "start": 516,
+            "end": 521,
+            "text": "Word."
+          },
+          {
+            "start": 522,
+            "end": 527,
+            "text": "Word."
+          },
+          {
+            "start": 528,
+            "end": 533,
+            "text": "Word."
+          },
+          {
+            "start": 534,
+            "end": 539,
+            "text": "Word."
+          },
+          {
+            "start": 540,
+            "end": 545,
+            "text": "Word."
+          },
+          {
+            "start": 546,
+            "end": 551,
+            "text": "Word."
+          },
+          {
+            "start": 552,
+            "end": 557,
+            "text": "Word."
+          },
+          {
+            "start": 558,
+            "end": 563,
+            "text": "Word."
+          },
+          {
+            "start": 564,
+            "end": 569,
+            "text": "Word."
+          },
+          {
+            "start": 570,
+            "end": 575,
+            "text": "Word."
+          },
+          {
+            "start": 576,
+            "end": 581,
+            "text": "Word."
+          },
+          {
+            "start": 582,
+            "end": 587,
+            "text": "Word."
+          },
+          {
+            "start": 588,
+            "end": 593,
+            "text": "Word."
+          },
+          {
+            "start": 594,
+            "end": 599,
+            "text": "Word."
+          },
+          {
+            "start": 600,
+            "end": 605,
+            "text": "Word."
+          },
+          {
+            "start": 606,
+            "end": 611,
+            "text": "Word."
+          },
+          {
+            "start": 612,
+            "end": 617,
+            "text": "Word."
+          },
+          {
+            "start": 618,
+            "end": 623,
+            "text": "Word."
+          },
+          {
+            "start": 624,
+            "end": 629,
+            "text": "Word."
+          },
+          {
+            "start": 630,
+            "end": 635,
+            "text": "Word."
+          },
+          {
+            "start": 636,
+            "end": 641,
+            "text": "Word."
+          },
+          {
+            "start": 642,
+            "end": 647,
+            "text": "Word."
+          },
+          {
+            "start": 648,
+            "end": 653,
+            "text": "Word."
+          },
+          {
+            "start": 654,
+            "end": 659,
+            "text": "Word."
+          },
+          {
+            "start": 660,
+            "end": 665,
+            "text": "Word."
+          },
+          {
+            "start": 666,
+            "end": 671,
+            "text": "Word."
+          },
+          {
+            "start": 672,
+            "end": 677,
+            "text": "Word."
+          },
+          {
+            "start": 678,
+            "end": 683,
+            "text": "Word."
+          },
+          {
+            "start": 684,
+            "end": 689,
+            "text": "Word."
+          },
+          {
+            "start": 690,
+            "end": 695,
+            "text": "Word."
+          },
+          {
+            "start": 696,
+            "end": 701,
+            "text": "Word."
+          },
+          {
+            "start": 702,
+            "end": 707,
+            "text": "Word."
+          },
+          {
+            "start": 708,
+            "end": 713,
+            "text": "Word."
+          },
+          {
+            "start": 714,
+            "end": 719,
+            "text": "Word."
+          },
+          {
+            "start": 720,
+            "end": 725,
+            "text": "Word."
+          },
+          {
+            "start": 726,
+            "end": 731,
+            "text": "Word."
+          },
+          {
+            "start": 732,
+            "end": 737,
+            "text": "Word."
+          },
+          {
+            "start": 738,
+            "end": 743,
+            "text": "Word."
+          },
+          {
+            "start": 744,
+            "end": 749,
+            "text": "Word."
+          },
+          {
+            "start": 750,
+            "end": 755,
+            "text": "Word."
+          },
+          {
+            "start": 756,
+            "end": 761,
+            "text": "Word."
+          },
+          {
+            "start": 762,
+            "end": 767,
+            "text": "Word."
+          },
+          {
+            "start": 768,
+            "end": 773,
+            "text": "Word."
+          },
+          {
+            "start": 774,
+            "end": 779,
+            "text": "Word."
+          },
+          {
+            "start": 780,
+            "end": 785,
+            "text": "Word."
+          },
+          {
+            "start": 786,
+            "end": 791,
+            "text": "Word."
+          },
+          {
+            "start": 792,
+            "end": 797,
+            "text": "Word."
+          },
+          {
+            "start": 798,
+            "end": 803,
+            "text": "Word."
+          },
+          {
+            "start": 804,
+            "end": 809,
+            "text": "Word."
+          },
+          {
+            "start": 810,
+            "end": 815,
+            "text": "Word."
+          },
+          {
+            "start": 816,
+            "end": 821,
+            "text": "Word."
+          },
+          {
+            "start": 822,
+            "end": 827,
+            "text": "Word."
+          },
+          {
+            "start": 828,
+            "end": 833,
+            "text": "Word."
+          },
+          {
+            "start": 834,
+            "end": 839,
+            "text": "Word."
+          },
+          {
+            "start": 840,
+            "end": 845,
+            "text": "Word."
+          },
+          {
+            "start": 846,
+            "end": 851,
+            "text": "Word."
+          },
+          {
+            "start": 852,
+            "end": 857,
+            "text": "Word."
+          },
+          {
+            "start": 858,
+            "end": 863,
+            "text": "Word."
+          },
+          {
+            "start": 864,
+            "end": 869,
+            "text": "Word."
+          },
+          {
+            "start": 870,
+            "end": 875,
+            "text": "Word."
+          },
+          {
+            "start": 876,
+            "end": 881,
+            "text": "Word."
+          },
+          {
+            "start": 882,
+            "end": 887,
+            "text": "Word."
+          },
+          {
+            "start": 888,
+            "end": 893,
+            "text": "Word."
+          },
+          {
+            "start": 894,
+            "end": 899,
+            "text": "Word."
+          },
+          {
+            "start": 900,
+            "end": 905,
+            "text": "Word."
+          },
+          {
+            "start": 906,
+            "end": 911,
+            "text": "Word."
+          },
+          {
+            "start": 912,
+            "end": 917,
+            "text": "Word."
+          },
+          {
+            "start": 918,
+            "end": 923,
+            "text": "Word."
+          },
+          {
+            "start": 924,
+            "end": 929,
+            "text": "Word."
+          },
+          {
+            "start": 930,
+            "end": 935,
+            "text": "Word."
+          },
+          {
+            "start": 936,
+            "end": 941,
+            "text": "Word."
+          },
+          {
+            "start": 942,
+            "end": 947,
+            "text": "Word."
+          },
+          {
+            "start": 948,
+            "end": 953,
+            "text": "Word."
+          },
+          {
+            "start": 954,
+            "end": 959,
+            "text": "Word."
+          },
+          {
+            "start": 960,
+            "end": 965,
+            "text": "Word."
+          },
+          {
+            "start": 966,
+            "end": 971,
+            "text": "Word."
+          },
+          {
+            "start": 972,
+            "end": 977,
+            "text": "Word."
+          },
+          {
+            "start": 978,
+            "end": 983,
+            "text": "Word."
+          },
+          {
+            "start": 984,
+            "end": 989,
+            "text": "Word."
+          },
+          {
+            "start": 990,
+            "end": 995,
+            "text": "Word."
+          },
+          {
+            "start": 996,
+            "end": 1001,
+            "text": "Word."
+          },
+          {
+            "start": 1002,
+            "end": 1007,
+            "text": "Word."
+          },
+          {
+            "start": 1008,
+            "end": 1013,
+            "text": "Word."
+          },
+          {
+            "start": 1014,
+            "end": 1019,
+            "text": "Word."
+          },
+          {
+            "start": 1020,
+            "end": 1025,
+            "text": "Word."
+          },
+          {
+            "start": 1026,
+            "end": 1031,
+            "text": "Word."
+          },
+          {
+            "start": 1032,
+            "end": 1037,
+            "text": "Word."
+          },
+          {
+            "start": 1038,
+            "end": 1043,
+            "text": "Word."
+          },
+          {
+            "start": 1044,
+            "end": 1049,
+            "text": "Word."
+          },
+          {
+            "start": 1050,
+            "end": 1055,
+            "text": "Word."
+          },
+          {
+            "start": 1056,
+            "end": 1061,
+            "text": "Word."
+          },
+          {
+            "start": 1062,
+            "end": 1067,
+            "text": "Word."
+          },
+          {
+            "start": 1068,
+            "end": 1073,
+            "text": "Word."
+          },
+          {
+            "start": 1074,
+            "end": 1079,
+            "text": "Word."
+          },
+          {
+            "start": 1080,
+            "end": 1085,
+            "text": "Word."
+          },
+          {
+            "start": 1086,
+            "end": 1091,
+            "text": "Word."
+          },
+          {
+            "start": 1092,
+            "end": 1097,
+            "text": "Word."
+          },
+          {
+            "start": 1098,
+            "end": 1103,
+            "text": "Word."
+          },
+          {
+            "start": 1104,
+            "end": 1109,
+            "text": "Word."
+          },
+          {
+            "start": 1110,
+            "end": 1115,
+            "text": "Word."
+          },
+          {
+            "start": 1116,
+            "end": 1121,
+            "text": "Word."
+          },
+          {
+            "start": 1122,
+            "end": 1127,
+            "text": "Word."
+          },
+          {
+            "start": 1128,
+            "end": 1133,
+            "text": "Word."
+          },
+          {
+            "start": 1134,
+            "end": 1139,
+            "text": "Word."
+          },
+          {
+            "start": 1140,
+            "end": 1145,
+            "text": "Word."
+          },
+          {
+            "start": 1146,
+            "end": 1151,
+            "text": "Word."
+          },
+          {
+            "start": 1152,
+            "end": 1157,
+            "text": "Word."
+          },
+          {
+            "start": 1158,
+            "end": 1163,
+            "text": "Word."
+          },
+          {
+            "start": 1164,
+            "end": 1169,
+            "text": "Word."
+          },
+          {
+            "start": 1170,
+            "end": 1175,
+            "text": "Word."
+          },
+          {
+            "start": 1176,
+            "end": 1181,
+            "text": "Word."
+          },
+          {
+            "start": 1182,
+            "end": 1187,
+            "text": "Word."
+          },
+          {
+            "start": 1188,
+            "end": 1193,
+            "text": "Word."
+          },
+          {
+            "start": 1194,
+            "end": 1199,
+            "text": "Word."
+          },
+          {
+            "start": 1200,
+            "end": 1205,
+            "text": "Word."
+          },
+          {
+            "start": 1206,
+            "end": 1211,
+            "text": "Word."
+          },
+          {
+            "start": 1212,
+            "end": 1217,
+            "text": "Word."
+          },
+          {
+            "start": 1218,
+            "end": 1223,
+            "text": "Word."
+          },
+          {
+            "start": 1224,
+            "end": 1229,
+            "text": "Word."
+          },
+          {
+            "start": 1230,
+            "end": 1235,
+            "text": "Word."
+          },
+          {
+            "start": 1236,
+            "end": 1241,
+            "text": "Word."
+          },
+          {
+            "start": 1242,
+            "end": 1247,
+            "text": "Word."
+          },
+          {
+            "start": 1248,
+            "end": 1253,
+            "text": "Word."
+          },
+          {
+            "start": 1254,
+            "end": 1259,
+            "text": "Word."
+          },
+          {
+            "start": 1260,
+            "end": 1265,
+            "text": "Word."
+          },
+          {
+            "start": 1266,
+            "end": 1271,
+            "text": "Word."
+          },
+          {
+            "start": 1272,
+            "end": 1277,
+            "text": "Word."
+          },
+          {
+            "start": 1278,
+            "end": 1283,
+            "text": "Word."
+          },
+          {
+            "start": 1284,
+            "end": 1289,
+            "text": "Word."
+          },
+          {
+            "start": 1290,
+            "end": 1295,
+            "text": "Word."
+          },
+          {
+            "start": 1296,
+            "end": 1301,
+            "text": "Word."
+          },
+          {
+            "start": 1302,
+            "end": 1307,
+            "text": "Word."
+          },
+          {
+            "start": 1308,
+            "end": 1313,
+            "text": "Word."
+          },
+          {
+            "start": 1314,
+            "end": 1319,
+            "text": "Word."
+          },
+          {
+            "start": 1320,
+            "end": 1325,
+            "text": "Word."
+          },
+          {
+            "start": 1326,
+            "end": 1331,
+            "text": "Word."
+          },
+          {
+            "start": 1332,
+            "end": 1337,
+            "text": "Word."
+          },
+          {
+            "start": 1338,
+            "end": 1343,
+            "text": "Word."
+          },
+          {
+            "start": 1344,
+            "end": 1349,
+            "text": "Word."
+          },
+          {
+            "start": 1350,
+            "end": 1355,
+            "text": "Word."
+          },
+          {
+            "start": 1356,
+            "end": 1361,
+            "text": "Word."
+          },
+          {
+            "start": 1362,
+            "end": 1367,
+            "text": "Word."
+          },
+          {
+            "start": 1368,
+            "end": 1373,
+            "text": "Word."
+          },
+          {
+            "start": 1374,
+            "end": 1379,
+            "text": "Word."
+          },
+          {
+            "start": 1380,
+            "end": 1385,
+            "text": "Word."
+          },
+          {
+            "start": 1386,
+            "end": 1391,
+            "text": "Word."
+          },
+          {
+            "start": 1392,
+            "end": 1397,
+            "text": "Word."
+          },
+          {
+            "start": 1398,
+            "end": 1403,
+            "text": "Word."
+          },
+          {
+            "start": 1404,
+            "end": 1409,
+            "text": "Word."
+          },
+          {
+            "start": 1410,
+            "end": 1415,
+            "text": "Word."
+          },
+          {
+            "start": 1416,
+            "end": 1421,
+            "text": "Word."
+          },
+          {
+            "start": 1422,
+            "end": 1427,
+            "text": "Word."
+          },
+          {
+            "start": 1428,
+            "end": 1433,
+            "text": "Word."
+          },
+          {
+            "start": 1434,
+            "end": 1439,
+            "text": "Word."
+          },
+          {
+            "start": 1440,
+            "end": 1445,
+            "text": "Word."
+          },
+          {
+            "start": 1446,
+            "end": 1451,
+            "text": "Word."
+          },
+          {
+            "start": 1452,
+            "end": 1457,
+            "text": "Word."
+          },
+          {
+            "start": 1458,
+            "end": 1463,
+            "text": "Word."
+          },
+          {
+            "start": 1464,
+            "end": 1469,
+            "text": "Word."
+          },
+          {
+            "start": 1470,
+            "end": 1475,
+            "text": "Word."
+          },
+          {
+            "start": 1476,
+            "end": 1481,
+            "text": "Word."
+          },
+          {
+            "start": 1482,
+            "end": 1487,
+            "text": "Word."
+          },
+          {
+            "start": 1488,
+            "end": 1493,
+            "text": "Word."
+          },
+          {
+            "start": 1494,
+            "end": 1499,
+            "text": "Word."
+          },
+          {
+            "start": 1500,
+            "end": 1505,
+            "text": "Word."
+          },
+          {
+            "start": 1506,
+            "end": 1511,
+            "text": "Word."
+          },
+          {
+            "start": 1512,
+            "end": 1517,
+            "text": "Word."
+          },
+          {
+            "start": 1518,
+            "end": 1523,
+            "text": "Word."
+          },
+          {
+            "start": 1524,
+            "end": 1529,
+            "text": "Word."
+          },
+          {
+            "start": 1530,
+            "end": 1535,
+            "text": "Word."
+          },
+          {
+            "start": 1536,
+            "end": 1541,
+            "text": "Word."
+          },
+          {
+            "start": 1542,
+            "end": 1547,
+            "text": "Word."
+          },
+          {
+            "start": 1548,
+            "end": 1553,
+            "text": "Word."
+          },
+          {
+            "start": 1554,
+            "end": 1559,
+            "text": "Word."
+          },
+          {
+            "start": 1560,
+            "end": 1565,
+            "text": "Word."
+          },
+          {
+            "start": 1566,
+            "end": 1571,
+            "text": "Word."
+          },
+          {
+            "start": 1572,
+            "end": 1577,
+            "text": "Word."
+          },
+          {
+            "start": 1578,
+            "end": 1583,
+            "text": "Word."
+          },
+          {
+            "start": 1584,
+            "end": 1589,
+            "text": "Word."
+          },
+          {
+            "start": 1590,
+            "end": 1595,
+            "text": "Word."
+          },
+          {
+            "start": 1596,
+            "end": 1601,
+            "text": "Word."
+          },
+          {
+            "start": 1602,
+            "end": 1607,
+            "text": "Word."
+          },
+          {
+            "start": 1608,
+            "end": 1613,
+            "text": "Word."
+          },
+          {
+            "start": 1614,
+            "end": 1619,
+            "text": "Word."
+          },
+          {
+            "start": 1620,
+            "end": 1625,
+            "text": "Word."
+          },
+          {
+            "start": 1626,
+            "end": 1631,
+            "text": "Word."
+          },
+          {
+            "start": 1632,
+            "end": 1637,
+            "text": "Word."
+          },
+          {
+            "start": 1638,
+            "end": 1643,
+            "text": "Word."
+          },
+          {
+            "start": 1644,
+            "end": 1649,
+            "text": "Word."
+          },
+          {
+            "start": 1650,
+            "end": 1655,
+            "text": "Word."
+          },
+          {
+            "start": 1656,
+            "end": 1661,
+            "text": "Word."
+          },
+          {
+            "start": 1662,
+            "end": 1667,
+            "text": "Word."
+          },
+          {
+            "start": 1668,
+            "end": 1673,
+            "text": "Word."
+          },
+          {
+            "start": 1674,
+            "end": 1679,
+            "text": "Word."
+          },
+          {
+            "start": 1680,
+            "end": 1685,
+            "text": "Word."
+          },
+          {
+            "start": 1686,
+            "end": 1691,
+            "text": "Word."
+          },
+          {
+            "start": 1692,
+            "end": 1697,
+            "text": "Word."
+          },
+          {
+            "start": 1698,
+            "end": 1703,
+            "text": "Word."
+          },
+          {
+            "start": 1704,
+            "end": 1709,
+            "text": "Word."
+          },
+          {
+            "start": 1710,
+            "end": 1715,
+            "text": "Word."
+          },
+          {
+            "start": 1716,
+            "end": 1721,
+            "text": "Word."
+          },
+          {
+            "start": 1722,
+            "end": 1727,
+            "text": "Word."
+          },
+          {
+            "start": 1728,
+            "end": 1733,
+            "text": "Word."
+          },
+          {
+            "start": 1734,
+            "end": 1739,
+            "text": "Word."
+          },
+          {
+            "start": 1740,
+            "end": 1745,
+            "text": "Word."
+          },
+          {
+            "start": 1746,
+            "end": 1751,
+            "text": "Word."
+          },
+          {
+            "start": 1752,
+            "end": 1757,
+            "text": "Word."
+          },
+          {
+            "start": 1758,
+            "end": 1763,
+            "text": "Word."
+          },
+          {
+            "start": 1764,
+            "end": 1769,
+            "text": "Word."
+          },
+          {
+            "start": 1770,
+            "end": 1775,
+            "text": "Word."
+          },
+          {
+            "start": 1776,
+            "end": 1781,
+            "text": "Word."
+          },
+          {
+            "start": 1782,
+            "end": 1787,
+            "text": "Word."
+          },
+          {
+            "start": 1788,
+            "end": 1793,
+            "text": "Word."
+          },
+          {
+            "start": 1794,
+            "end": 1799,
+            "text": "Word."
+          },
+          {
+            "start": 1800,
+            "end": 1805,
+            "text": "Word."
+          },
+          {
+            "start": 1806,
+            "end": 1811,
+            "text": "Word."
+          },
+          {
+            "start": 1812,
+            "end": 1817,
+            "text": "Word."
+          },
+          {
+            "start": 1818,
+            "end": 1823,
+            "text": "Word."
+          },
+          {
+            "start": 1824,
+            "end": 1829,
+            "text": "Word."
+          },
+          {
+            "start": 1830,
+            "end": 1835,
+            "text": "Word."
+          },
+          {
+            "start": 1836,
+            "end": 1841,
+            "text": "Word."
+          },
+          {
+            "start": 1842,
+            "end": 1847,
+            "text": "Word."
+          },
+          {
+            "start": 1848,
+            "end": 1853,
+            "text": "Word."
+          },
+          {
+            "start": 1854,
+            "end": 1859,
+            "text": "Word."
+          },
+          {
+            "start": 1860,
+            "end": 1865,
+            "text": "Word."
+          },
+          {
+            "start": 1866,
+            "end": 1871,
+            "text": "Word."
+          },
+          {
+            "start": 1872,
+            "end": 1877,
+            "text": "Word."
+          },
+          {
+            "start": 1878,
+            "end": 1883,
+            "text": "Word."
+          },
+          {
+            "start": 1884,
+            "end": 1889,
+            "text": "Word."
+          },
+          {
+            "start": 1890,
+            "end": 1895,
+            "text": "Word."
+          },
+          {
+            "start": 1896,
+            "end": 1901,
+            "text": "Word."
+          },
+          {
+            "start": 1902,
+            "end": 1907,
+            "text": "Word."
+          },
+          {
+            "start": 1908,
+            "end": 1913,
+            "text": "Word."
+          },
+          {
+            "start": 1914,
+            "end": 1919,
+            "text": "Word."
+          },
+          {
+            "start": 1920,
+            "end": 1925,
+            "text": "Word."
+          },
+          {
+            "start": 1926,
+            "end": 1931,
+            "text": "Word."
+          },
+          {
+            "start": 1932,
+            "end": 1937,
+            "text": "Word."
+          },
+          {
+            "start": 1938,
+            "end": 1943,
+            "text": "Word."
+          },
+          {
+            "start": 1944,
+            "end": 1949,
+            "text": "Word."
+          },
+          {
+            "start": 1950,
+            "end": 1955,
+            "text": "Word."
+          },
+          {
+            "start": 1956,
+            "end": 1961,
+            "text": "Word."
+          },
+          {
+            "start": 1962,
+            "end": 1967,
+            "text": "Word."
+          },
+          {
+            "start": 1968,
+            "end": 1973,
+            "text": "Word."
+          },
+          {
+            "start": 1974,
+            "end": 1979,
+            "text": "Word."
+          },
+          {
+            "start": 1980,
+            "end": 1985,
+            "text": "Word."
+          },
+          {
+            "start": 1986,
+            "end": 1991,
+            "text": "Word."
+          },
+          {
+            "start": 1992,
+            "end": 1997,
+            "text": "Word."
+          },
+          {
+            "start": 1998,
+            "end": 2003,
+            "text": "Word."
+          },
+          {
+            "start": 2004,
+            "end": 2009,
+            "text": "Word."
+          },
+          {
+            "start": 2010,
+            "end": 2015,
+            "text": "Word."
+          },
+          {
+            "start": 2016,
+            "end": 2021,
+            "text": "Word."
+          },
+          {
+            "start": 2022,
+            "end": 2027,
+            "text": "Word."
+          },
+          {
+            "start": 2028,
+            "end": 2033,
+            "text": "Word."
+          },
+          {
+            "start": 2034,
+            "end": 2039,
+            "text": "Word."
+          },
+          {
+            "start": 2040,
+            "end": 2045,
+            "text": "Word."
+          },
+          {
+            "start": 2046,
+            "end": 2051,
+            "text": "Word."
+          },
+          {
+            "start": 2052,
+            "end": 2057,
+            "text": "Word."
+          },
+          {
+            "start": 2058,
+            "end": 2063,
+            "text": "Word."
+          },
+          {
+            "start": 2064,
+            "end": 2069,
+            "text": "Word."
+          },
+          {
+            "start": 2070,
+            "end": 2075,
+            "text": "Word."
+          },
+          {
+            "start": 2076,
+            "end": 2081,
+            "text": "Word."
+          },
+          {
+            "start": 2082,
+            "end": 2087,
+            "text": "Word."
+          },
+          {
+            "start": 2088,
+            "end": 2093,
+            "text": "Word."
+          },
+          {
+            "start": 2094,
+            "end": 2099,
+            "text": "Word."
+          },
+          {
+            "start": 2100,
+            "end": 2105,
+            "text": "Word."
+          },
+          {
+            "start": 2106,
+            "end": 2111,
+            "text": "Word."
+          },
+          {
+            "start": 2112,
+            "end": 2117,
+            "text": "Word."
+          },
+          {
+            "start": 2118,
+            "end": 2123,
+            "text": "Word."
+          },
+          {
+            "start": 2124,
+            "end": 2129,
+            "text": "Word."
+          },
+          {
+            "start": 2130,
+            "end": 2135,
+            "text": "Word."
+          },
+          {
+            "start": 2136,
+            "end": 2141,
+            "text": "Word."
+          },
+          {
+            "start": 2142,
+            "end": 2147,
+            "text": "Word."
+          },
+          {
+            "start": 2148,
+            "end": 2153,
+            "text": "Word."
+          },
+          {
+            "start": 2154,
+            "end": 2159,
+            "text": "Word."
+          },
+          {
+            "start": 2160,
+            "end": 2165,
+            "text": "Word."
+          },
+          {
+            "start": 2166,
+            "end": 2171,
+            "text": "Word."
+          },
+          {
+            "start": 2172,
+            "end": 2177,
+            "text": "Word."
+          },
+          {
+            "start": 2178,
+            "end": 2183,
+            "text": "Word."
+          },
+          {
+            "start": 2184,
+            "end": 2189,
+            "text": "Word."
+          },
+          {
+            "start": 2190,
+            "end": 2195,
+            "text": "Word."
+          },
+          {
+            "start": 2196,
+            "end": 2201,
+            "text": "Word."
+          },
+          {
+            "start": 2202,
+            "end": 2207,
+            "text": "Word."
+          },
+          {
+            "start": 2208,
+            "end": 2213,
+            "text": "Word."
+          },
+          {
+            "start": 2214,
+            "end": 2219,
+            "text": "Word."
+          },
+          {
+            "start": 2220,
+            "end": 2225,
+            "text": "Word."
+          },
+          {
+            "start": 2226,
+            "end": 2231,
+            "text": "Word."
+          },
+          {
+            "start": 2232,
+            "end": 2237,
+            "text": "Word."
+          },
+          {
+            "start": 2238,
+            "end": 2243,
+            "text": "Word."
+          },
+          {
+            "start": 2244,
+            "end": 2249,
+            "text": "Word."
+          },
+          {
+            "start": 2250,
+            "end": 2255,
+            "text": "Word."
+          },
+          {
+            "start": 2256,
+            "end": 2261,
+            "text": "Word."
+          },
+          {
+            "start": 2262,
+            "end": 2267,
+            "text": "Word."
+          },
+          {
+            "start": 2268,
+            "end": 2273,
+            "text": "Word."
+          },
+          {
+            "start": 2274,
+            "end": 2279,
+            "text": "Word."
+          },
+          {
+            "start": 2280,
+            "end": 2285,
+            "text": "Word."
+          },
+          {
+            "start": 2286,
+            "end": 2291,
+            "text": "Word."
+          },
+          {
+            "start": 2292,
+            "end": 2297,
+            "text": "Word."
+          },
+          {
+            "start": 2298,
+            "end": 2303,
+            "text": "Word."
+          },
+          {
+            "start": 2304,
+            "end": 2309,
+            "text": "Word."
+          },
+          {
+            "start": 2310,
+            "end": 2315,
+            "text": "Word."
+          },
+          {
+            "start": 2316,
+            "end": 2321,
+            "text": "Word."
+          },
+          {
+            "start": 2322,
+            "end": 2327,
+            "text": "Word."
+          },
+          {
+            "start": 2328,
+            "end": 2333,
+            "text": "Word."
+          },
+          {
+            "start": 2334,
+            "end": 2339,
+            "text": "Word."
+          },
+          {
+            "start": 2340,
+            "end": 2345,
+            "text": "Word."
+          },
+          {
+            "start": 2346,
+            "end": 2351,
+            "text": "Word."
+          },
+          {
+            "start": 2352,
+            "end": 2357,
+            "text": "Word."
+          },
+          {
+            "start": 2358,
+            "end": 2363,
+            "text": "Word."
+          },
+          {
+            "start": 2364,
+            "end": 2369,
+            "text": "Word."
+          },
+          {
+            "start": 2370,
+            "end": 2375,
+            "text": "Word."
+          },
+          {
+            "start": 2376,
+            "end": 2381,
+            "text": "Word."
+          },
+          {
+            "start": 2382,
+            "end": 2387,
+            "text": "Word."
+          },
+          {
+            "start": 2388,
+            "end": 2393,
+            "text": "Word."
+          },
+          {
+            "start": 2394,
+            "end": 2399,
+            "text": "Word."
+          },
+          {
+            "start": 2400,
+            "end": 2405,
+            "text": "Word."
+          },
+          {
+            "start": 2406,
+            "end": 2411,
+            "text": "Word."
+          },
+          {
+            "start": 2412,
+            "end": 2417,
+            "text": "Word."
+          },
+          {
+            "start": 2418,
+            "end": 2423,
+            "text": "Word."
+          },
+          {
+            "start": 2424,
+            "end": 2429,
+            "text": "Word."
+          },
+          {
+            "start": 2430,
+            "end": 2435,
+            "text": "Word."
+          },
+          {
+            "start": 2436,
+            "end": 2441,
+            "text": "Word."
+          },
+          {
+            "start": 2442,
+            "end": 2447,
+            "text": "Word."
+          },
+          {
+            "start": 2448,
+            "end": 2453,
+            "text": "Word."
+          },
+          {
+            "start": 2454,
+            "end": 2459,
+            "text": "Word."
+          },
+          {
+            "start": 2460,
+            "end": 2465,
+            "text": "Word."
+          },
+          {
+            "start": 2466,
+            "end": 2471,
+            "text": "Word."
+          },
+          {
+            "start": 2472,
+            "end": 2477,
+            "text": "Word."
+          },
+          {
+            "start": 2478,
+            "end": 2483,
+            "text": "Word."
+          },
+          {
+            "start": 2484,
+            "end": 2489,
+            "text": "Word."
+          },
+          {
+            "start": 2490,
+            "end": 2495,
+            "text": "Word."
+          },
+          {
+            "start": 2496,
+            "end": 2501,
+            "text": "Word."
+          },
+          {
+            "start": 2502,
+            "end": 2507,
+            "text": "Word."
+          },
+          {
+            "start": 2508,
+            "end": 2513,
+            "text": "Word."
+          },
+          {
+            "start": 2514,
+            "end": 2519,
+            "text": "Word."
+          },
+          {
+            "start": 2520,
+            "end": 2525,
+            "text": "Word."
+          },
+          {
+            "start": 2526,
+            "end": 2531,
+            "text": "Word."
+          },
+          {
+            "start": 2532,
+            "end": 2537,
+            "text": "Word."
+          },
+          {
+            "start": 2538,
+            "end": 2543,
+            "text": "Word."
+          },
+          {
+            "start": 2544,
+            "end": 2549,
+            "text": "Word."
+          },
+          {
+            "start": 2550,
+            "end": 2555,
+            "text": "Word."
+          },
+          {
+            "start": 2556,
+            "end": 2561,
+            "text": "Word."
+          },
+          {
+            "start": 2562,
+            "end": 2567,
+            "text": "Word."
+          },
+          {
+            "start": 2568,
+            "end": 2573,
+            "text": "Word."
+          },
+          {
+            "start": 2574,
+            "end": 2579,
+            "text": "Word."
+          },
+          {
+            "start": 2580,
+            "end": 2585,
+            "text": "Word."
+          },
+          {
+            "start": 2586,
+            "end": 2591,
+            "text": "Word."
+          },
+          {
+            "start": 2592,
+            "end": 2597,
+            "text": "Word."
+          },
+          {
+            "start": 2598,
+            "end": 2603,
+            "text": "Word."
+          },
+          {
+            "start": 2604,
+            "end": 2609,
+            "text": "Word."
+          },
+          {
+            "start": 2610,
+            "end": 2615,
+            "text": "Word."
+          },
+          {
+            "start": 2616,
+            "end": 2621,
+            "text": "Word."
+          },
+          {
+            "start": 2622,
+            "end": 2627,
+            "text": "Word."
+          },
+          {
+            "start": 2628,
+            "end": 2633,
+            "text": "Word."
+          },
+          {
+            "start": 2634,
+            "end": 2639,
+            "text": "Word."
+          },
+          {
+            "start": 2640,
+            "end": 2645,
+            "text": "Word."
+          },
+          {
+            "start": 2646,
+            "end": 2651,
+            "text": "Word."
+          },
+          {
+            "start": 2652,
+            "end": 2657,
+            "text": "Word."
+          },
+          {
+            "start": 2658,
+            "end": 2663,
+            "text": "Word."
+          },
+          {
+            "start": 2664,
+            "end": 2669,
+            "text": "Word."
+          },
+          {
+            "start": 2670,
+            "end": 2675,
+            "text": "Word."
+          },
+          {
+            "start": 2676,
+            "end": 2681,
+            "text": "Word."
+          },
+          {
+            "start": 2682,
+            "end": 2687,
+            "text": "Word."
+          },
+          {
+            "start": 2688,
+            "end": 2693,
+            "text": "Word."
+          },
+          {
+            "start": 2694,
+            "end": 2699,
+            "text": "Word."
+          },
+          {
+            "start": 2700,
+            "end": 2705,
+            "text": "Word."
+          },
+          {
+            "start": 2706,
+            "end": 2711,
+            "text": "Word."
+          },
+          {
+            "start": 2712,
+            "end": 2717,
+            "text": "Word."
+          },
+          {
+            "start": 2718,
+            "end": 2723,
+            "text": "Word."
+          },
+          {
+            "start": 2724,
+            "end": 2729,
+            "text": "Word."
+          },
+          {
+            "start": 2730,
+            "end": 2735,
+            "text": "Word."
+          },
+          {
+            "start": 2736,
+            "end": 2741,
+            "text": "Word."
+          },
+          {
+            "start": 2742,
+            "end": 2747,
+            "text": "Word."
+          },
+          {
+            "start": 2748,
+            "end": 2753,
+            "text": "Word."
+          },
+          {
+            "start": 2754,
+            "end": 2759,
+            "text": "Word."
+          },
+          {
+            "start": 2760,
+            "end": 2765,
+            "text": "Word."
+          },
+          {
+            "start": 2766,
+            "end": 2771,
+            "text": "Word."
+          },
+          {
+            "start": 2772,
+            "end": 2777,
+            "text": "Word."
+          },
+          {
+            "start": 2778,
+            "end": 2783,
+            "text": "Word."
+          },
+          {
+            "start": 2784,
+            "end": 2789,
+            "text": "Word."
+          },
+          {
+            "start": 2790,
+            "end": 2795,
+            "text": "Word."
+          },
+          {
+            "start": 2796,
+            "end": 2801,
+            "text": "Word."
+          },
+          {
+            "start": 2802,
+            "end": 2807,
+            "text": "Word."
+          },
+          {
+            "start": 2808,
+            "end": 2813,
+            "text": "Word."
+          },
+          {
+            "start": 2814,
+            "end": 2819,
+            "text": "Word."
+          },
+          {
+            "start": 2820,
+            "end": 2825,
+            "text": "Word."
+          },
+          {
+            "start": 2826,
+            "end": 2831,
+            "text": "Word."
+          },
+          {
+            "start": 2832,
+            "end": 2837,
+            "text": "Word."
+          },
+          {
+            "start": 2838,
+            "end": 2843,
+            "text": "Word."
+          },
+          {
+            "start": 2844,
+            "end": 2849,
+            "text": "Word."
+          },
+          {
+            "start": 2850,
+            "end": 2855,
+            "text": "Word."
+          },
+          {
+            "start": 2856,
+            "end": 2861,
+            "text": "Word."
+          },
+          {
+            "start": 2862,
+            "end": 2867,
+            "text": "Word."
+          },
+          {
+            "start": 2868,
+            "end": 2873,
+            "text": "Word."
+          },
+          {
+            "start": 2874,
+            "end": 2879,
+            "text": "Word."
+          },
+          {
+            "start": 2880,
+            "end": 2885,
+            "text": "Word."
+          },
+          {
+            "start": 2886,
+            "end": 2891,
+            "text": "Word."
+          },
+          {
+            "start": 2892,
+            "end": 2897,
+            "text": "Word."
+          },
+          {
+            "start": 2898,
+            "end": 2903,
+            "text": "Word."
+          },
+          {
+            "start": 2904,
+            "end": 2909,
+            "text": "Word."
+          },
+          {
+            "start": 2910,
+            "end": 2915,
+            "text": "Word."
+          },
+          {
+            "start": 2916,
+            "end": 2921,
+            "text": "Word."
+          },
+          {
+            "start": 2922,
+            "end": 2927,
+            "text": "Word."
+          },
+          {
+            "start": 2928,
+            "end": 2933,
+            "text": "Word."
+          },
+          {
+            "start": 2934,
+            "end": 2939,
+            "text": "Word."
+          },
+          {
+            "start": 2940,
+            "end": 2945,
+            "text": "Word."
+          },
+          {
+            "start": 2946,
+            "end": 2951,
+            "text": "Word."
+          },
+          {
+            "start": 2952,
+            "end": 2957,
+            "text": "Word."
+          },
+          {
+            "start": 2958,
+            "end": 2963,
+            "text": "Word."
+          },
+          {
+            "start": 2964,
+            "end": 2969,
+            "text": "Word."
+          },
+          {
+            "start": 2970,
+            "end": 2975,
+            "text": "Word."
+          },
+          {
+            "start": 2976,
+            "end": 2981,
+            "text": "Word."
+          },
+          {
+            "start": 2982,
+            "end": 2987,
+            "text": "Word."
+          },
+          {
+            "start": 2988,
+            "end": 2993,
+            "text": "Word."
+          },
+          {
+            "start": 2994,
+            "end": 2999,
+            "text": "Word."
+          }
+        ],
+        "review_flags": [],
+        "segmentation_status": "LOCAL_FIXTURE_VALID"
+      }
+    },
+    {
+      "fixture": {
+        "text": "... !!",
+        "count": 0
+      },
+      "output": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "5844de202172d2a75e88e5ef390861e390c85d810a9fcd00f6970ff1a6578ea6",
+        "sentence_count": 0,
+        "predicted_image_count": 0,
+        "spans": [],
+        "review_flags": [
+          "ellipses"
+        ],
+        "segmentation_status": "REVIEW_REQUIRED"
+      }
+    }
+  ],
+  "tests": [
+    {
+      "case": "topic_3_minutes",
+      "result": "PASS"
+    },
+    {
+      "case": "topic_5_minutes",
+      "result": "PASS"
+    },
+    {
+      "case": "topic_10_minutes",
+      "result": "PASS"
+    },
+    {
+      "case": "default_5_minutes_and_1_credit",
+      "result": "PASS"
+    },
+    {
+      "case": "fractional_6_minutes",
+      "result": "PASS"
+    },
+    {
+      "case": "invalid_duration_0",
+      "result": "PASS"
+    },
+    {
+      "case": "invalid_duration_-1",
+      "result": "PASS"
+    },
+    {
+      "case": "invalid_duration_NaN",
+      "result": "PASS"
+    },
+    {
+      "case": "invalid_duration_Infinity",
+      "result": "PASS"
+    },
+    {
+      "case": "generated_47_replaces_60",
+      "result": "PASS"
+    },
+    {
+      "case": "prior_valid_USD_preserved",
+      "result": "PASS"
+    },
+    {
+      "case": "projected_total_not_reset_or_double_counted",
+      "result": "PASS"
+    },
+    {
+      "case": "unknown_consumed_credits_not_invented",
+      "result": "PASS"
+    },
+    {
+      "case": "post_script_credit_formula_not_images_div_60",
+      "result": "PASS"
+    },
+    {
+      "case": "pasted_known_scope_7_not_60",
+      "result": "PASS"
+    },
+    {
+      "case": "pasted_script_does_not_fake_script_generation_spend",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_count_deterministic_with_exact_spans",
+      "result": "PASS"
+    },
+    {
+      "case": "closing_quote_preserved",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_case_0",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_case_1",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_case_2",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_case_3",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_case_4",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_case_5",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_case_6",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_case_7",
+      "result": "PASS"
+    },
+    {
+      "case": "sentence_case_8",
+      "result": "PASS"
+    },
+    {
+      "case": "abbreviation_flags_review_not_linguistic_certification",
+      "result": "PASS"
+    },
+    {
+      "case": "large_script_scope_measured_214",
+      "result": "PASS"
+    },
+    {
+      "case": "large_script_output_cost_recomputed",
+      "result": "PASS"
+    },
+    {
+      "case": "large_script_prior_work_retained",
+      "result": "PASS"
+    },
+    {
+      "case": "large_scope_blocked_despite_expected_output_fitting_8_50",
+      "result": "PASS"
+    },
+    {
+      "case": "model_output_cannot_modify_authority",
+      "result": "PASS"
+    },
+    {
+      "case": "expected_not_maximum_exposure",
+      "result": "PASS"
+    },
+    {
+      "case": "47_within_fixture_authority_is_not_live_permission",
+      "result": "PASS"
+    },
+    {
+      "case": "unknown_hold_blocks_otherwise_valid_47",
+      "result": "PASS"
+    },
+    {
+      "case": "free_zero_quota_blocks_47",
+      "result": "PASS"
+    },
+    {
+      "case": "display_credits_do_not_change_USD_admission",
+      "result": "PASS"
+    },
+    {
+      "case": "known_credit_usage_retained_while_other_usage_pending",
+      "result": "PASS"
+    },
+    {
+      "case": "explicit_fixture_credit_usage_preserved_without_debit_formula",
+      "result": "PASS"
+    }
+  ],
+  "test_count": 40,
+  "financial_fixtures": "Synthetic consumed operations and authority only, not actual spending/credit policy. 60-authorized-image fixture is explicit test scope, not preliminary heuristic conferring authority.",
+  "prelaunch_ceiling_USD": "30",
+  "provider_API_calls": 0,
+  "paid_spend_USD": "0",
+  "dependencies_added": [],
+  "production_implementation_touched": false
+}

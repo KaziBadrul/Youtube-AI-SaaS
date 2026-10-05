@@ -1,0 +1,23 @@
+{
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "packages": {
+    "Pillow": "12.0.0",
+    "numpy": "2.2.6",
+    "psutil": "7.0.0",
+    "fonttools": "4.60.1",
+    "uharfbuzz": "0.51.0",
+    "freetype-py": "2.5.1"
+  },
+  "freetype_version": [
+    2,
+    13,
+    2
+  ],
+  "harfbuzz_version": "11.3.2",
+  "pillow_raqm": false,
+  "cpu": "Apple M5",
+  "ram_bytes": 17179869184,
+  "cores": 10,
+  "isolated_runtime": "/private/tmp/s6-render-venv",
+  "primary_environment_modified": false
+}

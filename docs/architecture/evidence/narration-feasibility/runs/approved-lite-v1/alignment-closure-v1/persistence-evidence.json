@@ -1,0 +1,25 @@
+{
+  "source_narration_audio": {
+    "artifact_type": "SourceNarrationAudio",
+    "immutable": true,
+    "source_versions": ["Call 4 source WAV", "Call 5 isolated correction WAV"],
+    "hashes_recorded": true
+  },
+  "scene_audio_mappings": {
+    "artifact_type": "Alignment / Scene Audio Mapping",
+    "records": ["call-04-alignment.json", "call-06-alignment.json", "call-07-alignment.json"],
+    "fields_present": ["scene_id", "source_text_version", "start_time", "end_time", "duration", "coverage", "confidence", "boundary_status", "missing_expected_words", "unexpected_recognized_words"],
+    "validation_states": ["VALID", "REVIEW_REQUIRED", "INVALID"]
+  },
+  "derived_project_narration": {
+    "composition": [
+      "Scenes 1–19 from Call 4 ranges",
+      "Scene 20 from Call 5 isolated range",
+      "Scenes 21–32 from Call 4 ranges"
+    ],
+    "recipe": "composition-manifest.json",
+    "derived_audio": ["B_C1_DERIVED_FULL.wav", "B_C1_DERIVED_SCENES_19_21.wav"],
+    "selection_state": "DERIVED_PENDING_FINAL_SPLICE_LISTENING"
+  },
+  "fail_closed_rule": "Only VALID mappings with complete coverage may be selected. REVIEW_REQUIRED or INVALID mappings remain history/review-only and cannot become publishable current narration."
+}

@@ -1,0 +1,630 @@
+{
+  "version": "s5-fixture-1",
+  "source": "demo-video-example/script.txt",
+  "source_sha256": "ef1745d2d8cfe4b5c5cbf7d3d6c3202af49b806369d57bc8a145b9a4c6a6dbbf",
+  "scenes": [
+    {
+      "id": 1,
+      "text": "Okay, so... it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it.",
+      "metrics": {
+        "words": 21,
+        "characters": 105,
+        "utf8_bytes": 107,
+        "token_proxy_ceil_chars_div4": 27,
+        "sha256": "cc0794e56fcd72cd26ea3a73bf8af4fb64272a11dca7a6d6c2fa53249e21e8b9"
+      }
+    },
+    {
+      "id": 2,
+      "text": "At some point between when you're like twelve and twenty-two, your brain just... glitches.",
+      "metrics": {
+        "words": 14,
+        "characters": 90,
+        "utf8_bytes": 90,
+        "token_proxy_ceil_chars_div4": 23,
+        "sha256": "a49aed74ad1cf0759f7e4b262fdc9215c45aa74f90855cd184ffe90b07f6d24f"
+      }
+    },
+    {
+      "id": 3,
+      "text": "You’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you.",
+      "metrics": {
+        "words": 28,
+        "characters": 164,
+        "utf8_bytes": 166,
+        "token_proxy_ceil_chars_div4": 41,
+        "sha256": "5adc4bc2f3eaef11102746043037967a299b1ff212b10ca7c25f5ebcd5c1748b"
+      }
+    },
+    {
+      "id": 4,
+      "text": "He’s not this all-knowing architect of reality.",
+      "metrics": {
+        "words": 7,
+        "characters": 47,
+        "utf8_bytes": 49,
+        "token_proxy_ceil_chars_div4": 12,
+        "sha256": "bddbc9039b408807b475c065fbef4050c8eb5b700f9607889f78e2231b26fc89"
+      }
+    },
+    {
+      "id": 5,
+      "text": "He’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything.",
+      "metrics": {
+        "words": 21,
+        "characters": 127,
+        "utf8_bytes": 129,
+        "token_proxy_ceil_chars_div4": 32,
+        "sha256": "a93fdc43ae6fda5620a041b184df012f9475054b24ac8a22af5183c51007a1ab"
+      }
+    },
+    {
+      "id": 6,
+      "text": "Because think about when you were five.",
+      "metrics": {
+        "words": 7,
+        "characters": 39,
+        "utf8_bytes": 39,
+        "token_proxy_ceil_chars_div4": 10,
+        "sha256": "f7e0c67f43e899405db678e63faa3d2e5896f12270cd881087b348f3c7df1bac"
+      }
+    },
+    {
+      "id": 7,
+      "text": "Your parents aren't even people to you back then.",
+      "metrics": {
+        "words": 9,
+        "characters": 49,
+        "utf8_bytes": 49,
+        "token_proxy_ceil_chars_div4": 13,
+        "sha256": "82e1f3e29fd7800470c236719602aff49d88b32923fd1e6891ccbdada9b1620b"
+      }
+    },
+    {
+      "id": 8,
+      "text": "They're like... mythical creatures.",
+      "metrics": {
+        "words": 4,
+        "characters": 35,
+        "utf8_bytes": 35,
+        "token_proxy_ceil_chars_div4": 9,
+        "sha256": "920491eeb2eeda58a0ab8e9d077e7331a2db966f814c1fa7c744a185076b671f"
+      }
+    },
+    {
+      "id": 9,
+      "text": "They know where the spare lightbulbs are kept.",
+      "metrics": {
+        "words": 8,
+        "characters": 46,
+        "utf8_bytes": 46,
+        "token_proxy_ceil_chars_div4": 12,
+        "sha256": "436631fbf54a153d65ddefa98d9902e8410920c1bf4c08e2da6af7ffb76c7e79"
+      }
+    },
+    {
+      "id": 10,
+      "text": "They deal with wasps.",
+      "metrics": {
+        "words": 4,
+        "characters": 21,
+        "utf8_bytes": 21,
+        "token_proxy_ceil_chars_div4": 6,
+        "sha256": "875ef689b40082c2f99b8956b6cd875b09930ed301fad955cabe006a11dea5fe"
+      }
+    },
+    {
+      "id": 11,
+      "text": "They carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major.",
+      "metrics": {
+        "words": 27,
+        "characters": 134,
+        "utf8_bytes": 134,
+        "token_proxy_ceil_chars_div4": 34,
+        "sha256": "d69000238509f7e918d41c17f4ea757d0ddfbfcb8c795bec5c99b0d5cdc8f456"
+      }
+    },
+    {
+      "id": 12,
+      "text": "They're just environmental facts.",
+      "metrics": {
+        "words": 4,
+        "characters": 33,
+        "utf8_bytes": 33,
+        "token_proxy_ceil_chars_div4": 9,
+        "sha256": "473f85a0c55e03bed152ce40fc70d3d80d78e4627541099a04e34aae4ada8f38"
+      }
+    },
+    {
+      "id": 13,
+      "text": "Like gravity, or the roof.",
+      "metrics": {
+        "words": 5,
+        "characters": 26,
+        "utf8_bytes": 26,
+        "token_proxy_ceil_chars_div4": 7,
+        "sha256": "9712f322ea9598d0012e3c887acb70a8d85933098ffd423a75f99f6349937344"
+      }
+    },
+    {
+      "id": 14,
+      "text": "And then you get older, and the cracks start showing.",
+      "metrics": {
+        "words": 10,
+        "characters": 53,
+        "utf8_bytes": 53,
+        "token_proxy_ceil_chars_div4": 14,
+        "sha256": "981b412bbe41452082a2febf98036e8263d2d3646eee060cd590e84406a30773"
+      }
+    },
+    {
+      "id": 15,
+      "text": "Maybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag.",
+      "metrics": {
+        "words": 33,
+        "characters": 186,
+        "utf8_bytes": 186,
+        "token_proxy_ceil_chars_div4": 47,
+        "sha256": "f11121c52040f25214c13507dbf77fd79322d6fb69dd3848952a4bd3a02849fc"
+      }
+    },
+    {
+      "id": 16,
+      "text": "Or you hear your dad tell a casual story about his twenties and you realize... wait, he was a total menace who barely survived his own terrible choices?",
+      "metrics": {
+        "words": 28,
+        "characters": 152,
+        "utf8_bytes": 152,
+        "token_proxy_ceil_chars_div4": 38,
+        "sha256": "6d144486f00c30d9ea2ea3fd92c4983b889ec4dcd31943d715afb391c09b4698"
+      }
+    },
+    {
+      "id": 17,
+      "text": "Or even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for.",
+      "metrics": {
+        "words": 40,
+        "characters": 216,
+        "utf8_bytes": 218,
+        "token_proxy_ceil_chars_div4": 54,
+        "sha256": "adf6de79841821f1e8987e02e653725089195cfd09d3eb87877e8ffaecf3f2dd"
+      }
+    },
+    {
+      "id": 18,
+      "text": "I actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\"",
+      "metrics": {
+        "words": 14,
+        "characters": 101,
+        "utf8_bytes": 103,
+        "token_proxy_ceil_chars_div4": 26,
+        "sha256": "5389cbd2c3cabd10e1e9226e9e540435a8a13c38b85c0951327c795de38fbc1a"
+      }
+    },
+    {
+      "id": 19,
+      "text": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel.",
+      "metrics": {
+        "words": 41,
+        "characters": 238,
+        "utf8_bytes": 240,
+        "token_proxy_ceil_chars_div4": 60,
+        "sha256": "2128518f2844aec57552b45d5206407426fe19288377b01428682b9e4fbb30b2"
+      }
+    },
+    {
+      "id": 20,
+      "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks.",
+      "metrics": {
+        "words": 23,
+        "characters": 122,
+        "utf8_bytes": 124,
+        "token_proxy_ceil_chars_div4": 31,
+        "sha256": "c1977c3098740617858af369b1e4496c28460caedd214f27a1edbe136f033e65"
+      }
+    },
+    {
+      "id": 21,
+      "text": "And if you do the math, it’s even wilder.",
+      "metrics": {
+        "words": 9,
+        "characters": 41,
+        "utf8_bytes": 43,
+        "token_proxy_ceil_chars_div4": 11,
+        "sha256": "8614a1525da32457eaa94113bdb1ae4d62bd020aa9447bdb548f4594c744b6b9"
+      }
+    },
+    {
+      "id": 22,
+      "text": "When you were born, your parents were probably in their twenties or early thirties.",
+      "metrics": {
+        "words": 14,
+        "characters": 83,
+        "utf8_bytes": 83,
+        "token_proxy_ceil_chars_div4": 21,
+        "sha256": "5da1235ae62054d528dee0c24df085c7c2e340cc37f202740d23d644e73b0778"
+      }
+    },
+    {
+      "id": 23,
+      "text": "Look at anyone who's twenty-four right now.",
+      "metrics": {
+        "words": 7,
+        "characters": 43,
+        "utf8_bytes": 43,
+        "token_proxy_ceil_chars_div4": 11,
+        "sha256": "331761ba9ed6320cfef569f1b6adfa2554e0a2f29eaee713b88d6c51e225e262"
+      }
+    },
+    {
+      "id": 24,
+      "text": "They are a disaster zone.",
+      "metrics": {
+        "words": 5,
+        "characters": 25,
+        "utf8_bytes": 25,
+        "token_proxy_ceil_chars_div4": 7,
+        "sha256": "a36abdc7695068a8f0191d9814549ab416a999fae9ed3031cd79efb4c4df4688"
+      }
+    },
+    {
+      "id": 25,
+      "text": "They eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time.",
+      "metrics": {
+        "words": 29,
+        "characters": 139,
+        "utf8_bytes": 139,
+        "token_proxy_ceil_chars_div4": 35,
+        "sha256": "b3df3b203532adce7be5d1342cc67e9eadc74d79d244ee4e96093114191fde01"
+      }
+    },
+    {
+      "id": 26,
+      "text": "Your parents were *those exact people*.",
+      "metrics": {
+        "words": 6,
+        "characters": 39,
+        "utf8_bytes": 39,
+        "token_proxy_ceil_chars_div4": 10,
+        "sha256": "9502d2b31a58068a64aec9b5e64eb1290e1e43d7b58a9df8d581ed74a7750892"
+      }
+    },
+    {
+      "id": 27,
+      "text": "They didn't get summoned from some ancient order of wise elders.",
+      "metrics": {
+        "words": 11,
+        "characters": 64,
+        "utf8_bytes": 64,
+        "token_proxy_ceil_chars_div4": 16,
+        "sha256": "92abd7cbd740b857d41b6b448143109cb6d7ba223cba1c1bf2868162f3e34a1f"
+      }
+    },
+    {
+      "id": 28,
+      "text": "They were literally just two random young adults who got handed a screaming baby and went, \"Oh... cool. Guess we're doing this now.\"",
+      "metrics": {
+        "words": 23,
+        "characters": 132,
+        "utf8_bytes": 132,
+        "token_proxy_ceil_chars_div4": 33,
+        "sha256": "ccd4a1943dad1bf542d42c306c6a8cf6f8d05169bca4b9787aaf067911f358d0"
+      }
+    },
+    {
+      "id": 29,
+      "text": "Every rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling.",
+      "metrics": {
+        "words": 17,
+        "characters": 112,
+        "utf8_bytes": 114,
+        "token_proxy_ceil_chars_div4": 28,
+        "sha256": "9851abf0e2606907be43021dfeb9d45289a1b4dd52fc787c9b480085e37bf9ea"
+      }
+    },
+    {
+      "id": 30,
+      "text": "Making it up on the spot.",
+      "metrics": {
+        "words": 6,
+        "characters": 25,
+        "utf8_bytes": 25,
+        "token_proxy_ceil_chars_div4": 7,
+        "sha256": "9302135c1662270ce208bcc4aa7da59c2013db0b263d36948de0e9c4edcb868f"
+      }
+    },
+    {
+      "id": 31,
+      "text": "And once you notice it, you can't unsee it.",
+      "metrics": {
+        "words": 9,
+        "characters": 43,
+        "utf8_bytes": 43,
+        "token_proxy_ceil_chars_div4": 11,
+        "sha256": "5d68c685fb245f63257bb55570d903f2529b14f3e7b774521e65a79e04b7ac18"
+      }
+    },
+    {
+      "id": 32,
+      "text": "You start seeing their weird habits not as \"parent traits,\" but as human flaws.",
+      "metrics": {
+        "words": 14,
+        "characters": 79,
+        "utf8_bytes": 79,
+        "token_proxy_ceil_chars_div4": 20,
+        "sha256": "7a0e3e91fae2ccaaae845db2b98b520f09eedd57514421b044079fe68b5907c3"
+      }
+    },
+    {
+      "id": 33,
+      "text": "You notice your mom is genuinely insecure about her cooking.",
+      "metrics": {
+        "words": 10,
+        "characters": 60,
+        "utf8_bytes": 60,
+        "token_proxy_ceil_chars_div4": 15,
+        "sha256": "fb5168fd8903769cdbde203f2753e4ef24c23d10eb8959f180d13dd0bd8502a5"
+      }
+    },
+    {
+      "id": 34,
+      "text": "You notice your dad gets angry because he’s actually just overwhelmed and doesn't know what else to do.",
+      "metrics": {
+        "words": 18,
+        "characters": 103,
+        "utf8_bytes": 105,
+        "token_proxy_ceil_chars_div4": 26,
+        "sha256": "76e87bd0b811f1b14a32fbc8b989c8d3e8c3a768ddf5d0730656d0d06a84f73c"
+      }
+    },
+    {
+      "id": 35,
+      "text": "You realize they have high school stuff they never got over, bad habits they can't break.",
+      "metrics": {
+        "words": 16,
+        "characters": 89,
+        "utf8_bytes": 89,
+        "token_proxy_ceil_chars_div4": 23,
+        "sha256": "8f59b24098c3cbb288eefb98d860e3b5acd28cc9e7421f7a77302c227162c4b0"
+      }
+    },
+    {
+      "id": 36,
+      "text": "And honestly, it kind of sucks at first.",
+      "metrics": {
+        "words": 8,
+        "characters": 40,
+        "utf8_bytes": 40,
+        "token_proxy_ceil_chars_div4": 10,
+        "sha256": "e7e25eace35526db639e2f0bba91b0e0fe7cb9dd64813854ed490c91b1c9ec9a"
+      }
+    },
+    {
+      "id": 37,
+      "text": "Because when you stop seeing them as superheroes, you lose that safety net.",
+      "metrics": {
+        "words": 13,
+        "characters": 75,
+        "utf8_bytes": 75,
+        "token_proxy_ceil_chars_div4": 19,
+        "sha256": "4ee4f6096d1b283bfa9a7f88d54feb9c33ea2055a7e930d79146059f582976ab"
+      }
+    },
+    {
+      "id": 38,
+      "text": "You realize no one is secretly steering the ship.",
+      "metrics": {
+        "words": 9,
+        "characters": 49,
+        "utf8_bytes": 49,
+        "token_proxy_ceil_chars_div4": 13,
+        "sha256": "3de997be114b85672b4befcdfeef3e9af41a631b8ba9cb607ec3e9d4be04bc88"
+      }
+    },
+    {
+      "id": 39,
+      "text": "There is no shadow committee of adults who have it all figured out.",
+      "metrics": {
+        "words": 13,
+        "characters": 67,
+        "utf8_bytes": 67,
+        "token_proxy_ceil_chars_div4": 17,
+        "sha256": "fbfe19e3766d3448fa9b11166284237fddc45266c5377a6375fedad799504dca"
+      }
+    },
+    {
+      "id": 40,
+      "text": "It’s just eight billion people pretending they know what’s going on while trying not to spill coffee on themselves.",
+      "metrics": {
+        "words": 19,
+        "characters": 115,
+        "utf8_bytes": 119,
+        "token_proxy_ceil_chars_div4": 29,
+        "sha256": "36d859a3da724dfa73cafb2759d156fc1a76b1aceb90803e7dcb2db67561a723"
+      }
+    },
+    {
+      "id": 41,
+      "text": "But... I don't know, it’s also kind of nice?",
+      "metrics": {
+        "words": 9,
+        "characters": 44,
+        "utf8_bytes": 46,
+        "token_proxy_ceil_chars_div4": 11,
+        "sha256": "bb816fe98ef5e54d84f341658895db96a3697061280b3ff44c6043d36fab0d05"
+      }
+    },
+    {
+      "id": 42,
+      "text": "Because once you stop expecting them to be perfect, you can actually like... meet them.",
+      "metrics": {
+        "words": 15,
+        "characters": 87,
+        "utf8_bytes": 87,
+        "token_proxy_ceil_chars_div4": 22,
+        "sha256": "e1319379f856a85e322db213c201c8cc12c2a2801026f42b5a300203b6c49ed0"
+      }
+    },
+    {
+      "id": 43,
+      "text": "As actual people.",
+      "metrics": {
+        "words": 3,
+        "characters": 17,
+        "utf8_bytes": 17,
+        "token_proxy_ceil_chars_div4": 5,
+        "sha256": "d38397ef62af24e3cd6554cd68b0d84948ddca8521d28660d34b3f515f2a4870"
+      }
+    },
+    {
+      "id": 44,
+      "text": "You stop asking \"why did my parents ruin my life?\" and you start going, \"man, what kind of chaotic mess were they dealing with when they were my age?\"",
+      "metrics": {
+        "words": 29,
+        "characters": 150,
+        "utf8_bytes": 150,
+        "token_proxy_ceil_chars_div4": 38,
+        "sha256": "33171889620bb55b899ece48e8471aca10d5ec83a453d2fa7dc9fb4ab117d67d"
+      }
+    },
+    {
+      "id": 45,
+      "text": "It turns it from this weird hierarchy into a real relationship.",
+      "metrics": {
+        "words": 11,
+        "characters": 63,
+        "utf8_bytes": 63,
+        "token_proxy_ceil_chars_div4": 16,
+        "sha256": "ce5afc62d41646e2a97ef79aebc514a02310a3057c66e377e772b88d45fb3947"
+      }
+    },
+    {
+      "id": 46,
+      "text": "You’re not just living in their kingdom anymore.",
+      "metrics": {
+        "words": 8,
+        "characters": 48,
+        "utf8_bytes": 50,
+        "token_proxy_ceil_chars_div4": 12,
+        "sha256": "173690355529a0776cd440ef0302cd9107b83885f207a7d84a503148e4ab4d9c"
+      }
+    },
+    {
+      "id": 47,
+      "text": "You’re just two adults standing in the same room, both mildly confused by the universe, both trying to figure out how to make dinner without burning the kitchen down.",
+      "metrics": {
+        "words": 29,
+        "characters": 166,
+        "utf8_bytes": 168,
+        "token_proxy_ceil_chars_div4": 42,
+        "sha256": "ad6e17d58cdb2565e54e2efa4246e4b99f6ed707bce750691e8d7d210dd4c560"
+      }
+    },
+    {
+      "id": 48,
+      "text": "So next time your mom is struggling to open a PDF, or your dad is staring blankly at a shelf in the hardware store... just give them a break.",
+      "metrics": {
+        "words": 29,
+        "characters": 141,
+        "utf8_bytes": 141,
+        "token_proxy_ceil_chars_div4": 36,
+        "sha256": "16ca9e630edc8656a034c63225095acd2d8a722d69fcf09ded86713e9cedbf25"
+      }
+    },
+    {
+      "id": 49,
+      "text": "They’re doing a live playthrough of life with no tutorial, exactly like you.",
+      "metrics": {
+        "words": 13,
+        "characters": 76,
+        "utf8_bytes": 78,
+        "token_proxy_ceil_chars_div4": 19,
+        "sha256": "160e0e9ae2703c5217cb8641d07e9bd9569d9dd5352b573d2b4675d84b49b2c3"
+      }
+    }
+  ],
+  "initial_block_scene_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "comparison_scene_ids": [
+    19,
+    20,
+    21
+  ],
+  "edit": {
+    "scene_id": 20,
+    "original": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks.",
+    "edited": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for a month.",
+    "edited_metrics": {
+      "words": 23,
+      "characters": 118,
+      "utf8_bytes": 120,
+      "token_proxy_ceil_chars_div4": 30,
+      "sha256": "80b24e007de99b958b407aa3a2f048d04aed153ff667f904bed092cfbcbaa739"
+    }
+  },
+  "delivery_style": "Natural, engaging, conversational documentary-style YouTube narration.",
+  "alternate_delivery_style": "Calm, reflective documentary-style narration, with measured delivery.",
+  "derived_texts": {
+    "block_original": "Okay, so... it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it.\n\nAt some point between when you're like twelve and twenty-two, your brain just... glitches.\n\nYou’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you.\n\nHe’s not this all-knowing architect of reality.\n\nHe’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything.\n\nBecause think about when you were five.\n\nYour parents aren't even people to you back then.\n\nThey're like... mythical creatures.\n\nThey know where the spare lightbulbs are kept.\n\nThey deal with wasps.\n\nThey carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major.\n\nThey're just environmental facts.\n\nLike gravity, or the roof.\n\nAnd then you get older, and the cracks start showing.\n\nMaybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag.\n\nOr you hear your dad tell a casual story about his twenties and you realize... wait, he was a total menace who barely survived his own terrible choices?\n\nOr even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for.\n\nI actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\"\n\nWhich sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel.\n\nExcept in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks.\n\nAnd if you do the math, it’s even wilder.\n\nWhen you were born, your parents were probably in their twenties or early thirties.\n\nLook at anyone who's twenty-four right now.\n\nThey are a disaster zone.\n\nThey eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time.\n\nYour parents were *those exact people*.\n\nThey didn't get summoned from some ancient order of wise elders.\n\nThey were literally just two random young adults who got handed a screaming baby and went, \"Oh... cool. Guess we're doing this now.\"\n\nEvery rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling.\n\nMaking it up on the spot.\n\nAnd once you notice it, you can't unsee it.\n\nYou start seeing their weird habits not as \"parent traits,\" but as human flaws.",
+    "block_edited": "Okay, so... it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it.\n\nAt some point between when you're like twelve and twenty-two, your brain just... glitches.\n\nYou’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you.\n\nHe’s not this all-knowing architect of reality.\n\nHe’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything.\n\nBecause think about when you were five.\n\nYour parents aren't even people to you back then.\n\nThey're like... mythical creatures.\n\nThey know where the spare lightbulbs are kept.\n\nThey deal with wasps.\n\nThey carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major.\n\nThey're just environmental facts.\n\nLike gravity, or the roof.\n\nAnd then you get older, and the cracks start showing.\n\nMaybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag.\n\nOr you hear your dad tell a casual story about his twenties and you realize... wait, he was a total menace who barely survived his own terrible choices?\n\nOr even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for.\n\nI actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\"\n\nWhich sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel.\n\nExcept in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for a month.\n\nAnd if you do the math, it’s even wilder.\n\nWhen you were born, your parents were probably in their twenties or early thirties.\n\nLook at anyone who's twenty-four right now.\n\nThey are a disaster zone.\n\nThey eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time.\n\nYour parents were *those exact people*.\n\nThey didn't get summoned from some ancient order of wise elders.\n\nThey were literally just two random young adults who got handed a screaming baby and went, \"Oh... cool. Guess we're doing this now.\"\n\nEvery rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling.\n\nMaking it up on the spot.\n\nAnd once you notice it, you can't unsee it.\n\nYou start seeing their weird habits not as \"parent traits,\" but as human flaws.",
+    "context_edited": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel.\n\nExcept in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for a month.\n\nAnd if you do the math, it’s even wilder."
+  },
+  "historical_audio": {
+    "sha256": "af74c519e22cecd394b1610e29b0be85f0dfd887e543e17b58a7131e84d02c8b",
+    "seconds": 265.0,
+    "rate": 24000,
+    "channels": 1,
+    "width": 2
+  },
+  "other_source_hashes": {
+    "demo-video-example/03_scenes.json": "88bff5d77c531561dfb5c42a4e621b6ca0980e2d1b3b2eab54861df6ac948f17",
+    "demo-video-example/output/timestamps.json": "6ddf6c4518d8146f010905bc0733f30024afc4216008d831e6d0e734b54867c9"
+  },
+  "inspected_pipeline_source_hashes": {
+    "/Users/kazibadrul/Python Codes/YoutubeAI/python-scripts/create_tts.py": "efb79bc51f7fe7a7faaf6cca86e794edb455668367b80f928bb751eaa19413da",
+    "/Users/kazibadrul/Python Codes/YoutubeAI/python-scripts/make_timestamps.py": "f16e04ad7604ffd1fe8babe8422ada96d50d0b62ca877fd852b862736a801933"
+  },
+  "tts_provenance": "Historical model/voice/segment membership unverified; not a controlled quality baseline.",
+  "block_metrics": {
+    "words": 498,
+    "characters": 2871,
+    "utf8_bytes": 2891,
+    "token_proxy_ceil_chars_div4": 718,
+    "sha256": "333db790f6e8dda32f42fd40bd03ddd29998128ab59aff9d60197494a39e6b95"
+  },
+  "scene_json_text_mismatches": [
+    35
+  ]
+}

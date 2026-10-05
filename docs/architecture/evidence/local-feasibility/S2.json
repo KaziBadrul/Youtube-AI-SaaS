@@ -1,0 +1,2733 @@
+{
+  "gate": "S2",
+  "timestamp_utc": "2026-10-04T11:10:03.675578+00:00",
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "sqlite": "3.53.4",
+  "plan_sha256": "51343a5924d19a115dbbb6756100e6d0532c0a86b7906037c9e2b6a697bc5ff4",
+  "race_repeats": 20,
+  "concurrency": 8,
+  "race_families": 8,
+  "race_results": [
+    {
+      "repeat": 0,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.08505525003420189,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 0,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.08567545801633969,
+      "results": [
+        "9d3544eac2e74703be7fcad9bc8a7ed6",
+        "9d3544eac2e74703be7fcad9bc8a7ed6",
+        "9d3544eac2e74703be7fcad9bc8a7ed6",
+        "9d3544eac2e74703be7fcad9bc8a7ed6",
+        "9d3544eac2e74703be7fcad9bc8a7ed6",
+        "9d3544eac2e74703be7fcad9bc8a7ed6",
+        "9d3544eac2e74703be7fcad9bc8a7ed6",
+        "9d3544eac2e74703be7fcad9bc8a7ed6"
+      ]
+    },
+    {
+      "repeat": 0,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.011250542011111975,
+      "results": [
+        "d44845770da343a687f2c1aa1399fe0f",
+        "329a741ead3a473db4029935bf19e31b",
+        "a9c4ddedfa92414c9bd2e0889cc2b95b",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 0,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.005810166010633111,
+      "results": [
+        [
+          "b5ea7cc289bb42399684912bf41e8307",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 0,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.06002658297074959,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 0,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.0380227499990724,
+      "results": [
+        [
+          "d9b9acbc9f1f412ba3fdfc2c1e3aed16",
+          1
+        ],
+        "busy",
+        null,
+        "busy",
+        null,
+        null,
+        "busy",
+        "busy"
+      ]
+    },
+    {
+      "repeat": 0,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.021713999973144382,
+      "results": [
+        [
+          "a890c77df431406d8f11641eebd76811",
+          1
+        ],
+        null,
+        null,
+        "locked",
+        "locked",
+        "locked",
+        "locked",
+        null
+      ]
+    },
+    {
+      "repeat": 0,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.01136770803714171,
+      "results": [
+        null,
+        false,
+        false,
+        null,
+        false,
+        null,
+        false,
+        null
+      ]
+    },
+    {
+      "repeat": 1,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.037899125018157065,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 1,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.08524266700260341,
+      "results": [
+        "5334018e1d0141429251b0baa44bc982",
+        "5334018e1d0141429251b0baa44bc982",
+        "5334018e1d0141429251b0baa44bc982",
+        "5334018e1d0141429251b0baa44bc982",
+        "5334018e1d0141429251b0baa44bc982",
+        "5334018e1d0141429251b0baa44bc982",
+        "5334018e1d0141429251b0baa44bc982",
+        "5334018e1d0141429251b0baa44bc982"
+      ]
+    },
+    {
+      "repeat": 1,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.02191291598137468,
+      "results": [
+        "61171586eb084f62ae54871b7d393fad",
+        "e869945c12614b24ae493a041a54f1c0",
+        "265070c1aef5431eae13942cfa059497",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 1,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.05829508398892358,
+      "results": [
+        [
+          "5cae948598e1464ab57d6ca0dfbce52a",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 1,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.0601651250035502,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 1,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.0851776659837924,
+      "results": [
+        "deleted",
+        null,
+        null,
+        "already_deleted_denied",
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null
+      ]
+    },
+    {
+      "repeat": 1,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.08510212501278147,
+      "results": [
+        "saved",
+        "conflict",
+        null,
+        null,
+        null,
+        "conflict",
+        null,
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 1,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.011224249959923327,
+      "results": [
+        null,
+        null,
+        false,
+        null,
+        null,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "repeat": 2,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.05905104102566838,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 2,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.03757499996572733,
+      "results": [
+        "e978d26e4d2140dc8e34ca7c3ba0e5be",
+        "e978d26e4d2140dc8e34ca7c3ba0e5be",
+        "e978d26e4d2140dc8e34ca7c3ba0e5be",
+        "e978d26e4d2140dc8e34ca7c3ba0e5be",
+        "e978d26e4d2140dc8e34ca7c3ba0e5be",
+        "e978d26e4d2140dc8e34ca7c3ba0e5be",
+        "e978d26e4d2140dc8e34ca7c3ba0e5be",
+        "e978d26e4d2140dc8e34ca7c3ba0e5be"
+      ]
+    },
+    {
+      "repeat": 2,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08528004202526063,
+      "results": [
+        "43d92c26c8e5442abc200ced227b758e",
+        "c8b9c4aeb9a74f60b3d04f754d40e87c",
+        "d337593513994e4d99046747a0f75e10",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 2,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.03839695797068998,
+      "results": [
+        [
+          "5cc8fe1ea81741a6934775df664e42aa",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 2,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.03804687497904524,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 2,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.01048787502804771,
+      "results": [
+        [
+          "50d3d81e191e433da345324c78ef316d",
+          1
+        ],
+        "busy",
+        null,
+        null,
+        "busy",
+        null,
+        "busy",
+        "busy"
+      ]
+    },
+    {
+      "repeat": 2,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.021833417005836964,
+      "results": [
+        [
+          "3e9406b612b94c6c85ce54ad790554e0",
+          1
+        ],
+        "locked",
+        null,
+        null,
+        null,
+        "locked",
+        "locked",
+        "locked"
+      ]
+    },
+    {
+      "repeat": 2,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.004779874987434596,
+      "results": [
+        null,
+        false,
+        false,
+        null,
+        false,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 3,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.02151312498608604,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 3,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.02194941701600328,
+      "results": [
+        "0b137d0d6bdf4e55b2399a232c5e7c4a",
+        "0b137d0d6bdf4e55b2399a232c5e7c4a",
+        "0b137d0d6bdf4e55b2399a232c5e7c4a",
+        "0b137d0d6bdf4e55b2399a232c5e7c4a",
+        "0b137d0d6bdf4e55b2399a232c5e7c4a",
+        "0b137d0d6bdf4e55b2399a232c5e7c4a",
+        "0b137d0d6bdf4e55b2399a232c5e7c4a",
+        "0b137d0d6bdf4e55b2399a232c5e7c4a"
+      ]
+    },
+    {
+      "repeat": 3,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.0231598750106059,
+      "results": [
+        "b3fe049eb45c415cbca23dc764915460",
+        "f44fdfde428f4a67befc2516af405abe",
+        "0e8122aa06df4b509a51e7828562a117",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 3,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.021699292003177106,
+      "results": [
+        [
+          "b6176ccd04a1412d9b749d74024b0b0a",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 3,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.022340749972499907,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 3,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.00530066603096202,
+      "results": [
+        [
+          "d79bb8b515614295933f462ceb4fc0ca",
+          1
+        ],
+        "busy",
+        null,
+        null,
+        "busy",
+        null,
+        "busy",
+        "busy"
+      ]
+    },
+    {
+      "repeat": 3,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.021640166989527643,
+      "results": [
+        [
+          "25fafd3a9bb04954899c49032d64aa5d",
+          1
+        ],
+        "locked",
+        null,
+        "locked",
+        "locked",
+        null,
+        "locked",
+        null
+      ]
+    },
+    {
+      "repeat": 3,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.005719124979805201,
+      "results": [
+        null,
+        false,
+        null,
+        null,
+        false,
+        false,
+        null,
+        false
+      ]
+    },
+    {
+      "repeat": 4,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.058521000028122216,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 4,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.03769412497058511,
+      "results": [
+        "83829c39071f4d5fb3799a87abee13b6",
+        "83829c39071f4d5fb3799a87abee13b6",
+        "83829c39071f4d5fb3799a87abee13b6",
+        "83829c39071f4d5fb3799a87abee13b6",
+        "83829c39071f4d5fb3799a87abee13b6",
+        "83829c39071f4d5fb3799a87abee13b6",
+        "83829c39071f4d5fb3799a87abee13b6",
+        "83829c39071f4d5fb3799a87abee13b6"
+      ]
+    },
+    {
+      "repeat": 4,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08520079200388864,
+      "results": [
+        "5c4d2e65e7044e98b89dbe620bdd10a1",
+        "7dad20391f414c359a3e7435a5c3b259",
+        "4e57dcf6848d454d8b6fffbf7f930cdb",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 4,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.037469749979209155,
+      "results": [
+        [
+          "b47c06c8fef14be7bd4f8b86df19f2c5",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 4,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.05920337501447648,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 4,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.038073375006206334,
+      "results": [
+        [
+          "680558001a3d414d93fb339a76c35de5",
+          1
+        ],
+        "busy",
+        null,
+        "busy",
+        null,
+        null,
+        "busy",
+        "busy"
+      ]
+    },
+    {
+      "repeat": 4,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.05862895800964907,
+      "results": [
+        [
+          "5b360687df604b63b396ac512af10031",
+          1
+        ],
+        "locked",
+        null,
+        "locked",
+        "locked",
+        "locked",
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 4,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.012122415995690972,
+      "results": [
+        null,
+        false,
+        null,
+        null,
+        false,
+        null,
+        false,
+        false
+      ]
+    },
+    {
+      "repeat": 5,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.02201416698517278,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 5,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.0852903330232948,
+      "results": [
+        "973356a1108e47bd95e4ba7d8ee73cb4",
+        "973356a1108e47bd95e4ba7d8ee73cb4",
+        "973356a1108e47bd95e4ba7d8ee73cb4",
+        "973356a1108e47bd95e4ba7d8ee73cb4",
+        "973356a1108e47bd95e4ba7d8ee73cb4",
+        "973356a1108e47bd95e4ba7d8ee73cb4",
+        "973356a1108e47bd95e4ba7d8ee73cb4",
+        "973356a1108e47bd95e4ba7d8ee73cb4"
+      ]
+    },
+    {
+      "repeat": 5,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08535750000737607,
+      "results": [
+        "83b3472f83424099ad89bd848edb37c6",
+        "bf2849edda2040beb8ae0024bad57bbf",
+        "bc68015c50414e4ca60ce5d215c8a7c6",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 5,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.02163841703440994,
+      "results": [
+        [
+          "d706581e8c1740a4851161852c7f3bba",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 5,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.011018583027180284,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 5,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.059252790990285575,
+      "results": [
+        "deleted",
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null,
+        null,
+        null,
+        null,
+        "already_deleted_denied"
+      ]
+    },
+    {
+      "repeat": 5,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.05884129100013524,
+      "results": [
+        [
+          "3ee3c81e67924ca29ed1158b897d9db7",
+          1
+        ],
+        null,
+        "locked",
+        "locked",
+        null,
+        "locked",
+        "locked",
+        null
+      ]
+    },
+    {
+      "repeat": 5,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.006109333015047014,
+      "results": [
+        true,
+        null,
+        false,
+        false,
+        null,
+        null,
+        false,
+        null
+      ]
+    },
+    {
+      "repeat": 6,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.058908209030050784,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 6,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.05938229197636247,
+      "results": [
+        "4e080fc6aaa94d729b1133272e4c7f05",
+        "4e080fc6aaa94d729b1133272e4c7f05",
+        "4e080fc6aaa94d729b1133272e4c7f05",
+        "4e080fc6aaa94d729b1133272e4c7f05",
+        "4e080fc6aaa94d729b1133272e4c7f05",
+        "4e080fc6aaa94d729b1133272e4c7f05",
+        "4e080fc6aaa94d729b1133272e4c7f05",
+        "4e080fc6aaa94d729b1133272e4c7f05"
+      ]
+    },
+    {
+      "repeat": 6,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.0378158749663271,
+      "results": [
+        "d10c930da94b473f9a2922c6e3545515",
+        "16ef27ba1ecd472fa69e98b3d59d34f1",
+        "7c1a3ab34df04d85989a1b516e3c707b",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 6,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.022736750019248575,
+      "results": [
+        [
+          "d809ad845a734f03a99bef9a69a3841a",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 6,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.022162624984048307,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 6,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.010927958006504923,
+      "results": [
+        "deleted",
+        null,
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 6,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.03776308399392292,
+      "results": [
+        "saved",
+        null,
+        "conflict",
+        "conflict",
+        null,
+        null,
+        "conflict",
+        null
+      ]
+    },
+    {
+      "repeat": 6,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.011859000020194799,
+      "results": [
+        null,
+        false,
+        null,
+        false,
+        null,
+        false,
+        null,
+        false
+      ]
+    },
+    {
+      "repeat": 7,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.03687770897522569,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 7,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.05895408400101587,
+      "results": [
+        "68ced5a6c86c4bbaa2de0041485c50ba",
+        "68ced5a6c86c4bbaa2de0041485c50ba",
+        "68ced5a6c86c4bbaa2de0041485c50ba",
+        "68ced5a6c86c4bbaa2de0041485c50ba",
+        "68ced5a6c86c4bbaa2de0041485c50ba",
+        "68ced5a6c86c4bbaa2de0041485c50ba",
+        "68ced5a6c86c4bbaa2de0041485c50ba",
+        "68ced5a6c86c4bbaa2de0041485c50ba"
+      ]
+    },
+    {
+      "repeat": 7,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08499637502245605,
+      "results": [
+        "9f457acaf4d24c1db867859eec074878",
+        "8f8486f7ff7d47fa8307b269b2653167",
+        "3cab79397a84483e91f33d5f51036f48",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 7,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.05899079202208668,
+      "results": [
+        [
+          "df58cedc73da4b099632df003574f015",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 7,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.0381202909629792,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 7,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.03758516698144376,
+      "results": [
+        "deleted",
+        null,
+        null,
+        "already_deleted_denied",
+        null,
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied"
+      ]
+    },
+    {
+      "repeat": 7,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.03765666700201109,
+      "results": [
+        [
+          "076f87afed3f4ea3b089a5399725c6f4",
+          1
+        ],
+        "locked",
+        null,
+        "locked",
+        null,
+        "locked",
+        "locked",
+        null
+      ]
+    },
+    {
+      "repeat": 7,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.00502012501237914,
+      "results": [
+        null,
+        false,
+        null,
+        null,
+        false,
+        false,
+        false,
+        null
+      ]
+    },
+    {
+      "repeat": 8,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.08524554205359891,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 8,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.010377541999332607,
+      "results": [
+        "171059f833a848c9a70ad34ecbd2e7d0",
+        "171059f833a848c9a70ad34ecbd2e7d0",
+        "171059f833a848c9a70ad34ecbd2e7d0",
+        "171059f833a848c9a70ad34ecbd2e7d0",
+        "171059f833a848c9a70ad34ecbd2e7d0",
+        "171059f833a848c9a70ad34ecbd2e7d0",
+        "171059f833a848c9a70ad34ecbd2e7d0",
+        "171059f833a848c9a70ad34ecbd2e7d0"
+      ]
+    },
+    {
+      "repeat": 8,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.03761479101376608,
+      "results": [
+        "bb0948b802194ff8b7fee4e071c90131",
+        "3ff82156760f4b18b7f6b008520ba90b",
+        "bc5421cd04354e8dbf07c916b3b1332d",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 8,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.0049338749959133565,
+      "results": [
+        [
+          "4513596e0e6342d595776269304cf683",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 8,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.01084037497639656,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 8,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.011146125034429133,
+      "results": [
+        "deleted",
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null,
+        null,
+        null,
+        "already_deleted_denied"
+      ]
+    },
+    {
+      "repeat": 8,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.010336916951928288,
+      "results": [
+        [
+          "82497178346c4a13a0f840a2a61ca73c",
+          1
+        ],
+        null,
+        null,
+        "locked",
+        "locked",
+        null,
+        "locked",
+        "locked"
+      ]
+    },
+    {
+      "repeat": 8,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.006491916021332145,
+      "results": [
+        null,
+        false,
+        false,
+        null,
+        null,
+        false,
+        null,
+        false
+      ]
+    },
+    {
+      "repeat": 9,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.03814837499521673,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 9,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.05876441701548174,
+      "results": [
+        "92c8589e51ce4260a91776d3330b939e",
+        "92c8589e51ce4260a91776d3330b939e",
+        "92c8589e51ce4260a91776d3330b939e",
+        "92c8589e51ce4260a91776d3330b939e",
+        "92c8589e51ce4260a91776d3330b939e",
+        "92c8589e51ce4260a91776d3330b939e",
+        "92c8589e51ce4260a91776d3330b939e",
+        "92c8589e51ce4260a91776d3330b939e"
+      ]
+    },
+    {
+      "repeat": 9,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.05878174997633323,
+      "results": [
+        "4ec582f403fc4a9e8c48fd37f6f18a22",
+        "463bcfa7128f4c75ad8b9635d7c67d97",
+        "1532bee0ea2142c69cecae3cb6e97d10",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 9,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.02148529200349003,
+      "results": [
+        [
+          "b7bc30cbec98441e9b3636ead533847b",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 9,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.022937332978472114,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 9,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.03732879104791209,
+      "results": [
+        "deleted",
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null,
+        null,
+        null,
+        "already_deleted_denied",
+        null
+      ]
+    },
+    {
+      "repeat": 9,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.05893250001827255,
+      "results": [
+        [
+          "6605b60593a4453b954968e705e67b87",
+          1
+        ],
+        null,
+        "locked",
+        "locked",
+        "locked",
+        null,
+        "locked",
+        null
+      ]
+    },
+    {
+      "repeat": 9,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.005946416989900172,
+      "results": [
+        null,
+        false,
+        false,
+        null,
+        false,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 10,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.05872095900122076,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 10,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.0217955419793725,
+      "results": [
+        "3a20807da6e9401ba72e03baf566e325",
+        "3a20807da6e9401ba72e03baf566e325",
+        "3a20807da6e9401ba72e03baf566e325",
+        "3a20807da6e9401ba72e03baf566e325",
+        "3a20807da6e9401ba72e03baf566e325",
+        "3a20807da6e9401ba72e03baf566e325",
+        "3a20807da6e9401ba72e03baf566e325",
+        "3a20807da6e9401ba72e03baf566e325"
+      ]
+    },
+    {
+      "repeat": 10,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08564475004095584,
+      "results": [
+        "c68eb0868e234c3e8012748503a6a708",
+        "0599075fb5c74776bddc5747105168d8",
+        "fe864cc3c9534aea8f42c50a200835de",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 10,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.004913875018246472,
+      "results": [
+        [
+          "d3f0faa40164402a9ed6044da8f3a00c",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 10,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.05983983399346471,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 10,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.010312291968148202,
+      "results": [
+        "deleted",
+        null,
+        "already_deleted_denied",
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 10,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.03758704202482477,
+      "results": [
+        [
+          "1baec59c4fb1488d8491097079ffbbf8",
+          1
+        ],
+        "locked",
+        "locked",
+        null,
+        null,
+        "locked",
+        "locked",
+        null
+      ]
+    },
+    {
+      "repeat": 10,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.007449625001754612,
+      "results": [
+        null,
+        false,
+        null,
+        false,
+        null,
+        false,
+        null,
+        false
+      ]
+    },
+    {
+      "repeat": 11,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.08501833298942074,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 11,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.0850661660078913,
+      "results": [
+        "0a5351c2042d4207ac179924819573e5",
+        "0a5351c2042d4207ac179924819573e5",
+        "0a5351c2042d4207ac179924819573e5",
+        "0a5351c2042d4207ac179924819573e5",
+        "0a5351c2042d4207ac179924819573e5",
+        "0a5351c2042d4207ac179924819573e5",
+        "0a5351c2042d4207ac179924819573e5",
+        "0a5351c2042d4207ac179924819573e5"
+      ]
+    },
+    {
+      "repeat": 11,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.039113375009037554,
+      "results": [
+        "8dfa97f6397d47d78ef0fe80ede7cfb8",
+        "498b4b71589a4dbc968c684381aa6707",
+        "d7e4ab1936a34d9085b9fe2aa1c8afac",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 11,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.0048400419764220715,
+      "results": [
+        [
+          "096c5571e2d34265afcb324991a2512b",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 11,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.03861470898846164,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 11,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.010291457991115749,
+      "results": [
+        "deleted",
+        null,
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null,
+        "already_deleted_denied",
+        null
+      ]
+    },
+    {
+      "repeat": 11,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.0110789590398781,
+      "results": [
+        [
+          "d13d599838974a6faa03e34f61ba7204",
+          1
+        ],
+        "locked",
+        null,
+        "locked",
+        null,
+        "locked",
+        null,
+        "locked"
+      ]
+    },
+    {
+      "repeat": 11,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.006679291022010148,
+      "results": [
+        null,
+        null,
+        false,
+        false,
+        null,
+        null,
+        false,
+        false
+      ]
+    },
+    {
+      "repeat": 12,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.03765441698487848,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 12,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.038256249972619116,
+      "results": [
+        "b0f124114164493f9d80d853033fc5fb",
+        "b0f124114164493f9d80d853033fc5fb",
+        "b0f124114164493f9d80d853033fc5fb",
+        "b0f124114164493f9d80d853033fc5fb",
+        "b0f124114164493f9d80d853033fc5fb",
+        "b0f124114164493f9d80d853033fc5fb",
+        "b0f124114164493f9d80d853033fc5fb",
+        "b0f124114164493f9d80d853033fc5fb"
+      ]
+    },
+    {
+      "repeat": 12,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08525258302688599,
+      "results": [
+        "5dc3f1d1e29b4ef2b0e755f28bf34e7a",
+        "2c2ce69ec84f4bbb886274155e712c9f",
+        "6aed154b82c04fad8ba77d45cb804ae3",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 12,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.010437999968416989,
+      "results": [
+        [
+          "8aae26a068494dbdbd7cd14e6ff283c7",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 12,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.060141334019135684,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 12,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.038045041961595416,
+      "results": [
+        [
+          "fc2b8d6448dd4c5d87165af1d06c1185",
+          1
+        ],
+        null,
+        "busy",
+        "busy",
+        "busy",
+        null,
+        null,
+        "busy"
+      ]
+    },
+    {
+      "repeat": 12,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.05907050002133474,
+      "results": [
+        "saved",
+        null,
+        null,
+        null,
+        null,
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 12,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.005959041998721659,
+      "results": [
+        null,
+        false,
+        false,
+        null,
+        false,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "repeat": 13,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.03789775003679097,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 13,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.03757487499387935,
+      "results": [
+        "1037e50e63224e449acf6ca9b6efafe2",
+        "1037e50e63224e449acf6ca9b6efafe2",
+        "1037e50e63224e449acf6ca9b6efafe2",
+        "1037e50e63224e449acf6ca9b6efafe2",
+        "1037e50e63224e449acf6ca9b6efafe2",
+        "1037e50e63224e449acf6ca9b6efafe2",
+        "1037e50e63224e449acf6ca9b6efafe2",
+        "1037e50e63224e449acf6ca9b6efafe2"
+      ]
+    },
+    {
+      "repeat": 13,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08483412500936538,
+      "results": [
+        "4993aef2e57e4ea19a73e8d9a899e262",
+        "3c5ce46c32624c71b84b1e1491d8ac28",
+        "bcf1f06af9134e088ad84ce4898c61cb",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 13,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.021473915956448764,
+      "results": [
+        [
+          "8e716e7ed0904f9ca3142e66677f9fc9",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 13,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.039609250030480325,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 13,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.08518370904494077,
+      "results": [
+        "deleted",
+        null,
+        null,
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null,
+        "already_deleted_denied"
+      ]
+    },
+    {
+      "repeat": 13,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.08535279199713841,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        null,
+        null,
+        "conflict",
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 13,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.011382500000763685,
+      "results": [
+        null,
+        false,
+        null,
+        null,
+        false,
+        null,
+        false,
+        false
+      ]
+    },
+    {
+      "repeat": 14,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.08599849999882281,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 14,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.058939000009559095,
+      "results": [
+        "dba779204d0444fdbef5392f13f1536b",
+        "dba779204d0444fdbef5392f13f1536b",
+        "dba779204d0444fdbef5392f13f1536b",
+        "dba779204d0444fdbef5392f13f1536b",
+        "dba779204d0444fdbef5392f13f1536b",
+        "dba779204d0444fdbef5392f13f1536b",
+        "dba779204d0444fdbef5392f13f1536b",
+        "dba779204d0444fdbef5392f13f1536b"
+      ]
+    },
+    {
+      "repeat": 14,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08523125003557652,
+      "results": [
+        "6e9d44c3ef9d41e1b3b6504dd20e78b7",
+        "539ce6d9ac9a4b7ab8f739195368d4ba",
+        "7005567525b14ed68c895c5eb2f4291d",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 14,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.010966584028210491,
+      "results": [
+        [
+          "ad334df4d5584f9fbbd169d11351365f",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 14,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.021845500043127686,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 14,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.05906779202632606,
+      "results": [
+        "deleted",
+        null,
+        "already_deleted_denied",
+        null,
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null
+      ]
+    },
+    {
+      "repeat": 14,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.03831383300712332,
+      "results": [
+        [
+          "982681a1e3e3420aad975f73d00ca727",
+          1
+        ],
+        "locked",
+        null,
+        "locked",
+        "locked",
+        "locked",
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 14,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.010777750052511692,
+      "results": [
+        null,
+        false,
+        false,
+        false,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 15,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.02171529200859368,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 15,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.05882937501883134,
+      "results": [
+        "b4f848a65499454f983dfeea526d7879",
+        "b4f848a65499454f983dfeea526d7879",
+        "b4f848a65499454f983dfeea526d7879",
+        "b4f848a65499454f983dfeea526d7879",
+        "b4f848a65499454f983dfeea526d7879",
+        "b4f848a65499454f983dfeea526d7879",
+        "b4f848a65499454f983dfeea526d7879",
+        "b4f848a65499454f983dfeea526d7879"
+      ]
+    },
+    {
+      "repeat": 15,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.05794004100607708,
+      "results": [
+        "07659ad7cbfc4427b991969b44f650be",
+        "f1dcde8c70494cebbb613f53baea5f29",
+        "dfa67648dad54f76ab3bec16827ba7ef",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 15,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.01091820898000151,
+      "results": [
+        [
+          "69642817aa13422eb45a63ef0be0aad6",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 15,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.08596033399226144,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 15,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.037598208989948034,
+      "results": [
+        "deleted",
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null,
+        null,
+        "already_deleted_denied",
+        null
+      ]
+    },
+    {
+      "repeat": 15,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.021431375003885478,
+      "results": [
+        "saved",
+        "conflict",
+        null,
+        "conflict",
+        null,
+        null,
+        null,
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 15,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.005704999959561974,
+      "results": [
+        null,
+        false,
+        false,
+        null,
+        null,
+        false,
+        null,
+        false
+      ]
+    },
+    {
+      "repeat": 16,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.08516783296363428,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 16,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.022035582980606705,
+      "results": [
+        "be1a15d2ee3a46a09ecd6a2100a129e9",
+        "be1a15d2ee3a46a09ecd6a2100a129e9",
+        "be1a15d2ee3a46a09ecd6a2100a129e9",
+        "be1a15d2ee3a46a09ecd6a2100a129e9",
+        "be1a15d2ee3a46a09ecd6a2100a129e9",
+        "be1a15d2ee3a46a09ecd6a2100a129e9",
+        "be1a15d2ee3a46a09ecd6a2100a129e9",
+        "be1a15d2ee3a46a09ecd6a2100a129e9"
+      ]
+    },
+    {
+      "repeat": 16,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.021787957986816764,
+      "results": [
+        "412aab66099e48e9aadb24903f8f1ebe",
+        "6b2daf7dd38d4635b0e2a9dc4613d791",
+        "fe039698ea7a4dff99ec490069264965",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 16,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.058974083978682756,
+      "results": [
+        [
+          "4f90eafc743f4f0da7e4dd39f31b3b54",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 16,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.059680291975382715,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 16,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.05891420796979219,
+      "results": [
+        [
+          "f3019d001aa94da39ba0ff0be464fae9",
+          1
+        ],
+        "busy",
+        null,
+        "busy",
+        null,
+        "busy",
+        "busy",
+        null
+      ]
+    },
+    {
+      "repeat": 16,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.03822800004854798,
+      "results": [
+        [
+          "294d31daa3ea4fa191a62b239ebfeed7",
+          1
+        ],
+        null,
+        null,
+        "locked",
+        "locked",
+        null,
+        "locked",
+        "locked"
+      ]
+    },
+    {
+      "repeat": 16,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.010514541994780302,
+      "results": [
+        null,
+        false,
+        false,
+        null,
+        false,
+        null,
+        false,
+        null
+      ]
+    },
+    {
+      "repeat": 17,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.010867249977309257,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 17,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.03781870799139142,
+      "results": [
+        "b28dff348def42bbb666fb25c7337afa",
+        "b28dff348def42bbb666fb25c7337afa",
+        "b28dff348def42bbb666fb25c7337afa",
+        "b28dff348def42bbb666fb25c7337afa",
+        "b28dff348def42bbb666fb25c7337afa",
+        "b28dff348def42bbb666fb25c7337afa",
+        "b28dff348def42bbb666fb25c7337afa",
+        "b28dff348def42bbb666fb25c7337afa"
+      ]
+    },
+    {
+      "repeat": 17,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08490433305269107,
+      "results": [
+        "a6369fa3a63a480988aefdbe55e17d52",
+        "4bf6e923a55345fa8ba75acd69f6186b",
+        "93b3e4a3aea4485f9eaf1687e4fe02b4",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 17,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.02164200000697747,
+      "results": [
+        [
+          "0c5357cf717f469da02b670dbddc2e73",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 17,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.037946917000226676,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 17,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.059206874982919544,
+      "results": [
+        "deleted",
+        null,
+        null,
+        "already_deleted_denied",
+        "already_deleted_denied",
+        null,
+        null,
+        "already_deleted_denied"
+      ]
+    },
+    {
+      "repeat": 17,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.05880937504116446,
+      "results": [
+        "saved",
+        "conflict",
+        null,
+        null,
+        null,
+        "conflict",
+        "conflict",
+        null
+      ]
+    },
+    {
+      "repeat": 17,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.005778499995358288,
+      "results": [
+        null,
+        null,
+        false,
+        null,
+        null,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "repeat": 18,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.059045500005595386,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 18,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.05827537504956126,
+      "results": [
+        "f68979ee41a1435db9b5fed13b4c0663",
+        "f68979ee41a1435db9b5fed13b4c0663",
+        "f68979ee41a1435db9b5fed13b4c0663",
+        "f68979ee41a1435db9b5fed13b4c0663",
+        "f68979ee41a1435db9b5fed13b4c0663",
+        "f68979ee41a1435db9b5fed13b4c0663",
+        "f68979ee41a1435db9b5fed13b4c0663",
+        "f68979ee41a1435db9b5fed13b4c0663"
+      ]
+    },
+    {
+      "repeat": 18,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.03807108401088044,
+      "results": [
+        "3b7f2b1fd1004dbfaeec2bb0cade5141",
+        "6c8b62b181be46e0adc682b9ddfb417c",
+        "27324af530364b5983d816de90a51af4",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 18,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.021834040991961956,
+      "results": [
+        [
+          "a53b0d48eee442f9a23cf03cd417ab15",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 18,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.022047917009331286,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 18,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.0589982500532642,
+      "results": [
+        "deleted",
+        "already_deleted_denied",
+        null,
+        "already_deleted_denied",
+        null,
+        null,
+        "already_deleted_denied",
+        null
+      ]
+    },
+    {
+      "repeat": 18,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.02234024996869266,
+      "results": [
+        "saved",
+        null,
+        "conflict",
+        null,
+        "conflict",
+        null,
+        "conflict",
+        null
+      ]
+    },
+    {
+      "repeat": 18,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.005366041965316981,
+      "results": [
+        null,
+        null,
+        false,
+        false,
+        null,
+        false,
+        false,
+        null
+      ]
+    },
+    {
+      "repeat": 19,
+      "race": "edit",
+      "workers": 8,
+      "max_seconds": 0.08499708399176598,
+      "results": [
+        "saved",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    {
+      "repeat": 19,
+      "race": "duplicate_admit",
+      "workers": 8,
+      "max_seconds": 0.05892425001366064,
+      "results": [
+        "40ed9a8658de491bba6d1d769f01c95b",
+        "40ed9a8658de491bba6d1d769f01c95b",
+        "40ed9a8658de491bba6d1d769f01c95b",
+        "40ed9a8658de491bba6d1d769f01c95b",
+        "40ed9a8658de491bba6d1d769f01c95b",
+        "40ed9a8658de491bba6d1d769f01c95b",
+        "40ed9a8658de491bba6d1d769f01c95b",
+        "40ed9a8658de491bba6d1d769f01c95b"
+      ]
+    },
+    {
+      "repeat": 19,
+      "race": "capacity_admit",
+      "workers": 8,
+      "max_seconds": 0.08516508300090209,
+      "results": [
+        "2ccae266e4504235ae2d9d3656afeaf2",
+        "a45537197435476eae5ca96056d0a48b",
+        "8b2e2af0dc274d688d2f721065c342a0",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked",
+        "budget_blocked"
+      ]
+    },
+    {
+      "repeat": 19,
+      "race": "claim",
+      "workers": 8,
+      "max_seconds": 0.004721000033896416,
+      "results": [
+        [
+          "b215b216320a4b81b8cc77df86ab974b",
+          1
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "repeat": 19,
+      "race": "register",
+      "workers": 8,
+      "max_seconds": 0.03830595803447068,
+      "results": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    {
+      "repeat": 19,
+      "race": "delete_claim",
+      "workers": 8,
+      "max_seconds": 0.010464208025950938,
+      "results": [
+        "deleted",
+        null,
+        "already_deleted_denied",
+        null,
+        "already_deleted_denied",
+        null,
+        null,
+        "already_deleted_denied"
+      ]
+    },
+    {
+      "repeat": 19,
+      "race": "render_edit",
+      "workers": 8,
+      "max_seconds": 0.08502150001004338,
+      "results": [
+        "saved",
+        null,
+        "conflict",
+        null,
+        "conflict",
+        null,
+        "conflict",
+        null
+      ]
+    },
+    {
+      "repeat": 19,
+      "race": "cancel_select",
+      "workers": 8,
+      "max_seconds": 0.003286417049821466,
+      "results": [
+        null,
+        null,
+        false,
+        false,
+        false,
+        null,
+        null,
+        false
+      ]
+    }
+  ],
+  "contention_transactions": 800,
+  "transaction_p50_seconds": 0.0003743750276044011,
+  "transaction_p99_seconds": 0.01036079099867493,
+  "transaction_max_seconds": 0.136098624963779,
+  "interrupted_transactions": [
+    "reservation",
+    "render_lock",
+    "edit"
+  ],
+  "checks": [
+    "WAL_FULL_foreign_keys",
+    "exactly_one_claim",
+    "atomic_idempotent_reservation",
+    "budget_allowance_integer_limits",
+    "autosave_CAS",
+    "ledger_replay_once",
+    "delete_claim_exclusion",
+    "render_lock_edit_exclusion_confirmed_release",
+    "cancel_fence_input_project_selection_guards",
+    "rollback_on_process_exit"
+  ],
+  "limitations": [
+    "Tiny local fixtures, 8 concurrent writers; not arbitrary scale or target-host capacity.",
+    "The witness uses sqlite3 BEGIN IMMEDIATE, not select_for_update; production ORM/query integration still needs acceptance tests.",
+    "Provider calls and media copying are outside all transactions; no real provider or FFmpeg execution."
+  ],
+  "verdict": "PASS",
+  "elapsed_seconds": 9.873,
+  "scaffold_hashes": {
+    "s1.py": "1c5c1fc51ee7675ff8697181005305d15dc2c01901d398755b35c87f142e2929",
+    "backup.py": "6eb72fee009bed1328cccbcab8bef8cdd6b1b74d0478a91a479a5f35a5396380",
+    "core.py": "181705f3902516481dc7bc49b71fedc1e4ab751d3ceca216b6b545a460bd90e2",
+    "supervision.py": "d15b19f8678c6467cc278be21ed3da67524c0db2af3fe3ed736f732883963fd5",
+    "django_boundary.py": "dd5fe2a584e3b68356bbc79ef0b4ee9b389bf7c9cc54be439c5504575638d6e2",
+    "publication.py": "881ba9c84780ed3d4400fce513848b0297151f481dc596c0978d58b37cb5496c",
+    "s8.py": "e77bb17a9bf177a32f026d84d4f1006d389b2da34fa5ea33ed86e56410f3304a",
+    "s1worker.py": "c7c99dd28f5baded17ee966d39a518f28b463fa571824d64f846d3f678debd7b",
+    "s7.py": "cf66d972093a42dc06817d8655e739203794b0ca91d3c5d0587abd4c64d3fd06",
+    "s3.py": "fa6c7a715f0099b8b76a26a7531126a1004ff9fd92830e112f660a9379164526",
+    "evidence.py": "dc87b7bf14bbc32bd798036ef08a550b957ade778b4ff333588e158402fb6303",
+    "s2.py": "78201c4665c0c8246540e8e87a61690f337a83a984092eb975a0132ecd2ad033",
+    "fixtures.py": "e945965d990a5979d555b65cee36f7e3e0d4c984aa67dd0114b0fab27d10c6f5",
+    "static/boundary.js": "0d45569692df4471de4c633d9e4d4beb81fca19ed1f045bb10b140b5d4d8430f",
+    "static/boundary.test.js": "a1c3a1f4f5526697c3dbeead4020db735b5fb6deb39663246939a9aa2a603fc8",
+    "templates/boundary.html": "5b7b98e46bf50a0f8d1bdb6baf54bde8e03cfff58886766099a1511bc0934896"
+  }
+}

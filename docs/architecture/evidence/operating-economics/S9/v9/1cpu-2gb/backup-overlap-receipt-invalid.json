@@ -1,0 +1,6 @@
+{
+  "validation": "INVALID_STALE_RECEIPT",
+  "ignored": true,
+  "reason": "backup overlap child did not exit successfully; copied prior receipt is not evidence for this attempt",
+  "phase_exit": -9
+}

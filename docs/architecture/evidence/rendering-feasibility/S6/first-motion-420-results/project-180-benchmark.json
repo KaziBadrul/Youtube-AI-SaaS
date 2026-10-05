@@ -1,0 +1,18 @@
+{
+  "label": "project-180",
+  "duration": 180,
+  "scene_count": 34,
+  "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/project-180.mp4",
+  "sha256": "e7153d3691a1f4e74326bbe493d2138f68f01ba454669438e9a6a62e7b7a3368",
+  "bytes": 18908986,
+  "render_wall_seconds": 23.042203916003928,
+  "peak_ffmpeg_rss_bytes": 130433024,
+  "cpu_seconds": 36.897951984,
+  "scratch_peak_bytes": 15586554,
+  "config": {
+    "captions": true,
+    "motion": true,
+    "music": true
+  },
+  "attempt": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/scratch/project-180-24f28a71"
+}

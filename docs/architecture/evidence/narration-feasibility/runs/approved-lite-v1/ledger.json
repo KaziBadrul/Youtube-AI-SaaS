@@ -1,0 +1,361 @@
+{
+  "manifest_sha256": "b65cc790d372bfd7d73f7d77fcbd429df089d5515bb60414b7db0a6cf2d92d63",
+  "attempts": [
+    {
+      "id": 1,
+      "call": 1,
+      "kind": "primary",
+      "state": "succeeded",
+      "submitted_at": 1791122957.878162,
+      "max_microUSD": 102400,
+      "safe_retry": false,
+      "fixture_sha256": "2128518f2844aec57552b45d5206407426fe19288377b01428682b9e4fbb30b2",
+      "http_status": 200,
+      "provider_ids": {},
+      "response_id": "Dl7Cau6HJY_eg8UPjenyqAQ",
+      "usage_metadata": {
+        "promptTokenCount": 51,
+        "candidatesTokenCount": 440,
+        "totalTokenCount": 491,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 51
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 440
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "audio": {
+        "frames": 329280,
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "seconds": 13.72,
+        "sha256": "8215aa482ab0a8a8acfad564283d239f6e37e56446cf40c1a0db633bcee970c8"
+      }
+    },
+    {
+      "id": 2,
+      "call": 2,
+      "kind": "primary",
+      "state": "succeeded",
+      "submitted_at": 1791123483.498744,
+      "max_microUSD": 102400,
+      "safe_retry": false,
+      "fixture_sha256": "c1977c3098740617858af369b1e4496c28460caedd214f27a1edbe136f033e65",
+      "http_status": 200,
+      "provider_ids": {},
+      "response_id": "HGDCaqrsAqS-g8UPodKW6AQ",
+      "usage_metadata": {
+        "promptTokenCount": 30,
+        "candidatesTokenCount": 250,
+        "totalTokenCount": 280,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 30
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 250
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "audio": {
+        "frames": 187200,
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "seconds": 7.8,
+        "sha256": "f06d98575eeb23fc7f6f75cdac4fffa432b66858403c0fbbba5d003fbc67763f"
+      }
+    },
+    {
+      "id": 3,
+      "call": 3,
+      "kind": "primary",
+      "state": "succeeded",
+      "submitted_at": 1791123544.508357,
+      "max_microUSD": 102400,
+      "safe_retry": false,
+      "fixture_sha256": "8614a1525da32457eaa94113bdb1ae4d62bd020aa9447bdb548f4594c744b6b9",
+      "http_status": 200,
+      "provider_ids": {},
+      "response_id": "WWDCapqhDOHAjuMPzJOLsQg",
+      "usage_metadata": {
+        "promptTokenCount": 15,
+        "candidatesTokenCount": 89,
+        "totalTokenCount": 104,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 15
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 89
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "audio": {
+        "frames": 66240,
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "seconds": 2.76,
+        "sha256": "f2cf9ccb7b28309de27891ccb99497ed0945442c807159a109bf412817092b54"
+      }
+    },
+    {
+      "id": 4,
+      "call": 4,
+      "kind": "primary",
+      "state": "succeeded",
+      "submitted_at": 1791123605.512665,
+      "max_microUSD": 102400,
+      "safe_retry": false,
+      "fixture_sha256": "333db790f6e8dda32f42fd40bd03ddd29998128ab59aff9d60197494a39e6b95",
+      "http_status": 200,
+      "provider_ids": {},
+      "response_id": "lmDCarPWLYLCg8UP1qOf8AQ",
+      "usage_metadata": {
+        "promptTokenCount": 664,
+        "candidatesTokenCount": 5488,
+        "totalTokenCount": 6152,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 664
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 5488
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "audio": {
+        "frames": 4115520,
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "seconds": 171.48,
+        "sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa"
+      }
+    },
+    {
+      "id": 5,
+      "call": 5,
+      "kind": "primary",
+      "state": "succeeded",
+      "submitted_at": 1791123666.521049,
+      "max_microUSD": 102400,
+      "safe_retry": false,
+      "fixture_sha256": "80b24e007de99b958b407aa3a2f048d04aed153ff667f904bed092cfbcbaa739",
+      "http_status": 200,
+      "provider_ids": {},
+      "response_id": "02DCaoCKArevg8UPi5S2oQU",
+      "usage_metadata": {
+        "promptTokenCount": 30,
+        "candidatesTokenCount": 260,
+        "totalTokenCount": 290,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 30
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 260
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "audio": {
+        "frames": 194880,
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "seconds": 8.12,
+        "sha256": "dd232e22174d51507758290eae48d87e0a66070db714ccb10e151470ec1a9f95"
+      }
+    },
+    {
+      "id": 6,
+      "call": 6,
+      "kind": "primary",
+      "state": "succeeded",
+      "submitted_at": 1791123727.5279949,
+      "max_microUSD": 102400,
+      "safe_retry": false,
+      "fixture_sha256": "facc0a283f2379bda2b97206dffe87621dafc356302b14b34c15b60fdad554d1",
+      "http_status": 200,
+      "provider_ids": {},
+      "response_id": "EGHCao6TDKnEg8UPh53EsQk",
+      "usage_metadata": {
+        "promptTokenCount": 664,
+        "candidatesTokenCount": 5466,
+        "totalTokenCount": 6130,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 664
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 5466
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "audio": {
+        "frames": 4099200,
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "seconds": 170.8,
+        "sha256": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4"
+      }
+    },
+    {
+      "id": 7,
+      "call": 7,
+      "kind": "primary",
+      "state": "succeeded",
+      "submitted_at": 1791123788.537056,
+      "max_microUSD": 102400,
+      "safe_retry": false,
+      "fixture_sha256": "9cb8824a15a06e9c64f7c30347a8b788c21dd0f8e12f5bf30eaf90e419eba777",
+      "http_status": 200,
+      "provider_ids": {},
+      "response_id": "TWHCareQD5W_g8UPt8im0AQ",
+      "usage_metadata": {
+        "promptTokenCount": 96,
+        "candidatesTokenCount": 754,
+        "totalTokenCount": 850,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 96
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 754
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "audio": {
+        "frames": 565440,
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "seconds": 23.56,
+        "sha256": "67fe8d87ff0e6946c466bfe9e148b3a7304d3d0ef43b10425b7d8653d3ca35cb"
+      }
+    },
+    {
+      "id": 8,
+      "call": 8,
+      "kind": "primary",
+      "state": "succeeded",
+      "submitted_at": 1791123849.553579,
+      "max_microUSD": 102400,
+      "safe_retry": false,
+      "fixture_sha256": "c1977c3098740617858af369b1e4496c28460caedd214f27a1edbe136f033e65",
+      "http_status": 200,
+      "provider_ids": {},
+      "response_id": "imHCarPGBcPFg8UPwtCToQo",
+      "usage_metadata": {
+        "promptTokenCount": 30,
+        "candidatesTokenCount": 283,
+        "totalTokenCount": 313,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 30
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 283
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "audio": {
+        "frames": 212160,
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "seconds": 8.84,
+        "sha256": "4bbc9c73e677fbf330673be67349c2c251fe960ee0dba7d185a416e21d4e55b9"
+      }
+    }
+  ],
+  "events": [
+    {
+      "state": "prepared",
+      "call": 1,
+      "at": 1791122957.877449
+    },
+    {
+      "state": "prepared",
+      "call": 2,
+      "at": 1791123483.4981902
+    },
+    {
+      "state": "prepared",
+      "call": 3,
+      "at": 1791123544.50433
+    },
+    {
+      "state": "prepared",
+      "call": 4,
+      "at": 1791123605.51108
+    },
+    {
+      "state": "prepared",
+      "call": 5,
+      "at": 1791123666.5179892
+    },
+    {
+      "state": "prepared",
+      "call": 6,
+      "at": 1791123727.525651
+    },
+    {
+      "state": "prepared",
+      "call": 7,
+      "at": 1791123788.535289
+    },
+    {
+      "state": "prepared",
+      "call": 8,
+      "at": 1791123849.547894
+    }
+  ],
+  "halt": null,
+  "clock_highwater": 1791123849.553581
+}

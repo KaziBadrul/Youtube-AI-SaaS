@@ -1,0 +1,50 @@
+{
+  "control-all-on": {
+    "path": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/control-all-on-c76e79323e78.mp4",
+    "sha256": "c76e79323e785b96b67f5b20da20d221ca90e9a044b3629ada646ba38b58f877",
+    "validation": "PASS",
+    "source_narration_sha256": "41b92ea5b74e3d89255b1100d83746a60eabcfc1dadb920e21530dc156d9a36e"
+  },
+  "control-all-off": {
+    "path": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/control-all-off-0a57edaab9f7.mp4",
+    "sha256": "0a57edaab9f794d254060666174da2ad2e6c5b83a2bdbda8766fb0bdd679cacc",
+    "validation": "PASS",
+    "source_narration_sha256": "41b92ea5b74e3d89255b1100d83746a60eabcfc1dadb920e21530dc156d9a36e"
+  },
+  "recovery-retry": {
+    "path": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/recovery-retry-0a57edaab9f7.mp4",
+    "sha256": "0a57edaab9f794d254060666174da2ad2e6c5b83a2bdbda8766fb0bdd679cacc",
+    "validation": "PASS",
+    "source_narration_sha256": "41b92ea5b74e3d89255b1100d83746a60eabcfc1dadb920e21530dc156d9a36e"
+  },
+  "real-s5-music-on": {
+    "path": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/real-s5-music-on-4382fdb33473.mp4",
+    "sha256": "4382fdb33473246da78b8a52b8aba2b04c2f0d02eac7d18b76ab7416a46847da",
+    "validation": "PASS",
+    "source_narration_sha256": "b94df9cca13cc91bcdadf43e4344b8ed89f2d655d5cd7aee2148e2f634b0dc01"
+  },
+  "real-s5-music-off": {
+    "path": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/real-s5-music-off-764f21961bb8.mp4",
+    "sha256": "764f21961bb847b4248b02c86dbeefaf313549baa74871698f856b7eca27c18c",
+    "validation": "PASS",
+    "source_narration_sha256": "b94df9cca13cc91bcdadf43e4344b8ed89f2d655d5cd7aee2148e2f634b0dc01"
+  },
+  "project-180": {
+    "path": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/project-180-74a63858b813.mp4",
+    "sha256": "74a63858b81358667181d66f2bf1240c30b5874e7a0fb5fa80d0bd9b8e320d24",
+    "validation": "PASS",
+    "source_narration_sha256": "09917e6bf142eaddd51e2c92747643117b7d40fc4e74993bcfdd6c8ec9428003"
+  },
+  "project-300": {
+    "path": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/project-300-3d909ea9669c.mp4",
+    "sha256": "3d909ea9669c00951a669010eda7a91de0946017b53459d054e128026dbc205d",
+    "validation": "PASS",
+    "source_narration_sha256": "254f6e256ff8ae5c30de4aabaea6835747bcbf27b15dbd029f64eb50399d68f4"
+  },
+  "project-600": {
+    "path": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/project-600-fc0e76cd606c.mp4",
+    "sha256": "fc0e76cd606c63655017698f10a6d68deaba410001bbfd440c37bd6d783af0f8",
+    "validation": "PASS",
+    "source_narration_sha256": "7ab577bccd78a31457bcf459323421725fc61d709cbbe013bd2158d27b4f028a"
+  }
+}

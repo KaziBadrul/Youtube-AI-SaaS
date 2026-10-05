@@ -1,0 +1,85 @@
+{
+  "mode": "DRY_RUN",
+  "provider_submissions": 0,
+  "stage": 2,
+  "calls": [
+    {
+      "call": 2,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "input_bytes": 124,
+      "style_bytes": 70,
+      "fixture_sha256": "c1977c3098740617858af369b1e4496c28460caedd214f27a1edbe136f033e65",
+      "eligible_at": 1791123377.967467,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-02"
+    },
+    {
+      "call": 3,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "input_bytes": 43,
+      "style_bytes": 70,
+      "fixture_sha256": "8614a1525da32457eaa94113bdb1ae4d62bd020aa9447bdb548f4594c744b6b9",
+      "eligible_at": 1791123438.967467,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-03"
+    },
+    {
+      "call": 4,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "input_bytes": 2891,
+      "style_bytes": 70,
+      "fixture_sha256": "333db790f6e8dda32f42fd40bd03ddd29998128ab59aff9d60197494a39e6b95",
+      "eligible_at": 1791123499.967467,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-04"
+    },
+    {
+      "call": 5,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "input_bytes": 120,
+      "style_bytes": 70,
+      "fixture_sha256": "80b24e007de99b958b407aa3a2f048d04aed153ff667f904bed092cfbcbaa739",
+      "eligible_at": 1791123560.967467,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-05"
+    },
+    {
+      "call": 6,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "input_bytes": 2887,
+      "style_bytes": 70,
+      "fixture_sha256": "facc0a283f2379bda2b97206dffe87621dafc356302b14b34c15b60fdad554d1",
+      "eligible_at": 1791123621.967467,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-06"
+    },
+    {
+      "call": 7,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "input_bytes": 407,
+      "style_bytes": 70,
+      "fixture_sha256": "9cb8824a15a06e9c64f7c30347a8b788c21dd0f8e12f5bf30eaf90e419eba777",
+      "eligible_at": 1791123682.967467,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-07"
+    },
+    {
+      "call": 8,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "input_bytes": 124,
+      "style_bytes": 69,
+      "fixture_sha256": "c1977c3098740617858af369b1e4496c28460caedd214f27a1edbe136f033e65",
+      "eligible_at": 1791123743.967467,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-08"
+    }
+  ],
+  "persisted_submission_count": 1,
+  "remaining_primary_slots": 7,
+  "remaining_retry_slots": 2,
+  "remaining_total_slots": 9,
+  "maximum_remaining_tariff_microUSD": 921600,
+  "halt": null,
+  "stage2_requires_separate_authorization": true,
+  "output_root": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1"
+}

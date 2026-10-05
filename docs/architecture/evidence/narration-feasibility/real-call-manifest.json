@@ -1,0 +1,237 @@
+{
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "base_submissions": 8,
+  "experiment_max_submissions_including_retries": 10,
+  "base_microUSD": 819200,
+  "total_microUSD": 1024000,
+  "price_date": "2026-10-04",
+  "tax_account_fees": "Must be established and reserved separately before authorization; otherwise do not submit.",
+  "calls": [
+    {
+      "call": 1,
+      "strategy": "A",
+      "purpose": "Initial scene 19",
+      "text": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel.",
+      "input": {
+        "words": 41,
+        "characters": 238,
+        "utf8_bytes": 240,
+        "token_proxy_ceil_chars_div4": 60,
+        "sha256": "2128518f2844aec57552b45d5206407426fe19288377b01428682b9e4fbb30b2"
+      },
+      "delivery_style": "Natural, engaging, conversational documentary-style YouTube narration.",
+      "delivery_utf8_bytes": 70,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "response_modalities": [
+        "AUDIO"
+      ],
+      "candidates": 1,
+      "serving_input_token_ceiling": 8192,
+      "serving_output_token_ceiling": 16384,
+      "requested_max_output_tokens": 16384,
+      "one_send_per_attempt": true,
+      "max_microUSD": 102400,
+      "live_execution_authorized": false
+    },
+    {
+      "call": 2,
+      "strategy": "A",
+      "purpose": "Initial scene 20",
+      "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks.",
+      "input": {
+        "words": 23,
+        "characters": 122,
+        "utf8_bytes": 124,
+        "token_proxy_ceil_chars_div4": 31,
+        "sha256": "c1977c3098740617858af369b1e4496c28460caedd214f27a1edbe136f033e65"
+      },
+      "delivery_style": "Natural, engaging, conversational documentary-style YouTube narration.",
+      "delivery_utf8_bytes": 70,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "response_modalities": [
+        "AUDIO"
+      ],
+      "candidates": 1,
+      "serving_input_token_ceiling": 8192,
+      "serving_output_token_ceiling": 16384,
+      "requested_max_output_tokens": 16384,
+      "one_send_per_attempt": true,
+      "max_microUSD": 102400,
+      "live_execution_authorized": false
+    },
+    {
+      "call": 3,
+      "strategy": "A",
+      "purpose": "Initial scene 21",
+      "text": "And if you do the math, it’s even wilder.",
+      "input": {
+        "words": 9,
+        "characters": 41,
+        "utf8_bytes": 43,
+        "token_proxy_ceil_chars_div4": 11,
+        "sha256": "8614a1525da32457eaa94113bdb1ae4d62bd020aa9447bdb548f4594c744b6b9"
+      },
+      "delivery_style": "Natural, engaging, conversational documentary-style YouTube narration.",
+      "delivery_utf8_bytes": 70,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "response_modalities": [
+        "AUDIO"
+      ],
+      "candidates": 1,
+      "serving_input_token_ceiling": 8192,
+      "serving_output_token_ceiling": 16384,
+      "requested_max_output_tokens": 16384,
+      "one_send_per_attempt": true,
+      "max_microUSD": 102400,
+      "live_execution_authorized": false
+    },
+    {
+      "call": 4,
+      "strategy": "B/C",
+      "purpose": "Shared initial source, scenes 1–32",
+      "text": "Okay, so... it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it.\n\nAt some point between when you're like twelve and twenty-two, your brain just... glitches.\n\nYou’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you.\n\nHe’s not this all-knowing architect of reality.\n\nHe’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything.\n\nBecause think about when you were five.\n\nYour parents aren't even people to you back then.\n\nThey're like... mythical creatures.\n\nThey know where the spare lightbulbs are kept.\n\nThey deal with wasps.\n\nThey carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major.\n\nThey're just environmental facts.\n\nLike gravity, or the roof.\n\nAnd then you get older, and the cracks start showing.\n\nMaybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag.\n\nOr you hear your dad tell a casual story about his twenties and you realize... wait, he was a total menace who barely survived his own terrible choices?\n\nOr even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for.\n\nI actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\"\n\nWhich sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel.\n\nExcept in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks.\n\nAnd if you do the math, it’s even wilder.\n\nWhen you were born, your parents were probably in their twenties or early thirties.\n\nLook at anyone who's twenty-four right now.\n\nThey are a disaster zone.\n\nThey eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time.\n\nYour parents were *those exact people*.\n\nThey didn't get summoned from some ancient order of wise elders.\n\nThey were literally just two random young adults who got handed a screaming baby and went, \"Oh... cool. Guess we're doing this now.\"\n\nEvery rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling.\n\nMaking it up on the spot.\n\nAnd once you notice it, you can't unsee it.\n\nYou start seeing their weird habits not as \"parent traits,\" but as human flaws.",
+      "input": {
+        "words": 498,
+        "characters": 2871,
+        "utf8_bytes": 2891,
+        "token_proxy_ceil_chars_div4": 718,
+        "sha256": "333db790f6e8dda32f42fd40bd03ddd29998128ab59aff9d60197494a39e6b95"
+      },
+      "delivery_style": "Natural, engaging, conversational documentary-style YouTube narration.",
+      "delivery_utf8_bytes": 70,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "response_modalities": [
+        "AUDIO"
+      ],
+      "candidates": 1,
+      "serving_input_token_ceiling": 8192,
+      "serving_output_token_ceiling": 16384,
+      "requested_max_output_tokens": 16384,
+      "one_send_per_attempt": true,
+      "max_microUSD": 102400,
+      "live_execution_authorized": false
+    },
+    {
+      "call": 5,
+      "strategy": "A/C-isolated",
+      "purpose": "Edited scene 20; reused as isolated surgical replacement",
+      "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for a month.",
+      "input": {
+        "words": 23,
+        "characters": 118,
+        "utf8_bytes": 120,
+        "token_proxy_ceil_chars_div4": 30,
+        "sha256": "80b24e007de99b958b407aa3a2f048d04aed153ff667f904bed092cfbcbaa739"
+      },
+      "delivery_style": "Natural, engaging, conversational documentary-style YouTube narration.",
+      "delivery_utf8_bytes": 70,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "response_modalities": [
+        "AUDIO"
+      ],
+      "candidates": 1,
+      "serving_input_token_ceiling": 8192,
+      "serving_output_token_ceiling": 16384,
+      "requested_max_output_tokens": 16384,
+      "one_send_per_attempt": true,
+      "max_microUSD": 102400,
+      "live_execution_authorized": false
+    },
+    {
+      "call": 6,
+      "strategy": "B",
+      "purpose": "Edited containing segment, scenes 1–32",
+      "text": "Okay, so... it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it.\n\nAt some point between when you're like twelve and twenty-two, your brain just... glitches.\n\nYou’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you.\n\nHe’s not this all-knowing architect of reality.\n\nHe’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything.\n\nBecause think about when you were five.\n\nYour parents aren't even people to you back then.\n\nThey're like... mythical creatures.\n\nThey know where the spare lightbulbs are kept.\n\nThey deal with wasps.\n\nThey carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major.\n\nThey're just environmental facts.\n\nLike gravity, or the roof.\n\nAnd then you get older, and the cracks start showing.\n\nMaybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag.\n\nOr you hear your dad tell a casual story about his twenties and you realize... wait, he was a total menace who barely survived his own terrible choices?\n\nOr even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for.\n\nI actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\"\n\nWhich sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel.\n\nExcept in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for a month.\n\nAnd if you do the math, it’s even wilder.\n\nWhen you were born, your parents were probably in their twenties or early thirties.\n\nLook at anyone who's twenty-four right now.\n\nThey are a disaster zone.\n\nThey eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time.\n\nYour parents were *those exact people*.\n\nThey didn't get summoned from some ancient order of wise elders.\n\nThey were literally just two random young adults who got handed a screaming baby and went, \"Oh... cool. Guess we're doing this now.\"\n\nEvery rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling.\n\nMaking it up on the spot.\n\nAnd once you notice it, you can't unsee it.\n\nYou start seeing their weird habits not as \"parent traits,\" but as human flaws.",
+      "input": {
+        "words": 498,
+        "characters": 2867,
+        "utf8_bytes": 2887,
+        "token_proxy_ceil_chars_div4": 717,
+        "sha256": "facc0a283f2379bda2b97206dffe87621dafc356302b14b34c15b60fdad554d1"
+      },
+      "delivery_style": "Natural, engaging, conversational documentary-style YouTube narration.",
+      "delivery_utf8_bytes": 70,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "response_modalities": [
+        "AUDIO"
+      ],
+      "candidates": 1,
+      "serving_input_token_ceiling": 8192,
+      "serving_output_token_ceiling": 16384,
+      "requested_max_output_tokens": 16384,
+      "one_send_per_attempt": true,
+      "max_microUSD": 102400,
+      "live_execution_authorized": false
+    },
+    {
+      "call": 7,
+      "strategy": "C-context",
+      "purpose": "Edited scene 20 with spoken context scenes 19 and 21",
+      "text": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel.\n\nExcept in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for a month.\n\nAnd if you do the math, it’s even wilder.",
+      "input": {
+        "words": 73,
+        "characters": 401,
+        "utf8_bytes": 407,
+        "token_proxy_ceil_chars_div4": 101,
+        "sha256": "9cb8824a15a06e9c64f7c30347a8b788c21dd0f8e12f5bf30eaf90e419eba777"
+      },
+      "delivery_style": "Natural, engaging, conversational documentary-style YouTube narration.",
+      "delivery_utf8_bytes": 70,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "response_modalities": [
+        "AUDIO"
+      ],
+      "candidates": 1,
+      "serving_input_token_ceiling": 8192,
+      "serving_output_token_ceiling": 16384,
+      "requested_max_output_tokens": 16384,
+      "one_send_per_attempt": true,
+      "max_microUSD": 102400,
+      "live_execution_authorized": false
+    },
+    {
+      "call": 8,
+      "strategy": "Restoration",
+      "purpose": "Original scene 20, alternate delivery only",
+      "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks.",
+      "input": {
+        "words": 23,
+        "characters": 122,
+        "utf8_bytes": 124,
+        "token_proxy_ceil_chars_div4": 31,
+        "sha256": "c1977c3098740617858af369b1e4496c28460caedd214f27a1edbe136f033e65"
+      },
+      "delivery_style": "Calm, reflective documentary-style narration, with measured delivery.",
+      "delivery_utf8_bytes": 69,
+      "model": "gemini-3.8-flash-lite-tts",
+      "voice": "Charon",
+      "response_modalities": [
+        "AUDIO"
+      ],
+      "candidates": 1,
+      "serving_input_token_ceiling": 8192,
+      "serving_output_token_ceiling": 16384,
+      "requested_max_output_tokens": 16384,
+      "one_send_per_attempt": true,
+      "max_microUSD": 102400,
+      "live_execution_authorized": false
+    }
+  ],
+  "model_change_authority": "Owner prefers Flash-Lite; manifest update explicitly authorized. Live execution not authorized.",
+  "account_evidence": {
+    "tier": "FREE",
+    "remaining_requests": 10,
+    "RPM": 3,
+    "TPM": 10000,
+    "RPD": 10,
+    "source": "Owner dashboard report in current conversation",
+    "observation_timestamp": "Not provided; freshness must be confirmed immediately before execution."
+  }
+}

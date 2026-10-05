@@ -1,0 +1,1281 @@
+{
+  "status": "PASS_AT_EXISTING_B_PLUS_B_MAPPING_SCOPE",
+  "sheet_sha256": "186f9282356754e038fabdb77433696228dba638712e1b9a047190b93ac5b171",
+  "owner_review_sha256": "4777d7ca23e14e39370d860063391ae01f2e0da9a9aa0e6610b6ab2f7b8a6a7e",
+  "limits": "owner-reviewed mappings for these recordings; not general unattended alignment or audio extraction certification",
+  "sources": [
+    {
+      "call": 4,
+      "sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "approved_tokens": 498,
+      "recognized_tokens": 504,
+      "scene_count": 32,
+      "source_mapping_sha256": "bf5abae711fb3288c3b76d628fbd2b6666131439249a611c47005ed312fea574",
+      "derived_mapping_sha256": "53e83b442fe9125cf454579448a5195d93932d62977c5a401b84b9462c56efa8"
+    },
+    {
+      "call": 6,
+      "sha256": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "approved_tokens": 498,
+      "recognized_tokens": 505,
+      "scene_count": 32,
+      "source_mapping_sha256": "ad4bea0479fec854a8bfa295ebec9970e5aee4d1d13a27970484ac48952eb4b3",
+      "derived_mapping_sha256": "30ac373328cd98e02bdaaf04f362a5bf32a1a49318245a1be37e3b5faed2457a"
+    }
+  ],
+  "boundaries": [
+    {
+      "call": 4,
+      "left_scene": 1,
+      "right_scene": 2,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 5.24,
+      "image_transition": 5.24,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "a49aed74ad1cf0759f7e4b262fdc9215c45aa74f90855cd184ffe90b07f6d24f",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 2,
+      "right_scene": 3,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 11.72,
+      "image_transition": 11.72,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "5adc4bc2f3eaef11102746043037967a299b1ff212b10ca7c25f5ebcd5c1748b",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 3,
+      "right_scene": 4,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 20.44,
+      "image_transition": 20.44,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "bddbc9039b408807b475c065fbef4050c8eb5b700f9607889f78e2231b26fc89",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 4,
+      "right_scene": 5,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 24.64,
+      "image_transition": 24.9,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "a93fdc43ae6fda5620a041b184df012f9475054b24ac8a22af5183c51007a1ab",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 5,
+      "right_scene": 6,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 31.83,
+      "image_transition": 32.18,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "f7e0c67f43e899405db678e63faa3d2e5896f12270cd881087b348f3c7df1bac",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 6,
+      "right_scene": 7,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 33.64,
+      "image_transition": 33.64,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "82e1f3e29fd7800470c236719602aff49d88b32923fd1e6891ccbdada9b1620b",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 7,
+      "right_scene": 8,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 36.44,
+      "image_transition": 36.68,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "920491eeb2eeda58a0ab8e9d077e7331a2db966f814c1fa7c744a185076b671f",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 8,
+      "right_scene": 9,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 38.7,
+      "image_transition": 38.92,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "436631fbf54a153d65ddefa98d9902e8410920c1bf4c08e2da6af7ffb76c7e79",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 9,
+      "right_scene": 10,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 41.17,
+      "image_transition": 41.3,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "875ef689b40082c2f99b8956b6cd875b09930ed301fad955cabe006a11dea5fe",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 10,
+      "right_scene": 11,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 42.66,
+      "image_transition": 42.66,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "d69000238509f7e918d41c17f4ea757d0ddfbfcb8c795bec5c99b0d5cdc8f456",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 11,
+      "right_scene": 12,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 49.78,
+      "image_transition": 49.78,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "473f85a0c55e03bed152ce40fc70d3d80d78e4627541099a04e34aae4ada8f38",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 12,
+      "right_scene": 13,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 52.55,
+      "image_transition": 53.02,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "9712f322ea9598d0012e3c887acb70a8d85933098ffd423a75f99f6349937344",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 13,
+      "right_scene": 14,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 54.36,
+      "image_transition": 54.36,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "981b412bbe41452082a2febf98036e8263d2d3646eee060cd590e84406a30773",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 14,
+      "right_scene": 15,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 58.4,
+      "image_transition": 58.72,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "f11121c52040f25214c13507dbf77fd79322d6fb69dd3848952a4bd3a02849fc",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 15,
+      "right_scene": 16,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 68.57,
+      "image_transition": 68.9,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "6d144486f00c30d9ea2ea3fd92c4983b889ec4dcd31943d715afb391c09b4698",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 16,
+      "right_scene": 17,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 77.44,
+      "image_transition": 77.44,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "adf6de79841821f1e8987e02e653725089195cfd09d3eb87877e8ffaecf3f2dd",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 17,
+      "right_scene": 18,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 92.36,
+      "image_transition": 92.75999999999999,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "5389cbd2c3cabd10e1e9226e9e540435a8a13c38b85c0951327c795de38fbc1a",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 18,
+      "right_scene": 19,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 97.65,
+      "image_transition": 98.2,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "2128518f2844aec57552b45d5206407426fe19288377b01428682b9e4fbb30b2",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 19,
+      "right_scene": 20,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 112.02,
+      "image_transition": 112.02,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "c1977c3098740617858af369b1e4496c28460caedd214f27a1edbe136f033e65",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 20,
+      "right_scene": 21,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 119.78,
+      "image_transition": 119.78,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "8614a1525da32457eaa94113bdb1ae4d62bd020aa9447bdb548f4594c744b6b9",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 21,
+      "right_scene": 22,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 122.76,
+      "image_transition": 122.76,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "5da1235ae62054d528dee0c24df085c7c2e340cc37f202740d23d644e73b0778",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 22,
+      "right_scene": 23,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 127.05,
+      "image_transition": 127.4,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "331761ba9ed6320cfef569f1b6adfa2554e0a2f29eaee713b88d6c51e225e262",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 23,
+      "right_scene": 24,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 130.06,
+      "image_transition": 130.26,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "a36abdc7695068a8f0191d9814549ab416a999fae9ed3031cd79efb4c4df4688",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 24,
+      "right_scene": 25,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 132.18,
+      "image_transition": 132.18,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "b3df3b203532adce7be5d1342cc67e9eadc74d79d244ee4e96093114191fde01",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 25,
+      "right_scene": 26,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 140.2,
+      "image_transition": 140.2,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "9502d2b31a58068a64aec9b5e64eb1290e1e43d7b58a9df8d581ed74a7750892",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 26,
+      "right_scene": 27,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 143.24,
+      "image_transition": 143.24,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "92abd7cbd740b857d41b6b448143109cb6d7ba223cba1c1bf2868162f3e34a1f",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 27,
+      "right_scene": 28,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 146.68,
+      "image_transition": 146.68,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "ccd4a1943dad1bf542d42c306c6a8cf6f8d05169bca4b9787aaf067911f358d0",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 28,
+      "right_scene": 29,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 155.05,
+      "image_transition": 155.54,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "9851abf0e2606907be43021dfeb9d45289a1b4dd52fc787c9b480085e37bf9ea",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 29,
+      "right_scene": 30,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 162.12,
+      "image_transition": 162.18,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "9302135c1662270ce208bcc4aa7da59c2013db0b263d36948de0e9c4edcb868f",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 30,
+      "right_scene": 31,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 163.62,
+      "image_transition": 163.62,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "5d68c685fb245f63257bb55570d903f2529b14f3e7b774521e65a79e04b7ac18",
+      "uncertainty": null
+    },
+    {
+      "call": 4,
+      "left_scene": 31,
+      "right_scene": 32,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 166.48,
+      "image_transition": 166.48,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "source_scene_text_version": "7a0e3e91fae2ccaaae845db2b98b520f09eedd57514421b044079fe68b5907c3",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 1,
+      "right_scene": 2,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 7.37,
+      "image_transition": 7.6,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "a49aed74ad1cf0759f7e4b262fdc9215c45aa74f90855cd184ffe90b07f6d24f",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 2,
+      "right_scene": 3,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 13.6,
+      "image_transition": 13.88,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "5adc4bc2f3eaef11102746043037967a299b1ff212b10ca7c25f5ebcd5c1748b",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 3,
+      "right_scene": 4,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 22.07,
+      "image_transition": 22.32,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "bddbc9039b408807b475c065fbef4050c8eb5b700f9607889f78e2231b26fc89",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 4,
+      "right_scene": 5,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 25.5,
+      "image_transition": 25.74,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "a93fdc43ae6fda5620a041b184df012f9475054b24ac8a22af5183c51007a1ab",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 5,
+      "right_scene": 6,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 33.39,
+      "image_transition": 33.76,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "f7e0c67f43e899405db678e63faa3d2e5896f12270cd881087b348f3c7df1bac",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 6,
+      "right_scene": 7,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 35.67,
+      "image_transition": 36.1,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "82e1f3e29fd7800470c236719602aff49d88b32923fd1e6891ccbdada9b1620b",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 7,
+      "right_scene": 8,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 38.08,
+      "image_transition": 38.28,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "920491eeb2eeda58a0ab8e9d077e7331a2db966f814c1fa7c744a185076b671f",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 8,
+      "right_scene": 9,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 40.29,
+      "image_transition": 40.62,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "436631fbf54a153d65ddefa98d9902e8410920c1bf4c08e2da6af7ffb76c7e79",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 9,
+      "right_scene": 10,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 42.48,
+      "image_transition": 42.7,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "875ef689b40082c2f99b8956b6cd875b09930ed301fad955cabe006a11dea5fe",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 10,
+      "right_scene": 11,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 43.98,
+      "image_transition": 44.18,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "d69000238509f7e918d41c17f4ea757d0ddfbfcb8c795bec5c99b0d5cdc8f456",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 11,
+      "right_scene": 12,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 51.31,
+      "image_transition": 51.54,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "473f85a0c55e03bed152ce40fc70d3d80d78e4627541099a04e34aae4ada8f38",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 12,
+      "right_scene": 13,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 53.56,
+      "image_transition": 53.56,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "9712f322ea9598d0012e3c887acb70a8d85933098ffd423a75f99f6349937344",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 13,
+      "right_scene": 14,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 56.0,
+      "image_transition": 56.46,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "981b412bbe41452082a2febf98036e8263d2d3646eee060cd590e84406a30773",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 14,
+      "right_scene": 15,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 58.85,
+      "image_transition": 59.2,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "f11121c52040f25214c13507dbf77fd79322d6fb69dd3848952a4bd3a02849fc",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 15,
+      "right_scene": 16,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 68.2,
+      "image_transition": 68.58,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "6d144486f00c30d9ea2ea3fd92c4983b889ec4dcd31943d715afb391c09b4698",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 16,
+      "right_scene": 17,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 77.38,
+      "image_transition": 77.68,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "adf6de79841821f1e8987e02e653725089195cfd09d3eb87877e8ffaecf3f2dd",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 17,
+      "right_scene": 18,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 90.79,
+      "image_transition": 91.22,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "5389cbd2c3cabd10e1e9226e9e540435a8a13c38b85c0951327c795de38fbc1a",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 18,
+      "right_scene": 19,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 96.01,
+      "image_transition": 96.84,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "2128518f2844aec57552b45d5206407426fe19288377b01428682b9e4fbb30b2",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 19,
+      "right_scene": 20,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 109.4,
+      "image_transition": 109.6,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "80b24e007de99b958b407aa3a2f048d04aed153ff667f904bed092cfbcbaa739",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 20,
+      "right_scene": 21,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 116.68,
+      "image_transition": 117.12,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "8614a1525da32457eaa94113bdb1ae4d62bd020aa9447bdb548f4594c744b6b9",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 21,
+      "right_scene": 22,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 119.59,
+      "image_transition": 119.8,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "5da1235ae62054d528dee0c24df085c7c2e340cc37f202740d23d644e73b0778",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 22,
+      "right_scene": 23,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 124.58,
+      "image_transition": 125.14,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "331761ba9ed6320cfef569f1b6adfa2554e0a2f29eaee713b88d6c51e225e262",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 23,
+      "right_scene": 24,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 127.2,
+      "image_transition": 127.5,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "a36abdc7695068a8f0191d9814549ab416a999fae9ed3031cd79efb4c4df4688",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 24,
+      "right_scene": 25,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 129.44,
+      "image_transition": 129.7,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "b3df3b203532adce7be5d1342cc67e9eadc74d79d244ee4e96093114191fde01",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 25,
+      "right_scene": 26,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 137.96,
+      "image_transition": 138.32,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "9502d2b31a58068a64aec9b5e64eb1290e1e43d7b58a9df8d581ed74a7750892",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 26,
+      "right_scene": 27,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 140.91,
+      "image_transition": 141.18,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "92abd7cbd740b857d41b6b448143109cb6d7ba223cba1c1bf2868162f3e34a1f",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 27,
+      "right_scene": 28,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 145.03,
+      "image_transition": 145.3,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "ccd4a1943dad1bf542d42c306c6a8cf6f8d05169bca4b9787aaf067911f358d0",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 28,
+      "right_scene": 29,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 153.31,
+      "image_transition": 153.76,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "9851abf0e2606907be43021dfeb9d45289a1b4dd52fc787c9b480085e37bf9ea",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 29,
+      "right_scene": 30,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 161.02,
+      "image_transition": 161.24,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "9302135c1662270ce208bcc4aa7da59c2013db0b263d36948de0e9c4edcb868f",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 30,
+      "right_scene": 31,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 162.58,
+      "image_transition": 162.94,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "5d68c685fb245f63257bb55570d903f2529b14f3e7b774521e65a79e04b7ac18",
+      "uncertainty": null
+    },
+    {
+      "call": 6,
+      "left_scene": 31,
+      "right_scene": 32,
+      "sheet_finding": "",
+      "review_state": "OK",
+      "review_evidence": "owner blanket approval in retained session record; sheet cell blank",
+      "reviewed_proposed_boundary": 165.25,
+      "image_transition": 165.42,
+      "timing_rule": "next_scene_start; owner-approved region and explicit timing clarification",
+      "source_audio_version": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "source_scene_text_version": "7a0e3e91fae2ccaaae845db2b98b520f09eedd57514421b044079fe68b5907c3",
+      "uncertainty": null
+    }
+  ],
+  "integrity": [
+    {
+      "call": 1,
+      "sha256": "8215aa482ab0a8a8acfad564283d239f6e37e56446cf40c1a0db633bcee970c8",
+      "duration": 13.72,
+      "sample_rate": 24000,
+      "channels": 1,
+      "decode": "PASS"
+    },
+    {
+      "call": 2,
+      "sha256": "f06d98575eeb23fc7f6f75cdac4fffa432b66858403c0fbbba5d003fbc67763f",
+      "duration": 7.8,
+      "sample_rate": 24000,
+      "channels": 1,
+      "decode": "PASS"
+    },
+    {
+      "call": 3,
+      "sha256": "f2cf9ccb7b28309de27891ccb99497ed0945442c807159a109bf412817092b54",
+      "duration": 2.76,
+      "sample_rate": 24000,
+      "channels": 1,
+      "decode": "PASS"
+    },
+    {
+      "call": 4,
+      "sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "duration": 171.48,
+      "sample_rate": 24000,
+      "channels": 1,
+      "decode": "PASS"
+    },
+    {
+      "call": 5,
+      "sha256": "dd232e22174d51507758290eae48d87e0a66070db714ccb10e151470ec1a9f95",
+      "duration": 8.12,
+      "sample_rate": 24000,
+      "channels": 1,
+      "decode": "PASS"
+    },
+    {
+      "call": 6,
+      "sha256": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "duration": 170.8,
+      "sample_rate": 24000,
+      "channels": 1,
+      "decode": "PASS"
+    },
+    {
+      "call": 7,
+      "sha256": "67fe8d87ff0e6946c466bfe9e148b3a7304d3d0ef43b10425b7d8653d3ca35cb",
+      "duration": 23.56,
+      "sample_rate": 24000,
+      "channels": 1,
+      "decode": "PASS"
+    },
+    {
+      "call": 8,
+      "sha256": "4bbc9c73e677fbf330673be67349c2c251fe960ee0dba7d185a416e21d4e55b9",
+      "duration": 8.84,
+      "sample_rate": 24000,
+      "channels": 1,
+      "decode": "PASS"
+    }
+  ],
+  "sequence_failure_tests": [
+    {
+      "name": "normal",
+      "expected": "VALID",
+      "result": {
+        "status": "VALID",
+        "reason": "reviewed_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "very_short_scene",
+      "expected": "VALID",
+      "result": {
+        "status": "VALID",
+        "reason": "reviewed_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "punctuation",
+      "expected": "VALID",
+      "result": {
+        "status": "VALID",
+        "reason": "reviewed_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "natural_pause",
+      "expected": "VALID",
+      "result": {
+        "status": "VALID",
+        "reason": "reviewed_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "asr_substitution",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "missing_scene"
+      },
+      "passed": true
+    },
+    {
+      "name": "omitted_word",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "missing_scene"
+      },
+      "passed": true
+    },
+    {
+      "name": "repeated_word",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "unexpected_or_repeated_or_reordered_speech"
+      },
+      "passed": true
+    },
+    {
+      "name": "repeated_phrase_boundary",
+      "expected": "REVIEW_REQUIRED",
+      "result": {
+        "status": "REVIEW_REQUIRED",
+        "reason": "ambiguous_match"
+      },
+      "passed": true
+    },
+    {
+      "name": "ambiguous_boundary",
+      "expected": "REVIEW_REQUIRED",
+      "result": {
+        "status": "REVIEW_REQUIRED",
+        "reason": "ambiguous_match"
+      },
+      "passed": true
+    },
+    {
+      "name": "truncated_audio",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "missing_scene"
+      },
+      "passed": true
+    },
+    {
+      "name": "overlap",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "overlap"
+      },
+      "passed": true
+    },
+    {
+      "name": "no_reference",
+      "expected": "REVIEW_REQUIRED",
+      "result": {
+        "status": "REVIEW_REQUIRED",
+        "reason": "no_acoustic_reference"
+      },
+      "passed": true
+    },
+    {
+      "name": "scene_order_error",
+      "expected": "INVALID",
+      "result": {
+        "status": "INVALID",
+        "reason": "unexpected_or_repeated_or_reordered_speech"
+      },
+      "passed": true
+    }
+  ],
+  "retained_mapping_gate_results": {
+    "real_mapping_checks": [
+      {
+        "call": 4,
+        "status": "VALID_AT_REVIEWED_FIXTURE_SCOPE",
+        "negative_cases": [
+          {
+            "case": "omission",
+            "reason": "incomplete_or_repeated_accounting"
+          },
+          {
+            "case": "repetition",
+            "reason": "incomplete_or_repeated_accounting"
+          },
+          {
+            "case": "unresolved_timestamp",
+            "reason": "untrusted_or_invalid_token_range"
+          },
+          {
+            "case": "truncation",
+            "reason": "untrusted_or_invalid_token_range"
+          },
+          {
+            "case": "unreviewed_substitution",
+            "reason": "unreviewed_difference"
+          },
+          {
+            "case": "version_mismatch",
+            "reason": "source_version_mismatch"
+          },
+          {
+            "case": "ambiguous_scene",
+            "reason": "ambiguous_scene_membership"
+          },
+          {
+            "case": "wrong_image_transition",
+            "reason": "wrong_visual_transition"
+          }
+        ]
+      },
+      {
+        "call": 6,
+        "status": "VALID_AT_REVIEWED_FIXTURE_SCOPE",
+        "negative_cases": [
+          {
+            "case": "omission",
+            "reason": "incomplete_or_repeated_accounting"
+          },
+          {
+            "case": "repetition",
+            "reason": "incomplete_or_repeated_accounting"
+          },
+          {
+            "case": "unresolved_timestamp",
+            "reason": "untrusted_or_invalid_token_range"
+          },
+          {
+            "case": "truncation",
+            "reason": "untrusted_or_invalid_token_range"
+          },
+          {
+            "case": "unreviewed_substitution",
+            "reason": "unreviewed_difference"
+          },
+          {
+            "case": "version_mismatch",
+            "reason": "source_version_mismatch"
+          },
+          {
+            "case": "ambiguous_scene",
+            "reason": "ambiguous_scene_membership"
+          },
+          {
+            "case": "wrong_image_transition",
+            "reason": "wrong_visual_transition"
+          }
+        ]
+      }
+    ],
+    "sequence_fixture_results": [
+      {
+        "name": "normal",
+        "expected": "VALID",
+        "result": {
+          "status": "VALID",
+          "reason": "reviewed_reference"
+        },
+        "passed": true
+      },
+      {
+        "name": "very_short_scene",
+        "expected": "VALID",
+        "result": {
+          "status": "VALID",
+          "reason": "reviewed_reference"
+        },
+        "passed": true
+      },
+      {
+        "name": "punctuation",
+        "expected": "VALID",
+        "result": {
+          "status": "VALID",
+          "reason": "reviewed_reference"
+        },
+        "passed": true
+      },
+      {
+        "name": "natural_pause",
+        "expected": "VALID",
+        "result": {
+          "status": "VALID",
+          "reason": "reviewed_reference"
+        },
+        "passed": true
+      },
+      {
+        "name": "asr_substitution",
+        "expected": "INVALID",
+        "result": {
+          "status": "INVALID",
+          "reason": "missing_scene"
+        },
+        "passed": true
+      },
+      {
+        "name": "omitted_word",
+        "expected": "INVALID",
+        "result": {
+          "status": "INVALID",
+          "reason": "missing_scene"
+        },
+        "passed": true
+      },
+      {
+        "name": "repeated_word",
+        "expected": "INVALID",
+        "result": {
+          "status": "INVALID",
+          "reason": "unexpected_or_repeated_or_reordered_speech"
+        },
+        "passed": true
+      },
+      {
+        "name": "repeated_phrase_boundary",
+        "expected": "REVIEW_REQUIRED",
+        "result": {
+          "status": "REVIEW_REQUIRED",
+          "reason": "ambiguous_match"
+        },
+        "passed": true
+      },
+      {
+        "name": "ambiguous_boundary",
+        "expected": "REVIEW_REQUIRED",
+        "result": {
+          "status": "REVIEW_REQUIRED",
+          "reason": "ambiguous_match"
+        },
+        "passed": true
+      },
+      {
+        "name": "truncated_audio",
+        "expected": "INVALID",
+        "result": {
+          "status": "INVALID",
+          "reason": "missing_scene"
+        },
+        "passed": true
+      },
+      {
+        "name": "overlap",
+        "expected": "INVALID",
+        "result": {
+          "status": "INVALID",
+          "reason": "overlap"
+        },
+        "passed": true
+      },
+      {
+        "name": "no_reference",
+        "expected": "REVIEW_REQUIRED",
+        "result": {
+          "status": "REVIEW_REQUIRED",
+          "reason": "no_acoustic_reference"
+        },
+        "passed": true
+      },
+      {
+        "name": "scene_order_error",
+        "expected": "INVALID",
+        "result": {
+          "status": "INVALID",
+          "reason": "unexpected_or_repeated_or_reordered_speech"
+        },
+        "passed": true
+      }
+    ],
+    "limits": "structural acceptance of owner-reviewed fixtures; not automated acoustic verification"
+  }
+}

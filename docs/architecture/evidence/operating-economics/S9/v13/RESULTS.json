@@ -1,0 +1,2043 @@
+{
+  "S9": "NOT_YET_PASS",
+  "checks_passed": 80,
+  "checks": [
+    {
+      "name": "valid_delivery_consumes_once",
+      "result": "PASS"
+    },
+    {
+      "name": "registration_idempotent",
+      "result": "PASS"
+    },
+    {
+      "name": "failure before submission",
+      "result": "PASS"
+    },
+    {
+      "name": "timeout before submission",
+      "result": "PASS"
+    },
+    {
+      "name": "timeout after possible acceptance retains full liability across restart",
+      "result": "PASS"
+    },
+    {
+      "name": "timeout after possible acceptance blocks blind retry",
+      "result": "PASS"
+    },
+    {
+      "name": "HTTP 429 equivalent retains full liability across restart",
+      "result": "PASS"
+    },
+    {
+      "name": "HTTP 429 equivalent blocks blind retry",
+      "result": "PASS"
+    },
+    {
+      "name": "provider 5xx equivalent retains full liability across restart",
+      "result": "PASS"
+    },
+    {
+      "name": "provider 5xx equivalent blocks blind retry",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown billing outcome retains full liability across restart",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown billing outcome blocks blind retry",
+      "result": "PASS"
+    },
+    {
+      "name": "restart while unknown liability exists retains full liability across restart",
+      "result": "PASS"
+    },
+    {
+      "name": "restart while unknown liability exists blocks blind retry",
+      "result": "PASS"
+    },
+    {
+      "name": "corrupt output records paid failure without allowance or artifact",
+      "result": "PASS"
+    },
+    {
+      "name": "invalid image output records paid failure without allowance or artifact",
+      "result": "PASS"
+    },
+    {
+      "name": "success_remote_crash_before_durable_receipt retains hold",
+      "result": "PASS"
+    },
+    {
+      "name": "durable_response_recovered_without_new_send",
+      "result": "PASS"
+    },
+    {
+      "name": "worker_crash_after_registration_no_recharge_or_resend",
+      "result": "PASS"
+    },
+    {
+      "name": "confirmed_nonbillable_retry_counted",
+      "result": "PASS"
+    },
+    {
+      "name": "maximum_retry_count_persistent",
+      "result": "PASS"
+    },
+    {
+      "name": "shared_ceiling_exhausted_blocks_plan",
+      "result": "PASS"
+    },
+    {
+      "name": "creator_ceiling_exhausted_blocks_plan",
+      "result": "PASS"
+    },
+    {
+      "name": "214_sentence_count_measured",
+      "result": "PASS"
+    },
+    {
+      "name": "expanded_scope_blocks_unauthorized_plan",
+      "result": "PASS"
+    },
+    {
+      "name": "scope_rejection_preserves_spent_and_original_holds",
+      "result": "PASS"
+    },
+    {
+      "name": "47_sentence_replan_replaces_60_without_erasing_prior_script",
+      "result": "PASS"
+    },
+    {
+      "name": "stale_worker_fenced_before_reserve",
+      "result": "PASS"
+    },
+    {
+      "name": "stale_worker_fenced_before_send",
+      "result": "PASS"
+    },
+    {
+      "name": "one_send_only",
+      "result": "PASS"
+    },
+    {
+      "name": "concurrent_workers_transactionally_one_attempt",
+      "result": "PASS"
+    },
+    {
+      "name": "cancel_after_submission_keeps_liability",
+      "result": "PASS"
+    },
+    {
+      "name": "cancel_blocks_new_work",
+      "result": "PASS"
+    },
+    {
+      "name": "late_paid_valid_delivery_history_only_and_allowance",
+      "result": "PASS"
+    },
+    {
+      "name": "valid_delivery_unknown_cost_stays_pending_not_fake_actual",
+      "result": "PASS"
+    },
+    {
+      "name": "invalid_unknown_cost_holds_money_releases_success_allowance",
+      "result": "PASS"
+    },
+    {
+      "name": "invalid_unknown_cost_no_retry",
+      "result": "PASS"
+    },
+    {
+      "name": "unbounded_paid_operation_disabled",
+      "result": "PASS"
+    },
+    {
+      "name": "send_without_reservation_denied",
+      "result": "PASS"
+    },
+    {
+      "name": "changed_payload_signature_fails_closed",
+      "result": "PASS"
+    },
+    {
+      "name": "restored_snapshot_blocks_unreconciled_admission",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_reserve_does_not_become_zero",
+      "result": "PASS"
+    },
+    {
+      "name": "ledger_unknown_reserve_blocks_paid_plan",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_cash_envelope_requires_explicit_admission_gate",
+      "result": "PASS"
+    },
+    {
+      "name": "paid_failed_attempt_stays_in_owner_spend_after_retry",
+      "result": "PASS"
+    },
+    {
+      "name": "only_valid_retry_delivery_consumes_allowance",
+      "result": "PASS"
+    },
+    {
+      "name": "Asia_Dhaka_calendar_cutover",
+      "result": "PASS"
+    },
+    {
+      "name": "period_rollover_is_not_liability_release",
+      "result": "PASS"
+    },
+    {
+      "name": "transaction_crash_rolls_back_reservation_mutation",
+      "result": "PASS"
+    },
+    {
+      "name": "more_than_three_attempts_cannot_be_configured",
+      "result": "PASS"
+    },
+    {
+      "name": "receipt_above_bound_raises_incident_and_retains_exclusion",
+      "result": "PASS"
+    },
+    {
+      "name": "image_scope_3_minutes",
+      "result": "PASS"
+    },
+    {
+      "name": "image_scope_5_minutes",
+      "result": "PASS"
+    },
+    {
+      "name": "image_scope_10_minutes",
+      "result": "PASS"
+    },
+    {
+      "name": "image_output_baselines",
+      "result": "PASS"
+    },
+    {
+      "name": "three_attempt_output_only_exposure",
+      "result": "PASS"
+    },
+    {
+      "name": "full_conditional_image_dimensions",
+      "result": "PASS"
+    },
+    {
+      "name": "full_conditional_TTS_dimensions",
+      "result": "PASS"
+    },
+    {
+      "name": "model_output_cannot_widen_query_authority",
+      "result": "PASS"
+    },
+    {
+      "name": "model_output_cannot_widen_total_output_cap",
+      "result": "PASS"
+    },
+    {
+      "name": "UNKNOWN_not_zero",
+      "result": "PASS"
+    },
+    {
+      "name": "pasted_no_script_generation_and_sentence_count",
+      "result": "PASS"
+    },
+    {
+      "name": "expected_not_retry_maximum",
+      "result": "PASS"
+    },
+    {
+      "name": "unvalidated_provider_operations_not_enabled",
+      "result": "PASS"
+    },
+    {
+      "name": "free_capacity_not_assumed",
+      "result": "PASS"
+    },
+    {
+      "name": "fixed_envelope_40",
+      "result": "PASS"
+    },
+    {
+      "name": "reserve_sensitive_block",
+      "result": "PASS"
+    },
+    {
+      "name": "negative_free_capacity_denies",
+      "result": "PASS"
+    },
+    {
+      "name": "creator_credit_UI_not_authority",
+      "result": "PASS"
+    },
+    {
+      "name": "same_script_deterministic_scope",
+      "result": "PASS"
+    },
+    {
+      "name": "deleted_and_previous_versions_count_against_storage_cap",
+      "result": "PASS"
+    },
+    {
+      "name": "storage_cap_blocks_creation_not_silent_version_deletion",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_staging_or_storage_cap_blocks_creation",
+      "result": "PASS"
+    },
+    {
+      "name": "included_traffic_precedes_paid_egress",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_traffic_contract_not_zero",
+      "result": "PASS"
+    },
+    {
+      "name": "historical_V1_V12_files_and_prior_spikes_unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "original_live_index_archived",
+      "result": "PASS"
+    },
+    {
+      "name": "calendar_ceiling_authority_40",
+      "result": "PASS"
+    },
+    {
+      "name": "current_documents_link_V13_and_keep_40",
+      "result": "PASS"
+    },
+    {
+      "name": "local_transforms_not_provider_allowance",
+      "result": "PASS"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "normal success",
+      "totals_microUSD": {
+        "shared": 25260000,
+        "creator": 260000,
+        "project": 260000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SUCCESS",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 60000,
+          "artifact": "history/a",
+          "current": 1,
+          "receipt_valid": 1,
+          "receipt_cost": 60000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": true, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "valid delivered history"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "failure before submission",
+      "totals_microUSD": {
+        "shared": 25200000,
+        "creator": 200000,
+        "project": 200000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SAFE_FAILURE",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "timeout before submission",
+      "totals_microUSD": {
+        "shared": 25200000,
+        "creator": 200000,
+        "project": 200000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SAFE_FAILURE",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "timeout after possible acceptance",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "UNKNOWN",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "HTTP 429 equivalent",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "UNKNOWN",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "provider 5xx equivalent",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "UNKNOWN",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "unknown billing outcome",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "UNKNOWN",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "restart while unknown liability exists",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "UNKNOWN",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "corrupt output",
+      "totals_microUSD": {
+        "shared": 25260000,
+        "creator": 200000,
+        "project": 260000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "PAID_FAILURE",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": 0,
+          "receipt_cost": 60000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": false, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "unusable rejected"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "invalid image output",
+      "totals_microUSD": {
+        "shared": 25260000,
+        "creator": 200000,
+        "project": 260000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "PAID_FAILURE",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": 0,
+          "receipt_cost": 60000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": false, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "unusable rejected"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "successful response lost before local durable receipt",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SENT",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "successful response then crash before registration",
+      "totals_microUSD": {
+        "shared": 25260000,
+        "creator": 260000,
+        "project": 260000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SUCCESS",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 60000,
+          "artifact": "history/a",
+          "current": 1,
+          "receipt_valid": 1,
+          "receipt_cost": 60000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": true, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "valid delivered history"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "artifact registration then worker crash",
+      "totals_microUSD": {
+        "shared": 25260000,
+        "creator": 260000,
+        "project": 260000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SUCCESS",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 60000,
+          "artifact": "history/a",
+          "current": 1,
+          "receipt_valid": 1,
+          "receipt_cost": 60000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": true, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "valid delivered history"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "retry after confirmed non-billable failure",
+      "totals_microUSD": {
+        "shared": 25160000,
+        "creator": 160000,
+        "project": 160000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SAFE_FAILURE",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": 0,
+          "receipt_cost": 0
+        },
+        {
+          "id": "b",
+          "op": "image",
+          "number": 2,
+          "status": "SUCCESS",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 60000,
+          "artifact": "history/b",
+          "current": 1,
+          "receipt_valid": 1,
+          "receipt_cost": 60000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": false, \"synthetic_known_cost\": 0}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "unusable rejected"
+        },
+        {
+          "id": 5,
+          "attempt": "b",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 6,
+          "attempt": "b",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 7,
+          "attempt": "b",
+          "kind": "receipt",
+          "payload": "{\"valid\": true, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 8,
+          "attempt": "b",
+          "kind": "registration",
+          "payload": "valid delivered history"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "maximum retry count reached",
+      "totals_microUSD": {
+        "shared": 25000000,
+        "creator": 0,
+        "project": 0,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "0",
+          "op": "image",
+          "number": 1,
+          "status": "SAFE_FAILURE",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": 0,
+          "receipt_cost": 0
+        },
+        {
+          "id": "1",
+          "op": "image",
+          "number": 2,
+          "status": "SAFE_FAILURE",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": 0,
+          "receipt_cost": 0
+        },
+        {
+          "id": "2",
+          "op": "image",
+          "number": 3,
+          "status": "SAFE_FAILURE",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": 0,
+          "receipt_cost": 0
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "0",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "0",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "0",
+          "kind": "receipt",
+          "payload": "{\"valid\": false, \"synthetic_known_cost\": 0}"
+        },
+        {
+          "id": 4,
+          "attempt": "0",
+          "kind": "registration",
+          "payload": "unusable rejected"
+        },
+        {
+          "id": 5,
+          "attempt": "1",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 6,
+          "attempt": "1",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 7,
+          "attempt": "1",
+          "kind": "receipt",
+          "payload": "{\"valid\": false, \"synthetic_known_cost\": 0}"
+        },
+        {
+          "id": 8,
+          "attempt": "1",
+          "kind": "registration",
+          "payload": "unusable rejected"
+        },
+        {
+          "id": 9,
+          "attempt": "2",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 10,
+          "attempt": "2",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 11,
+          "attempt": "2",
+          "kind": "receipt",
+          "payload": "{\"valid\": false, \"synthetic_known_cost\": 0}"
+        },
+        {
+          "id": 12,
+          "attempt": "2",
+          "kind": "registration",
+          "payload": "unusable rejected"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "shared monthly ceiling nearly exhausted",
+      "totals_microUSD": {
+        "shared": 39950000,
+        "creator": 0,
+        "project": 0,
+        "ceiling": 40000000
+      },
+      "attempts": [],
+      "events": [],
+      "result": "PASS"
+    },
+    {
+      "scenario": "creator authorization nearly exhausted",
+      "totals_microUSD": {
+        "shared": 25000000,
+        "creator": 0,
+        "project": 0,
+        "ceiling": 40000000
+      },
+      "attempts": [],
+      "events": [],
+      "result": "PASS"
+    },
+    {
+      "scenario": "60 preliminary images expands to 214 after valid script work",
+      "totals_microUSD": {
+        "shared": 31060000,
+        "creator": 6060000,
+        "project": 6060000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "script-a",
+          "op": "script",
+          "number": 1,
+          "status": "SUCCESS",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 60000,
+          "artifact": "history/script-a",
+          "current": 1,
+          "receipt_valid": 1,
+          "receipt_cost": 60000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "script-a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "script-a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "script-a",
+          "kind": "receipt",
+          "payload": "{\"valid\": true, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 4,
+          "attempt": "script-a",
+          "kind": "registration",
+          "payload": "valid delivered history"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "known 47 sentence scope replaces estimate with prior consumption preserved",
+      "totals_microUSD": {
+        "shared": 29760000,
+        "creator": 4760000,
+        "project": 4760000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "script-a",
+          "op": "script",
+          "number": 1,
+          "status": "SUCCESS",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 60000,
+          "artifact": "history/script-a",
+          "current": 1,
+          "receipt_valid": 1,
+          "receipt_cost": 60000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "script-a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "script-a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "script-a",
+          "kind": "receipt",
+          "payload": "{\"valid\": true, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 4,
+          "attempt": "script-a",
+          "kind": "registration",
+          "payload": "valid delivered history"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "stale worker duplicate submission",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SENT",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 2, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "concurrent workers competing for one operation",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "0",
+          "op": "image",
+          "number": 1,
+          "status": "RESERVED",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "0",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "cancellation after paid submission",
+      "totals_microUSD": {
+        "shared": 25100000,
+        "creator": 100000,
+        "project": 100000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SENT",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "valid canceled output arriving late",
+      "totals_microUSD": {
+        "shared": 25060000,
+        "creator": 60000,
+        "project": 60000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SUCCESS",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 60000,
+          "artifact": "history/a",
+          "current": 0,
+          "receipt_valid": 1,
+          "receipt_cost": 60000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": true, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "valid delivered history"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "valid delivery with unknown actual billing",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SUCCESS",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": "history/a",
+          "current": 1,
+          "receipt_valid": 1,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": true, \"synthetic_known_cost\": null}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "valid delivered history"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "invalid output with unknown charge",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 200000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "INVALID_PENDING",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 0,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": 0,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": false, \"synthetic_known_cost\": null}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "unusable rejected"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "unknown bound fails closed",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [],
+      "events": [],
+      "result": "PASS"
+    },
+    {
+      "scenario": "request/config/version signature changed",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [],
+      "events": [],
+      "result": "PASS"
+    },
+    {
+      "scenario": "restored database pending external reconciliation",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [],
+      "events": [],
+      "result": "PASS"
+    },
+    {
+      "scenario": "known paid failure then safe retry",
+      "totals_microUSD": {
+        "shared": 25210000,
+        "creator": 150000,
+        "project": 210000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "PAID_FAILURE",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 60000,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": 0,
+          "receipt_cost": 60000
+        },
+        {
+          "id": "b",
+          "op": "image",
+          "number": 2,
+          "status": "SUCCESS",
+          "bound": 100000,
+          "hold": 0,
+          "allowance_hold": 0,
+          "cost": 50000,
+          "consumed": 50000,
+          "artifact": "history/b",
+          "current": 1,
+          "receipt_valid": 1,
+          "receipt_cost": 50000
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 3,
+          "attempt": "a",
+          "kind": "receipt",
+          "payload": "{\"valid\": false, \"synthetic_known_cost\": 60000}"
+        },
+        {
+          "id": 4,
+          "attempt": "a",
+          "kind": "registration",
+          "payload": "unusable rejected"
+        },
+        {
+          "id": 5,
+          "attempt": "b",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 6,
+          "attempt": "b",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        },
+        {
+          "id": 7,
+          "attempt": "b",
+          "kind": "receipt",
+          "payload": "{\"valid\": true, \"synthetic_known_cost\": 50000}"
+        },
+        {
+          "id": 8,
+          "attempt": "b",
+          "kind": "registration",
+          "payload": "valid delivered history"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "calendar rollover retains old unknown obligation",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "UNKNOWN",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "transaction rollback on synthetic crash",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "RESERVED",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "scenario": "simulated provider bound breach halts paid lane",
+      "totals_microUSD": {
+        "shared": 25300000,
+        "creator": 300000,
+        "project": 300000,
+        "ceiling": 40000000
+      },
+      "attempts": [
+        {
+          "id": "a",
+          "op": "image",
+          "number": 1,
+          "status": "SENT",
+          "bound": 100000,
+          "hold": 100000,
+          "allowance_hold": 100000,
+          "cost": 0,
+          "consumed": 0,
+          "artifact": null,
+          "current": 0,
+          "receipt_valid": null,
+          "receipt_cost": null
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "attempt": "a",
+          "kind": "reservation",
+          "payload": "{\"maximum\": 100000, \"epoch\": 1, \"signature\": \"fixture-v1\"}"
+        },
+        {
+          "id": 2,
+          "attempt": "a",
+          "kind": "submission",
+          "payload": "one fake transport send"
+        }
+      ],
+      "result": "PASS"
+    }
+  ],
+  "scenario_count": 32,
+  "model": {
+    "text_operations": [
+      {
+        "name": "research_planner",
+        "model": "gemini-3.5-flash-lite",
+        "input_cap": 4096,
+        "output_including_thinking_cap": 1024,
+        "max_requests": 1,
+        "max_attempts": 3,
+        "billing_unit": "input and total output/thinking tokens",
+        "thinking_cap": "shares configured total output; no unbounded extra reasoning",
+        "maximum_input_proof_status": "UNKNOWN",
+        "artifact": "Research Query Plan",
+        "depends_on": [],
+        "price_source": "pricing-v6.json and S4 capabilities.json",
+        "v7_candidate_attempt_USD": "0.003789",
+        "serving_input_fallback_attempt_USD": "0.317133",
+        "expected_USD": null,
+        "enabled": false,
+        "bound_evidence": "V7 candidate narrow input unvalidated; S4 serving fallback conditional; output total/transport/rate/account proof required",
+        "usable_max_USD": null
+      },
+      {
+        "name": "research_synthesis",
+        "model": "gemini-3.5-flash-lite",
+        "input_cap": 16384,
+        "output_including_thinking_cap": 4096,
+        "max_requests": 1,
+        "max_attempts": 3,
+        "billing_unit": "input and total output/thinking tokens",
+        "thinking_cap": "shares configured total output; no unbounded extra reasoning",
+        "maximum_input_proof_status": "UNKNOWN",
+        "artifact": "Research Results with source IDs/limitations",
+        "depends_on": [
+          "research_planner",
+          "basic_search"
+        ],
+        "price_source": "pricing-v6.json and S4 capabilities.json",
+        "v7_candidate_attempt_USD": "0.015156",
+        "serving_input_fallback_attempt_USD": "0.324813",
+        "expected_USD": null,
+        "enabled": false,
+        "bound_evidence": "V7 candidate narrow input unvalidated; S4 serving fallback conditional; output total/transport/rate/account proof required",
+        "usable_max_USD": null
+      },
+      {
+        "name": "script_generation",
+        "model": "gemini-3.5-flash-lite",
+        "input_cap": 12288,
+        "output_including_thinking_cap": 8192,
+        "max_requests": 1,
+        "max_attempts": 3,
+        "billing_unit": "input and total output/thinking tokens",
+        "thinking_cap": "shares configured total output; no unbounded extra reasoning",
+        "maximum_input_proof_status": "UNKNOWN",
+        "artifact": "Versioned Script",
+        "depends_on": [
+          "research_synthesis"
+        ],
+        "price_source": "pricing-v6.json and S4 capabilities.json",
+        "v7_candidate_attempt_USD": "0.024167",
+        "serving_input_fallback_attempt_USD": "0.335053",
+        "expected_USD": null,
+        "enabled": false,
+        "bound_evidence": "V7 candidate narrow input unvalidated; S4 serving fallback conditional; output total/transport/rate/account proof required",
+        "usable_max_USD": null
+      },
+      {
+        "name": "visual_prompt_planning",
+        "model": "gemini-3.5-flash-lite",
+        "input_cap": 16384,
+        "output_including_thinking_cap": 16384,
+        "max_requests": 1,
+        "max_attempts": 3,
+        "billing_unit": "input and total output/thinking tokens",
+        "thinking_cap": "shares configured total output; no unbounded extra reasoning",
+        "maximum_input_proof_status": "UNKNOWN",
+        "artifact": "Scene Visual Descriptions and Image Prompts",
+        "depends_on": [
+          "script_generation",
+          "local_sentence_mapping"
+        ],
+        "price_source": "pricing-v6.json and S4 capabilities.json",
+        "v7_candidate_attempt_USD": "0.045876",
+        "serving_input_fallback_attempt_USD": "0.355533",
+        "expected_USD": null,
+        "enabled": false,
+        "bound_evidence": "V7 candidate narrow input unvalidated; S4 serving fallback conditional; output total/transport/rate/account proof required",
+        "usable_max_USD": null
+      }
+    ],
+    "search": {
+      "provider": "Tavily Basic",
+      "queries_max": 6,
+      "attempts_max_per_query": 3,
+      "unit": "one credit per pinned Basic request",
+      "one_attempt_query_batch_USD": "0.048",
+      "three_attempt_query_batch_USD": "0.144",
+      "enabled": false,
+      "reason": "account/terms/rate/transport proof before enablement; no verified free credits"
+    },
+    "image": {
+      "model": "gemini-3.1-flash-lite-image",
+      "output_tariff_USD": ".0336",
+      "tariff_status": "Owner-fixed 1K-resolution output sensitivity, V6 dated evidence; not permanent or complete",
+      "input_serving_fallback_tokens": 65536,
+      "all_output_serving_fallback_tokens": 4096,
+      "conditional_attempt_full_modal_worst_rate_USD": "0.139264",
+      "enabled": false,
+      "usable_attempt_bound_USD": null,
+      "reason": "exact endpoint/output/thinking/single-send/billing rate proof unresolved"
+    },
+    "TTS": {
+      "model": "gemini-3.8-flash-lite-tts",
+      "B_initial_and_B_corrections": true,
+      "conditional_attempt_serving_USD": "0.1024",
+      "input_tokens_max": 8192,
+      "audio_output_tokens_max": 16384,
+      "enabled": false,
+      "usable_attempt_bound_USD": null,
+      "rate_valid_through": "2026-12-31",
+      "segment_count": "derive deterministic scope; not frozen",
+      "empirical_S5_eight_call_paid_equivalent_USD": ".07897"
+    },
+    "projects": [
+      {
+        "kind": "topic",
+        "requested_minutes": 3,
+        "preliminary_images": 36,
+        "preliminary_credits": "0.6",
+        "actual_images": null,
+        "B_segment_count": null,
+        "expected_total_USD": null,
+        "usable_whole_project_max_USD": null,
+        "image_output_only_first_attempt_USD": "1.2096",
+        "image_output_only_three_attempt_USD": "3.6288",
+        "conditional_provider_max_formula": "A_text*T_text + A_image*N*I + A_TTS*K*T; actual N/K re-admitted; excludes unknown cash extras",
+        "conditional_IF_preliminary_N_and_one_B_segment_single_attempt_USD": "6.496436",
+        "conditional_IF_preliminary_N_and_one_B_segment_three_attempt_USD": "19.489308",
+        "enabled": false
+      },
+      {
+        "kind": "topic",
+        "requested_minutes": 5,
+        "preliminary_images": 60,
+        "preliminary_credits": "1",
+        "actual_images": null,
+        "B_segment_count": null,
+        "expected_total_USD": null,
+        "usable_whole_project_max_USD": null,
+        "image_output_only_first_attempt_USD": "2.0160",
+        "image_output_only_three_attempt_USD": "6.0480",
+        "conditional_provider_max_formula": "A_text*T_text + A_image*N*I + A_TTS*K*T; actual N/K re-admitted; excludes unknown cash extras",
+        "conditional_IF_preliminary_N_and_one_B_segment_single_attempt_USD": "9.838772",
+        "conditional_IF_preliminary_N_and_one_B_segment_three_attempt_USD": "29.516316",
+        "enabled": false
+      },
+      {
+        "kind": "topic",
+        "requested_minutes": 10,
+        "preliminary_images": 120,
+        "preliminary_credits": "2",
+        "actual_images": null,
+        "B_segment_count": null,
+        "expected_total_USD": null,
+        "usable_whole_project_max_USD": null,
+        "image_output_only_first_attempt_USD": "4.0320",
+        "image_output_only_three_attempt_USD": "12.0960",
+        "conditional_provider_max_formula": "A_text*T_text + A_image*N*I + A_TTS*K*T; actual N/K re-admitted; excludes unknown cash extras",
+        "conditional_IF_preliminary_N_and_one_B_segment_single_attempt_USD": "18.194612",
+        "conditional_IF_preliminary_N_and_one_B_segment_three_attempt_USD": "54.583836",
+        "enabled": false
+      },
+      {
+        "kind": "pasted",
+        "fixture_text": "The sky appears blue. Tiny particles scatter light. We see that scattered light.",
+        "actual_images": 3,
+        "sentence_review_status": "local limited parser unambiguous fixture only",
+        "script_generation_required": false,
+        "B_segment_count": null,
+        "conditional_check_search_one_attempt_USD": "1.045479",
+        "usable_whole_project_max_USD": null,
+        "expected_total_USD": null,
+        "conditional_IF_one_B_segment_single_attempt_USD": "1.565671",
+        "conditional_IF_one_B_segment_three_attempt_USD": "4.697013",
+        "enabled": false
+      },
+      {
+        "kind": "pasted_existing_representative",
+        "source": "demo-video-example/02_script_humanized.txt",
+        "source_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+        "actual_local_count": 59,
+        "segmentation_review_required": true,
+        "reason": "V7 ellipsis/quote flags; local count is not reviewed production sentence scope",
+        "B_segment_count": null,
+        "script_generation_required": false,
+        "expected_total_USD": null,
+        "usable_whole_project_max_USD": null,
+        "conditional_IF_count_accepted_and_one_B_segment_single_attempt_USD": "9.364455",
+        "conditional_IF_count_accepted_and_one_B_segment_three_attempt_USD": "28.093365",
+        "enabled": false
+      }
+    ],
+    "text_search_conditional_serving_fallback_single_attempt_USD": "1.380532",
+    "text_search_conditional_serving_fallback_three_attempt_USD": "4.141596",
+    "v7_text_search_narrow_three_attempt_USD": ".410964",
+    "fixed_partial_USD": "24.005932313307",
+    "ceiling_USD": "40",
+    "nominal_remainder_USD": "15.994067686693",
+    "sensitivities": [
+      {
+        "total_cash_uplift_percent_sensitivity_NOT_POLICY": 0,
+        "nominal_pre_uplift_provider_headroom_USD": "15.994067686693",
+        "complete_authorized_generation_budget_USD": null
+      },
+      {
+        "total_cash_uplift_percent_sensitivity_NOT_POLICY": 10,
+        "nominal_pre_uplift_provider_headroom_USD": "12.35770405032936363636363636",
+        "complete_authorized_generation_budget_USD": null
+      },
+      {
+        "total_cash_uplift_percent_sensitivity_NOT_POLICY": 20,
+        "nominal_pre_uplift_provider_headroom_USD": "9.32740102002633333333333333",
+        "complete_authorized_generation_budget_USD": null
+      },
+      {
+        "total_cash_uplift_percent_sensitivity_NOT_POLICY": 30,
+        "nominal_pre_uplift_provider_headroom_USD": "6.76329845592376923076923077",
+        "complete_authorized_generation_budget_USD": null
+      }
+    ],
+    "complete_fixed_cash_envelope_USD": null,
+    "owner_reserve_policy": null,
+    "current_account_spend_and_liabilities": null,
+    "pricing_provenance": "Reused dated S4/V6/V7/V8/V11/V12 captures; no public price refresh/current provider assertion; quotes invalidate before enablement",
+    "local_operations": [
+      "sentence counting and membership",
+      "alignment",
+      "captions",
+      "FFmpeg render",
+      "validation"
+    ],
+    "local_generation_allowance_debit": 0,
+    "local_infrastructure_cost_is_not_zero": true,
+    "optional_discovery_operations": "excluded from normal video; disabled until separately bounded/entitled",
+    "credit_formula": null,
+    "Alpha_allowances": null
+  },
+  "provider_API_calls": 0,
+  "fake_transport_submissions": "SQLite events only, not HTTP",
+  "paid_spend_USD": "0",
+  "downloads": 0,
+  "production_changes": false,
+  "TASKS_changes": false,
+  "hosting_selected_or_provisioned": false,
+  "deployment": false,
+  "purchases": false,
+  "empirical_provider_behavior_validated": false,
+  "architecture_frozen": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "django_version": "5.2.17",
+  "admission_seconds": 0.0005177079583518207,
+  "status_requests": 353,
+  "max_status_seconds": 0.002016875019762665,
+  "average_status_seconds": 0.00042616666615188714,
+  "worker_pid": 37951,
+  "worker_exit": 0,
+  "argv": [
+    "/private/tmp/s6-render-venv/bin/python",
+    "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/spikes/rendering-feasibility/s6.py",
+    "benchmark",
+    "--duration",
+    "600"
+  ],
+  "http_request_held_open": false,
+  "limits": "Django test client, no browser/load/network isolation proof; SQLite queue witness only"
+}

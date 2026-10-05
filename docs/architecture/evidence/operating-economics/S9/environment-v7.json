@@ -1,0 +1,28 @@
+{
+  "python": "3.12.14",
+  "system": "macOS-26.5-arm64-arm-64bit",
+  "SDK_loader_source": "/private/tmp/alpha-s4-venv/lib/python3.12/site-packages/google/genai/_local_tokenizer_loader.py",
+  "SDK_loader_sha256": "61d9e714f5c1f1e359dd58734f31e8bc4ed9483de7ef6f70a55e366a838b77b7",
+  "candidate_model_supported_by_installed_local_tokenizer": false,
+  "local_supported_model_ids": [
+    "gemini-2.0-flash",
+    "gemini-2.0-flash-001",
+    "gemini-2.0-flash-lite",
+    "gemini-2.0-flash-lite-001",
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash-lite-preview-06-17",
+    "gemini-2.5-flash-preview-04-17",
+    "gemini-2.5-flash-preview-05-20",
+    "gemini-2.5-pro",
+    "gemini-2.5-pro-exp-03-25",
+    "gemini-2.5-pro-preview-05-06",
+    "gemini-2.5-pro-preview-06-05",
+    "gemini-3-pro-preview",
+    "gemini-live-2.5-flash"
+  ],
+  "tokenizer_cache_exists": false,
+  "tokenizer_loader_not_invoked": true,
+  "new_dependencies_or_model_downloads": [],
+  "token_evidence": "No validated tokenizer/model+complete-request token proof for Gemini 3.5 Flash-Lite. No SDK client or tokenizer instantiated. chars/4, words and byte limits are not authority."
+}

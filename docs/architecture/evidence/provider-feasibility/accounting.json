@@ -1,0 +1,65 @@
+{
+  "scope": "Conservative documented serving caps, standard paid rates retrieved 2026-10-04; no free discount, tool or cache storage; taxes/account charges require separate bound",
+  "bounds": [
+    {
+      "model": "gemini-3.8-flash-tts",
+      "input_serving_limit": 8192,
+      "output_serving_limit": 16384,
+      "rate_input_usd_per_million": ".5",
+      "rate_worst_output_usd_per_million": "9",
+      "maximum_microUSD_per_attempt": 151552,
+      "three_attempt_ceiling_microUSD": 454656
+    },
+    {
+      "model": "gemini-3.8-flash-lite-tts",
+      "input_serving_limit": 8192,
+      "output_serving_limit": 16384,
+      "rate_input_usd_per_million": ".5",
+      "rate_worst_output_usd_per_million": "6",
+      "maximum_microUSD_per_attempt": 102400,
+      "three_attempt_ceiling_microUSD": 307200
+    },
+    {
+      "model": "gemini-3.1-flash-image",
+      "input_serving_limit": 131072,
+      "output_serving_limit": 32768,
+      "rate_input_usd_per_million": ".5",
+      "rate_worst_output_usd_per_million": "60",
+      "maximum_microUSD_per_attempt": 2031616,
+      "three_attempt_ceiling_microUSD": 6094848
+    },
+    {
+      "model": "gemini-3.1-flash-lite-image",
+      "input_serving_limit": 65536,
+      "output_serving_limit": 4096,
+      "rate_input_usd_per_million": ".25",
+      "rate_worst_output_usd_per_million": "30",
+      "maximum_microUSD_per_attempt": 139264,
+      "three_attempt_ceiling_microUSD": 417792
+    },
+    {
+      "model": "gemini-3-pro-image",
+      "input_serving_limit": 65536,
+      "output_serving_limit": 32768,
+      "rate_input_usd_per_million": "2",
+      "rate_worst_output_usd_per_million": "120",
+      "maximum_microUSD_per_attempt": 4063232,
+      "three_attempt_ceiling_microUSD": 12189696
+    }
+  ],
+  "unknown": {
+    "state": "recovery_required",
+    "held_microUSD": 151552,
+    "automatic_retry_allowed": false,
+    "submissions": 1
+  },
+  "deduplicated_ledger": [
+    {
+      "receipt": "synthetic-result",
+      "usage_derived_microUSD": 231,
+      "invoice_actual_microUSD": null
+    }
+  ],
+  "missing_usage_cost": null,
+  "pass": true
+}

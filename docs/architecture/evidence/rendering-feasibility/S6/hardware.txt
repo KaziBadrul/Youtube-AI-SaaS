@@ -1,0 +1,14 @@
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Air
+      Model Identifier: Mac17,3
+      Model Number: MDH74LL/A
+      Chip: Apple M5
+      Total Number of Cores: 10 (4 Performance and 6 Efficiency)
+      Memory: 16 GB
+      System Firmware Version: 18000.120.36
+      OS Loader Version: 18000.120.36
+
+2026-10-05 01:11:25.319 system_profiler[35619:9609498] Error fetching hw.cpufamily: -1

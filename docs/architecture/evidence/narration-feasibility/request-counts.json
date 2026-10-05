@@ -1,0 +1,126 @@
+{
+  "basis": {
+    "words_per_minute": 169.81132075471697,
+    "scenes_per_minute": 11.094339622641508
+  },
+  "assumptions": "Extrapolation/repeated measured scene distribution, not independently measured 3/5/10 scripts. UTF-8 bytes exact; chars/4 token proxy not a certified tokenizer or cost bound.",
+  "rows": [
+    {
+      "minutes": 3,
+      "estimated_words": 510,
+      "projected_scene_count": 34,
+      "byte_cap": 2000,
+      "A_initial": 34,
+      "B_C_initial": 2,
+      "A_one_edit_plus_two_safe_retries": 37,
+      "B_one_edit_plus_two_safe_retries": 5,
+      "C_one_edit_plus_two_safe_retries": 5,
+      "C_with_one_failed_correction_then_B_fallback_plus_two_safe_retries": 6,
+      "projection_words_actual": 526
+    },
+    {
+      "minutes": 3,
+      "estimated_words": 510,
+      "projected_scene_count": 34,
+      "byte_cap": 3000,
+      "A_initial": 34,
+      "B_C_initial": 2,
+      "A_one_edit_plus_two_safe_retries": 37,
+      "B_one_edit_plus_two_safe_retries": 5,
+      "C_one_edit_plus_two_safe_retries": 5,
+      "C_with_one_failed_correction_then_B_fallback_plus_two_safe_retries": 6,
+      "projection_words_actual": 526
+    },
+    {
+      "minutes": 3,
+      "estimated_words": 510,
+      "projected_scene_count": 34,
+      "byte_cap": 4000,
+      "A_initial": 34,
+      "B_C_initial": 1,
+      "A_one_edit_plus_two_safe_retries": 37,
+      "B_one_edit_plus_two_safe_retries": 4,
+      "C_one_edit_plus_two_safe_retries": 4,
+      "C_with_one_failed_correction_then_B_fallback_plus_two_safe_retries": 5,
+      "projection_words_actual": 526
+    },
+    {
+      "minutes": 5,
+      "estimated_words": 850,
+      "projected_scene_count": 56,
+      "byte_cap": 2000,
+      "A_initial": 56,
+      "B_C_initial": 3,
+      "A_one_edit_plus_two_safe_retries": 59,
+      "B_one_edit_plus_two_safe_retries": 6,
+      "C_one_edit_plus_two_safe_retries": 6,
+      "C_with_one_failed_correction_then_B_fallback_plus_two_safe_retries": 7,
+      "projection_words_actual": 857
+    },
+    {
+      "minutes": 5,
+      "estimated_words": 850,
+      "projected_scene_count": 56,
+      "byte_cap": 3000,
+      "A_initial": 56,
+      "B_C_initial": 2,
+      "A_one_edit_plus_two_safe_retries": 59,
+      "B_one_edit_plus_two_safe_retries": 5,
+      "C_one_edit_plus_two_safe_retries": 5,
+      "C_with_one_failed_correction_then_B_fallback_plus_two_safe_retries": 6,
+      "projection_words_actual": 857
+    },
+    {
+      "minutes": 5,
+      "estimated_words": 850,
+      "projected_scene_count": 56,
+      "byte_cap": 4000,
+      "A_initial": 56,
+      "B_C_initial": 2,
+      "A_one_edit_plus_two_safe_retries": 59,
+      "B_one_edit_plus_two_safe_retries": 5,
+      "C_one_edit_plus_two_safe_retries": 5,
+      "C_with_one_failed_correction_then_B_fallback_plus_two_safe_retries": 6,
+      "projection_words_actual": 857
+    },
+    {
+      "minutes": 10,
+      "estimated_words": 1699,
+      "projected_scene_count": 111,
+      "byte_cap": 2000,
+      "A_initial": 111,
+      "B_C_initial": 5,
+      "A_one_edit_plus_two_safe_retries": 114,
+      "B_one_edit_plus_two_safe_retries": 8,
+      "C_one_edit_plus_two_safe_retries": 8,
+      "C_with_one_failed_correction_then_B_fallback_plus_two_safe_retries": 9,
+      "projection_words_actual": 1659
+    },
+    {
+      "minutes": 10,
+      "estimated_words": 1699,
+      "projected_scene_count": 111,
+      "byte_cap": 3000,
+      "A_initial": 111,
+      "B_C_initial": 4,
+      "A_one_edit_plus_two_safe_retries": 114,
+      "B_one_edit_plus_two_safe_retries": 7,
+      "C_one_edit_plus_two_safe_retries": 7,
+      "C_with_one_failed_correction_then_B_fallback_plus_two_safe_retries": 8,
+      "projection_words_actual": 1659
+    },
+    {
+      "minutes": 10,
+      "estimated_words": 1699,
+      "projected_scene_count": 111,
+      "byte_cap": 4000,
+      "A_initial": 111,
+      "B_C_initial": 3,
+      "A_one_edit_plus_two_safe_retries": 114,
+      "B_one_edit_plus_two_safe_retries": 6,
+      "C_one_edit_plus_two_safe_retries": 6,
+      "C_with_one_failed_correction_then_B_fallback_plus_two_safe_retries": 7,
+      "projection_words_actual": 1659
+    }
+  ]
+}

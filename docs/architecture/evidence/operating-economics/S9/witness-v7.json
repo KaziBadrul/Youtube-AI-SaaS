@@ -1,0 +1,201 @@
+{
+  "PASS": true,
+  "tests": [
+    {
+      "name": "all_paid_groups_finite_candidate_limits_and_explicit_unknowns",
+      "PASS": true
+    },
+    {
+      "name": "four_text_stages_not_nine_extra_calls",
+      "PASS": true
+    },
+    {
+      "name": "fixture_not_trivial",
+      "PASS": true
+    },
+    {
+      "name": "all_candidate_caps_narrower_than_serving_context",
+      "PASS": true
+    },
+    {
+      "name": "six_query_example_valid",
+      "PASS": true
+    },
+    {
+      "name": "planner_cannot_expand_to_50",
+      "PASS": true
+    },
+    {
+      "name": "planner_no_budget_field",
+      "PASS": true
+    },
+    {
+      "name": "duplicate_queries_rejected",
+      "PASS": true
+    },
+    {
+      "name": "query_byte_cap_rejected",
+      "PASS": true
+    },
+    {
+      "name": "query_word_cap_rejected",
+      "PASS": true
+    },
+    {
+      "name": "known_scene_membership_valid",
+      "PASS": true
+    },
+    {
+      "name": "extra_scene_not_authority",
+      "PASS": true
+    },
+    {
+      "name": "model_cannot_rewrite_narration",
+      "PASS": true
+    },
+    {
+      "name": "planning_field_cap_rejected",
+      "PASS": true
+    },
+    {
+      "name": "no_real_token_proof_blocks_paid_admission",
+      "PASS": true
+    },
+    {
+      "name": "synthetic_only_validated_token_gate",
+      "PASS": true
+    },
+    {
+      "name": "input_token_cap_rejected",
+      "PASS": true
+    },
+    {
+      "name": "unknown_token_count_rejected",
+      "PASS": true
+    },
+    {
+      "name": "model_cannot_increase_output_cap",
+      "PASS": true
+    },
+    {
+      "name": "unbounded_tool_rejected",
+      "PASS": true
+    },
+    {
+      "name": "changed_request_invalidates_proof",
+      "PASS": true
+    },
+    {
+      "name": "fourth_attempt_after_restarts_rejected",
+      "PASS": true
+    },
+    {
+      "name": "new_query_not_in_pinned_plan",
+      "PASS": true
+    },
+    {
+      "name": "safe_charged_failures_not_erased",
+      "PASS": true
+    },
+    {
+      "name": "unknown_duplicate_after_restart_blocked",
+      "PASS": true
+    },
+    {
+      "name": "unknown_other_paid_work_blocked",
+      "PASS": true
+    },
+    {
+      "name": "unknown_hold_survives_restart",
+      "PASS": true
+    },
+    {
+      "name": "success_not_replayed_paid",
+      "PASS": true
+    },
+    {
+      "name": "same_attempt_id_not_reused",
+      "PASS": true
+    },
+    {
+      "name": "tariff_planner_micro_roundup",
+      "PASS": true
+    },
+    {
+      "name": "search_max_arithmetic",
+      "PASS": true
+    },
+    {
+      "name": "text_search_candidate_sum",
+      "PASS": true
+    },
+    {
+      "name": "initial_max_not_expected",
+      "PASS": true
+    },
+    {
+      "name": "UNKNOWN_expected_never_zero",
+      "PASS": true
+    },
+    {
+      "name": "UNKNOWN_max_never_zero",
+      "PASS": true
+    },
+    {
+      "name": "pasted_no_script_writing",
+      "PASS": true
+    },
+    {
+      "name": "pasted_check_present_no_topic_synthesis",
+      "PASS": true
+    },
+    {
+      "name": "pasted_saves_only_writing_max_candidate",
+      "PASS": true
+    },
+    {
+      "name": "lower_tier_research_requests_absent",
+      "PASS": true
+    },
+    {
+      "name": "v6_image_TTS_unchanged",
+      "PASS": true
+    },
+    {
+      "name": "combined_not_complete_expected_or_max",
+      "PASS": true
+    },
+    {
+      "name": "candidate_one_segment_subtotal_not_whole_max",
+      "PASS": true
+    },
+    {
+      "name": "no_actual_supported_tokenizer_proof",
+      "PASS": true
+    },
+    {
+      "name": "same_sentence_scope_deterministic",
+      "PASS": true
+    },
+    {
+      "name": "byte_envelope_not_silent_token_bound",
+      "PASS": true
+    },
+    {
+      "name": "prepared_visual_envelope_fits_byte_cap_only",
+      "PASS": true
+    },
+    {
+      "name": "unknown_query_expected_not_six_by_default",
+      "PASS": true
+    },
+    {
+      "name": "postscript_scope_review_not_silently_trusted",
+      "PASS": true
+    }
+  ],
+  "test_count": 48,
+  "scope": "Synthetic deterministic guard/arithmetic only; no provider/tokenizer enforcement proof",
+  "provider_calls": 0,
+  "S9": "NOT_YET_PASS"
+}

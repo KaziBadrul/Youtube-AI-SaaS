@@ -1,0 +1,27 @@
+{
+  "gate": "S3",
+  "timestamp_utc": "2026-10-04T10:56:25.175459+00:00",
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "sqlite": "3.53.4",
+  "plan_sha256": "51343a5924d19a115dbbb6756100e6d0532c0a86b7906037c9e2b6a697bc5ff4",
+  "verdict": "FAIL",
+  "error": "",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/spikes/local-feasibility/evidence.py\", line 6, in run\n    try:data.update(experiment());data['verdict']='PASS'\n                    ^^^^^^^^^^^^\n  File \"/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/spikes/local-feasibility/s3.py\", line 37, in experiment\n    p.complete('a');assert recover(tmp,'a',f)=='history';assert s.read('SELECT * FROM selections')==[];assert s.read('SELECT state FROM jobs')[0]['state']=='cancelled'\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "elapsed_seconds": 5.195,
+  "scaffold_hashes": {
+    "s1.py": "1c5c1fc51ee7675ff8697181005305d15dc2c01901d398755b35c87f142e2929",
+    "core.py": "fa6f37fa700d813150a443a339f11c51ac8a9cbbdfb8f8477c14411b6533ba15",
+    "supervision.py": "95033f50115b154899b190b60bc2e3210b394d2a700ce96b8f967e08ed5cf45d",
+    "django_boundary.py": "dd5fe2a584e3b68356bbc79ef0b4ee9b389bf7c9cc54be439c5504575638d6e2",
+    "publication.py": "756fe304d4003a6b10290f8f77d4d91de008ff3995515a3a4255429af27c38db",
+    "s1worker.py": "c7c99dd28f5baded17ee966d39a518f28b463fa571824d64f846d3f678debd7b",
+    "s3.py": "fa6c7a715f0099b8b76a26a7531126a1004ff9fd92830e112f660a9379164526",
+    "evidence.py": "dc87b7bf14bbc32bd798036ef08a550b957ade778b4ff333588e158402fb6303",
+    "s2.py": "78201c4665c0c8246540e8e87a61690f337a83a984092eb975a0132ecd2ad033",
+    "fixtures.py": "e945965d990a5979d555b65cee36f7e3e0d4c984aa67dd0114b0fab27d10c6f5",
+    "static/boundary.js": "0d45569692df4471de4c633d9e4d4beb81fca19ed1f045bb10b140b5d4d8430f",
+    "static/boundary.test.js": "a1c3a1f4f5526697c3dbeead4020db735b5fb6deb39663246939a9aa2a603fc8",
+    "templates/boundary.html": "5b7b98e46bf50a0f8d1bdb6baf54bde8e03cfff58886766099a1511bc0934896"
+  }
+}

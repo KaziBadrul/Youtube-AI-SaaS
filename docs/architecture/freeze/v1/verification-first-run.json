@@ -1,0 +1,277 @@
+{
+  "scope": "Read-only local documentation verification; no spike or provider execution",
+  "checks_count": 64,
+  "passed": 59,
+  "checks": [
+    {
+      "name": "freeze_exact_pass_and_version",
+      "result": "PASS"
+    },
+    {
+      "name": "hierarchy_explicit_and_scoped",
+      "result": "PASS"
+    },
+    {
+      "name": "current_ceiling_40_calendar",
+      "result": "PASS"
+    },
+    {
+      "name": "current_docs_no_active_30",
+      "result": "FAIL"
+    },
+    {
+      "name": "agents_30_only_history",
+      "result": "PASS"
+    },
+    {
+      "name": "current_s9_pass_v14",
+      "result": "PASS"
+    },
+    {
+      "name": "no_current_pending_spike_status",
+      "result": "PASS"
+    },
+    {
+      "name": "no_v15_report_or_bundle",
+      "result": "PASS"
+    },
+    {
+      "name": "qualified_host_sizing_closed",
+      "result": "PASS"
+    },
+    {
+      "name": "sqlite_wal_short_integer_no_external_transaction",
+      "result": "FAIL"
+    },
+    {
+      "name": "postgres_fallback_not_mandatory",
+      "result": "PASS"
+    },
+    {
+      "name": "django_worker_same_host",
+      "result": "PASS"
+    },
+    {
+      "name": "global_lane_and_no_http_execution",
+      "result": "PASS"
+    },
+    {
+      "name": "serialized_heavy_maintenance",
+      "result": "PASS"
+    },
+    {
+      "name": "typed_domain_no_universal_json",
+      "result": "PASS"
+    },
+    {
+      "name": "version_axes_separate",
+      "result": "PASS"
+    },
+    {
+      "name": "pinned_versions_fenced_selection",
+      "result": "PASS"
+    },
+    {
+      "name": "b_initial_b_whole_correction",
+      "result": "PASS"
+    },
+    {
+      "name": "continuous_narration_not_visual_cuts",
+      "result": "PASS"
+    },
+    {
+      "name": "no_fixed_segment_constant",
+      "result": "PASS"
+    },
+    {
+      "name": "next_scene_start_visuals",
+      "result": "PASS"
+    },
+    {
+      "name": "acoustic_restore_prerequisite_not_claimed",
+      "result": "PASS"
+    },
+    {
+      "name": "compound_restore_and_scoped_config",
+      "result": "PASS"
+    },
+    {
+      "name": "accepted_variations_separate",
+      "result": "PASS"
+    },
+    {
+      "name": "invalidation_matrix_preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "disabled_captions_do_not_bypass_audio",
+      "result": "PASS"
+    },
+    {
+      "name": "creator_images_review_not_automatic_regeneration",
+      "result": "PASS"
+    },
+    {
+      "name": "exact_entitlement_matrix",
+      "result": "PASS"
+    },
+    {
+      "name": "suggestions_distinct_custom_model_no_alpha_promotion",
+      "result": "PASS"
+    },
+    {
+      "name": "research_app_bounded",
+      "result": "PASS"
+    },
+    {
+      "name": "pasted_preserved_explicit_translation",
+      "result": "PASS"
+    },
+    {
+      "name": "scope_sentence_heuristic_separate",
+      "result": "PASS"
+    },
+    {
+      "name": "financial_no_free_quota_no_credit_override",
+      "result": "FAIL"
+    },
+    {
+      "name": "unknown_liability_durable_not_blind_retry",
+      "result": "PASS"
+    },
+    {
+      "name": "finite_attempts_conditional_reservations",
+      "result": "PASS"
+    },
+    {
+      "name": "integer_money_rounding",
+      "result": "PASS"
+    },
+    {
+      "name": "fixed_and_reference_cash_arithmetic",
+      "result": "PASS"
+    },
+    {
+      "name": "5_min_conditional_cash",
+      "result": "PASS"
+    },
+    {
+      "name": "10_min_over_envelope",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_cash_blocks_commitment_no_reserve_percent_policy",
+      "result": "PASS"
+    },
+    {
+      "name": "optional_cost_review_dual_display",
+      "result": "PASS"
+    },
+    {
+      "name": "explicit_input_mode_no_postclick_classification",
+      "result": "PASS"
+    },
+    {
+      "name": "simple_auto_manual_optional",
+      "result": "PASS"
+    },
+    {
+      "name": "render_manifest_lock_and_previous_export",
+      "result": "PASS"
+    },
+    {
+      "name": "render_cancel_confirmed_cessation",
+      "result": "PASS"
+    },
+    {
+      "name": "render_full_validation_not_exit_shortest",
+      "result": "PASS"
+    },
+    {
+      "name": "captions_shaped_local_path",
+      "result": "PASS"
+    },
+    {
+      "name": "session_invite_ownership_range",
+      "result": "PASS"
+    },
+    {
+      "name": "opaque_paths_image_only_upload",
+      "result": "PASS"
+    },
+    {
+      "name": "delete_active_unknown_prohibited",
+      "result": "PASS"
+    },
+    {
+      "name": "7day_backup24_and_end14",
+      "result": "PASS"
+    },
+    {
+      "name": "purge_cannot_resurrect",
+      "result": "PASS"
+    },
+    {
+      "name": "storage_block_no_prune",
+      "result": "PASS"
+    },
+    {
+      "name": "design_warm_and_mobile_accessible",
+      "result": "FAIL"
+    },
+    {
+      "name": "composer_exact_owner_copy",
+      "result": "PASS"
+    },
+    {
+      "name": "english_gate_experimental_separate",
+      "result": "PASS"
+    },
+    {
+      "name": "deferred_major_features_and_followups",
+      "result": "PASS"
+    },
+    {
+      "name": "open_decisions_correctly_classified",
+      "result": "PASS"
+    },
+    {
+      "name": "empirical_calibration_deferred",
+      "result": "PASS"
+    },
+    {
+      "name": "pipeline_all_four_reuse_classes",
+      "result": "PASS"
+    },
+    {
+      "name": "history_current_doc_originals_archived",
+      "result": "PASS"
+    },
+    {
+      "name": "current_local_document_links_resolve",
+      "result": "FAIL"
+    },
+    {
+      "name": "historical_evidence_media_scripts_all_preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "tasks_not_created",
+      "result": "PASS"
+    }
+  ],
+  "missing_links": [
+    {
+      "file": "docs/README.md",
+      "target": "architecture/freeze/v1/README.md"
+    },
+    {
+      "file": "docs/architecture/ARCHITECTURE_FREEZE.md",
+      "target": "freeze/v1/README.md"
+    }
+  ],
+  "preservation": {
+    "files_checked": 3453,
+    "changed": []
+  }
+}

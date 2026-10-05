@@ -1,0 +1,147 @@
+{
+  "status": "PASS_LOCAL_ONLY",
+  "cases": [
+    {
+      "case": "eight successes; default dry-run; staged continuation; duplicate invocation idempotent",
+      "PASS": true,
+      "fake_submissions": 8
+    },
+    {
+      "case": "confirmed safe fixture 429 retries; absolute ten submissions; resume preserves counters",
+      "PASS": true,
+      "fake_submissions": 10
+    },
+    {
+      "case": "two-retry budget exhausted stops third retry",
+      "PASS": true,
+      "fake_submissions": 3
+    },
+    {
+      "case": "timeout unknown holds liability and halts restart",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "interruption before_intent",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "interruption after_intent",
+      "PASS": true,
+      "fake_submissions": 0
+    },
+    {
+      "case": "interruption after_response",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "concurrent runner denied by process lock",
+      "PASS": true,
+      "fake_submissions": 0
+    },
+    {
+      "case": "resume partial success skips completed audio",
+      "PASS": true,
+      "fake_submissions": 9
+    },
+    {
+      "case": "sealed manifest rejects text",
+      "PASS": true,
+      "fake_submissions": 0
+    },
+    {
+      "case": "sealed manifest rejects model",
+      "PASS": true,
+      "fake_submissions": 0
+    },
+    {
+      "case": "sealed manifest rejects voice",
+      "PASS": true,
+      "fake_submissions": 0
+    },
+    {
+      "case": "sealed manifest rejects money",
+      "PASS": true,
+      "fake_submissions": 0
+    },
+    {
+      "case": "missing audio stops; receipt retained; no technical success",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "undecodable audio stops",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "Call 1 schema rejection prevents further calls and schema variants",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "unconfirmed live-style 429 is not assumed unbilled",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "secret redaction in receipts and ledger",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "fake clock enforces RPM and conservative 8192-token TPM reserve",
+      "PASS": true,
+      "fake_submissions": 8
+    },
+    {
+      "case": "fees cannot silently enlarge reservation",
+      "PASS": true,
+      "fake_submissions": 0
+    },
+    {
+      "case": "stage2 prerequisite and distinct authorization enforced",
+      "PASS": true,
+      "fake_submissions": 0
+    },
+    {
+      "case": "actual HTTPX public transport path: one POST, camelCase REST schema, synthetic 429 no retry",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "independent financial admission check before submission",
+      "PASS": true,
+      "fake_submissions": 0
+    },
+    {
+      "case": "saved audio missing on restart halts without repeat generation",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "clock rollback cannot bypass persisted pacing",
+      "PASS": true,
+      "fake_submissions": 1
+    },
+    {
+      "case": "new calendar day never resets experiment budget or quota counters",
+      "PASS": true,
+      "fake_submissions": 10
+    },
+    {
+      "case": "missing ledger with execution evidence blocks reset/resubmit",
+      "PASS": true,
+      "fake_submissions": 1
+    }
+  ],
+  "real_provider_requests": 0,
+  "max_fake_submissions_any_case": 10,
+  "server_acceptance": "UNPROVEN",
+  "source_hashes": {
+    "spikes/narration-feasibility/runner.py": "b1b0028803b60ef22df3423738ed1b9015c3b19b2d96ffeaafca034464785990",
+    "spikes/narration-feasibility/test_runner.py": "81ea131397702411889a1e4d9bfc5ae5e8eb1b24d288eb4dba9cbcc9842c6459"
+  }
+}

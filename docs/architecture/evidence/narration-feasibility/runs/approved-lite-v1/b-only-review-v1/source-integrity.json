@@ -1,0 +1,82 @@
+[
+  {
+    "call": 1,
+    "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-01/attempt-01/source.wav",
+    "sha256": "8215aa482ab0a8a8acfad564283d239f6e37e56446cf40c1a0db633bcee970c8",
+    "hash_matches": true,
+    "duration": 13.72,
+    "sample_rate": 24000,
+    "channels": 1,
+    "sample_width": 2
+  },
+  {
+    "call": 2,
+    "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-02/attempt-02/source.wav",
+    "sha256": "f06d98575eeb23fc7f6f75cdac4fffa432b66858403c0fbbba5d003fbc67763f",
+    "hash_matches": true,
+    "duration": 7.8,
+    "sample_rate": 24000,
+    "channels": 1,
+    "sample_width": 2
+  },
+  {
+    "call": 3,
+    "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-03/attempt-03/source.wav",
+    "sha256": "f2cf9ccb7b28309de27891ccb99497ed0945442c807159a109bf412817092b54",
+    "hash_matches": true,
+    "duration": 2.76,
+    "sample_rate": 24000,
+    "channels": 1,
+    "sample_width": 2
+  },
+  {
+    "call": 4,
+    "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-04/attempt-04/source.wav",
+    "sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+    "hash_matches": true,
+    "duration": 171.48,
+    "sample_rate": 24000,
+    "channels": 1,
+    "sample_width": 2
+  },
+  {
+    "call": 5,
+    "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-05/attempt-05/source.wav",
+    "sha256": "dd232e22174d51507758290eae48d87e0a66070db714ccb10e151470ec1a9f95",
+    "hash_matches": true,
+    "duration": 8.12,
+    "sample_rate": 24000,
+    "channels": 1,
+    "sample_width": 2
+  },
+  {
+    "call": 6,
+    "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-06/attempt-06/source.wav",
+    "sha256": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+    "hash_matches": true,
+    "duration": 170.8,
+    "sample_rate": 24000,
+    "channels": 1,
+    "sample_width": 2
+  },
+  {
+    "call": 7,
+    "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-07/attempt-07/source.wav",
+    "sha256": "67fe8d87ff0e6946c466bfe9e148b3a7304d3d0ef43b10425b7d8653d3ca35cb",
+    "hash_matches": true,
+    "duration": 23.56,
+    "sample_rate": 24000,
+    "channels": 1,
+    "sample_width": 2
+  },
+  {
+    "call": 8,
+    "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-08/attempt-08/source.wav",
+    "sha256": "4bbc9c73e677fbf330673be67349c2c251fe960ee0dba7d185a416e21d4e55b9",
+    "hash_matches": true,
+    "duration": 8.84,
+    "sample_rate": 24000,
+    "channels": 1,
+    "sample_width": 2
+  }
+]

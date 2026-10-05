@@ -1,0 +1,120 @@
+--- before/docs/README.md
++++ after/docs/README.md
+@@ -1,4 +1,14 @@
+ # Product and architecture documentation
++
++## S9 revision 14 — bounded planning-feasibility closure
++
++2026-10-05. [Documentation-only closure](architecture/evidence/operating-economics/S9/CREDITS-v14.md): **S9: PASS FOR PRIVATE-ALPHA ARCHITECTURE FEASIBILITY**, with explicit provider-enablement, cash-coverage and invitation conditions. Active ceiling remains **US$40 per Asia/Dhaka calendar month**; qualified 2-vCPU/4-GiB host sizing is closed unless failure. This does not freeze architecture, enable a provider, authorize spending/deployment or establish actual paid quality, complete expected costs or commercial profitability.
++
++The candidate three-minute educational workflow reserves **$6.598836 conditional provider maximum**, **$24.017182 nominal capped host/backup/transfer envelope**, leaving **$9.383982 cash-coverage capacity**. A five-minute alternative leaves $6.041646; the ten-minute broad fallback cannot fit this envelope. These are planning parameters, not final allowances/storage/grouping policy. Actual deterministic sentence scope and coherent B source count replace preliminary estimates before admission; one initially admitted attempt does not grant three attempts automatically. B initial/B corrections and continuous narration/mappings remain unchanged.
++
++All required taxes/fees/FX, unavoidable extras, owner reserve and unreconciled liabilities must have supported coverage within the residual **before paid commitment**; unknown or excessive coverage blocks activation. Exact endpoint/modal/token cap/one-send/rate/account/privacy proof remains mandatory before enabling any provider. No unvalidated narrow tokenizer, free generation capacity, zero unknown charges or live usable maximum is assumed. Storage/traffic limits, serialized heavy maintenance and S8 restore/purge/private access remain mandatory, with concrete implementation and remote operational acceptance before invitations. Creator credits never override internal USD authority.
++
++V1–V13 historical evidence remains unchanged; the earlier dated status/gap notes below are historical and are superseded at current **planning-feasibility** scope only. Ten-project owner calibration, final credit/debit policies, actual account quotes, provider/host selection and operational cap/allowance configuration remain later work. No production/TASKS.md, calls, spend, downloads, provisioning or purchase. Stop after this documentation update; no next phase is authorized.
+ 
+ ## S9 revision 13 — financial safety versus empirical calibration
+ 
+--- before/docs/ALPHA_PRODUCT_SPEC.md
++++ after/docs/ALPHA_PRODUCT_SPEC.md
+@@ -1,4 +1,14 @@
+ # Private alpha product specification
++
++## S9 revision 14 — bounded planning-feasibility closure
++
++2026-10-05. [Documentation-only closure](architecture/evidence/operating-economics/S9/CREDITS-v14.md): **S9: PASS FOR PRIVATE-ALPHA ARCHITECTURE FEASIBILITY**, with explicit provider-enablement, cash-coverage and invitation conditions. Active ceiling remains **US$40 per Asia/Dhaka calendar month**; qualified 2-vCPU/4-GiB host sizing is closed unless failure. This does not freeze architecture, enable a provider, authorize spending/deployment or establish actual paid quality, complete expected costs or commercial profitability.
++
++The candidate three-minute educational workflow reserves **$6.598836 conditional provider maximum**, **$24.017182 nominal capped host/backup/transfer envelope**, leaving **$9.383982 cash-coverage capacity**. A five-minute alternative leaves $6.041646; the ten-minute broad fallback cannot fit this envelope. These are planning parameters, not final allowances/storage/grouping policy. Actual deterministic sentence scope and coherent B source count replace preliminary estimates before admission; one initially admitted attempt does not grant three attempts automatically. B initial/B corrections and continuous narration/mappings remain unchanged.
++
++All required taxes/fees/FX, unavoidable extras, owner reserve and unreconciled liabilities must have supported coverage within the residual **before paid commitment**; unknown or excessive coverage blocks activation. Exact endpoint/modal/token cap/one-send/rate/account/privacy proof remains mandatory before enabling any provider. No unvalidated narrow tokenizer, free generation capacity, zero unknown charges or live usable maximum is assumed. Storage/traffic limits, serialized heavy maintenance and S8 restore/purge/private access remain mandatory, with concrete implementation and remote operational acceptance before invitations. Creator credits never override internal USD authority.
++
++V1–V13 historical evidence remains unchanged; the earlier dated status/gap notes below are historical and are superseded at current **planning-feasibility** scope only. Ten-project owner calibration, final credit/debit policies, actual account quotes, provider/host selection and operational cap/allowance configuration remain later work. No production/TASKS.md, calls, spend, downloads, provisioning or purchase. Stop after this documentation update; no next phase is authorized.
+ 
+ ## S9 revision 13 — financial safety versus empirical calibration
+ 
+@@ -249,7 +259,7 @@
+ 
+ ## Deferred operational and commercial specification
+ 
+-Before invitations: measure costs/asset sizes and set allowance/storage limits; substantiate provider cost bounds; choose providers/deployment; specify file-upload limits, technical per-asset checks and operational acceptance procedures. The US$40/month ceiling is a constraint, not a demonstrated feasibility result.
++Before invitations: measure costs/asset sizes and set allowance/storage limits; substantiate provider cost bounds; choose providers/deployment; specify file-upload limits, technical per-asset checks and operational acceptance procedures. The US$40/month ceiling remains a cash constraint. S9 revision 14 establishes conditional bounded architecture planning feasibility, not actual paid deployment economics or invitation readiness.
+ 
+ Providers, deployment, exact storage and generation allowances, actual generation costs, public pricing and subscription structure remain deferred until sufficient implementation or Alpha data exists. After Alpha evidence, decide public readiness, support expectations and optional additions. Later roadmap capabilities require separate discovery. No implementation stack or provider choice has been made.
+ 
+--- before/docs/ARCHITECTURE.md
++++ after/docs/ARCHITECTURE.md
+@@ -1,4 +1,14 @@
+ # Private Alpha architecture
++
++## S9 revision 14 — bounded planning-feasibility closure
++
++2026-10-05. [Documentation-only closure](architecture/evidence/operating-economics/S9/CREDITS-v14.md): **S9: PASS FOR PRIVATE-ALPHA ARCHITECTURE FEASIBILITY**, with explicit provider-enablement, cash-coverage and invitation conditions. Active ceiling remains **US$40 per Asia/Dhaka calendar month**; qualified 2-vCPU/4-GiB host sizing is closed unless failure. This does not freeze architecture, enable a provider, authorize spending/deployment or establish actual paid quality, complete expected costs or commercial profitability.
++
++The candidate three-minute educational workflow reserves **$6.598836 conditional provider maximum**, **$24.017182 nominal capped host/backup/transfer envelope**, leaving **$9.383982 cash-coverage capacity**. A five-minute alternative leaves $6.041646; the ten-minute broad fallback cannot fit this envelope. These are planning parameters, not final allowances/storage/grouping policy. Actual deterministic sentence scope and coherent B source count replace preliminary estimates before admission; one initially admitted attempt does not grant three attempts automatically. B initial/B corrections and continuous narration/mappings remain unchanged.
++
++All required taxes/fees/FX, unavoidable extras, owner reserve and unreconciled liabilities must have supported coverage within the residual **before paid commitment**; unknown or excessive coverage blocks activation. Exact endpoint/modal/token cap/one-send/rate/account/privacy proof remains mandatory before enabling any provider. No unvalidated narrow tokenizer, free generation capacity, zero unknown charges or live usable maximum is assumed. Storage/traffic limits, serialized heavy maintenance and S8 restore/purge/private access remain mandatory, with concrete implementation and remote operational acceptance before invitations. Creator credits never override internal USD authority.
++
++V1–V13 historical evidence remains unchanged; the earlier dated status/gap notes below are historical and are superseded at current **planning-feasibility** scope only. Ten-project owner calibration, final credit/debit policies, actual account quotes, provider/host selection and operational cap/allowance configuration remain later work. No production/TASKS.md, calls, spend, downloads, provisioning or purchase. Stop after this documentation update; no next phase is authorized.
+ 
+ ## S9 revision 13 — financial safety versus empirical calibration
+ 
+--- before/docs/COST_MODEL.md
++++ after/docs/COST_MODEL.md
+@@ -1,4 +1,14 @@
+ # Spending authorization, allowance and reconciliation
++
++## S9 revision 14 — bounded planning-feasibility closure
++
++2026-10-05. [Documentation-only closure](architecture/evidence/operating-economics/S9/CREDITS-v14.md): **S9: PASS FOR PRIVATE-ALPHA ARCHITECTURE FEASIBILITY**, with explicit provider-enablement, cash-coverage and invitation conditions. Active ceiling remains **US$40 per Asia/Dhaka calendar month**; qualified 2-vCPU/4-GiB host sizing is closed unless failure. This does not freeze architecture, enable a provider, authorize spending/deployment or establish actual paid quality, complete expected costs or commercial profitability.
++
++The candidate three-minute educational workflow reserves **$6.598836 conditional provider maximum**, **$24.017182 nominal capped host/backup/transfer envelope**, leaving **$9.383982 cash-coverage capacity**. A five-minute alternative leaves $6.041646; the ten-minute broad fallback cannot fit this envelope. These are planning parameters, not final allowances/storage/grouping policy. Actual deterministic sentence scope and coherent B source count replace preliminary estimates before admission; one initially admitted attempt does not grant three attempts automatically. B initial/B corrections and continuous narration/mappings remain unchanged.
++
++All required taxes/fees/FX, unavoidable extras, owner reserve and unreconciled liabilities must have supported coverage within the residual **before paid commitment**; unknown or excessive coverage blocks activation. Exact endpoint/modal/token cap/one-send/rate/account/privacy proof remains mandatory before enabling any provider. No unvalidated narrow tokenizer, free generation capacity, zero unknown charges or live usable maximum is assumed. Storage/traffic limits, serialized heavy maintenance and S8 restore/purge/private access remain mandatory, with concrete implementation and remote operational acceptance before invitations. Creator credits never override internal USD authority.
++
++V1–V13 historical evidence remains unchanged; the earlier dated status/gap notes below are historical and are superseded at current **planning-feasibility** scope only. Ten-project owner calibration, final credit/debit policies, actual account quotes, provider/host selection and operational cap/allowance configuration remain later work. No production/TASKS.md, calls, spend, downloads, provisioning or purchase. Stop after this documentation update; no next phase is authorized.
+ 
+ ## S9 revision 13 — financial safety versus empirical calibration
+ 
+@@ -49,7 +59,7 @@
+ constant is selected. Optional discovery does not block the representative-video
+ S9 analysis absent an evidenced shared fixed-cost requirement.
+ 
+-The active Alpha ceiling is now $40/month under the owner budget amendment; S9 remains NOT_YET_PASS. See the
++The active Alpha ceiling is $40/month; S9 revision 14 now records PASS FOR PRIVATE-ALPHA ARCHITECTURE FEASIBILITY at its conditional planning scope. Real paid activation still requires supported complete bounds and cash coverage. See the
+ [interpretation clarification](architecture/evidence/operating-economics/S9/OWNER-ENTITLEMENTS.md);
+ no historical S9 calculation is rewritten and no revision 7 is executed.
+ 
+--- before/docs/ARCHITECTURE_SPIKES.md
++++ after/docs/ARCHITECTURE_SPIKES.md
+@@ -1,4 +1,14 @@
+ # Architecture feasibility gates
++
++## S9 revision 14 — bounded planning-feasibility closure
++
++2026-10-05. [Documentation-only closure](architecture/evidence/operating-economics/S9/CREDITS-v14.md): **S9: PASS FOR PRIVATE-ALPHA ARCHITECTURE FEASIBILITY**, with explicit provider-enablement, cash-coverage and invitation conditions. Active ceiling remains **US$40 per Asia/Dhaka calendar month**; qualified 2-vCPU/4-GiB host sizing is closed unless failure. This does not freeze architecture, enable a provider, authorize spending/deployment or establish actual paid quality, complete expected costs or commercial profitability.
++
++The candidate three-minute educational workflow reserves **$6.598836 conditional provider maximum**, **$24.017182 nominal capped host/backup/transfer envelope**, leaving **$9.383982 cash-coverage capacity**. A five-minute alternative leaves $6.041646; the ten-minute broad fallback cannot fit this envelope. These are planning parameters, not final allowances/storage/grouping policy. Actual deterministic sentence scope and coherent B source count replace preliminary estimates before admission; one initially admitted attempt does not grant three attempts automatically. B initial/B corrections and continuous narration/mappings remain unchanged.
++
++All required taxes/fees/FX, unavoidable extras, owner reserve and unreconciled liabilities must have supported coverage within the residual **before paid commitment**; unknown or excessive coverage blocks activation. Exact endpoint/modal/token cap/one-send/rate/account/privacy proof remains mandatory before enabling any provider. No unvalidated narrow tokenizer, free generation capacity, zero unknown charges or live usable maximum is assumed. Storage/traffic limits, serialized heavy maintenance and S8 restore/purge/private access remain mandatory, with concrete implementation and remote operational acceptance before invitations. Creator credits never override internal USD authority.
++
++V1–V13 historical evidence remains unchanged; the earlier dated status/gap notes below are historical and are superseded at current **planning-feasibility** scope only. Ten-project owner calibration, final credit/debit policies, actual account quotes, provider/host selection and operational cap/allowance configuration remain later work. No production/TASKS.md, calls, spend, downloads, provisioning or purchase. Stop after this documentation update; no next phase is authorized.
+ 
+ ## S9 revision 13 — financial safety versus empirical calibration
+ 
+--- before/docs/architecture/evidence/operating-economics/S9/README.md
++++ after/docs/architecture/evidence/operating-economics/S9/README.md
+@@ -1,4 +1,14 @@
+ # S9 — operating economics
++
++## S9 revision 14 — bounded planning-feasibility closure
++
++2026-10-05. [Documentation-only closure](CREDITS-v14.md): **S9: PASS FOR PRIVATE-ALPHA ARCHITECTURE FEASIBILITY**, with explicit provider-enablement, cash-coverage and invitation conditions. Active ceiling remains **US$40 per Asia/Dhaka calendar month**; qualified 2-vCPU/4-GiB host sizing is closed unless failure. This does not freeze architecture, enable a provider, authorize spending/deployment or establish actual paid quality, complete expected costs or commercial profitability.
++
++The candidate three-minute educational workflow reserves **$6.598836 conditional provider maximum**, **$24.017182 nominal capped host/backup/transfer envelope**, leaving **$9.383982 cash-coverage capacity**. A five-minute alternative leaves $6.041646; the ten-minute broad fallback cannot fit this envelope. These are planning parameters, not final allowances/storage/grouping policy. Actual deterministic sentence scope and coherent B source count replace preliminary estimates before admission; one initially admitted attempt does not grant three attempts automatically. B initial/B corrections and continuous narration/mappings remain unchanged.
++
++All required taxes/fees/FX, unavoidable extras, owner reserve and unreconciled liabilities must have supported coverage within the residual **before paid commitment**; unknown or excessive coverage blocks activation. Exact endpoint/modal/token cap/one-send/rate/account/privacy proof remains mandatory before enabling any provider. No unvalidated narrow tokenizer, free generation capacity, zero unknown charges or live usable maximum is assumed. Storage/traffic limits, serialized heavy maintenance and S8 restore/purge/private access remain mandatory, with concrete implementation and remote operational acceptance before invitations. Creator credits never override internal USD authority.
++
++V1–V13 historical evidence remains unchanged; the earlier dated status/gap notes below are historical and are superseded at current **planning-feasibility** scope only. Ten-project owner calibration, final credit/debit policies, actual account quotes, provider/host selection and operational cap/allowance configuration remain later work. No production/TASKS.md, calls, spend, downloads, provisioning or purchase. Stop after this documentation update; no next phase is authorized.
+ 
+ ## S9 revision 13 — financial safety versus empirical calibration
+ 

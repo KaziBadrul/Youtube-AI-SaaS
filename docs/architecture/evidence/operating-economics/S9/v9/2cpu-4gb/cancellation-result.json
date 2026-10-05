@@ -1,0 +1,11 @@
+{
+  "pid": 2412,
+  "pgid": 2412,
+  "exit": 255,
+  "cessation_seconds": 0.19569183300018267,
+  "escalated": false,
+  "live_group_members": [],
+  "incomplete_registered": false,
+  "previous_export_preserved": true,
+  "previous_export_available": true
+}

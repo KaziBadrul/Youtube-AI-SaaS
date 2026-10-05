@@ -1,0 +1,109 @@
+{
+  "source_hash_checks": {
+    "demo-video-example/script.txt": true,
+    "demo-video-example/03_scenes.json": true,
+    "demo-video-example/output/timestamps.json": true,
+    "demo-video-example/narration.wav": true
+  },
+  "call_checks": [
+    {
+      "call": 1,
+      "text_matches_source": true,
+      "hash_matches": true,
+      "byte_bound_matches": true,
+      "model_voice_matches": true,
+      "style_matches": true
+    },
+    {
+      "call": 2,
+      "text_matches_source": true,
+      "hash_matches": true,
+      "byte_bound_matches": true,
+      "model_voice_matches": true,
+      "style_matches": true
+    },
+    {
+      "call": 3,
+      "text_matches_source": true,
+      "hash_matches": true,
+      "byte_bound_matches": true,
+      "model_voice_matches": true,
+      "style_matches": true
+    },
+    {
+      "call": 4,
+      "text_matches_source": true,
+      "hash_matches": true,
+      "byte_bound_matches": true,
+      "model_voice_matches": true,
+      "style_matches": true
+    },
+    {
+      "call": 5,
+      "text_matches_source": true,
+      "hash_matches": true,
+      "byte_bound_matches": true,
+      "model_voice_matches": true,
+      "style_matches": true
+    },
+    {
+      "call": 6,
+      "text_matches_source": true,
+      "hash_matches": true,
+      "byte_bound_matches": true,
+      "model_voice_matches": true,
+      "style_matches": true
+    },
+    {
+      "call": 7,
+      "text_matches_source": true,
+      "hash_matches": true,
+      "byte_bound_matches": true,
+      "model_voice_matches": true,
+      "style_matches": true
+    },
+    {
+      "call": 8,
+      "text_matches_source": true,
+      "hash_matches": true,
+      "byte_bound_matches": true,
+      "model_voice_matches": true,
+      "style_matches": true
+    }
+  ],
+  "all_match": true,
+  "runner_exists": false,
+  "generation_requests": 0,
+  "account_tier": "FREE",
+  "remaining_quota": 10,
+  "verdict": "NOT_READY",
+  "date": "2026-10-04",
+  "local_configuration": {
+    "GEMINI_API_KEY_file_nonempty": true,
+    "GEMINI_API_KEY_process_nonempty": false,
+    "project_tier_billing_metadata_available": false
+  },
+  "pricing": {
+    "input_USD_per_million": 0.5,
+    "audio_output_USD_per_million": 6,
+    "per_submission_microUSD": 102400,
+    "eight_submission_microUSD": 819200,
+    "ten_submission_microUSD": 1024000,
+    "taxes_fees": "UNKNOWN"
+  },
+  "limits": {
+    "documented_input_tokens": 8192,
+    "documented_output_tokens": 16384,
+    "supplied_account_RPM": 3,
+    "supplied_account_TPM": 10000,
+    "supplied_account_RPD": 10,
+    "current_remaining": 10
+  },
+  "execution_safeguards_verified": false,
+  "planned_output_root": "docs/architecture/evidence/narration-feasibility/runs/<run-id>/",
+  "no_provider_api_requests": true,
+  "account_evidence_source": "Owner report; no dated observation supplied; must reconfirm freshness at execution.",
+  "manifest_model": "gemini-3.8-flash-lite-tts",
+  "manifest_voice": "Charon",
+  "local_sdk_one_send_wire_verified": true
+}

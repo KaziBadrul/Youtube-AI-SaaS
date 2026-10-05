@@ -1,0 +1,99 @@
+{
+  "status": "NOT_YET_PASS",
+  "scope": "Local analysis and public documentation only",
+  "model": "gemini-3.1-flash-lite-image",
+  "projection_rows": [
+    {
+      "minutes": 3,
+      "synthetic_scene_count": 34,
+      "standard_image_output_only_USD": "1.1424",
+      "standard_output_with_10_percent_additional_attempts_USD": "1.25664",
+      "qualification": "Owner-fixed Standard image-output tariff; projected S6 counts, not measured production. Other billing components tracked separately; no Batch assumption.",
+      "tier1_RPD_only_full_initial_projects_upper_bound": 29,
+      "tier1_evenly_paced_dispatch_span_seconds": "13.2",
+      "quota_projection_limits": "One request per image assumed, no edits/retries/other account use. Input TPM and latency unmeasured; dispatch span is not completion time.",
+      "render_wall_seconds_measured_local": 44.64371587499045,
+      "output_bytes_measured_synthetic": 17876939,
+      "scratch_peak_bytes_measured_synthetic": 32469710
+    },
+    {
+      "minutes": 5,
+      "synthetic_scene_count": 56,
+      "standard_image_output_only_USD": "1.8816",
+      "standard_output_with_10_percent_additional_attempts_USD": "2.06976",
+      "qualification": "Owner-fixed Standard image-output tariff; projected S6 counts, not measured production. Other billing components tracked separately; no Batch assumption.",
+      "tier1_RPD_only_full_initial_projects_upper_bound": 17,
+      "tier1_evenly_paced_dispatch_span_seconds": "22",
+      "quota_projection_limits": "One request per image assumed, no edits/retries/other account use. Input TPM and latency unmeasured; dispatch span is not completion time.",
+      "render_wall_seconds_measured_local": 79.42004120803904,
+      "output_bytes_measured_synthetic": 29428368,
+      "scratch_peak_bytes_measured_synthetic": 53382263
+    },
+    {
+      "minutes": 10,
+      "synthetic_scene_count": 112,
+      "standard_image_output_only_USD": "3.7632",
+      "standard_output_with_10_percent_additional_attempts_USD": "4.13952",
+      "qualification": "Owner-fixed Standard image-output tariff; projected S6 counts, not measured production. Other billing components tracked separately; no Batch assumption.",
+      "tier1_RPD_only_full_initial_projects_upper_bound": 8,
+      "tier1_evenly_paced_dispatch_span_seconds": "44.4",
+      "quota_projection_limits": "One request per image assumed, no edits/retries/other account use. Input TPM and latency unmeasured; dispatch span is not completion time.",
+      "render_wall_seconds_measured_local": 237.20484245801345,
+      "output_bytes_measured_synthetic": 59553320,
+      "scratch_peak_bytes_measured_synthetic": 108158905
+    }
+  ],
+  "historical_B_initial_and_correction": [
+    {
+      "call": 4,
+      "usage_derived_USD_historical_rate": "0.03326",
+      "source_bytes": 8231084,
+      "duration_seconds": 171.48,
+      "certainty": "Historical usage tariff, not invoice or production distribution"
+    },
+    {
+      "call": 6,
+      "usage_derived_USD_historical_rate": "0.033128",
+      "source_bytes": 8198444,
+      "duration_seconds": 170.8,
+      "certainty": "Historical usage tariff, not invoice or production distribution"
+    }
+  ],
+  "conservative_image_attempt_max_USD_before_fees": "0.139264",
+  "source_hashes": {
+    "docs/architecture/evidence/rendering-feasibility/S6/S6-results.json": "65576e47130c42273b88a37222c88dc26ef7ee317bc5621ba61706e821574d79",
+    "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/ledger.json": "855a482a5707bfaa697bf86485e9e8ae639d55d87bf8c409a023be91165a7806"
+  },
+  "provider_calls": 0,
+  "settled_image_cost": null,
+  "image_acceptance_rate": null,
+  "owner_fixed_image_output_tariff_USD": "0.0336",
+  "image_RPM_TPM_RPD": {
+    "source": "Owner supplied 2026-10-05; not independently authenticated",
+    "active_tier": "Free",
+    "Free": {
+      "RPM": 0,
+      "input_TPM": 0,
+      "RPD": 0
+    },
+    "Tier_1_conditional_not_active": {
+      "RPM": 150,
+      "input_TPM": 100000,
+      "RPD": 1000
+    }
+  },
+  "live_image_pilot": "DEFERRED_FREE_TIER_ZERO_CAPACITY; no approval requested or upgrade authorized",
+  "monthly_formula": "fixed host + backup/storage/egress + tax/fees + all project stages + corrections + paid failures + unreconciled liabilities <= 30 USD",
+  "tests": [
+    "Decimal cost arithmetic PASS",
+    "full-cap bound PASS"
+  ],
+  "unknowns": [
+    "actual image usage/bytes/quality",
+    "text/research project usage",
+    "tax/billing and future active Tier 1 verification",
+    "target-host CPU and alignment cost",
+    "off-host purge/storage/traffic",
+    "meaningful intended monthly project volume"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "method": "same cached Whisper base, cropped input, no text prompt",
+  "source_offset": 92.1,
+  "words": [
+    {
+      "text": "I",
+      "start": 92.75999999999999,
+      "end": 93.08,
+      "probability": 0.4974187910556793
+    },
+    {
+      "text": "actually",
+      "start": 93.08,
+      "end": 93.24,
+      "probability": 0.9516841173171997
+    },
+    {
+      "text": "looked",
+      "start": 93.24,
+      "end": 93.38,
+      "probability": 0.9340476393699646
+    },
+    {
+      "text": "this",
+      "start": 93.38,
+      "end": 93.55999999999999,
+      "probability": 0.9560856819152832
+    },
+    {
+      "text": "up",
+      "start": 93.55999999999999,
+      "end": 93.69999999999999,
+      "probability": 0.9936254024505615
+    },
+    {
+      "text": "down",
+      "start": 93.69999999999999,
+      "end": 93.86,
+      "probability": 0.8945425748825073
+    },
+    {
+      "text": "a",
+      "start": 93.86,
+      "end": 93.96,
+      "probability": 0.9470574855804443
+    },
+    {
+      "text": "rabbit",
+      "start": 93.96,
+      "end": 94.19999999999999,
+      "probability": 0.9843330383300781
+    },
+    {
+      "text": "hole",
+      "start": 94.19999999999999,
+      "end": 94.38,
+      "probability": 0.9776037931442261
+    },
+    {
+      "text": "earlier.",
+      "start": 94.38,
+      "end": 94.78,
+      "probability": 0.990479052066803
+    }
+  ],
+  "independent_acoustic_reference": false
+}

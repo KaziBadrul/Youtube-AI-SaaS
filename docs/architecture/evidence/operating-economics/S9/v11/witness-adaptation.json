@@ -1,0 +1,25 @@
+{
+  "changes": {
+    "controller.py": {
+      "V10_sha256": "63556f3f68759d258761c62f9e7579b5ee0eb783b5f24deb29ebecbc5d970620",
+      "V11_sha256": "ea15f279d75f44aeb7145707edc7b145a45b60e8f995038b408d9e17a3c415ab",
+      "same": false
+    },
+    "phase.py": {
+      "V10_sha256": "30bd65a7b3caefcf7041121cdfe8103a191f9766e5b620166a19fd702f4e4638",
+      "V11_sha256": "30bd65a7b3caefcf7041121cdfe8103a191f9766e5b620166a19fd702f4e4638",
+      "same": true
+    },
+    "web.py": {
+      "V10_sha256": "5003368c347a95eafafd1fb97cb2dcd5a3926aa9365e905d827acac52a8ecfdc",
+      "V11_sha256": "5003368c347a95eafafd1fb97cb2dcd5a3926aa9365e905d827acac52a8ecfdc",
+      "same": true
+    }
+  },
+  "controller_changes": "hardware assertions only: os.cpu_count2; kernel-visible RAM within3.8\u20134GiB",
+  "media_validation": "unchanged full S6 thresholds and V9 exact packet-grid repair",
+  "observer": "same global meminfo, vmstat, PSI, RSS/disk/probes",
+  "downloads": 0,
+  "maintenance": "serialized, unchanged full-memory backup",
+  "owner_stop": "last sizing unless it fails"
+}

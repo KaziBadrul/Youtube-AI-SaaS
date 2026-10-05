@@ -1,0 +1,18 @@
+{
+  "label": "linux-600-grid",
+  "duration": 600,
+  "scene_count": 112,
+  "output": "/out/s6/exports/linux-600-grid-3bf4491bbd23.mp4",
+  "sha256": "3bf4491bbd23f5a9f6b941d3e193d6a9c2fd41936bb943e08a23da09e4edc18d",
+  "bytes": 60008518,
+  "render_wall_seconds": 382.0959357990001,
+  "peak_ffmpeg_rss_bytes": 211087360,
+  "cpu_seconds": 361.24,
+  "scratch_peak_bytes": 109010295,
+  "config": {
+    "captions": true,
+    "motion": true,
+    "music": true
+  },
+  "attempt": "/out"
+}

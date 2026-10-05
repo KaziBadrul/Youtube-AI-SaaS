@@ -1,0 +1,2010 @@
+{
+  "files": 501,
+  "all_match": true,
+  "checks": [
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/caption-es.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/caption-hi.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/caption-en.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/caption-fr.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/caption-bn.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-041.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-055.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-009.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-035.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-021.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/music.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-020.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-034.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-008.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-054.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-040.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-056.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-042.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-022.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-036.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-037.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-023.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-043.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-053.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-047.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-027.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-033.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-032.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-026.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-046.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-052.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-044.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-050.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-030.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-024.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-018.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-019.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-025.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-031.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-051.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-045.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-022.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-036.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-056.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-042.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-043.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-037.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-023.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-009.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-035.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-021.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-041.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-055.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-054.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-040.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-020.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-034.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-008.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-030.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-024.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-018.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-044.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-050.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-051.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-045.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-019.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-025.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-031.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-027.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-033.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-053.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-047.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-046.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-052.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-032.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-026.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-003.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-017.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-016.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-002.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-028.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-014.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-048.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-049.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-001.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-015.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-029.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-011.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-005.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-039.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-038.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-004.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-010.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/manifest.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-006.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-012.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-013.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-007.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-048.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-028.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-014.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-001.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-015.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-029.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/image-049.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-003.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-017.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/manifest-before-terminal-clamp.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-016.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-002.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/narration.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-006.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-012.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-013.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-007.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-011.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-005.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-039.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-038.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-004.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-300/caption-010.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/real-s5-control/manifest.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/real-s5-control/narration.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/music.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/image-003.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/image-002.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/image-001.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/manifest.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/caption-001.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/caption-003.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/manifest-before-terminal-clamp.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/caption-002.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-12/narration.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/injection-caption.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/corrupt.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/no-audio.mp4",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/incomplete.mp4",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/corrupt.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/failed.mp4",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/cancel-before-next-step",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/invalid/wrong-resolution.mp4",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-009.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-021.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/music.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-020.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-034.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-008.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-022.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-023.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-027.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-033.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-032.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-026.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-030.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-024.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-018.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-019.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-025.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-031.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-022.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-023.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-009.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-021.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-020.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-034.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-008.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-030.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-024.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-018.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-019.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-025.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-031.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-027.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-033.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-032.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-026.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-003.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-017.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-016.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-002.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-028.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-014.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-001.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-015.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-029.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-011.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-005.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-004.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-010.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/manifest.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-006.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-012.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-013.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-007.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-028.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-014.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-001.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-015.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-029.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-003.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-017.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/manifest-before-terminal-clamp.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-016.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-002.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/narration.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-006.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-012.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-013.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-007.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-011.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-005.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-004.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-010.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-069.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-041.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-055.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-082.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-096.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-009.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-109.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-035.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-021.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/music.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-020.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-034.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-008.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-108.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-097.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-083.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-054.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-040.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-068.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-056.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-042.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-095.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-081.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-022.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-036.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-037.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-023.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-080.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-094.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-043.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-057.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-053.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-047.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-090.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-084.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-027.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-033.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-032.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-026.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-085.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-091.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-046.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-052.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-044.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-050.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-078.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-087.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-093.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-030.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-024.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-018.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-019.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-025.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-031.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-092.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-086.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-079.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-051.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-045.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-022.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-036.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-056.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-042.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-095.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-081.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-080.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-094.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-043.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-057.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-037.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-023.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-009.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-109.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-035.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-021.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-069.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-041.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-055.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-082.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-096.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-097.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-083.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-054.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-040.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-068.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-020.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-034.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-008.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-108.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-030.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-024.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-018.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-044.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-050.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-078.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-087.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-093.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-092.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-086.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-079.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-051.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-045.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-019.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-025.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-031.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-027.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-033.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-053.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-047.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-090.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-084.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-085.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-091.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-046.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-052.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-032.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-026.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-003.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-103.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-017.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-077.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-063.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-088.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-089.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-062.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-076.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-016.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-002.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-102.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-028.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-014.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-100.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-048.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-060.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-074.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-075.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-061.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-049.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-101.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-001.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-015.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-029.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-111.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-011.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-005.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-105.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-039.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-065.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-071.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-059.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-058.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-070.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-064.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-038.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-004.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-104.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-110.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-010.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/manifest.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-106.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-006.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-012.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-112.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-072.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-066.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-099.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-098.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-067.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-073.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-013.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-107.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-007.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-048.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-060.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-074.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-028.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-014.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-100.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-101.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-001.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-015.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-029.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-075.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-061.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-049.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-077.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-063.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-088.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-003.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-103.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-017.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/manifest-before-terminal-clamp.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-016.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-002.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-102.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-089.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-062.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-076.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/narration.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-072.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-066.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-099.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-106.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-006.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-012.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-112.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-013.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-107.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-007.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-098.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-067.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-073.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-065.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-071.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-059.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-111.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-011.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-005.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-105.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-039.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-038.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-004.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-104.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-110.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/caption-010.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-058.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-070.png",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-600/image-064.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/48.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/49.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/8.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/9.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/14.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/28.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/29.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/15.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/17.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/16.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/12.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/13.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/39.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/11.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/10.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/38.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/35.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/21.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/20.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/34.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/22.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/36.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/37.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/23.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/27.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/33.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/32.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/26.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/18.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/30.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/24.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/25.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/31.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/19.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/4.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/42.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/43.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/5.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/41.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/7.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/6.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/40.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/44.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/2.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/3.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/45.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/1.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/47.png",
+      "match": true
+    },
+    {
+      "path": "/repo/demo-video-example/images/46.png",
+      "match": true
+    },
+    {
+      "path": "/repo/spikes/rendering-feasibility/s6.py",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/fonts.json",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-04/attempt-04/source.wav",
+      "match": true
+    },
+    {
+      "path": "/repo/docs/architecture/evidence/rendering-feasibility/S6/exports/project-300-3d909ea9669c.mp4",
+      "match": true
+    },
+    {
+      "path": "/model/model.bin",
+      "match": true
+    },
+    {
+      "path": "/model/config.json",
+      "match": true
+    },
+    {
+      "path": "/model/tokenizer.json",
+      "match": true
+    },
+    {
+      "path": "/model/vocabulary.txt",
+      "match": true
+    },
+    {
+      "path": "/fonts/notosansdevanagari.ttf",
+      "match": true
+    },
+    {
+      "path": "/fonts/notosansbengali.ttf",
+      "match": true
+    },
+    {
+      "path": "/fonts/notosans.ttf",
+      "match": true
+    }
+  ]
+}

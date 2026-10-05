@@ -1,0 +1,24 @@
+{
+  "gate": "S2",
+  "timestamp_utc": "2026-10-04T10:52:55.236878+00:00",
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "sqlite": "3.53.4",
+  "plan_sha256": "51343a5924d19a115dbbb6756100e6d0532c0a86b7906037c9e2b6a697bc5ff4",
+  "verdict": "FAIL",
+  "error": "[{'i': 7, 'result': 'deleted', 'seconds': 0.001680209010373801}, {'i': 6, 'result': None, 'seconds': 0.0024892499786801636}, {'i': 5, 'error': \"PermissionError('private/deleted project')\"}, {'i': 0, 'result': None, 'seconds': 0.004658874997403473}, {'i': 3, 'error': \"PermissionError('private/deleted project')\"}, {'i': 2, 'result': None, 'seconds': 0.010188915999606252}, {'i': 1, 'error': \"PermissionError('private/deleted project')\"}, {'i': 4, 'result': None, 'seconds': 0.02163074997952208}]",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/spikes/local-feasibility/evidence.py\", line 6, in run\n    try:data.update(experiment());data['verdict']='PASS'\n                    ^^^^^^^^^^^^\n  File \"/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/spikes/local-feasibility/s2.py\", line 55, in experiment\n    rows=race(tmp,action,job,fence);r=[x['result'] for x in rows]\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/spikes/local-feasibility/s2.py\", line 33, in race\n    assert not any('error' in r for r in result),result\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: [{'i': 7, 'result': 'deleted', 'seconds': 0.001680209010373801}, {'i': 6, 'result': None, 'seconds': 0.0024892499786801636}, {'i': 5, 'error': \"PermissionError('private/deleted project')\"}, {'i': 0, 'result': None, 'seconds': 0.004658874997403473}, {'i': 3, 'error': \"PermissionError('private/deleted project')\"}, {'i': 2, 'result': None, 'seconds': 0.010188915999606252}, {'i': 1, 'error': \"PermissionError('private/deleted project')\"}, {'i': 4, 'result': None, 'seconds': 0.02163074997952208}]\n",
+  "elapsed_seconds": 1.834,
+  "scaffold_hashes": {
+    "s1.py": "1c5c1fc51ee7675ff8697181005305d15dc2c01901d398755b35c87f142e2929",
+    "core.py": "fa6f37fa700d813150a443a339f11c51ac8a9cbbdfb8f8477c14411b6533ba15",
+    "django_boundary.py": "dd5fe2a584e3b68356bbc79ef0b4ee9b389bf7c9cc54be439c5504575638d6e2",
+    "s1worker.py": "c7c99dd28f5baded17ee966d39a518f28b463fa571824d64f846d3f678debd7b",
+    "evidence.py": "dc87b7bf14bbc32bd798036ef08a550b957ade778b4ff333588e158402fb6303",
+    "s2.py": "5027ecdf539f8fbcd9ba4bf39163af8e34ac7f79c366f72134c2196d2f89b182",
+    "fixtures.py": "e945965d990a5979d555b65cee36f7e3e0d4c984aa67dd0114b0fab27d10c6f5",
+    "static/boundary.js": "0d45569692df4471de4c633d9e4d4beb81fca19ed1f045bb10b140b5d4d8430f",
+    "static/boundary.test.js": "a1c3a1f4f5526697c3dbeead4020db735b5fb6deb39663246939a9aa2a603fc8",
+    "templates/boundary.html": "5b7b98e46bf50a0f8d1bdb6baf54bde8e03cfff58886766099a1511bc0934896"
+  }
+}

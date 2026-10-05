@@ -1,0 +1,852 @@
+{
+  "result": {
+    "label": "linux-600",
+    "duration": 600,
+    "scene_count": 112,
+    "output": "/out/s6/exports/linux-600-2c958a022b2f.mp4",
+    "sha256": "2c958a022b2f905255c1cba13647e0f2fc89ec98ae820863848404cf90a4a63e",
+    "bytes": 59491123,
+    "render_wall_seconds": 180.68281297800002,
+    "peak_ffmpeg_rss_bytes": 166662144,
+    "cpu_seconds": 245.60999999999999,
+    "scratch_peak_bytes": 107973159,
+    "config": {
+      "captions": true,
+      "motion": true,
+      "music": true
+    },
+    "attempt": "/out/s6/scratch/linux-600-0609420d"
+  },
+  "validation": {
+    "status": "PASS",
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "Constrained Baseline",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "closed_captions": 0,
+          "film_grain": 0,
+          "has_b_frames": 0,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 9216000,
+          "duration": "600.000000",
+          "bit_rate": "644250",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "18000",
+          "extradata_size": 39,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc60.31.102 libx264"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "sample_fmt": "fltp",
+          "sample_rate": "48000",
+          "channels": 1,
+          "channel_layout": "mono",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 28800000,
+          "duration": "600.000000",
+          "bit_rate": "142034",
+          "nb_frames": "28126",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "SoundHandler",
+            "vendor_id": "[0][0][0][0]"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/out/s6/scratch/linux-600-0609420d/candidate.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "600.000000",
+        "size": "59491123",
+        "bit_rate": "793214",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf60.16.100"
+        }
+      }
+    },
+    "transition_tolerance_seconds": 0.03333333333333333,
+    "transitions": [
+      {
+        "scene_id": 2,
+        "expected": 5.311887544772589,
+        "rendered": 5.333333333333333,
+        "error_seconds": 0.02144578856074375
+      },
+      {
+        "scene_id": 3,
+        "expected": 11.880786645941745,
+        "rendered": 11.9,
+        "error_seconds": 0.019213354058255305
+      },
+      {
+        "scene_id": 4,
+        "expected": 20.720416300601475,
+        "rendered": 20.733333333333334,
+        "error_seconds": 0.012917032731859734
+      },
+      {
+        "scene_id": 5,
+        "expected": 25.24160302764074,
+        "rendered": 25.266666666666666,
+        "error_seconds": 0.025063639025926676
+      },
+      {
+        "scene_id": 6,
+        "expected": 32.6214773264851,
+        "rendered": 32.63333333333333,
+        "error_seconds": 0.011856006848233847
+      },
+      {
+        "scene_id": 7,
+        "expected": 34.10150706224235,
+        "rendered": 34.13333333333333,
+        "error_seconds": 0.0318262710909849
+      },
+      {
+        "scene_id": 8,
+        "expected": 37.183212813408126,
+        "rendered": 37.2,
+        "error_seconds": 0.016787186591876946
+      },
+      {
+        "scene_id": 9,
+        "expected": 39.4539433668987,
+        "rendered": 39.46666666666667,
+        "error_seconds": 0.01272329976796982
+      },
+      {
+        "scene_id": 10,
+        "expected": 41.866594579982426,
+        "rendered": 41.86666666666667,
+        "error_seconds": 7.208668424141251e-05
+      },
+      {
+        "scene_id": 11,
+        "expected": 43.24525241603027,
+        "rendered": 43.266666666666666,
+        "error_seconds": 0.021414250636397014
+      },
+      {
+        "scene_id": 12,
+        "expected": 50.4629316753396,
+        "rendered": 50.46666666666667,
+        "error_seconds": 0.0037349913270716684
+      },
+      {
+        "scene_id": 13,
+        "expected": 53.74738122592418,
+        "rendered": 53.766666666666666,
+        "error_seconds": 0.01928544074248606
+      },
+      {
+        "scene_id": 14,
+        "expected": 55.10576468203014,
+        "rendered": 55.13333333333333,
+        "error_seconds": 0.027568651303191416
+      },
+      {
+        "scene_id": 15,
+        "expected": 59.52557950936001,
+        "rendered": 59.53333333333333,
+        "error_seconds": 0.007753823973324359
+      },
+      {
+        "scene_id": 16,
+        "expected": 69.84523889977699,
+        "rendered": 69.86666666666666,
+        "error_seconds": 0.02142776688967274
+      },
+      {
+        "scene_id": 17,
+        "expected": 78.50239913495979,
+        "rendered": 78.53333333333333,
+        "error_seconds": 0.03093419837354361
+      },
+      {
+        "scene_id": 18,
+        "expected": 94.03257417043994,
+        "rendered": 94.03333333333333,
+        "error_seconds": 0.0007591628933880656
+      },
+      {
+        "scene_id": 19,
+        "expected": 99.54720551463134,
+        "rendered": 99.56666666666666,
+        "error_seconds": 0.019461152035319174
+      },
+      {
+        "scene_id": 20,
+        "expected": 113.5568020544705,
+        "rendered": 113.56666666666666,
+        "error_seconds": 0.009864612196167855
+      },
+      {
+        "scene_id": 21,
+        "expected": 121.42326147191999,
+        "rendered": 121.43333333333334,
+        "error_seconds": 0.010071861413351257
+      },
+      {
+        "scene_id": 22,
+        "expected": 124.44414408326013,
+        "rendered": 124.46666666666667,
+        "error_seconds": 0.02252258340654123
+      },
+      {
+        "scene_id": 23,
+        "expected": 129.1478002297763,
+        "rendered": 129.16666666666666,
+        "error_seconds": 0.018866436890363047
+      },
+      {
+        "scene_id": 24,
+        "expected": 132.04703656146518,
+        "rendered": 132.06666666666666,
+        "error_seconds": 0.019630105201486003
+      },
+      {
+        "scene_id": 25,
+        "expected": 133.99337703588566,
+        "rendered": 134.0,
+        "error_seconds": 0.006622964114342267
+      },
+      {
+        "scene_id": 26,
+        "expected": 142.12340339257958,
+        "rendered": 142.13333333333333,
+        "error_seconds": 0.009929940753750088
+      },
+      {
+        "scene_id": 27,
+        "expected": 145.20510914374535,
+        "rendered": 145.23333333333332,
+        "error_seconds": 0.02822418958797357
+      },
+      {
+        "scene_id": 28,
+        "expected": 148.69230249374874,
+        "rendered": 148.7,
+        "error_seconds": 0.007697506251247432
+      },
+      {
+        "scene_id": 29,
+        "expected": 157.6738528080016,
+        "rendered": 157.7,
+        "error_seconds": 0.02614719199837623
+      },
+      {
+        "scene_id": 30,
+        "expected": 164.40494694870583,
+        "rendered": 164.43333333333334,
+        "error_seconds": 0.028386384627509642
+      },
+      {
+        "scene_id": 31,
+        "expected": 165.8647023045212,
+        "rendered": 165.86666666666667,
+        "error_seconds": 0.0019643621454861204
+      },
+      {
+        "scene_id": 32,
+        "expected": 168.76393863621004,
+        "rendered": 168.76666666666668,
+        "error_seconds": 0.002728030456637498
+      },
+      {
+        "scene_id": 33,
+        "expected": 173.83253362168008,
+        "rendered": 173.83333333333334,
+        "error_seconds": 0.000799711653257873
+      },
+      {
+        "scene_id": 34,
+        "expected": 179.14442116645267,
+        "rendered": 179.16666666666666,
+        "error_seconds": 0.02224550021398386
+      },
+      {
+        "scene_id": 35,
+        "expected": 185.7133202676218,
+        "rendered": 185.73333333333332,
+        "error_seconds": 0.020013065711509626
+      },
+      {
+        "scene_id": 36,
+        "expected": 194.55294992228153,
+        "rendered": 194.56666666666666,
+        "error_seconds": 0.013716744385135371
+      },
+      {
+        "scene_id": 37,
+        "expected": 199.07413664932082,
+        "rendered": 199.1,
+        "error_seconds": 0.02586335067917389
+      },
+      {
+        "scene_id": 38,
+        "expected": 206.45401094816518,
+        "rendered": 206.46666666666667,
+        "error_seconds": 0.01265571850149172
+      },
+      {
+        "scene_id": 39,
+        "expected": 207.9340406839224,
+        "rendered": 207.96666666666667,
+        "error_seconds": 0.03262598274426409
+      },
+      {
+        "scene_id": 40,
+        "expected": 211.0157464350882,
+        "rendered": 211.03333333333333,
+        "error_seconds": 0.017586898245127713
+      },
+      {
+        "scene_id": 41,
+        "expected": 213.28647698857876,
+        "rendered": 213.3,
+        "error_seconds": 0.013523011421256115
+      },
+      {
+        "scene_id": 42,
+        "expected": 215.6991282016625,
+        "rendered": 215.7,
+        "error_seconds": 0.0008717983374992855
+      },
+      {
+        "scene_id": 43,
+        "expected": 217.07778603771033,
+        "rendered": 217.1,
+        "error_seconds": 0.022213962289669098
+      },
+      {
+        "scene_id": 44,
+        "expected": 224.29546529701966,
+        "rendered": 224.3,
+        "error_seconds": 0.004534702980350858
+      },
+      {
+        "scene_id": 45,
+        "expected": 227.57991484760424,
+        "rendered": 227.6,
+        "error_seconds": 0.020085152395751038
+      },
+      {
+        "scene_id": 46,
+        "expected": 228.9382983037102,
+        "rendered": 228.96666666666667,
+        "error_seconds": 0.028368362956456394
+      },
+      {
+        "scene_id": 47,
+        "expected": 233.35811313104008,
+        "rendered": 233.36666666666667,
+        "error_seconds": 0.008553535626589337
+      },
+      {
+        "scene_id": 48,
+        "expected": 243.67777252145706,
+        "rendered": 243.7,
+        "error_seconds": 0.022227478542930612
+      },
+      {
+        "scene_id": 49,
+        "expected": 252.33493275663986,
+        "rendered": 252.36666666666667,
+        "error_seconds": 0.03173391002681569
+      },
+      {
+        "scene_id": 50,
+        "expected": 267.86510779212,
+        "rendered": 267.8666666666667,
+        "error_seconds": 0.0015588745466743603
+      },
+      {
+        "scene_id": 51,
+        "expected": 273.3797391363114,
+        "rendered": 273.4,
+        "error_seconds": 0.020260863688577047
+      },
+      {
+        "scene_id": 52,
+        "expected": 287.38933567615055,
+        "rendered": 287.4,
+        "error_seconds": 0.010664323849425728
+      },
+      {
+        "scene_id": 53,
+        "expected": 295.25579509360006,
+        "rendered": 295.26666666666665,
+        "error_seconds": 0.01087157306659492
+      },
+      {
+        "scene_id": 54,
+        "expected": 298.2766777049402,
+        "rendered": 298.3,
+        "error_seconds": 0.023322295059813314
+      },
+      {
+        "scene_id": 55,
+        "expected": 302.98033385145635,
+        "rendered": 303.0,
+        "error_seconds": 0.019666148543649342
+      },
+      {
+        "scene_id": 56,
+        "expected": 305.87957018314523,
+        "rendered": 305.9,
+        "error_seconds": 0.020429816854743876
+      },
+      {
+        "scene_id": 57,
+        "expected": 307.82591065756577,
+        "rendered": 307.8333333333333,
+        "error_seconds": 0.007422675767543296
+      },
+      {
+        "scene_id": 58,
+        "expected": 315.95593701425963,
+        "rendered": 315.96666666666664,
+        "error_seconds": 0.010729652407007961
+      },
+      {
+        "scene_id": 59,
+        "expected": 319.03764276542546,
+        "rendered": 319.06666666666666,
+        "error_seconds": 0.02902390124120302
+      },
+      {
+        "scene_id": 60,
+        "expected": 322.52483611542885,
+        "rendered": 322.53333333333336,
+        "error_seconds": 0.008497217904505305
+      },
+      {
+        "scene_id": 61,
+        "expected": 331.5063864296817,
+        "rendered": 331.53333333333336,
+        "error_seconds": 0.026946903651662524
+      },
+      {
+        "scene_id": 62,
+        "expected": 338.23748057038586,
+        "rendered": 338.26666666666665,
+        "error_seconds": 0.029186096280795937
+      },
+      {
+        "scene_id": 63,
+        "expected": 339.6972359262012,
+        "rendered": 339.7,
+        "error_seconds": 0.002764073798800837
+      },
+      {
+        "scene_id": 64,
+        "expected": 342.59647225789,
+        "rendered": 342.6,
+        "error_seconds": 0.003527742110009058
+      },
+      {
+        "scene_id": 65,
+        "expected": 347.66506724336006,
+        "rendered": 347.6666666666667,
+        "error_seconds": 0.0015994233066294328
+      },
+      {
+        "scene_id": 66,
+        "expected": 352.9769547881327,
+        "rendered": 353.0,
+        "error_seconds": 0.023045211867326998
+      },
+      {
+        "scene_id": 67,
+        "expected": 359.54585388930184,
+        "rendered": 359.56666666666666,
+        "error_seconds": 0.020812777364824342
+      },
+      {
+        "scene_id": 68,
+        "expected": 368.38548354396164,
+        "rendered": 368.4,
+        "error_seconds": 0.0145164560383364
+      },
+      {
+        "scene_id": 69,
+        "expected": 372.90667027100085,
+        "rendered": 372.93333333333334,
+        "error_seconds": 0.026663062332488607
+      },
+      {
+        "scene_id": 70,
+        "expected": 380.28654456984526,
+        "rendered": 380.3,
+        "error_seconds": 0.013455430154749592
+      },
+      {
+        "scene_id": 71,
+        "expected": 381.76657430560243,
+        "rendered": 381.76666666666665,
+        "error_seconds": 9.236106421894874e-05
+      },
+      {
+        "scene_id": 72,
+        "expected": 384.84828005676826,
+        "rendered": 384.8666666666667,
+        "error_seconds": 0.018386609898414008
+      },
+      {
+        "scene_id": 73,
+        "expected": 387.11901061025884,
+        "rendered": 387.1333333333333,
+        "error_seconds": 0.014322723074485566
+      },
+      {
+        "scene_id": 74,
+        "expected": 389.5316618233426,
+        "rendered": 389.53333333333336,
+        "error_seconds": 0.0016715099907855802
+      },
+      {
+        "scene_id": 75,
+        "expected": 390.91031965939044,
+        "rendered": 390.93333333333334,
+        "error_seconds": 0.02301367394289855
+      },
+      {
+        "scene_id": 76,
+        "expected": 398.12799891869975,
+        "rendered": 398.1333333333333,
+        "error_seconds": 0.005334414633580309
+      },
+      {
+        "scene_id": 77,
+        "expected": 401.4124484692843,
+        "rendered": 401.43333333333334,
+        "error_seconds": 0.020884864049037333
+      },
+      {
+        "scene_id": 78,
+        "expected": 402.77083192539027,
+        "rendered": 402.8,
+        "error_seconds": 0.02916807460974269
+      },
+      {
+        "scene_id": 79,
+        "expected": 407.19064675272017,
+        "rendered": 407.2,
+        "error_seconds": 0.009353247279818788
+      },
+      {
+        "scene_id": 80,
+        "expected": 417.51030614313714,
+        "rendered": 417.53333333333336,
+        "error_seconds": 0.023027190196216907
+      },
+      {
+        "scene_id": 81,
+        "expected": 426.16746637831994,
+        "rendered": 426.2,
+        "error_seconds": 0.032533621680045144
+      },
+      {
+        "scene_id": 82,
+        "expected": 441.69764141380006,
+        "rendered": 441.7,
+        "error_seconds": 0.0023585861999322333
+      },
+      {
+        "scene_id": 83,
+        "expected": 447.2122727579915,
+        "rendered": 447.23333333333335,
+        "error_seconds": 0.02106057534183492
+      },
+      {
+        "scene_id": 84,
+        "expected": 461.22186929783066,
+        "rendered": 461.23333333333335,
+        "error_seconds": 0.0114640355026836
+      },
+      {
+        "scene_id": 85,
+        "expected": 469.0883287152801,
+        "rendered": 469.1,
+        "error_seconds": 0.011671284719909636
+      },
+      {
+        "scene_id": 86,
+        "expected": 472.10921132662025,
+        "rendered": 472.1333333333333,
+        "error_seconds": 0.024122006713071187
+      },
+      {
+        "scene_id": 87,
+        "expected": 476.81286747313646,
+        "rendered": 476.8333333333333,
+        "error_seconds": 0.02046586019685037
+      },
+      {
+        "scene_id": 88,
+        "expected": 479.71210380482523,
+        "rendered": 479.73333333333335,
+        "error_seconds": 0.021229528508115436
+      },
+      {
+        "scene_id": 89,
+        "expected": 481.6584442792457,
+        "rendered": 481.6666666666667,
+        "error_seconds": 0.0082223874209717
+      },
+      {
+        "scene_id": 90,
+        "expected": 489.78847063593963,
+        "rendered": 489.8,
+        "error_seconds": 0.011529364060379521
+      },
+      {
+        "scene_id": 91,
+        "expected": 492.8701763871054,
+        "rendered": 492.9,
+        "error_seconds": 0.02982361289457458
+      },
+      {
+        "scene_id": 92,
+        "expected": 496.3573697371088,
+        "rendered": 496.3666666666667,
+        "error_seconds": 0.009296929557876865
+      },
+      {
+        "scene_id": 93,
+        "expected": 505.33892005136164,
+        "rendered": 505.3666666666667,
+        "error_seconds": 0.027746615305034084
+      },
+      {
+        "scene_id": 94,
+        "expected": 512.0700141920659,
+        "rendered": 512.1,
+        "error_seconds": 0.029985807934167497
+      },
+      {
+        "scene_id": 95,
+        "expected": 513.5297695478812,
+        "rendered": 513.5333333333333,
+        "error_seconds": 0.003563785452115553
+      },
+      {
+        "scene_id": 96,
+        "expected": 516.42900587957,
+        "rendered": 516.4333333333333,
+        "error_seconds": 0.004327453763266931
+      },
+      {
+        "scene_id": 97,
+        "expected": 521.49760086504,
+        "rendered": 521.5,
+        "error_seconds": 0.0023991349600009926
+      },
+      {
+        "scene_id": 98,
+        "expected": 526.8094884098126,
+        "rendered": 526.8333333333334,
+        "error_seconds": 0.0238449235207554
+      },
+      {
+        "scene_id": 99,
+        "expected": 533.3783875109817,
+        "rendered": 533.4,
+        "error_seconds": 0.021612489018252745
+      },
+      {
+        "scene_id": 100,
+        "expected": 542.2180171656416,
+        "rendered": 542.2333333333333,
+        "error_seconds": 0.01531616769170796
+      },
+      {
+        "scene_id": 101,
+        "expected": 546.7392038926808,
+        "rendered": 546.7666666666667,
+        "error_seconds": 0.027462773985803324
+      },
+      {
+        "scene_id": 102,
+        "expected": 554.1190781915252,
+        "rendered": 554.1333333333333,
+        "error_seconds": 0.014255141808121152
+      },
+      {
+        "scene_id": 103,
+        "expected": 555.5991079272825,
+        "rendered": 555.6,
+        "error_seconds": 0.0008920727175336651
+      },
+      {
+        "scene_id": 104,
+        "expected": 558.6808136784482,
+        "rendered": 558.7,
+        "error_seconds": 0.01918632155184241
+      },
+      {
+        "scene_id": 105,
+        "expected": 560.9515442319388,
+        "rendered": 560.9666666666667,
+        "error_seconds": 0.01512243472791397
+      },
+      {
+        "scene_id": 106,
+        "expected": 563.3641954450226,
+        "rendered": 563.3666666666667,
+        "error_seconds": 0.0024712216441002965
+      },
+      {
+        "scene_id": 107,
+        "expected": 564.7428532810704,
+        "rendered": 564.7666666666667,
+        "error_seconds": 0.023813385596213266
+      },
+      {
+        "scene_id": 108,
+        "expected": 571.9605325403797,
+        "rendered": 571.9666666666667,
+        "error_seconds": 0.006134126286951869
+      },
+      {
+        "scene_id": 109,
+        "expected": 575.2449820909643,
+        "rendered": 575.2666666666667,
+        "error_seconds": 0.02168457570235205
+      },
+      {
+        "scene_id": 110,
+        "expected": 576.6033655470703,
+        "rendered": 576.6333333333333,
+        "error_seconds": 0.029967786263000562
+      },
+      {
+        "scene_id": 111,
+        "expected": 581.0231803744002,
+        "rendered": 581.0333333333333,
+        "error_seconds": 0.010152958933076661
+      },
+      {
+        "scene_id": 112,
+        "expected": 591.3428397648171,
+        "rendered": 591.3666666666667,
+        "error_seconds": 0.023826901849588467
+      }
+    ],
+    "decoded_frame_count": 18000,
+    "blank_frames": 0,
+    "source_narration_samples": 28800000,
+    "decoded_audio_samples": 28800000,
+    "audio_snr_db": 56.945579528808594,
+    "audio_min_10ms_rms": 0.10825896263122559,
+    "audio_peak": 0.21071447432041168,
+    "caption_samples": [
+      {
+        "scene_id": 1,
+        "white_text_pixels": 9574,
+        "enabled": true
+      },
+      {
+        "scene_id": 57,
+        "white_text_pixels": 9544,
+        "enabled": true
+      },
+      {
+        "scene_id": 112,
+        "white_text_pixels": 9906,
+        "enabled": true
+      }
+    ],
+    "limits": "synthetic audio proves rendering continuity, not speech intelligibility or narration quality",
+    "registered_after_validation": true
+  }
+}

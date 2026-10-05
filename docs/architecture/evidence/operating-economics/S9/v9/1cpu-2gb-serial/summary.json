@@ -1,0 +1,73 @@
+{
+  "phases": [
+    {
+      "phase": "backup_standalone",
+      "pid": 13,
+      "exit": 0,
+      "wall_seconds": 3.8086646680001195,
+      "status": "PASS",
+      "log": "backup_standalone.log"
+    },
+    {
+      "phase": "render",
+      "pid": 14,
+      "exit": 0,
+      "wall_seconds": 100.51172158899999,
+      "status": "PASS",
+      "log": "render.log"
+    },
+    {
+      "phase": "alignment",
+      "pid": 242,
+      "exit": 0,
+      "wall_seconds": 50.52000923100013,
+      "status": "PASS",
+      "log": "alignment.log"
+    },
+    {
+      "phase": "cancellation",
+      "status": "PASS",
+      "details": {
+        "pid": 280,
+        "pgid": 280,
+        "exit": 255,
+        "cessation_seconds": 0.1917195419998734,
+        "escalated": false,
+        "live_group_members": [],
+        "incomplete_registered": false,
+        "previous_export_preserved": true,
+        "previous_export_available": true
+      }
+    }
+  ],
+  "errors": [],
+  "application_phases_complete": true,
+  "memory_peak_bytes": 1972355072,
+  "memory_events": {
+    "low": 0,
+    "high": 0,
+    "max": 0,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0,
+    "sock_throttled": 0
+  },
+  "cpu_stat": {
+    "usage_usec": 155300608,
+    "user_usec": 148609374,
+    "system_usec": 6691234,
+    "nice_usec": 0,
+    "nr_periods": 1585,
+    "nr_throttled": 1500,
+    "throttled_usec": 223541410,
+    "nr_bursts": 0,
+    "burst_usec": 0
+  },
+  "sample_peak_disk_bytes": 426842391,
+  "web_requests": 550,
+  "web_failures": 0,
+  "web_latency_max_seconds": 0.1365117090001604,
+  "provider_calls": 0,
+  "model_downloads": 0,
+  "synthetic_resource_scope_only": true
+}

@@ -1,0 +1,8 @@
+{
+  "source_sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+  "start_frame": 2210400,
+  "end_frame": 2277600,
+  "sample_rate": 24000,
+  "derived_sha256": "48a1bc26d56fb587c61da7db2d973aad410cc06028c62a9b93da310525e18dc0",
+  "processing": "sample-exact copy; no normalization"
+}

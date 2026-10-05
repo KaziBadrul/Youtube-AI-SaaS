@@ -1,0 +1,13 @@
+{
+  "current_docs": [
+    "docs/README.md",
+    "docs/ALPHA_PRODUCT_SPEC.md",
+    "docs/ARCHITECTURE.md",
+    "docs/COST_MODEL.md",
+    "docs/ARCHITECTURE_SPIKES.md",
+    "docs/architecture/evidence/operating-economics/S9/README.md"
+  ],
+  "new_report": "docs/architecture/evidence/operating-economics/S9/CREDITS-v14.md",
+  "new_evidence": "docs/architecture/evidence/operating-economics/S9/v14/",
+  "production_or_spike_implementation_changes": false
+}

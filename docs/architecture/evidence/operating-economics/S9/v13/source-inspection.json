@@ -1,0 +1,122 @@
+{
+  "source_record_before_current_doc_updates": {
+    "docs/README.md": {
+      "sha256": "1b2917469fe2f112313f855fe90099b577834913306c46f8654cb4413dd1bded",
+      "bytes": 15201
+    },
+    "docs/ALPHA_PRODUCT_SPEC.md": {
+      "sha256": "b761ac1ce8fa79778c3acc2397113e3ccc407752b2eca0476414eb1876614850",
+      "bytes": 28815
+    },
+    "docs/ARCHITECTURE.md": {
+      "sha256": "fc377b1506e1328c11a690a2d42de7ea484c143d6c54f0169496a4651f24b0fb",
+      "bytes": 28036
+    },
+    "docs/COST_MODEL.md": {
+      "sha256": "125324405613a88019e46a730ea7173d95e268376ca6bf7d1786029d7c36648d",
+      "bytes": 22710
+    },
+    "docs/ARCHITECTURE_SPIKES.md": {
+      "sha256": "e8c360a8bbec09780fcf53877e63d85ef97063abe612625d1bd0f991d92f510a",
+      "bytes": 22534
+    },
+    "docs/PRODUCT_DECISIONS.md": {
+      "sha256": "fb194f543105d2b47ac0cb3d71e3ce2b84047349464ed6f3d36fa689f0ce99a5",
+      "bytes": 25242
+    },
+    "docs/UX_FLOWS.md": {
+      "sha256": "318f1b50ee0bd4db26663970319cd1c66808f25f2a8e8d94a9967735fecdeb86",
+      "bytes": 31833
+    },
+    "docs/DESIGN.md": {
+      "sha256": "a20b3528253f6ed663ae1c857bd0c50971f09a4d9ad1d4ecce039e29fe10af25",
+      "bytes": 36471
+    },
+    "docs/architecture/evidence/operating-economics/S9/README.md": {
+      "sha256": "0782a3f41361fdd6780a96c78ae4a51bcb87da66c7fc89650c654ab81f123e06",
+      "bytes": 15744
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v5.md": {
+      "sha256": "08317d72a39cad72ad344e36dbe863106a7ddd2aba48a82f24d5dcba82904495",
+      "bytes": 12593
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v6.md": {
+      "sha256": "fd5e156d2b7e3775ba16bcbf9a287d2a1fd5b760d9a97fcc353cfe2f882ea6de",
+      "bytes": 17811
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v7.md": {
+      "sha256": "8a58c4aa60b1865bf657ab5f581d43bb76a641e85b5571a36ef97ea72f350ef6",
+      "bytes": 20671
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v8.md": {
+      "sha256": "16a089c62a2e183bff1d8a5ee7e55703d78d1e379cb649ab76558461cea73d35",
+      "bytes": 32177
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v9.md": {
+      "sha256": "931127be9d31c8b3a58bd471af2564f24108783fb7f5250dba498219dbaf65ae",
+      "bytes": 17150
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v10.md": {
+      "sha256": "452b50be9acc641657481e93156e6d9491ca96082ca263fe6acc23987a4b1e03",
+      "bytes": 16386
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v11.md": {
+      "sha256": "1edcfbf989e9dc24b335519fff47aa75b7b6e414887e302abc618f1fa4483f62",
+      "bytes": 11676
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v12.md": {
+      "sha256": "2df1d7a03e2a9b3bb12b9d47179e85dfec8893b5ff616ec0a4baf8f356e85bbf",
+      "bytes": 12445
+    },
+    "docs/architecture/evidence/provider-feasibility/S4.md": {
+      "sha256": "71f7780494795b00efda0c8b1779df7f7a6e4a1a1b7d4107350250c1c16cde7d",
+      "bytes": 21358
+    },
+    "docs/architecture/evidence/provider-feasibility/capabilities.json": {
+      "sha256": "ab42168911770dc1ae0bdd50c1beb8be9e2439b9a95c31246b828f27294b8333",
+      "bytes": 29038
+    },
+    "docs/architecture/evidence/research-feasibility/S4-R.md": {
+      "sha256": "8e00fad31c1996f0838c98b8d0f7bc55534399b01d5a0e25b891b152cc33e17d",
+      "bytes": 21857
+    },
+    "docs/architecture/evidence/local-feasibility/S8.md": {
+      "sha256": "fe47457b2b7f21d4418127632a12436073aa764830d16d0c51fb1f071e075f35",
+      "bytes": 4368
+    },
+    "spikes/local-feasibility/backup.py": {
+      "sha256": "5c4ced89850fafbe773896ad029f0bf2de53a8074eadfa20a96c5d74fc826e2b",
+      "bytes": 10388
+    },
+    "docs/architecture/evidence/rendering-feasibility/S6/README.md": {
+      "sha256": "5eceb0b22e6ef42523dc4d553167cd26d87e61dc25d3a6d143f2929acf8e3689",
+      "bytes": 12655
+    },
+    "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/ledger.json": {
+      "sha256": "855a482a5707bfaa697bf86485e9e8ae639d55d87bf8c409a023be91165a7806",
+      "bytes": 9400
+    },
+    "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/b-mapping-final-v1/README.md": {
+      "sha256": "f2b1036ab48c53db2b1484bd5093a3455fecc2e7f6791e153ce335b2c198f582",
+      "bytes": 5756
+    },
+    "docs/architecture/evidence/operating-economics/S9/pricing-v6.json": {
+      "sha256": "f8867cac4900b19d5471afa5c929cefba1913e87068ba971c5ba58c3aec3070e",
+      "bytes": 1437
+    },
+    "docs/architecture/evidence/operating-economics/S9/text-research-manifest-v7.json": {
+      "sha256": "654f77fe6f23fe08eb41a0134a8d4632747b8204701e11fe764cc225bb74f80d",
+      "bytes": 66805
+    },
+    "spikes/operating-economics/text_manifest_v7.py": {
+      "sha256": "283d007b46970caf431a02c3af2f9a7e8708d7e22c5903fbf2379c5211ee428d",
+      "bytes": 29663
+    },
+    "spikes/operating-economics/sentence_scope_v5.py": {
+      "sha256": "b1a0df90696138f7ce0d6446f05c79b6ad9f25fada3d8291de7cae35754d731a",
+      "bytes": 15624
+    }
+  },
+  "source_status": "existing captured evidence only; no fresh pricing/tokenizer/provider request",
+  "claims": "historical scope/uncertainty retained"
+}

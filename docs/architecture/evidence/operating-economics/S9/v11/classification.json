@@ -1,0 +1,7 @@
+{
+  "classification": "SAFE_ENOUGH_FOR_ALPHA",
+  "reason": "All unchanged required phases/media checks completed, no swap/OOM, status probes healthy, and minimum available whole-guest RAM1,790,922,752 bytes (41.698% of configured4GiB), a substantial observed reserve versus V10. This is a fixture-specific assessment, not a universal safety percentage or unbounded backup-volume guarantee; actual provider performance remains untested.",
+  "summary_sha256": "570ee1fb16bc586ebab2a07aa8b914e4d1d20933d076ca35400e164fdb00d132",
+  "minimum_available_bytes": 1790922752,
+  "last_sizing_experiment_unless_failure": true
+}

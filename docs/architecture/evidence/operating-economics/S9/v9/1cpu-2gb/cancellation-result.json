@@ -1,0 +1,11 @@
+{
+  "pid": 2219,
+  "pgid": 2219,
+  "exit": 255,
+  "cessation_seconds": 0.07085920800000167,
+  "escalated": false,
+  "live_group_members": [],
+  "incomplete_registered": false,
+  "previous_export_preserved": true,
+  "previous_export_available": false
+}

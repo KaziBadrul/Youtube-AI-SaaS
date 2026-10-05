@@ -1,0 +1,85 @@
+{
+  "historical_evidence_preserved": true,
+  "historical_files_verified": 22,
+  "pre_v6_index_archived_exactly": true,
+  "changed_existing_files": [
+    "docs/architecture/evidence/operating-economics/S9/README.md",
+    "docs/README.md",
+    "docs/ARCHITECTURE_SPIKES.md",
+    "docs/COST_MODEL.md"
+  ],
+  "new_files": [
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v6.md",
+    "docs/architecture/evidence/operating-economics/S9/credits-v6.json",
+    "docs/architecture/evidence/operating-economics/S9/pricing-v6.json",
+    "docs/architecture/evidence/operating-economics/S9/history-v6/s9-index-before-v6.md",
+    "spikes/operating-economics/variable_cost_v6.py",
+    "docs/architecture/evidence/operating-economics/S9/revision-v6-manifest.json"
+  ],
+  "hashes": {
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v6.md": "fd5e156d2b7e3775ba16bcbf9a287d2a1fd5b760d9a97fcc353cfe2f882ea6de",
+    "docs/architecture/evidence/operating-economics/S9/credits-v6.json": "03f50bb0131ad1916cd2cfc8ccf37b0f53a7720b7d701082346966350f52beb0",
+    "docs/architecture/evidence/operating-economics/S9/pricing-v6.json": "f8867cac4900b19d5471afa5c929cefba1913e87068ba971c5ba58c3aec3070e",
+    "docs/architecture/evidence/operating-economics/S9/history-v6/s9-index-before-v6.md": "1683c158e0e14e91b9b1282a430ef6991839743ad42b1306865e970d1aac7043",
+    "spikes/operating-economics/variable_cost_v6.py": "f7c5301fb50e14ef417b81da6646f618c37babaa0c230c8b41a66797e679e4bc",
+    "docs/architecture/evidence/operating-economics/S9/README.md": "191d92c5cb3f3cc555d81f87087441505d3ff9e5f92ae7037d607471871b44ba",
+    "docs/README.md": "4b8205723d395bf1ffacefab59b87c4bdd1d10dc9deea20e67f0f38d04607fd5",
+    "docs/ARCHITECTURE_SPIKES.md": "ba30b9f8b141cf3cf38c0548f347474831ff356fa3f84da93af4ad5dea138152",
+    "docs/COST_MODEL.md": "3c4a8379c93b8cf8e2993e096af4b0565a13326c4b504f30b9254aa9e44b2fda"
+  },
+  "source_WAV_checks": [
+    {
+      "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-01/attempt-01/source.wav",
+      "sha256": "8215aa482ab0a8a8acfad564283d239f6e37e56446cf40c1a0db633bcee970c8",
+      "matches_original_ledger": true
+    },
+    {
+      "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-02/attempt-02/source.wav",
+      "sha256": "f06d98575eeb23fc7f6f75cdac4fffa432b66858403c0fbbba5d003fbc67763f",
+      "matches_original_ledger": true
+    },
+    {
+      "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-03/attempt-03/source.wav",
+      "sha256": "f2cf9ccb7b28309de27891ccb99497ed0945442c807159a109bf412817092b54",
+      "matches_original_ledger": true
+    },
+    {
+      "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-04/attempt-04/source.wav",
+      "sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "matches_original_ledger": true
+    },
+    {
+      "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-05/attempt-05/source.wav",
+      "sha256": "dd232e22174d51507758290eae48d87e0a66070db714ccb10e151470ec1a9f95",
+      "matches_original_ledger": true
+    },
+    {
+      "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-06/attempt-06/source.wav",
+      "sha256": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "matches_original_ledger": true
+    },
+    {
+      "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-07/attempt-07/source.wav",
+      "sha256": "67fe8d87ff0e6946c466bfe9e148b3a7304d3d0ef43b10425b7d8653d3ca35cb",
+      "matches_original_ledger": true
+    },
+    {
+      "path": "docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-08/attempt-08/source.wav",
+      "sha256": "4bbc9c73e677fbf330673be67349c2c251fe960ee0dba7d185a416e21d4e55b9",
+      "matches_original_ledger": true
+    }
+  ],
+  "verification": {
+    "arithmetic_tests": 37,
+    "PASS": true,
+    "git_diff_check": "PASS",
+    "provider_generation_API_calls": 0,
+    "paid_spend_USD": "0",
+    "production_implementation_touched": false,
+    "TASKS_touched": false,
+    "deployment": false,
+    "purchases": false,
+    "dependencies_or_models_downloaded": false
+  },
+  "note": "Manifest excludes own hash. Existing source-of-truth docs only gain current evidence pointers; historical S9 index retained byte-for-byte. Public official documentation browsed; no generation or account API."
+}

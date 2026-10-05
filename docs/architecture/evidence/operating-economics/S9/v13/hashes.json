@@ -1,0 +1,20 @@
+{
+  "docs/architecture/evidence/operating-economics/S9/v13/preservation-before.json": "0fd7ffd6ce86fb9df5ddee51ab976d284a36b04245273542c2cca9b341da6b75",
+  "docs/architecture/evidence/operating-economics/S9/v13/changed-files.json": "31a50b9b70bbf075e5ea5fff9c0460e2974a9245e2ce1abfd21943d81bd1d154",
+  "docs/architecture/evidence/operating-economics/S9/v13/preservation-result.json": "bbec5eaa96c2908a6e5575ab531cf12eedda0b4f4a53961d87488ee2175ee85c",
+  "docs/architecture/evidence/operating-economics/S9/v13/source-inspection.json": "82a61a57a567ce5e025d7f9106d2b8702a7f01c0d3152ce9ea625d4be1ea493f",
+  "docs/architecture/evidence/operating-economics/S9/v13/COMMANDS.md": "7e25c7eb6c1b79dbd46ec62f41408973bf8a0f70a6418b65cde6b32d1787690d",
+  "docs/architecture/evidence/operating-economics/S9/v13/RESULTS.json": "0850fff4af7d8fb7f654bfa79107ba23b9e96e548c6b890c4644cbae5ba5460b",
+  "docs/architecture/evidence/operating-economics/S9/v13/documentation-diff.patch": "3ba1976df7547eb77b41f5e96b97becce55415bcb5267070ae166c60ea1afa37",
+  "docs/architecture/evidence/operating-economics/S9/v13/financial-manifest.json": "e7b63001da0641199627cf5b4cd4bf8d74d4e37868716ba32081528767e1bddf",
+  "docs/architecture/evidence/operating-economics/S9/v13/run-output.json": "ecc744cb9685802a6f65e4631c5b34897d5e89b61d48e8c7f46bb4f15231a8e3",
+  "docs/architecture/evidence/operating-economics/S9/v13/INITIAL-FINDINGS.md": "bb65f96baa660f841cd1b35626aee8175dfbbfa162aa52672e7e23773d995118",
+  "docs/architecture/evidence/operating-economics/S9/v13/before/docs__ARCHITECTURE.md": "fc377b1506e1328c11a690a2d42de7ea484c143d6c54f0169496a4651f24b0fb",
+  "docs/architecture/evidence/operating-economics/S9/v13/before/docs__COST_MODEL.md": "125324405613a88019e46a730ea7173d95e268376ca6bf7d1786029d7c36648d",
+  "docs/architecture/evidence/operating-economics/S9/v13/before/docs__ARCHITECTURE_SPIKES.md": "e8c360a8bbec09780fcf53877e63d85ef97063abe612625d1bd0f991d92f510a",
+  "docs/architecture/evidence/operating-economics/S9/v13/before/docs__ALPHA_PRODUCT_SPEC.md": "b761ac1ce8fa79778c3acc2397113e3ccc407752b2eca0476414eb1876614850",
+  "docs/architecture/evidence/operating-economics/S9/v13/before/docs__architecture__evidence__operating-economics__S9__README.md": "0782a3f41361fdd6780a96c78ae4a51bcb87da66c7fc89650c654ab81f123e06",
+  "docs/architecture/evidence/operating-economics/S9/v13/before/docs__README.md": "1b2917469fe2f112313f855fe90099b577834913306c46f8654cb4413dd1bded",
+  "docs/architecture/evidence/operating-economics/S9/CREDITS-v13.md": "85b7fba1e98c6ccfc8954aad794b0aa59b021a6bd866394bb29eebff032db19f",
+  "spikes/operating-economics/v13/financial_authority.py": "767018071027110cff39694336e97b7a4ae8365e1570f8853052efcb6750af59"
+}

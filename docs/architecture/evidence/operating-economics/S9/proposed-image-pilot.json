@@ -1,0 +1,56 @@
+{
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "model": "gemini-3.1-flash-lite-image",
+  "aspect_ratio": "16:9",
+  "resolution": "1K",
+  "service": "standard",
+  "calls": [
+    {
+      "call": 1,
+      "kind": "initial",
+      "prompt": "Minimal Illustration. Educational video still, coherent composition, 16:9. A ceramic mug beside a window with morning sunlight; no lettering."
+    },
+    {
+      "call": 2,
+      "kind": "initial",
+      "prompt": "Minimal Illustration. Educational video still, coherent composition, 16:9. A cutaway diagram-like illustration of a rain cloud above mountains and a river; no lettering."
+    },
+    {
+      "call": 3,
+      "kind": "initial",
+      "prompt": "Storybook. Educational video still, coherent composition, 16:9. A ceramic mug beside a window with morning sunlight; no lettering."
+    },
+    {
+      "call": 4,
+      "kind": "initial",
+      "prompt": "Storybook. Educational video still, coherent composition, 16:9. A cutaway diagram-like illustration of a rain cloud above mountains and a river; no lettering."
+    },
+    {
+      "call": 5,
+      "kind": "initial",
+      "prompt": "Documentary Illustration. Educational video still, coherent composition, 16:9. A ceramic mug beside a window with morning sunlight; no lettering."
+    },
+    {
+      "call": 6,
+      "kind": "initial",
+      "prompt": "Documentary Illustration. Educational video still, coherent composition, 16:9. A cutaway diagram-like illustration of a rain cloud above mountains and a river; no lettering."
+    },
+    {
+      "call": 7,
+      "kind": "independent_scene_regeneration",
+      "prompt": "Minimal Illustration. Educational video still, 16:9. A blue ceramic mug beside a window with warm evening sunlight; no lettering."
+    },
+    {
+      "call": 8,
+      "kind": "independent_scene_regeneration",
+      "prompt": "Documentary Illustration. Educational video still, 16:9. A cutaway diagram-like illustration of a rain cloud above mountains, a winding river and a forest; no lettering."
+    }
+  ],
+  "retries": 0,
+  "grounding": false,
+  "references": false,
+  "maximum_before_fees_USD": "1.114112",
+  "proposed_all_in_authorization_USD": "1.50",
+  "preflight": "No submission until owner authorizes, exact endpoint/configuration bounds and account fees/quotas are validated, and ceiling fits remaining monthly budget. Unknown outcome halts experiment. No extra/fallback requests.",
+  "review": "Owner marks each image usable/unusable and notes prompt adherence, style, defects and readability at 1080p. Measure usage, latency, decoded dimensions, bytes, hashes, and output count; small pilot is not a production reliability distribution."
+}

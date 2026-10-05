@@ -1,0 +1,290 @@
+{
+  "verdict": "PASS",
+  "scope": "local fixture feasibility, not production implementation/host economics",
+  "benchmarks": [
+    {
+      "label": "project-180",
+      "duration": 180,
+      "scene_count": 34,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/project-180-74a63858b813.mp4",
+      "sha256": "74a63858b81358667181d66f2bf1240c30b5874e7a0fb5fa80d0bd9b8e320d24",
+      "bytes": 17876939,
+      "render_wall_seconds": 44.64371587499045,
+      "peak_ffmpeg_rss_bytes": 149618688,
+      "cpu_seconds": 59.59308189,
+      "scratch_peak_bytes": 32469710,
+      "config": {
+        "captions": true,
+        "motion": true,
+        "music": true
+      },
+      "attempt": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/scratch/project-180-6ff9b7e2",
+      "representative_cpu_percent": 133.48593575156283,
+      "max_scene_transition_error_seconds": 0.02882096069868112,
+      "container_atoms": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ]
+    },
+    {
+      "label": "project-300",
+      "duration": 300,
+      "scene_count": 56,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/project-300-3d909ea9669c.mp4",
+      "sha256": "3d909ea9669c00951a669010eda7a91de0946017b53459d054e128026dbc205d",
+      "bytes": 29428368,
+      "render_wall_seconds": 79.42004120803904,
+      "peak_ffmpeg_rss_bytes": 149946368,
+      "cpu_seconds": 105.420510397,
+      "scratch_peak_bytes": 53382263,
+      "config": {
+        "captions": true,
+        "motion": true,
+        "music": true
+      },
+      "attempt": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/scratch/project-300-9589c9a3",
+      "representative_cpu_percent": 132.73791953954458,
+      "max_scene_transition_error_seconds": 0.0321280379371629,
+      "container_atoms": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ]
+    },
+    {
+      "label": "project-600",
+      "duration": 600,
+      "scene_count": 112,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/project-600-fc0e76cd606c.mp4",
+      "sha256": "fc0e76cd606c63655017698f10a6d68deaba410001bbfd440c37bd6d783af0f8",
+      "bytes": 59553320,
+      "render_wall_seconds": 237.20484245801345,
+      "peak_ffmpeg_rss_bytes": 149979136,
+      "cpu_seconds": 314.230260477,
+      "scratch_peak_bytes": 108158905,
+      "config": {
+        "captions": true,
+        "motion": true,
+        "music": true
+      },
+      "attempt": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/scratch/project-600-71db73df",
+      "representative_cpu_percent": 132.47211027431723,
+      "max_scene_transition_error_seconds": 0.03262598274426409,
+      "container_atoms": [
+        "ftyp",
+        "moov",
+        "free",
+        "mdat"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "font": "Noto Sans",
+      "shaping": "PASS",
+      "fallback": false,
+      "clipped": false,
+      "frame": "frames/language-en-decoded.png"
+    },
+    {
+      "language": "Spanish",
+      "font": "Noto Sans",
+      "shaping": "PASS",
+      "fallback": false,
+      "clipped": false,
+      "frame": "frames/language-es-decoded.png"
+    },
+    {
+      "language": "French",
+      "font": "Noto Sans",
+      "shaping": "PASS",
+      "fallback": false,
+      "clipped": false,
+      "frame": "frames/language-fr-decoded.png"
+    },
+    {
+      "language": "Bangla",
+      "font": "Noto Sans Bengali",
+      "shaping": "PASS",
+      "fallback": false,
+      "clipped": false,
+      "frame": "frames/language-bn-decoded.png"
+    },
+    {
+      "language": "Hindi",
+      "font": "Noto Sans Devanagari",
+      "shaping": "PASS",
+      "fallback": false,
+      "clipped": false,
+      "frame": "frames/language-hi-decoded.png"
+    }
+  ],
+  "failure_checks": 19,
+  "lifecycle": [
+    {
+      "case": "cancel",
+      "result": "PASS",
+      "termination": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "tracked_members": [
+          45303
+        ],
+        "confirmed_stopped": true
+      },
+      "lock_release": "after confirmed cessation",
+      "previous_export_preserved": true
+    },
+    {
+      "case": "worker_crash_recovery",
+      "result": "PASS",
+      "old_child_observed_alive": true,
+      "stale_lock_retained": true,
+      "pid_reuse_guard": true,
+      "termination": {
+        "signals": [
+          "SIGTERM"
+        ],
+        "tracked_members": [
+          45311
+        ],
+        "confirmed_stopped": true
+      },
+      "previous_export_preserved": true
+    },
+    {
+      "case": "bounded_escalation",
+      "result": "PASS",
+      "termination": {
+        "signals": [
+          "SIGTERM",
+          "SIGKILL"
+        ],
+        "tracked_members": [
+          45357,
+          45358
+        ],
+        "confirmed_stopped": true
+      }
+    },
+    {
+      "case": "retry_reuses_assets",
+      "result": "PASS",
+      "source_hashes_preserved": true,
+      "provider_calls": 0,
+      "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/recovery-retry-0a57edaab9f7.mp4"
+    }
+  ],
+  "web_boundary": {
+    "status": "PASS",
+    "django_version": "5.2.17",
+    "admission_seconds": 0.0009475830011069775,
+    "status_requests": 973,
+    "max_status_seconds": 0.00855379196582362,
+    "average_status_seconds": 0.0005995781946485098,
+    "worker_pid": 42087,
+    "worker_exit": 0,
+    "argv": [
+      "/private/tmp/s6-render-venv/bin/python",
+      "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/spikes/rendering-feasibility/s6.py",
+      "benchmark",
+      "--duration",
+      "600"
+    ],
+    "http_request_held_open": false,
+    "recovered_observer_crash_workers": [],
+    "resource_samples": 954,
+    "peak_worker_rss_bytes": 638615552,
+    "peak_process_tree_rss_bytes": 638615552,
+    "limits": "Django test client, no browser/load/network isolation proof; SQLite queue witness only"
+  },
+  "real_narration": {
+    "status": "PASS",
+    "source_sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+    "source_unchanged": true,
+    "processing": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-y",
+      "-v",
+      "error",
+      "-i",
+      "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-04/attempt-04/source.wav",
+      "-t",
+      "12",
+      "-ar",
+      "48000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/real-s5-control/narration.wav"
+    ],
+    "narration_over_music_db": 17.48319862325927,
+    "mix_peak": 0.679764404296875,
+    "results": [
+      {
+        "label": "real-s5-music-on",
+        "validation": "PASS",
+        "snr_db": 33.28370666503906
+      },
+      {
+        "label": "real-s5-music-off",
+        "validation": "PASS",
+        "snr_db": 34.11502456665039
+      }
+    ],
+    "evidence": "Decoded AAC matches expected existing speech+mix; relative music level >15dB below speech RMS; no clipping. This is signal preservation, not a listening-panel or new narration-quality claim."
+  },
+  "source_integrity": [
+    {
+      "call": 1,
+      "sha256": "8215aa482ab0a8a8acfad564283d239f6e37e56446cf40c1a0db633bcee970c8",
+      "unchanged": true
+    },
+    {
+      "call": 2,
+      "sha256": "f06d98575eeb23fc7f6f75cdac4fffa432b66858403c0fbbba5d003fbc67763f",
+      "unchanged": true
+    },
+    {
+      "call": 3,
+      "sha256": "f2cf9ccb7b28309de27891ccb99497ed0945442c807159a109bf412817092b54",
+      "unchanged": true
+    },
+    {
+      "call": 4,
+      "sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+      "unchanged": true
+    },
+    {
+      "call": 5,
+      "sha256": "dd232e22174d51507758290eae48d87e0a66070db714ccb10e151470ec1a9f95",
+      "unchanged": true
+    },
+    {
+      "call": 6,
+      "sha256": "72cc786a5c0388eb88ee86ff7c4dfedc5385152d066dbddc4a252977aa29f2a4",
+      "unchanged": true
+    },
+    {
+      "call": 7,
+      "sha256": "67fe8d87ff0e6946c466bfe9e148b3a7304d3d0ef43b10425b7d8653d3ca35cb",
+      "unchanged": true
+    },
+    {
+      "call": 8,
+      "sha256": "4bbc9c73e677fbf330673be67349c2c251fe960ee0dba7d185a416e21d4e55b9",
+      "unchanged": true
+    }
+  ],
+  "model_downloads": 0,
+  "provider_calls": 0,
+  "paid_services": 0,
+  "S9_executed": false,
+  "production_implementation": false
+}

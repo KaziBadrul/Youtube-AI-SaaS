@@ -1,0 +1,105 @@
+{
+  "historical_evidence_preserved": [
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/CREDITS-v4.md",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/CREDITS-v4.md",
+      "sha256": "4bca7a8c85d94e57ce1887562de7b0603b913140a8c7df7e7bd387c5ea86f887"
+    },
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/FORECAST-v2.md",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/FORECAST-v2.md",
+      "sha256": "f4321a8b2c2fa0f6724025730b353ddc98c75b27c3c1e85350065a410c753264"
+    },
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/README.md",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/history-v5/s9-index-before-v5.md",
+      "sha256": "ddfda8e88a83aad77f911c6d149136a56ee0158144ffa6eef60f8faf6069f5f9"
+    },
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/TIERS-v3.md",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/TIERS-v3.md",
+      "sha256": "0389e150cf956253ff19758c0c3f11b291a26e60f7b9399677591a3c69b80dbb"
+    },
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/analysis.json",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/analysis.json",
+      "sha256": "544baf699375a49e3e0800245327739e73c12b27742f575dd80f2c4c1ae2991a"
+    },
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/baseline-v1.json",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/baseline-v1.json",
+      "sha256": "544baf699375a49e3e0800245327739e73c12b27742f575dd80f2c4c1ae2991a"
+    },
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/credits-v4.json",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/credits-v4.json",
+      "sha256": "61140708d41cd39718b024efcf351106f0a0d9302fb093c7e650ae5b1cd8c122"
+    },
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/forecast-v2.json",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/forecast-v2.json",
+      "sha256": "de9d23e6df801ab07ef4081071acbe77e87bf2414abe676f90551ad4082ba29c"
+    },
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/proposed-image-pilot.json",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/proposed-image-pilot.json",
+      "sha256": "9efcc9e023e2ecd6b75396a73fa4d569906116ea9b8b100cb8ae8fc68efc8505"
+    },
+    {
+      "original": "docs/architecture/evidence/operating-economics/S9/tiers-v3.json",
+      "preserved_at": "docs/architecture/evidence/operating-economics/S9/tiers-v3.json",
+      "sha256": "1e24a44c7c878c3f0b9bf68246a986019fe41fe72385ed7bef8a89980aad0e88"
+    }
+  ],
+  "changed_existing_files": [
+    "docs/ALPHA_PRODUCT_SPEC.md",
+    "docs/ARCHITECTURE.md",
+    "docs/ARCHITECTURE_SPIKES.md",
+    "docs/COST_MODEL.md",
+    "docs/DESIGN.md",
+    "docs/README.md",
+    "docs/UX_FLOWS.md",
+    "docs/architecture/evidence/operating-economics/S9/README.md"
+  ],
+  "new_files": [
+    "spikes/operating-economics/sentence_scope_v5.py",
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v5.md",
+    "docs/architecture/evidence/operating-economics/S9/credits-v5.json",
+    "docs/architecture/evidence/operating-economics/S9/history-v5/s9-index-before-v5.md",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v5/script-214.txt",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v5/script-47.txt",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v5/script-500.txt",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v5/script-7.txt",
+    "docs/architecture/evidence/operating-economics/S9/revision-v5-manifest.json"
+  ],
+  "file_hashes": {
+    "docs/ALPHA_PRODUCT_SPEC.md": "f071f0b9f8fbcb424793a2d23039e3f1b96b153581dce7608f5ce88f041f072c",
+    "docs/ARCHITECTURE.md": "6b8f0d730133d0cc3869a1d72664c3f62981a8725de6e4264f444b7c65dec0ce",
+    "docs/ARCHITECTURE_SPIKES.md": "f31275b97c332647acd6b75c275c727db5f50b7e5c75792a316f153d5bda79af",
+    "docs/COST_MODEL.md": "e75478378857eac5ba97e21086a8b90c17a2e0752d1fe0c69ca9ae22c6561ce9",
+    "docs/DESIGN.md": "b67b94c9e6ed83d77557f66f67e76d78ea680d5ecc75b5494d751dc542325504",
+    "docs/README.md": "56fc5ecac014b7dfa42b05cb554ca42ff00929ec38635fe91778cd259a5d4f24",
+    "docs/UX_FLOWS.md": "b14521b7ed497f0b4c3633899282cd62d55428cdf15ffe1c1aedaf3b753bfe0e",
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v5.md": "08317d72a39cad72ad344e36dbe863106a7ddd2aba48a82f24d5dcba82904495",
+    "docs/architecture/evidence/operating-economics/S9/README.md": "1683c158e0e14e91b9b1282a430ef6991839743ad42b1306865e970d1aac7043",
+    "docs/architecture/evidence/operating-economics/S9/credits-v5.json": "3ec6d18475b1522e33ab930a23954f3d79d266d51a719f41008f5ce0e582d678",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v5/script-214.txt": "88f0dc94b58b9362543eb0b0006cd7daa91c951d821e4dd0df47ad2b6c3bebd6",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v5/script-47.txt": "b9a4f4ab2bd01bc58969d0a32990dd74623b87160a5732db73d405daca400d29",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v5/script-500.txt": "03b6c9ffd35798840792d40bfc40a8eeeaa46cdda90579daf3f40d4845594cac",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v5/script-7.txt": "5c792e10ec8efaefdd1269b1437f7de97652226b81006aba7141e1410ff4f827",
+    "docs/architecture/evidence/operating-economics/S9/history-v5/s9-index-before-v5.md": "ddfda8e88a83aad77f911c6d149136a56ee0158144ffa6eef60f8faf6069f5f9",
+    "spikes/operating-economics/sentence_scope_v5.py": "b1a0df90696138f7ce0d6446f05c79b6ad9f25fada3d8291de7cae35754d731a"
+  },
+  "verification": {
+    "local_tests": 40,
+    "PASS": true,
+    "prelaunch_ceiling_USD": "30",
+    "provider_API_calls": 0,
+    "paid_spend_USD": "0",
+    "production_implementation_touched": false,
+    "TASKS_md_touched": false,
+    "deployed": false,
+    "purchased": false
+  },
+  "note": "Self hash excluded; before-snapshot is disposable /private/tmp metadata. Old index is preserved at its archive path; all previous reports, JSON and scripts unchanged."
+}

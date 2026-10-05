@@ -1,0 +1,74 @@
+{
+  "historical_files_preserved_except_archived_live_index": true,
+  "prior_nonindex_files_verified": 31,
+  "old_index_archived_exactly": true,
+  "new_files": [
+    "docs/architecture/evidence/operating-economics/S9/text-research-manifest-v7.json",
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v7.md",
+    "docs/architecture/evidence/operating-economics/S9/witness-v7.json",
+    "docs/architecture/evidence/operating-economics/S9/environment-v7.json",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/fixture.json",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/visual_prompt_planning-prepared.json",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/query-plan-example.json",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/research_planner-prepared.json",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/research_synthesis-prepared.json",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/script_generation-prepared.json",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/sentence-mapping.json",
+    "docs/architecture/evidence/operating-economics/S9/history-v7/s9-index-before-v7.md",
+    "spikes/operating-economics/text_manifest_v7.py",
+    "docs/architecture/evidence/operating-economics/S9/revision-v7-manifest.json"
+  ],
+  "changed_existing_files": [
+    "docs/architecture/evidence/operating-economics/S9/README.md",
+    "docs/README.md",
+    "docs/ARCHITECTURE_SPIKES.md",
+    "docs/COST_MODEL.md"
+  ],
+  "source_hashes": {
+    "docs/architecture/evidence/research-feasibility/S4-R.md": "8e00fad31c1996f0838c98b8d0f7bc55534399b01d5a0e25b891b152cc33e17d",
+    "spikes/research-feasibility/witness.py": "f86c5b48c58c02bff71733f6c19c402f386da5ccfa95939e7a6e488d0312e87d",
+    "docs/architecture/evidence/provider-feasibility/capabilities.json": "ab42168911770dc1ae0bdd50c1beb8be9e2439b9a95c31246b828f27294b8333",
+    "docs/architecture/evidence/operating-economics/S9/pricing-v6.json": "f8867cac4900b19d5471afa5c929cefba1913e87068ba971c5ba58c3aec3070e",
+    "docs/architecture/evidence/operating-economics/S9/credits-v6.json": "03f50bb0131ad1916cd2cfc8ccf37b0f53a7720b7d701082346966350f52beb0",
+    "demo-video-example/02_script_humanized.txt": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+    "demo-video-example/01_script_raw.txt": "f844b669f1e9efeb3bb8513f72ab76bd683bef8f1c0f829f88ed7e720227af6b"
+  },
+  "new_updated_hashes": {
+    "docs/architecture/evidence/operating-economics/S9/text-research-manifest-v7.json": "654f77fe6f23fe08eb41a0134a8d4632747b8204701e11fe764cc225bb74f80d",
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v7.md": "8a58c4aa60b1865bf657ab5f581d43bb76a641e85b5571a36ef97ea72f350ef6",
+    "docs/architecture/evidence/operating-economics/S9/witness-v7.json": "1d022493446ae17e7d2549386db9270f1c3a00c3660430945bc40c7e0f9a6fc6",
+    "docs/architecture/evidence/operating-economics/S9/environment-v7.json": "d22e77ece18291c5e2c79ea09313d4921fab2f3c62f583eae8eeab93fb4815a6",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/fixture.json": "de5e78fe78d8287a20a773854e655ca4baccff9c8e57bbc7e79a2f3a32d356e1",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/visual_prompt_planning-prepared.json": "dcd5e12e40bbe6b575f1a5a41b1885099f3d47894bf3427b43b99603049fa50c",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/query-plan-example.json": "bc6a168debd739e42db1a2b3df2003d0befd2c9c5ad35610880466457f71834a",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/research_planner-prepared.json": "2943afad8f4c8a381cb2cb27633000343d117e70a20c4a85bfd0c149803862ab",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/research_synthesis-prepared.json": "ebc7dbc883b4ab350672b75080ed8cab286d91f77d1433c7e59055d31232a5df",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/script_generation-prepared.json": "aacde0dced50cb3d918457104fee8c4d2782b96c18fee191cdaab1729cb81315",
+    "docs/architecture/evidence/operating-economics/S9/fixtures-v7/sentence-mapping.json": "8d8cb82c584b6edf7cfb92cb48c5c2eab493ed5336b80479a514c42c79d5aa0b",
+    "docs/architecture/evidence/operating-economics/S9/history-v7/s9-index-before-v7.md": "d5e825b1eeeccae0830cc7f4145505b7a3b3013b01e5518df598d75cda7d5a8f",
+    "spikes/operating-economics/text_manifest_v7.py": "283d007b46970caf431a02c3af2f9a7e8708d7e22c5903fbf2379c5211ee428d",
+    "docs/architecture/evidence/operating-economics/S9/README.md": "4d4799c5caf49b4f6c78a5e20d2142e10d8c12f9499a82545b80d83d8206c6d3",
+    "docs/README.md": "eb86a06fa97472b9d6de177af46385ad34d7bbe9daac57e6d72a2b21097c0813",
+    "docs/ARCHITECTURE_SPIKES.md": "6d6f6ab3f4b4d7ae666b817271201ea76d4b0849fe91d99c232f826adc9a1c00",
+    "docs/COST_MODEL.md": "3ececb35bbecdaf03bfc47cda35998fbc12d2cf79246e0ec15b8707e8dcf132a"
+  },
+  "verification": {
+    "witness_checks": 48,
+    "PASS": true,
+    "new_relative_links_resolve": true,
+    "git_diff_check": "PASS",
+    "provider_API_calls": 0,
+    "paid_spend_USD": "0",
+    "production_implementation_touched": false,
+    "TASKS_touched": false,
+    "deployment": false,
+    "purchases": false,
+    "dependencies_or_models_downloaded": false
+  },
+  "bounds": {
+    "candidate_text_search_max_USD": "0.410964",
+    "usable_authorized_text_search_max_USD": null,
+    "expected_text_search_USD": null
+  },
+  "note": "Manifest omits own hash. Prior v1-v6 reports, pricing, results, owner clarification and scripts preserved byte-for-byte. Live index exact before-image retained. No historical result writer rerun."
+}

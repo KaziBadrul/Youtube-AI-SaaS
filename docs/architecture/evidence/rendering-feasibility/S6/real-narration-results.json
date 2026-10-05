@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "source_sha256": "dda3662025c7433f9b16649e6f4cf3baa57ac9fe642f2b8bac8abc04c3d715aa",
+  "source_unchanged": true,
+  "processing": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-y",
+    "-v",
+    "error",
+    "-i",
+    "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/narration-feasibility/runs/approved-lite-v1/audio/call-04/attempt-04/source.wav",
+    "-t",
+    "12",
+    "-ar",
+    "48000",
+    "-ac",
+    "1",
+    "-c:a",
+    "pcm_s16le",
+    "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/real-s5-control/narration.wav"
+  ],
+  "narration_over_music_db": 17.48319862325927,
+  "mix_peak": 0.679764404296875,
+  "results": [
+    {
+      "label": "real-s5-music-on",
+      "validation": "PASS",
+      "snr_db": 33.28370666503906
+    },
+    {
+      "label": "real-s5-music-off",
+      "validation": "PASS",
+      "snr_db": 34.11502456665039
+    }
+  ],
+  "evidence": "Decoded AAC matches expected existing speech+mix; relative music level >15dB below speech RMS; no clipping. This is signal preservation, not a listening-panel or new narration-quality claim."
+}

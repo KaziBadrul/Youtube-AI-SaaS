@@ -1,0 +1,1020 @@
+{
+  "duration": 180,
+  "scene_count": 34,
+  "source_s5_mapping_sha256": "53e83b442fe9125cf454579448a5195d93932d62977c5a401b84b9462c56efa8",
+  "fixture_kind": "deterministic synthetic, S5-density and duration pattern; no speech quality claim",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "image_id": "image-001",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-001.png",
+      "image_sha256": "6aa839cb4fdfd254c04149fafb9cc5e51c442b084acd15dd8418457ecd6928cf",
+      "mapped_narration_start": 0.0,
+      "visual_start": 0.0,
+      "visual_end": 5.148471615720524,
+      "frame_start": 0,
+      "frame_end": 155,
+      "color": [
+        45,
+        50,
+        55
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-001.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 2,
+      "image_id": "image-002",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-002.png",
+      "image_sha256": "8a6dd0093cf7f89151a0b6d77641c9e8724bae39620faf3de2a0f4aa7083b5ef",
+      "mapped_narration_start": 5.148471615720524,
+      "visual_start": 5.148471615720524,
+      "visual_end": 11.51528384279476,
+      "frame_start": 155,
+      "frame_end": 346,
+      "color": [
+        82,
+        111,
+        138
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-002.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    },
+    {
+      "scene_id": 3,
+      "image_id": "image-003",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-003.png",
+      "image_sha256": "2011ecf625439b112c6576b9a4f42b8690d4be15a0c8d319ccbbf64e0c294f25",
+      "mapped_narration_start": 11.51528384279476,
+      "visual_start": 11.51528384279476,
+      "visual_end": 20.082969432314414,
+      "frame_start": 346,
+      "frame_end": 603,
+      "color": [
+        119,
+        172,
+        76
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-003.png",
+      "caption_sha256": "9268285059d51782f23dd4e5ef4f56facfcd11bfe6dc6d82d45f472702ec94cb",
+      "caption_lines": [
+        "This long caption wraps onto a second readable line while",
+        "narration continues through every visual change."
+      ]
+    },
+    {
+      "scene_id": 4,
+      "image_id": "image-004",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-004.png",
+      "image_sha256": "338063bc648261e5fbfc9f85d1b6cf94fb31bfe3f4d6958ef3d750ce676a3077",
+      "mapped_narration_start": 20.082969432314414,
+      "visual_start": 20.082969432314414,
+      "visual_end": 24.465065502183407,
+      "frame_start": 603,
+      "frame_end": 734,
+      "color": [
+        156,
+        83,
+        159
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-004.png",
+      "caption_sha256": "ab088e451f50ed7130a6e31590075d0bdc41edf130abf36c575fe6ee377bbc94",
+      "caption_lines": [
+        "“It’s ready,” she said. Numbers: 12, 24 and 1080."
+      ]
+    },
+    {
+      "scene_id": 5,
+      "image_id": "image-005",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-005.png",
+      "image_sha256": "934b31f2728dcb548accfc0a0193a919979ff5ca9f31c8ee5b73ddfce13ad374",
+      "mapped_narration_start": 24.465065502183407,
+      "visual_start": 24.465065502183407,
+      "visual_end": 31.617903930131003,
+      "frame_start": 734,
+      "frame_end": 949,
+      "color": [
+        193,
+        144,
+        97
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-005.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 6,
+      "image_id": "image-006",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-006.png",
+      "image_sha256": "2aaffa6533a2118bf7c52d0ec0e10527dfa509bd472ba42d905abf88a6e29883",
+      "mapped_narration_start": 31.617903930131003,
+      "visual_start": 31.617903930131003,
+      "visual_end": 33.05240174672489,
+      "frame_start": 949,
+      "frame_end": 992,
+      "color": [
+        75,
+        55,
+        180
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-006.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    },
+    {
+      "scene_id": 7,
+      "image_id": "image-007",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-007.png",
+      "image_sha256": "f1688e9cc4a12628c1101a1207ab3527a8f7c946be74bf4ac5c9ec771ae0329b",
+      "mapped_narration_start": 33.05240174672489,
+      "visual_start": 33.05240174672489,
+      "visual_end": 36.03930131004367,
+      "frame_start": 992,
+      "frame_end": 1082,
+      "color": [
+        112,
+        116,
+        118
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-007.png",
+      "caption_sha256": "9268285059d51782f23dd4e5ef4f56facfcd11bfe6dc6d82d45f472702ec94cb",
+      "caption_lines": [
+        "This long caption wraps onto a second readable line while",
+        "narration continues through every visual change."
+      ]
+    },
+    {
+      "scene_id": 8,
+      "image_id": "image-008",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-008.png",
+      "image_sha256": "3384f48c0d1d8c4c2bda485f39d2c4ccf4c30bd9d74f1afdca844a126b712249",
+      "mapped_narration_start": 36.03930131004367,
+      "visual_start": 36.03930131004367,
+      "visual_end": 38.24017467248909,
+      "frame_start": 1082,
+      "frame_end": 1148,
+      "color": [
+        149,
+        177,
+        56
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-008.png",
+      "caption_sha256": "ab088e451f50ed7130a6e31590075d0bdc41edf130abf36c575fe6ee377bbc94",
+      "caption_lines": [
+        "“It’s ready,” she said. Numbers: 12, 24 and 1080."
+      ]
+    },
+    {
+      "scene_id": 9,
+      "image_id": "image-009",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-009.png",
+      "image_sha256": "ab042ad721d6fa0b5359623f98640f31689cc8ba00f48fb7d2b181f13c6fc70f",
+      "mapped_narration_start": 38.24017467248909,
+      "visual_start": 38.24017467248909,
+      "visual_end": 40.57860262008733,
+      "frame_start": 1148,
+      "frame_end": 1218,
+      "color": [
+        186,
+        88,
+        139
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-009.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 10,
+      "image_id": "image-010",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-010.png",
+      "image_sha256": "cc42f908089ceafbbc4c876f24dd427df91186be76323322b3b7031b6c12cabd",
+      "mapped_narration_start": 40.57860262008733,
+      "visual_start": 40.57860262008733,
+      "visual_end": 41.91484716157205,
+      "frame_start": 1218,
+      "frame_end": 1258,
+      "color": [
+        68,
+        149,
+        77
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-010.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    },
+    {
+      "scene_id": 11,
+      "image_id": "image-011",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-011.png",
+      "image_sha256": "1b73456c8d97c09976ca41b0fc6b850ee6642f085c1ba81ed369b0c0af62fc65",
+      "mapped_narration_start": 41.91484716157205,
+      "visual_start": 41.91484716157205,
+      "visual_end": 48.91048034934498,
+      "frame_start": 1258,
+      "frame_end": 1468,
+      "color": [
+        105,
+        60,
+        160
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-011.png",
+      "caption_sha256": "9268285059d51782f23dd4e5ef4f56facfcd11bfe6dc6d82d45f472702ec94cb",
+      "caption_lines": [
+        "This long caption wraps onto a second readable line while",
+        "narration continues through every visual change."
+      ]
+    },
+    {
+      "scene_id": 12,
+      "image_id": "image-012",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-012.png",
+      "image_sha256": "1328633b0ef37fe164de5db035094577cf595e390e4cc9c18f4e80dcb0f88fc5",
+      "mapped_narration_start": 48.91048034934498,
+      "visual_start": 48.91048034934498,
+      "visual_end": 52.093886462882104,
+      "frame_start": 1468,
+      "frame_end": 1563,
+      "color": [
+        142,
+        121,
+        98
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-012.png",
+      "caption_sha256": "ab088e451f50ed7130a6e31590075d0bdc41edf130abf36c575fe6ee377bbc94",
+      "caption_lines": [
+        "“It’s ready,” she said. Numbers: 12, 24 and 1080."
+      ]
+    },
+    {
+      "scene_id": 13,
+      "image_id": "image-013",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-013.png",
+      "image_sha256": "0a1ec3016146d53778e5c182a13c51974b9f861b8bc501d29e639fc18bd4e21a",
+      "mapped_narration_start": 52.093886462882104,
+      "visual_start": 52.093886462882104,
+      "visual_end": 53.41048034934498,
+      "frame_start": 1563,
+      "frame_end": 1603,
+      "color": [
+        179,
+        182,
+        181
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-013.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 14,
+      "image_id": "image-014",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-014.png",
+      "image_sha256": "d301aa083046b8e64c158352833f46abc42d3aa26755028354cb307c46a5da19",
+      "mapped_narration_start": 53.41048034934498,
+      "visual_start": 53.41048034934498,
+      "visual_end": 57.69432314410481,
+      "frame_start": 1603,
+      "frame_end": 1731,
+      "color": [
+        61,
+        93,
+        119
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-014.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    },
+    {
+      "scene_id": 15,
+      "image_id": "image-015",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-015.png",
+      "image_sha256": "e3201a743b70e715a58c899e4a45aaedc1e11f80482391654ff91e5d84414fb0",
+      "mapped_narration_start": 57.69432314410481,
+      "visual_start": 57.69432314410481,
+      "visual_end": 67.69650655021836,
+      "frame_start": 1731,
+      "frame_end": 2031,
+      "color": [
+        98,
+        154,
+        57
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-015.png",
+      "caption_sha256": "9268285059d51782f23dd4e5ef4f56facfcd11bfe6dc6d82d45f472702ec94cb",
+      "caption_lines": [
+        "This long caption wraps onto a second readable line while",
+        "narration continues through every visual change."
+      ]
+    },
+    {
+      "scene_id": 16,
+      "image_id": "image-016",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-016.png",
+      "image_sha256": "ba2798cc1cb1771e5f9eb64682d3edd2c68b3957415b167b7e59b728c0de5711",
+      "mapped_narration_start": 67.69650655021836,
+      "visual_start": 67.69650655021836,
+      "visual_end": 76.08733624454149,
+      "frame_start": 2031,
+      "frame_end": 2283,
+      "color": [
+        135,
+        65,
+        140
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-016.png",
+      "caption_sha256": "ab088e451f50ed7130a6e31590075d0bdc41edf130abf36c575fe6ee377bbc94",
+      "caption_lines": [
+        "“It’s ready,” she said. Numbers: 12, 24 and 1080."
+      ]
+    },
+    {
+      "scene_id": 17,
+      "image_id": "image-017",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-017.png",
+      "image_sha256": "8bb5f3013e89fe979e42ef78cd5f93db019f508e1e1058f5314efc70d6d40964",
+      "mapped_narration_start": 76.08733624454149,
+      "visual_start": 76.08733624454149,
+      "visual_end": 91.13973799126637,
+      "frame_start": 2283,
+      "frame_end": 2735,
+      "color": [
+        172,
+        126,
+        78
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-017.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 18,
+      "image_id": "image-018",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-018.png",
+      "image_sha256": "9f86450e53cd15374c540c9ebabaa0c6348219dd2576e2e88b7f6d6c02a18ad7",
+      "mapped_narration_start": 91.13973799126637,
+      "visual_start": 91.13973799126637,
+      "visual_end": 96.48471615720524,
+      "frame_start": 2735,
+      "frame_end": 2895,
+      "color": [
+        54,
+        187,
+        161
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-018.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    },
+    {
+      "scene_id": 19,
+      "image_id": "image-019",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-019.png",
+      "image_sha256": "a95faa2c400d3550ea505eb7c5ad6ef0ad623f7b66d8dc5832bdfa52d358a802",
+      "mapped_narration_start": 96.48471615720524,
+      "visual_start": 96.48471615720524,
+      "visual_end": 110.06331877729258,
+      "frame_start": 2895,
+      "frame_end": 3302,
+      "color": [
+        91,
+        98,
+        99
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-019.png",
+      "caption_sha256": "9268285059d51782f23dd4e5ef4f56facfcd11bfe6dc6d82d45f472702ec94cb",
+      "caption_lines": [
+        "This long caption wraps onto a second readable line while",
+        "narration continues through every visual change."
+      ]
+    },
+    {
+      "scene_id": 20,
+      "image_id": "image-020",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-020.png",
+      "image_sha256": "8106379d4aa48fc2c57c0b94b1f5992ae6dbd53dce1bf0238c0034801efeb4c2",
+      "mapped_narration_start": 110.06331877729258,
+      "visual_start": 110.06331877729258,
+      "visual_end": 117.68777292576421,
+      "frame_start": 3302,
+      "frame_end": 3531,
+      "color": [
+        128,
+        159,
+        182
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-020.png",
+      "caption_sha256": "ab088e451f50ed7130a6e31590075d0bdc41edf130abf36c575fe6ee377bbc94",
+      "caption_lines": [
+        "“It’s ready,” she said. Numbers: 12, 24 and 1080."
+      ]
+    },
+    {
+      "scene_id": 21,
+      "image_id": "image-021",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-021.png",
+      "image_sha256": "64d40048dbc3f7e3d51ca5599146bbc3aeb3d2ac9ccc75dc6d23aa3acb9f48f2",
+      "mapped_narration_start": 117.68777292576421,
+      "visual_start": 117.68777292576421,
+      "visual_end": 120.61572052401748,
+      "frame_start": 3531,
+      "frame_end": 3619,
+      "color": [
+        165,
+        70,
+        120
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-021.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 22,
+      "image_id": "image-022",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-022.png",
+      "image_sha256": "9cbf5719eb2968c076b4c0c242addb880af09e5f97034079b0004466c89b86be",
+      "mapped_narration_start": 120.61572052401748,
+      "visual_start": 120.61572052401748,
+      "visual_end": 125.17467248908298,
+      "frame_start": 3619,
+      "frame_end": 3756,
+      "color": [
+        47,
+        131,
+        58
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-022.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    },
+    {
+      "scene_id": 23,
+      "image_id": "image-023",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-023.png",
+      "image_sha256": "38983290e0ad8e43d92e065350471cc169a20c788f344cba08f291522d237b9a",
+      "mapped_narration_start": 125.17467248908298,
+      "visual_start": 125.17467248908298,
+      "visual_end": 127.98471615720524,
+      "frame_start": 3756,
+      "frame_end": 3840,
+      "color": [
+        84,
+        192,
+        141
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-023.png",
+      "caption_sha256": "9268285059d51782f23dd4e5ef4f56facfcd11bfe6dc6d82d45f472702ec94cb",
+      "caption_lines": [
+        "This long caption wraps onto a second readable line while",
+        "narration continues through every visual change."
+      ]
+    },
+    {
+      "scene_id": 24,
+      "image_id": "image-024",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-024.png",
+      "image_sha256": "6b48b82419791f6c8a8038ea06012f888f6f6654418308d8e1b06e3cf8ffca2d",
+      "mapped_narration_start": 127.98471615720524,
+      "visual_start": 127.98471615720524,
+      "visual_end": 129.87117903930132,
+      "frame_start": 3840,
+      "frame_end": 3897,
+      "color": [
+        121,
+        103,
+        79
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-024.png",
+      "caption_sha256": "ab088e451f50ed7130a6e31590075d0bdc41edf130abf36c575fe6ee377bbc94",
+      "caption_lines": [
+        "“It’s ready,” she said. Numbers: 12, 24 and 1080."
+      ]
+    },
+    {
+      "scene_id": 25,
+      "image_id": "image-025",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-025.png",
+      "image_sha256": "0e90028f803564dc8536fa1bfd9b74b5e3b1f6f2ae1379d1ed8e6427e0e1bc5b",
+      "mapped_narration_start": 129.87117903930132,
+      "visual_start": 129.87117903930132,
+      "visual_end": 137.75109170305674,
+      "frame_start": 3897,
+      "frame_end": 4133,
+      "color": [
+        158,
+        164,
+        162
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-025.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 26,
+      "image_id": "image-026",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-026.png",
+      "image_sha256": "aaef7fb252e5c1d2b38c9da876c8f056e8e60e716c854db291567451c5876a3c",
+      "mapped_narration_start": 137.75109170305674,
+      "visual_start": 137.75109170305674,
+      "visual_end": 140.73799126637556,
+      "frame_start": 4133,
+      "frame_end": 4223,
+      "color": [
+        195,
+        75,
+        100
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-026.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    },
+    {
+      "scene_id": 27,
+      "image_id": "image-027",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-027.png",
+      "image_sha256": "1828cd9718d47a5816157aee260ba3127c74599ee1304c737ab00614d71a2650",
+      "mapped_narration_start": 140.73799126637556,
+      "visual_start": 140.73799126637556,
+      "visual_end": 144.11790393013104,
+      "frame_start": 4223,
+      "frame_end": 4324,
+      "color": [
+        77,
+        136,
+        183
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-027.png",
+      "caption_sha256": "9268285059d51782f23dd4e5ef4f56facfcd11bfe6dc6d82d45f472702ec94cb",
+      "caption_lines": [
+        "This long caption wraps onto a second readable line while",
+        "narration continues through every visual change."
+      ]
+    },
+    {
+      "scene_id": 28,
+      "image_id": "image-028",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-028.png",
+      "image_sha256": "a08db59aec0035a35eef905d41e43e7645c063ddc3f3628ab5a6df744f242069",
+      "mapped_narration_start": 144.11790393013104,
+      "visual_start": 144.11790393013104,
+      "visual_end": 152.82314410480348,
+      "frame_start": 4324,
+      "frame_end": 4585,
+      "color": [
+        114,
+        197,
+        121
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-028.png",
+      "caption_sha256": "ab088e451f50ed7130a6e31590075d0bdc41edf130abf36c575fe6ee377bbc94",
+      "caption_lines": [
+        "“It’s ready,” she said. Numbers: 12, 24 and 1080."
+      ]
+    },
+    {
+      "scene_id": 29,
+      "image_id": "image-029",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-029.png",
+      "image_sha256": "c7bb7a19b76727f03f3d5ea429c5a50f4472bc51002fb9ed602fa96fe23bdcec",
+      "mapped_narration_start": 152.82314410480348,
+      "visual_start": 152.82314410480348,
+      "visual_end": 159.3471615720524,
+      "frame_start": 4585,
+      "frame_end": 4781,
+      "color": [
+        151,
+        108,
+        59
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-029.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 30,
+      "image_id": "image-030",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-030.png",
+      "image_sha256": "23e2aacb771945d30e4f758fc39f0f00e4ce595b1fb418d94cf796e6aa9900fa",
+      "mapped_narration_start": 159.3471615720524,
+      "visual_start": 159.3471615720524,
+      "visual_end": 160.76200873362447,
+      "frame_start": 4781,
+      "frame_end": 4823,
+      "color": [
+        188,
+        169,
+        142
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-030.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    },
+    {
+      "scene_id": 31,
+      "image_id": "image-031",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-031.png",
+      "image_sha256": "498fe38b8a34070c46f2660e40ef848af22100fbb9a1d702779d4f4b69a84b11",
+      "mapped_narration_start": 160.76200873362447,
+      "visual_start": 160.76200873362447,
+      "visual_end": 163.57205240174673,
+      "frame_start": 4823,
+      "frame_end": 4908,
+      "color": [
+        70,
+        80,
+        80
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-031.png",
+      "caption_sha256": "9268285059d51782f23dd4e5ef4f56facfcd11bfe6dc6d82d45f472702ec94cb",
+      "caption_lines": [
+        "This long caption wraps onto a second readable line while",
+        "narration continues through every visual change."
+      ]
+    },
+    {
+      "scene_id": 32,
+      "image_id": "image-032",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-032.png",
+      "image_sha256": "84edb9710b8b1a486e5dabf8ac3a303f3de2a19ceaaa132137b2287031c87b83",
+      "mapped_narration_start": 163.57205240174673,
+      "visual_start": 163.57205240174673,
+      "visual_end": 168.48471615720524,
+      "frame_start": 4908,
+      "frame_end": 5055,
+      "color": [
+        107,
+        141,
+        163
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-032.png",
+      "caption_sha256": "ab088e451f50ed7130a6e31590075d0bdc41edf130abf36c575fe6ee377bbc94",
+      "caption_lines": [
+        "“It’s ready,” she said. Numbers: 12, 24 and 1080."
+      ]
+    },
+    {
+      "scene_id": 33,
+      "image_id": "image-033",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-033.png",
+      "image_sha256": "a887fbd978ce0a2e9a8ceaa1974c81e6a25dc3ff7035216d00aad456be99052c",
+      "mapped_narration_start": 168.48471615720524,
+      "visual_start": 168.48471615720524,
+      "visual_end": 173.63318777292577,
+      "frame_start": 5055,
+      "frame_end": 5209,
+      "color": [
+        144,
+        52,
+        101
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-033.png",
+      "caption_sha256": "e90bedbe7505671792f30f3c744527bf95f6af12f27bb84c479edf4609b2b6b5",
+      "caption_lines": [
+        "A clear caption follows continuous narration."
+      ]
+    },
+    {
+      "scene_id": 34,
+      "image_id": "image-034",
+      "image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-034.png",
+      "image_sha256": "f9730d733403912344ea0886d8a4ed34b33383fb9fa4bd44155ba284ccfdfef3",
+      "mapped_narration_start": 173.63318777292577,
+      "visual_start": 173.63318777292577,
+      "visual_end": 180.0,
+      "frame_start": 5209,
+      "frame_end": 5400,
+      "color": [
+        181,
+        113,
+        184
+      ],
+      "caption_image": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/caption-034.png",
+      "caption_sha256": "307029395cf6bf628448dd4c689967c9c61054d253691095f17ccf93365feecb",
+      "caption_lines": [
+        "Ready!"
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "scene_id": 1,
+      "start": 0.0,
+      "end": 4.966666666666667,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 2,
+      "start": 5.166666666666667,
+      "end": 11.333333333333332,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 3,
+      "start": 11.533333333333333,
+      "end": 19.9,
+      "text": "This long caption wraps onto a second readable line while narration continues through every visual change.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 4,
+      "start": 20.1,
+      "end": 24.266666666666666,
+      "text": "“It’s ready,” she said. Numbers: 12, 24 and 1080.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 5,
+      "start": 24.466666666666665,
+      "end": 31.43333333333333,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 6,
+      "start": 31.633333333333333,
+      "end": 32.86666666666667,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 7,
+      "start": 33.06666666666667,
+      "end": 35.86666666666667,
+      "text": "This long caption wraps onto a second readable line while narration continues through every visual change.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 8,
+      "start": 36.06666666666667,
+      "end": 38.06666666666667,
+      "text": "“It’s ready,” she said. Numbers: 12, 24 and 1080.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 9,
+      "start": 38.266666666666666,
+      "end": 40.4,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 10,
+      "start": 40.6,
+      "end": 41.733333333333334,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 11,
+      "start": 41.93333333333333,
+      "end": 48.73333333333333,
+      "text": "This long caption wraps onto a second readable line while narration continues through every visual change.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 12,
+      "start": 48.93333333333333,
+      "end": 51.9,
+      "text": "“It’s ready,” she said. Numbers: 12, 24 and 1080.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 13,
+      "start": 52.1,
+      "end": 53.233333333333334,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 14,
+      "start": 53.43333333333333,
+      "end": 57.5,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 15,
+      "start": 57.7,
+      "end": 67.5,
+      "text": "This long caption wraps onto a second readable line while narration continues through every visual change.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 16,
+      "start": 67.7,
+      "end": 75.9,
+      "text": "“It’s ready,” she said. Numbers: 12, 24 and 1080.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 17,
+      "start": 76.1,
+      "end": 90.96666666666667,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 18,
+      "start": 91.16666666666667,
+      "end": 96.30000000000001,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 19,
+      "start": 96.5,
+      "end": 109.86666666666667,
+      "text": "This long caption wraps onto a second readable line while narration continues through every visual change.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 20,
+      "start": 110.06666666666666,
+      "end": 117.5,
+      "text": "“It’s ready,” she said. Numbers: 12, 24 and 1080.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 21,
+      "start": 117.7,
+      "end": 120.43333333333334,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 22,
+      "start": 120.63333333333334,
+      "end": 125.0,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 23,
+      "start": 125.2,
+      "end": 127.8,
+      "text": "This long caption wraps onto a second readable line while narration continues through every visual change.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 24,
+      "start": 128.0,
+      "end": 129.7,
+      "text": "“It’s ready,” she said. Numbers: 12, 24 and 1080.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 25,
+      "start": 129.9,
+      "end": 137.56666666666666,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 26,
+      "start": 137.76666666666668,
+      "end": 140.5666666666667,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 27,
+      "start": 140.76666666666668,
+      "end": 143.93333333333334,
+      "text": "This long caption wraps onto a second readable line while narration continues through every visual change.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 28,
+      "start": 144.13333333333333,
+      "end": 152.63333333333333,
+      "text": "“It’s ready,” she said. Numbers: 12, 24 and 1080.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 29,
+      "start": 152.83333333333334,
+      "end": 159.16666666666669,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 30,
+      "start": 159.36666666666667,
+      "end": 160.56666666666666,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 31,
+      "start": 160.76666666666668,
+      "end": 163.4,
+      "text": "This long caption wraps onto a second readable line while narration continues through every visual change.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 32,
+      "start": 163.6,
+      "end": 168.29999999999998,
+      "text": "“It’s ready,” she said. Numbers: 12, 24 and 1080.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 33,
+      "start": 168.5,
+      "end": 173.43333333333334,
+      "text": "A clear caption follows continuous narration.",
+      "font": "Noto Sans"
+    },
+    {
+      "scene_id": 34,
+      "start": 173.63333333333333,
+      "end": 179.79999999999998,
+      "text": "Ready!",
+      "font": "Noto Sans"
+    }
+  ],
+  "narration": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/narration.wav",
+  "narration_sha256": "09917e6bf142eaddd51e2c92747643117b7d40fc4e74993bcfdd6c8ec9428003",
+  "music": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/music.wav",
+  "music_sha256": "f9408362531ab1bd4f5d26afa0c01014990da01382365fdf52b0ae135092187d",
+  "config": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "captions": true,
+    "motion": true,
+    "music": true,
+    "font": "Noto Sans",
+    "music_gain": 0.12
+  },
+  "registry": {
+    "image-001": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-001.png",
+    "image-002": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-002.png",
+    "image-003": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-003.png",
+    "image-004": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-004.png",
+    "image-005": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-005.png",
+    "image-006": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-006.png",
+    "image-007": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-007.png",
+    "image-008": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-008.png",
+    "image-009": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-009.png",
+    "image-010": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-010.png",
+    "image-011": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-011.png",
+    "image-012": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-012.png",
+    "image-013": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-013.png",
+    "image-014": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-014.png",
+    "image-015": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-015.png",
+    "image-016": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-016.png",
+    "image-017": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-017.png",
+    "image-018": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-018.png",
+    "image-019": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-019.png",
+    "image-020": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-020.png",
+    "image-021": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-021.png",
+    "image-022": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-022.png",
+    "image-023": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-023.png",
+    "image-024": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-024.png",
+    "image-025": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-025.png",
+    "image-026": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-026.png",
+    "image-027": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-027.png",
+    "image-028": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-028.png",
+    "image-029": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-029.png",
+    "image-030": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-030.png",
+    "image-031": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-031.png",
+    "image-032": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-032.png",
+    "image-033": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-033.png",
+    "image-034": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/fixtures/project-180/image-034.png"
+  }
+}

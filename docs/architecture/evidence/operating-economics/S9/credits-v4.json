@@ -1,0 +1,905 @@
+{
+  "status": "NOT_YET_PASS",
+  "creator_display": "Estimated credits only; no dollar amounts",
+  "conversion": "requested topic duration in minutes / 5, default 5; final debit basis undecided",
+  "examples": [
+    {
+      "requested_minutes": null,
+      "estimated_credits": "1"
+    },
+    {
+      "requested_minutes": 3,
+      "estimated_credits": "0.6"
+    },
+    {
+      "requested_minutes": 5,
+      "estimated_credits": "1"
+    },
+    {
+      "requested_minutes": 6,
+      "estimated_credits": "1.2"
+    },
+    {
+      "requested_minutes": 10,
+      "estimated_credits": "2"
+    }
+  ],
+  "density_sensitivity": [
+    {
+      "images_per_five_minutes_scenario": 30,
+      "initial_output_USD_per_credit": "1.0080",
+      "one_weekly_plan_average_month_output_USD": "4.3680",
+      "three_weekly_plan_average_month_output_USD": "13.1040",
+      "one_daily_plan_average_month_output_USD": "30.6600"
+    },
+    {
+      "images_per_five_minutes_scenario": 40,
+      "initial_output_USD_per_credit": "1.3440",
+      "one_weekly_plan_average_month_output_USD": "5.8240",
+      "three_weekly_plan_average_month_output_USD": "17.4720",
+      "one_daily_plan_average_month_output_USD": "40.8800"
+    },
+    {
+      "images_per_five_minutes_scenario": 56,
+      "initial_output_USD_per_credit": "1.8816",
+      "one_weekly_plan_average_month_output_USD": "8.1536",
+      "three_weekly_plan_average_month_output_USD": "24.4608",
+      "one_daily_plan_average_month_output_USD": "57.2320"
+    },
+    {
+      "images_per_five_minutes_scenario": 80,
+      "initial_output_USD_per_credit": "2.6880",
+      "one_weekly_plan_average_month_output_USD": "11.6480",
+      "three_weekly_plan_average_month_output_USD": "34.9440",
+      "one_daily_plan_average_month_output_USD": "81.7600"
+    }
+  ],
+  "private_alpha_envelopes": [
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "3.0240",
+      "remaining_for_ALL_other_costs_USD": "26.9760",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "4.0320",
+      "remaining_for_ALL_other_costs_USD": "25.9680",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "5.6448",
+      "remaining_for_ALL_other_costs_USD": "24.3552",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "8.0640",
+      "remaining_for_ALL_other_costs_USD": "21.9360",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "5.0400",
+      "remaining_for_ALL_other_costs_USD": "24.9600",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "6.7200",
+      "remaining_for_ALL_other_costs_USD": "23.2800",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "9.4080",
+      "remaining_for_ALL_other_costs_USD": "20.5920",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "13.4400",
+      "remaining_for_ALL_other_costs_USD": "16.5600",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "10.0800",
+      "remaining_for_ALL_other_costs_USD": "19.9200",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "13.4400",
+      "remaining_for_ALL_other_costs_USD": "16.5600",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "18.8160",
+      "remaining_for_ALL_other_costs_USD": "11.1840",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 0,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "26.8800",
+      "remaining_for_ALL_other_costs_USD": "3.1200",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "3.0240",
+      "remaining_for_ALL_other_costs_USD": "14.9760",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "4.0320",
+      "remaining_for_ALL_other_costs_USD": "13.9680",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "5.6448",
+      "remaining_for_ALL_other_costs_USD": "12.3552",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "8.0640",
+      "remaining_for_ALL_other_costs_USD": "9.9360",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "5.0400",
+      "remaining_for_ALL_other_costs_USD": "12.9600",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "6.7200",
+      "remaining_for_ALL_other_costs_USD": "11.2800",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "9.4080",
+      "remaining_for_ALL_other_costs_USD": "8.5920",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "13.4400",
+      "remaining_for_ALL_other_costs_USD": "4.5600",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "10.0800",
+      "remaining_for_ALL_other_costs_USD": "7.9200",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "13.4400",
+      "remaining_for_ALL_other_costs_USD": "4.5600",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "18.8160",
+      "remaining_for_ALL_other_costs_USD": "-0.8160",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 12,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "26.8800",
+      "remaining_for_ALL_other_costs_USD": "-8.8800",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "3.0240",
+      "remaining_for_ALL_other_costs_USD": "8.9760",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "4.0320",
+      "remaining_for_ALL_other_costs_USD": "7.9680",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "5.6448",
+      "remaining_for_ALL_other_costs_USD": "6.3552",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "8.0640",
+      "remaining_for_ALL_other_costs_USD": "3.9360",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "5.0400",
+      "remaining_for_ALL_other_costs_USD": "6.9600",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "6.7200",
+      "remaining_for_ALL_other_costs_USD": "5.2800",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "9.4080",
+      "remaining_for_ALL_other_costs_USD": "2.5920",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "13.4400",
+      "remaining_for_ALL_other_costs_USD": "-1.4400",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "10.0800",
+      "remaining_for_ALL_other_costs_USD": "1.9200",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "13.4400",
+      "remaining_for_ALL_other_costs_USD": "-1.4400",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "18.8160",
+      "remaining_for_ALL_other_costs_USD": "-6.8160",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 18,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "26.8800",
+      "remaining_for_ALL_other_costs_USD": "-14.8800",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "3.0240",
+      "remaining_for_ALL_other_costs_USD": "2.9760",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "4.0320",
+      "remaining_for_ALL_other_costs_USD": "1.9680",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "5.6448",
+      "remaining_for_ALL_other_costs_USD": "0.3552",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 3,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "8.0640",
+      "remaining_for_ALL_other_costs_USD": "-2.0640",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "5.0400",
+      "remaining_for_ALL_other_costs_USD": "0.9600",
+      "verdict": "UNPROVEN_HEADROOM",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "6.7200",
+      "remaining_for_ALL_other_costs_USD": "-0.7200",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "9.4080",
+      "remaining_for_ALL_other_costs_USD": "-3.4080",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 5,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "13.4400",
+      "remaining_for_ALL_other_costs_USD": "-7.4400",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 30,
+      "initial_image_output_USD": "10.0800",
+      "remaining_for_ALL_other_costs_USD": "-4.0800",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 40,
+      "initial_image_output_USD": "13.4400",
+      "remaining_for_ALL_other_costs_USD": "-7.4400",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 56,
+      "initial_image_output_USD": "18.8160",
+      "remaining_for_ALL_other_costs_USD": "-12.8160",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    },
+    {
+      "host_monthly_USD_scenario": 24,
+      "monthly_credits_scenario": 10,
+      "images_per_credit_scenario": 80,
+      "initial_image_output_USD": "26.8800",
+      "remaining_for_ALL_other_costs_USD": "-20.8800",
+      "verdict": "INFEASIBLE_FROM_IMAGE_HOST_ALONE",
+      "qualifications": "Host=0 is owner-local incremental rental scenario, not zero electricity/backup/compute cost. Prior host quote scenarios only. No free cash entitlement or production affordability proven."
+    }
+  ],
+  "owner_alpha_capacity_direction": "Derive from cost; owner reply Depends on the cost",
+  "cost_derived_capacity_ranges": [
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 29,
+      "available_for_initial_images_USD": "30",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 22,
+      "available_for_initial_images_USD": "30",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 15,
+      "available_for_initial_images_USD": "30",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 11,
+      "available_for_initial_images_USD": "30",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 24,
+      "available_for_initial_images_USD": "25",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 18,
+      "available_for_initial_images_USD": "25",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 13,
+      "available_for_initial_images_USD": "25",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 9,
+      "available_for_initial_images_USD": "25",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 19,
+      "available_for_initial_images_USD": "20",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 14,
+      "available_for_initial_images_USD": "20",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 10,
+      "available_for_initial_images_USD": "20",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 0,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 7,
+      "available_for_initial_images_USD": "20",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 17,
+      "available_for_initial_images_USD": "18",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 13,
+      "available_for_initial_images_USD": "18",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 9,
+      "available_for_initial_images_USD": "18",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 6,
+      "available_for_initial_images_USD": "18",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 12,
+      "available_for_initial_images_USD": "13",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 9,
+      "available_for_initial_images_USD": "13",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 6,
+      "available_for_initial_images_USD": "13",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 4,
+      "available_for_initial_images_USD": "13",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 7,
+      "available_for_initial_images_USD": "8",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 5,
+      "available_for_initial_images_USD": "8",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 4,
+      "available_for_initial_images_USD": "8",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 12,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 2,
+      "available_for_initial_images_USD": "8",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 11,
+      "available_for_initial_images_USD": "12",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 8,
+      "available_for_initial_images_USD": "12",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 6,
+      "available_for_initial_images_USD": "12",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 4,
+      "available_for_initial_images_USD": "12",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 6,
+      "available_for_initial_images_USD": "7",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 5,
+      "available_for_initial_images_USD": "7",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 3,
+      "available_for_initial_images_USD": "7",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 2,
+      "available_for_initial_images_USD": "7",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 1,
+      "available_for_initial_images_USD": "2",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 1,
+      "available_for_initial_images_USD": "2",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 1,
+      "available_for_initial_images_USD": "2",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 18,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 0,
+      "available_for_initial_images_USD": "2",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 5,
+      "available_for_initial_images_USD": "6",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 4,
+      "available_for_initial_images_USD": "6",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 3,
+      "available_for_initial_images_USD": "6",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 0,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 2,
+      "available_for_initial_images_USD": "6",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 0,
+      "available_for_initial_images_USD": "1",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 0,
+      "available_for_initial_images_USD": "1",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 0,
+      "available_for_initial_images_USD": "1",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 5,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 0,
+      "available_for_initial_images_USD": "1",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 30,
+      "complete_initial_image_sets_upper_bound": 0,
+      "available_for_initial_images_USD": "0",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 40,
+      "complete_initial_image_sets_upper_bound": 0,
+      "available_for_initial_images_USD": "0",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 56,
+      "complete_initial_image_sets_upper_bound": 0,
+      "available_for_initial_images_USD": "0",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    },
+    {
+      "host_USD_scenario": 24,
+      "other_cost_reserve_USD_assumed": 10,
+      "images_per_credit_scenario": 80,
+      "complete_initial_image_sets_upper_bound": 0,
+      "available_for_initial_images_USD": "0",
+      "qualification": "Sensitivity only; other reserve not measured or approved, excludes additional image outputs if reserve insufficient. Not an allowance or S9 PASS."
+    }
+  ],
+  "pathological_plan_test": {
+    "sentences_or_words_input_count": 500,
+    "proposed_scene_count": 500,
+    "disposable_images_per_credit_limit": 40,
+    "result": "BLOCKED_SCENE_SCOPE",
+    "provider_calls": 0,
+    "scope": "Synthetic returned-plan financial rejection, not semantic narration/planner quality test or implemented input validator"
+  },
+  "tests": [
+    "default duration",
+    "fractional credits",
+    "invalid duration rejection",
+    "500-scene plan blocked",
+    "spent amount preserved before additional scope",
+    "bounded positive fixture"
+  ],
+  "production_parameters_selected": false,
+  "production_implementation": false,
+  "provider_calls": 0,
+  "unresolved": [
+    "image density/maximum scope policy",
+    "cost-grounded Alpha allowance after obligations/uncertainty established",
+    "actual vs requested final debit",
+    "correction credits/included scope",
+    "reset/carryover",
+    "full internal cost and host/backup evidence"
+  ]
+}

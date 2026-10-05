@@ -1,0 +1,14 @@
+{
+  "current_documents_changed": [
+    "docs/ALPHA_PRODUCT_SPEC.md",
+    "docs/ARCHITECTURE.md",
+    "docs/ARCHITECTURE_SPIKES.md",
+    "docs/COST_MODEL.md",
+    "docs/README.md",
+    "docs/architecture/evidence/operating-economics/S9/README.md"
+  ],
+  "new_report": "docs/architecture/evidence/operating-economics/S9/CREDITS-v13.md",
+  "new_disposable_witness": "spikes/operating-economics/v13/financial_authority.py",
+  "new_evidence_tree": "docs/architecture/evidence/operating-economics/S9/v13/",
+  "production_Tasks_touched": false
+}

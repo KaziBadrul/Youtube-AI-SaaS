@@ -1,0 +1,45 @@
+{
+  "retrieved_on": "2026-10-05",
+  "service": "Standard",
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://docs.tavily.com/documentation/api-credits"
+  ],
+  "image": {
+    "model": "gemini-3.1-flash-lite-image",
+    "owner_fixed_output_USD_per_1K_resolution_image": "0.0336",
+    "input_USD_per_M": "0.25",
+    "text_thinking_USD_per_M": "1.50",
+    "image_output_USD_per_M": "30",
+    "free": "Unavailable; owner active quota zero"
+  },
+  "TTS": {
+    "model": "gemini-3.8-flash-lite-tts",
+    "input_USD_per_M": "0.50",
+    "audio_USD_per_M": "6",
+    "valid_through": "2026-12-31",
+    "announced_2027_input_audio_USD_per_M": [
+      "1",
+      "12"
+    ],
+    "advertised_free": true,
+    "verified_remaining_free_quota": null
+  },
+  "text_reference": {
+    "model": "gemini-3.5-flash-lite",
+    "input_USD_per_M": "0.30",
+    "output_thinking_USD_per_M": "2.50",
+    "selected_for_production": false,
+    "advertised_free": true,
+    "verified_remaining_free_quota": null
+  },
+  "search": {
+    "provider": "Tavily Basic Search",
+    "credits_per_request": 1,
+    "PAYGO_USD_per_credit": "0.008",
+    "advertised_monthly_free_credits": 1000,
+    "verified_account_entitlement": null
+  },
+  "cap_source": "Historical S4 serving limits conditional; pricing retrieval does not recertify endpoint caps",
+  "retrieval_method": "Official public documentation via browsing; no generation or account API"
+}

@@ -1,0 +1,20 @@
+{
+  "label": "linux-600-serial",
+  "duration": 600,
+  "scene_count": 112,
+  "output": "/out/s6/scratch/reused-encodes/candidate.mp4",
+  "sha256": "4ea3af38838475f8dac664549aed4c0fff696a6e11ed252cbc0fadc3620c4156",
+  "bytes": 60008518,
+  "render_wall_seconds": 5.816791961000035,
+  "peak_ffmpeg_rss_bytes": 211087360,
+  "cpu_seconds": 361.24,
+  "scratch_peak_bytes": 109010295,
+  "config": {
+    "captions": true,
+    "motion": true,
+    "music": true
+  },
+  "attempt": "/out/s6/scratch/reused-encodes",
+  "original_scene_encode_wall_seconds": 382.0959357990001,
+  "resource_mode": "REUSED_ENCODINGS_FROM_FIRST_1CPU_RUN; repaired mux/full validation with Django live; no duplicate encoding-time claim"
+}

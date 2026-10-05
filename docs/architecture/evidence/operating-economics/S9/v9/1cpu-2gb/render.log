@@ -1,0 +1,24 @@
+linux-600 scene 10 / 112
+linux-600 scene 20 / 112
+linux-600 scene 30 / 112
+linux-600 scene 40 / 112
+linux-600 scene 50 / 112
+linux-600 scene 60 / 112
+linux-600 scene 70 / 112
+linux-600 scene 80 / 112
+linux-600 scene 90 / 112
+linux-600 scene 100 / 112
+linux-600 scene 110 / 112
+Traceback (most recent call last):
+  File "/repo/spikes/operating-economics/v9/phase.py", line 83, in <module>
+    {'render':render,'alignment':alignment,'backup':backup}[sys.argv[1]]()
+  File "/repo/spikes/operating-economics/v9/phase.py", line 35, in render
+    validation=mod.validate_output(m,result)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/out/adapted-s6.py", line 247, in validate_output
+    p=Path(result['output']);info=output_basic(p,m['duration']);transitions=[]
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/out/adapted-s6.py", line 240, in output_basic
+    a,b=map(int,video['avg_frame_rate'].split('/'));assert abs(a/b-FPS)<1e-6,'wrong_fps'
+                                                           ^^^^^^^^^^^^^^^^^
+AssertionError: wrong_fps

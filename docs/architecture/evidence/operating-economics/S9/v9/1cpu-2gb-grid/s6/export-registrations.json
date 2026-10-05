@@ -1,0 +1,8 @@
+{
+  "linux-600-grid": {
+    "path": "/out/s6/exports/linux-600-grid-3bf4491bbd23.mp4",
+    "sha256": "3bf4491bbd23f5a9f6b941d3e193d6a9c2fd41936bb943e08a23da09e4edc18d",
+    "validation": "PASS",
+    "source_narration_sha256": "7ab577bccd78a31457bcf459323421725fc61d709cbbe013bd2158d27b4f028a"
+  }
+}

@@ -1,0 +1,1610 @@
+{
+  "revision": 7,
+  "S9": "NOT_YET_PASS",
+  "topic": {
+    "fixture": {
+      "topic": "The Moment You Realize Your Parents Are Just Guys",
+      "requested_minutes": 5,
+      "language": "English",
+      "mode": "topic",
+      "Research_entitled": true,
+      "entitlement_fixture": "eligible 3 videos/week or 1 video/day; not an Alpha account grant",
+      "brief": "Explain parental de-idealization during adolescence/young adulthood, separating anecdotal metaphors from established developmental findings and noting individual variation.",
+      "historical_script_source": "demo-video-example/02_script_humanized.txt",
+      "historical_script_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+      "historical_script_words": 762,
+      "historical_script_utf8_bytes": 4376,
+      "sentence_scope": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+        "sentence_count": 59,
+        "predicted_image_count": 59,
+        "spans": [
+          {
+            "start": 0,
+            "end": 11,
+            "text": "Okay, so..."
+          },
+          {
+            "start": 12,
+            "end": 105,
+            "text": "it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it."
+          },
+          {
+            "start": 106,
+            "end": 186,
+            "text": "At some point between when you're like twelve and twenty-two, your brain just..."
+          },
+          {
+            "start": 187,
+            "end": 196,
+            "text": "glitches."
+          },
+          {
+            "start": 198,
+            "end": 362,
+            "text": "You’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you."
+          },
+          {
+            "start": 363,
+            "end": 410,
+            "text": "He’s not this all-knowing architect of reality."
+          },
+          {
+            "start": 411,
+            "end": 538,
+            "text": "He’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything."
+          },
+          {
+            "start": 540,
+            "end": 579,
+            "text": "Because think about when you were five."
+          },
+          {
+            "start": 580,
+            "end": 629,
+            "text": "Your parents aren't even people to you back then."
+          },
+          {
+            "start": 630,
+            "end": 645,
+            "text": "They're like..."
+          },
+          {
+            "start": 646,
+            "end": 665,
+            "text": "mythical creatures."
+          },
+          {
+            "start": 666,
+            "end": 712,
+            "text": "They know where the spare lightbulbs are kept."
+          },
+          {
+            "start": 713,
+            "end": 734,
+            "text": "They deal with wasps."
+          },
+          {
+            "start": 735,
+            "end": 869,
+            "text": "They carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major."
+          },
+          {
+            "start": 870,
+            "end": 903,
+            "text": "They're just environmental facts."
+          },
+          {
+            "start": 904,
+            "end": 930,
+            "text": "Like gravity, or the roof."
+          },
+          {
+            "start": 932,
+            "end": 985,
+            "text": "And then you get older, and the cracks start showing."
+          },
+          {
+            "start": 987,
+            "end": 1173,
+            "text": "Maybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag."
+          },
+          {
+            "start": 1175,
+            "end": 1253,
+            "text": "Or you hear your dad tell a casual story about his twenties and you realize..."
+          },
+          {
+            "start": 1254,
+            "end": 1327,
+            "text": "wait, he was a total menace who barely survived his own terrible choices?"
+          },
+          {
+            "start": 1329,
+            "end": 1545,
+            "text": "Or even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for."
+          },
+          {
+            "start": 1547,
+            "end": 1648,
+            "text": "I actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\""
+          },
+          {
+            "start": 1649,
+            "end": 1887,
+            "text": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel."
+          },
+          {
+            "start": 1889,
+            "end": 2011,
+            "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks."
+          },
+          {
+            "start": 2013,
+            "end": 2054,
+            "text": "And if you do the math, it’s even wilder."
+          },
+          {
+            "start": 2055,
+            "end": 2138,
+            "text": "When you were born, your parents were probably in their twenties or early thirties."
+          },
+          {
+            "start": 2139,
+            "end": 2182,
+            "text": "Look at anyone who's twenty-four right now."
+          },
+          {
+            "start": 2183,
+            "end": 2208,
+            "text": "They are a disaster zone."
+          },
+          {
+            "start": 2209,
+            "end": 2348,
+            "text": "They eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time."
+          },
+          {
+            "start": 2350,
+            "end": 2389,
+            "text": "Your parents were *those exact people*."
+          },
+          {
+            "start": 2390,
+            "end": 2454,
+            "text": "They didn't get summoned from some ancient order of wise elders."
+          },
+          {
+            "start": 2455,
+            "end": 2552,
+            "text": "They were literally just two random young adults who got handed a screaming baby and went, \"Oh..."
+          },
+          {
+            "start": 2553,
+            "end": 2558,
+            "text": "cool."
+          },
+          {
+            "start": 2559,
+            "end": 2587,
+            "text": "Guess we're doing this now.\""
+          },
+          {
+            "start": 2588,
+            "end": 2700,
+            "text": "Every rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling."
+          },
+          {
+            "start": 2701,
+            "end": 2726,
+            "text": "Making it up on the spot."
+          },
+          {
+            "start": 2728,
+            "end": 2771,
+            "text": "And once you notice it, you can't unsee it."
+          },
+          {
+            "start": 2772,
+            "end": 2851,
+            "text": "You start seeing their weird habits not as \"parent traits,\" but as human flaws."
+          },
+          {
+            "start": 2852,
+            "end": 2912,
+            "text": "You notice your mom is genuinely insecure about her cooking."
+          },
+          {
+            "start": 2913,
+            "end": 3016,
+            "text": "You notice your dad gets angry because he’s actually just overwhelmed and doesn't know what else to do."
+          },
+          {
+            "start": 3017,
+            "end": 3185,
+            "text": "You realize they have high school stuff they never got over, bad habits they can't break, and weird dreams they quietly gave up so you could have a bedroom with carpet."
+          },
+          {
+            "start": 3187,
+            "end": 3227,
+            "text": "And honestly, it kind of sucks at first."
+          },
+          {
+            "start": 3228,
+            "end": 3303,
+            "text": "Because when you stop seeing them as superheroes, you lose that safety net."
+          },
+          {
+            "start": 3304,
+            "end": 3353,
+            "text": "You realize no one is secretly steering the ship."
+          },
+          {
+            "start": 3354,
+            "end": 3421,
+            "text": "There is no shadow committee of adults who have it all figured out."
+          },
+          {
+            "start": 3422,
+            "end": 3537,
+            "text": "It’s just eight billion people pretending they know what’s going on while trying not to spill coffee on themselves."
+          },
+          {
+            "start": 3539,
+            "end": 3545,
+            "text": "But..."
+          },
+          {
+            "start": 3546,
+            "end": 3583,
+            "text": "I don't know, it’s also kind of nice?"
+          },
+          {
+            "start": 3585,
+            "end": 3661,
+            "text": "Because once you stop expecting them to be perfect, you can actually like..."
+          },
+          {
+            "start": 3662,
+            "end": 3672,
+            "text": "meet them."
+          },
+          {
+            "start": 3673,
+            "end": 3690,
+            "text": "As actual people."
+          },
+          {
+            "start": 3691,
+            "end": 3741,
+            "text": "You stop asking \"why did my parents ruin my life?\""
+          },
+          {
+            "start": 3742,
+            "end": 3841,
+            "text": "and you start going, \"man, what kind of chaotic mess were they dealing with when they were my age?\""
+          },
+          {
+            "start": 3843,
+            "end": 3906,
+            "text": "It turns it from this weird hierarchy into a real relationship."
+          },
+          {
+            "start": 3907,
+            "end": 3955,
+            "text": "You’re not just living in their kingdom anymore."
+          },
+          {
+            "start": 3956,
+            "end": 4122,
+            "text": "You’re just two adults standing in the same room, both mildly confused by the universe, both trying to figure out how to make dinner without burning the kitchen down."
+          },
+          {
+            "start": 4124,
+            "end": 4241,
+            "text": "So next time your mom is struggling to open a PDF, or your dad is staring blankly at a shelf in the hardware store..."
+          },
+          {
+            "start": 4242,
+            "end": 4265,
+            "text": "just give them a break."
+          },
+          {
+            "start": 4266,
+            "end": 4342,
+            "text": "They’re doing a live playthrough of life with no tutorial, exactly like you."
+          }
+        ],
+        "review_flags": [
+          "ellipses",
+          "quotation_or_bracket"
+        ],
+        "segmentation_status": "REVIEW_REQUIRED"
+      },
+      "quality_status": "Historical content/scene example only; not independently factual-quality approved; not a new generated script"
+    },
+    "operations": [
+      {
+        "name": "research_planner",
+        "kind": "text",
+        "provider": "Gemini",
+        "model": "gemini-3.5-flash-lite",
+        "purpose": "Topic and brief; output proposes only queries, not spending.",
+        "required": "conditional_entitled_factual_topic",
+        "maximum_logical_operations": 1,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 3,
+        "max_input_tokens": 4096,
+        "max_output_tokens_including_thinking": 1024,
+        "complete_request_UTF8_bytes_cap": 8192,
+        "thinking_cap": "Shares total output cap; no separate unbounded thinking allocation",
+        "max_total_attempts_per_operation": 3,
+        "retry_policy": "At most two automatic retries, only safe known outcomes within original authority; no SDK-hidden retries",
+        "unknown_blocks_another_paid_attempt": true,
+        "query_cap": 6,
+        "result_artifact": "Research Query Plan",
+        "depends_on": [],
+        "expected_tokens": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.003789",
+        "candidate_max_USD_all_attempts": "0.011367",
+        "usable_authorized_max_USD": null,
+        "input_bound_status": "UNKNOWN_NO_VALIDATED_LOCAL_TOKENIZER_FOR_CANDIDATE",
+        "cap_status": "Disposable application-candidate caps; not frozen production policy",
+        "endpoint": "S4 conditional tool-free single-turn Interactions with one-send guard; live endpoint/cap/account validation still required"
+      },
+      {
+        "name": "basic_search",
+        "kind": "search",
+        "provider": "Tavily",
+        "model": null,
+        "purpose": "Application executes only pinned validated query IDs, with no model-owned search loop.",
+        "required": "conditional_entitled_factual_topic",
+        "maximum_logical_operations": 6,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 18,
+        "max_input_tokens": null,
+        "max_output_tokens_including_thinking": null,
+        "token_bounds_status": "NOT_APPLICABLE_SEARCH_BILLED_PER_REQUEST",
+        "query_cap": 6,
+        "query_utf8_bytes_cap": 400,
+        "query_words_cap": 50,
+        "max_total_attempts_per_operation": 3,
+        "configuration": {
+          "search_depth": "basic",
+          "auto_parameters": false,
+          "max_results": 3,
+          "chunks_per_source": 1,
+          "include_usage": true,
+          "include_answer": false,
+          "include_raw_content": false,
+          "include_images": false
+        },
+        "no_additional_endpoints": [
+          "pagination",
+          "Extract",
+          "Crawl",
+          "Research",
+          "autonomous Gemini grounding"
+        ],
+        "response_bytes_per_attempt_cap": 32768,
+        "snippet_bytes_cap": 1500,
+        "title_bytes_cap": 256,
+        "URL_bytes_cap": 2048,
+        "normalized_evidence_aggregate_bytes_cap": 32768,
+        "retry_policy": "Up to three persisted attempts/query only under safe outcomes and sufficient authority",
+        "unknown_blocks_another_paid_attempt": true,
+        "result_artifact": "Research source evidence, request/usage provenance",
+        "depends_on": [
+          "research_planner"
+        ],
+        "expected_query_count": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.008",
+        "candidate_max_USD_all_attempts": "0.144",
+        "usable_authorized_max_USD": "CONDITIONAL_S4_SEARCH_CONTRACT_ACCOUNT_TERMS_NOT_ACTIVATED"
+      },
+      {
+        "name": "research_synthesis",
+        "kind": "text",
+        "provider": "Gemini",
+        "model": "gemini-3.5-flash-lite",
+        "purpose": "Bounded normalized search evidence; keep private sources separate from narration.",
+        "required": "conditional_entitled_factual_topic",
+        "maximum_logical_operations": 1,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 3,
+        "max_input_tokens": 16384,
+        "max_output_tokens_including_thinking": 4096,
+        "complete_request_UTF8_bytes_cap": 49152,
+        "thinking_cap": "Shares total output cap; no separate unbounded thinking allocation",
+        "max_total_attempts_per_operation": 3,
+        "retry_policy": "At most two automatic retries, only safe known outcomes within original authority; no SDK-hidden retries",
+        "unknown_blocks_another_paid_attempt": true,
+        "query_cap": null,
+        "result_artifact": "Research Results with source IDs/limitations",
+        "depends_on": [
+          "research_planner",
+          "basic_search"
+        ],
+        "expected_tokens": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.015156",
+        "candidate_max_USD_all_attempts": "0.045468",
+        "usable_authorized_max_USD": null,
+        "input_bound_status": "UNKNOWN_NO_VALIDATED_LOCAL_TOKENIZER_FOR_CANDIDATE",
+        "cap_status": "Disposable application-candidate caps; not frozen production policy",
+        "endpoint": "S4 conditional tool-free single-turn Interactions with one-send guard; live endpoint/cap/account validation still required"
+      },
+      {
+        "name": "script_generation",
+        "kind": "text",
+        "provider": "Gemini",
+        "model": "gemini-3.5-flash-lite",
+        "purpose": "Write the requested factual educational narration from research; no paid humanization follow-up.",
+        "required": "required_topic",
+        "maximum_logical_operations": 1,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 3,
+        "max_input_tokens": 12288,
+        "max_output_tokens_including_thinking": 8192,
+        "complete_request_UTF8_bytes_cap": 49152,
+        "thinking_cap": "Shares total output cap; no separate unbounded thinking allocation",
+        "max_total_attempts_per_operation": 3,
+        "retry_policy": "At most two automatic retries, only safe known outcomes within original authority; no SDK-hidden retries",
+        "unknown_blocks_another_paid_attempt": true,
+        "query_cap": null,
+        "result_artifact": "Versioned Script",
+        "depends_on": [
+          "research_synthesis"
+        ],
+        "expected_tokens": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.024167",
+        "candidate_max_USD_all_attempts": "0.072501",
+        "usable_authorized_max_USD": null,
+        "input_bound_status": "UNKNOWN_NO_VALIDATED_LOCAL_TOKENIZER_FOR_CANDIDATE",
+        "cap_status": "Disposable application-candidate caps; not frozen production policy",
+        "endpoint": "S4 conditional tool-free single-turn Interactions with one-send guard; live endpoint/cap/account validation still required"
+      },
+      {
+        "name": "visual_prompt_planning",
+        "kind": "text",
+        "provider": "Gemini",
+        "model": "gemini-3.5-flash-lite",
+        "purpose": "One structured text request over locally pinned sentence/scene memberships; never rewrites narration.",
+        "required": "required_topic",
+        "maximum_logical_operations": 1,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 3,
+        "max_input_tokens": 16384,
+        "max_output_tokens_including_thinking": 16384,
+        "complete_request_UTF8_bytes_cap": 49152,
+        "thinking_cap": "Shares total output cap; no separate unbounded thinking allocation",
+        "max_total_attempts_per_operation": 3,
+        "retry_policy": "At most two automatic retries, only safe known outcomes within original authority; no SDK-hidden retries",
+        "unknown_blocks_another_paid_attempt": true,
+        "query_cap": null,
+        "result_artifact": "Scene Visual Descriptions and Image Prompts",
+        "depends_on": [
+          "script_generation",
+          "local_sentence_mapping"
+        ],
+        "expected_tokens": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.045876",
+        "candidate_max_USD_all_attempts": "0.137628",
+        "usable_authorized_max_USD": null,
+        "input_bound_status": "UNKNOWN_NO_VALIDATED_LOCAL_TOKENIZER_FOR_CANDIDATE",
+        "cap_status": "Disposable application-candidate caps; not frozen production policy",
+        "endpoint": "S4 conditional tool-free single-turn Interactions with one-send guard; live endpoint/cap/account validation still required"
+      }
+    ],
+    "query_axes": [
+      {
+        "axis": "definition and terminology",
+        "query_slots": [
+          1,
+          2
+        ]
+      },
+      {
+        "axis": "developmental timing/autonomy",
+        "query_slots": [
+          3,
+          4
+        ]
+      },
+      {
+        "axis": "emotional/relationship consequences and variation",
+        "query_slots": [
+          5,
+          6
+        ]
+      }
+    ],
+    "example_queries": [
+      "parental deidealization adolescence definition developmental psychology",
+      "parental idealization deidealization parent child relationships research review",
+      "adolescence autonomy individuation changing perceptions of parents research",
+      "emerging adulthood parents relationship autonomy individual differences study",
+      "parental deidealization emotional adjustment relationship quality adolescence",
+      "adolescent perception parents limitations cultural differences developmental research"
+    ],
+    "query_count_rationale": "Three fixture-specific coverage axes, <=2 query slots each; six is authorized candidate maximum, not expected usage or factual-quality guarantee; no adaptive expansion",
+    "expected_text_search_USD": null,
+    "candidate_one_attempt_each_max_USD": "0.136988",
+    "candidate_three_attempt_text_search_max_USD": "0.410964",
+    "usable_authorized_text_search_max_USD": null,
+    "financial_bound_status": "CONDITIONAL_CANDIDATE_ONLY; actual narrow text-token preflight is UNKNOWN so paid text admission fails closed",
+    "local_work": [
+      "input/entitlement validation",
+      "structured query validation and pinned plan",
+      "bounded evidence normalization",
+      "sentence spans/scene identity",
+      "source-ID/JSON/script validations",
+      "deterministic TTS preparation and coherent grouping",
+      "alignment/captions/render"
+    ],
+    "excluded_paid_operations": {
+      "generated_script_factual_check": "NOT_REQUIRED separate checking only pasted scripts; local structural/source-ID validation is not factual proof",
+      "scene_splitting": "LOCAL deterministic v5 witness counter, review ambiguities",
+      "visual_and_image_prompt_separate_calls": "COMBINED one bounded planning operation; candidate only",
+      "TTS_preparation": "LOCAL immutable approved words plus delivery metadata; no paid voice-tag rewriting",
+      "humanization_character_planning_topic_suggestions": "NOT_REQUIRED normal first Alpha video"
+    },
+    "other_limits": {
+      "script_result_utf8_bytes_cap": 12000,
+      "visual_description_bytes_cap": 1024,
+      "image_prompt_bytes_cap": 2048,
+      "planning_membership_cap": "Exact independently admitted script-derived scene ID set, not 60 by default",
+      "planning_review_gate": "Local sentence counter flags ellipses/quotes; reviewed segmentation and sufficient scene/image authority required before live planning",
+      "out_of_scope_script": "Preserve paid artifact; block enlarged image/planning scope pending existing authority/approval; never silently truncate approved words"
+    }
+  },
+  "pasted_script": {
+    "fixture": {
+      "topic": "The Moment You Realize Your Parents Are Just Guys",
+      "requested_minutes": 5,
+      "language": "English",
+      "mode": "pasted_script",
+      "Research_entitled": true,
+      "entitlement_fixture": "eligible 3 videos/week or 1 video/day; not an Alpha account grant",
+      "brief": "Explain parental de-idealization during adolescence/young adulthood, separating anecdotal metaphors from established developmental findings and noting individual variation.",
+      "historical_script_source": "demo-video-example/02_script_humanized.txt",
+      "historical_script_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+      "historical_script_words": 762,
+      "historical_script_utf8_bytes": 4376,
+      "sentence_scope": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+        "sentence_count": 59,
+        "predicted_image_count": 59,
+        "spans": [
+          {
+            "start": 0,
+            "end": 11,
+            "text": "Okay, so..."
+          },
+          {
+            "start": 12,
+            "end": 105,
+            "text": "it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it."
+          },
+          {
+            "start": 106,
+            "end": 186,
+            "text": "At some point between when you're like twelve and twenty-two, your brain just..."
+          },
+          {
+            "start": 187,
+            "end": 196,
+            "text": "glitches."
+          },
+          {
+            "start": 198,
+            "end": 362,
+            "text": "You’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you."
+          },
+          {
+            "start": 363,
+            "end": 410,
+            "text": "He’s not this all-knowing architect of reality."
+          },
+          {
+            "start": 411,
+            "end": 538,
+            "text": "He’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything."
+          },
+          {
+            "start": 540,
+            "end": 579,
+            "text": "Because think about when you were five."
+          },
+          {
+            "start": 580,
+            "end": 629,
+            "text": "Your parents aren't even people to you back then."
+          },
+          {
+            "start": 630,
+            "end": 645,
+            "text": "They're like..."
+          },
+          {
+            "start": 646,
+            "end": 665,
+            "text": "mythical creatures."
+          },
+          {
+            "start": 666,
+            "end": 712,
+            "text": "They know where the spare lightbulbs are kept."
+          },
+          {
+            "start": 713,
+            "end": 734,
+            "text": "They deal with wasps."
+          },
+          {
+            "start": 735,
+            "end": 869,
+            "text": "They carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major."
+          },
+          {
+            "start": 870,
+            "end": 903,
+            "text": "They're just environmental facts."
+          },
+          {
+            "start": 904,
+            "end": 930,
+            "text": "Like gravity, or the roof."
+          },
+          {
+            "start": 932,
+            "end": 985,
+            "text": "And then you get older, and the cracks start showing."
+          },
+          {
+            "start": 987,
+            "end": 1173,
+            "text": "Maybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag."
+          },
+          {
+            "start": 1175,
+            "end": 1253,
+            "text": "Or you hear your dad tell a casual story about his twenties and you realize..."
+          },
+          {
+            "start": 1254,
+            "end": 1327,
+            "text": "wait, he was a total menace who barely survived his own terrible choices?"
+          },
+          {
+            "start": 1329,
+            "end": 1545,
+            "text": "Or even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for."
+          },
+          {
+            "start": 1547,
+            "end": 1648,
+            "text": "I actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\""
+          },
+          {
+            "start": 1649,
+            "end": 1887,
+            "text": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel."
+          },
+          {
+            "start": 1889,
+            "end": 2011,
+            "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks."
+          },
+          {
+            "start": 2013,
+            "end": 2054,
+            "text": "And if you do the math, it’s even wilder."
+          },
+          {
+            "start": 2055,
+            "end": 2138,
+            "text": "When you were born, your parents were probably in their twenties or early thirties."
+          },
+          {
+            "start": 2139,
+            "end": 2182,
+            "text": "Look at anyone who's twenty-four right now."
+          },
+          {
+            "start": 2183,
+            "end": 2208,
+            "text": "They are a disaster zone."
+          },
+          {
+            "start": 2209,
+            "end": 2348,
+            "text": "They eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time."
+          },
+          {
+            "start": 2350,
+            "end": 2389,
+            "text": "Your parents were *those exact people*."
+          },
+          {
+            "start": 2390,
+            "end": 2454,
+            "text": "They didn't get summoned from some ancient order of wise elders."
+          },
+          {
+            "start": 2455,
+            "end": 2552,
+            "text": "They were literally just two random young adults who got handed a screaming baby and went, \"Oh..."
+          },
+          {
+            "start": 2553,
+            "end": 2558,
+            "text": "cool."
+          },
+          {
+            "start": 2559,
+            "end": 2587,
+            "text": "Guess we're doing this now.\""
+          },
+          {
+            "start": 2588,
+            "end": 2700,
+            "text": "Every rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling."
+          },
+          {
+            "start": 2701,
+            "end": 2726,
+            "text": "Making it up on the spot."
+          },
+          {
+            "start": 2728,
+            "end": 2771,
+            "text": "And once you notice it, you can't unsee it."
+          },
+          {
+            "start": 2772,
+            "end": 2851,
+            "text": "You start seeing their weird habits not as \"parent traits,\" but as human flaws."
+          },
+          {
+            "start": 2852,
+            "end": 2912,
+            "text": "You notice your mom is genuinely insecure about her cooking."
+          },
+          {
+            "start": 2913,
+            "end": 3016,
+            "text": "You notice your dad gets angry because he’s actually just overwhelmed and doesn't know what else to do."
+          },
+          {
+            "start": 3017,
+            "end": 3185,
+            "text": "You realize they have high school stuff they never got over, bad habits they can't break, and weird dreams they quietly gave up so you could have a bedroom with carpet."
+          },
+          {
+            "start": 3187,
+            "end": 3227,
+            "text": "And honestly, it kind of sucks at first."
+          },
+          {
+            "start": 3228,
+            "end": 3303,
+            "text": "Because when you stop seeing them as superheroes, you lose that safety net."
+          },
+          {
+            "start": 3304,
+            "end": 3353,
+            "text": "You realize no one is secretly steering the ship."
+          },
+          {
+            "start": 3354,
+            "end": 3421,
+            "text": "There is no shadow committee of adults who have it all figured out."
+          },
+          {
+            "start": 3422,
+            "end": 3537,
+            "text": "It’s just eight billion people pretending they know what’s going on while trying not to spill coffee on themselves."
+          },
+          {
+            "start": 3539,
+            "end": 3545,
+            "text": "But..."
+          },
+          {
+            "start": 3546,
+            "end": 3583,
+            "text": "I don't know, it’s also kind of nice?"
+          },
+          {
+            "start": 3585,
+            "end": 3661,
+            "text": "Because once you stop expecting them to be perfect, you can actually like..."
+          },
+          {
+            "start": 3662,
+            "end": 3672,
+            "text": "meet them."
+          },
+          {
+            "start": 3673,
+            "end": 3690,
+            "text": "As actual people."
+          },
+          {
+            "start": 3691,
+            "end": 3741,
+            "text": "You stop asking \"why did my parents ruin my life?\""
+          },
+          {
+            "start": 3742,
+            "end": 3841,
+            "text": "and you start going, \"man, what kind of chaotic mess were they dealing with when they were my age?\""
+          },
+          {
+            "start": 3843,
+            "end": 3906,
+            "text": "It turns it from this weird hierarchy into a real relationship."
+          },
+          {
+            "start": 3907,
+            "end": 3955,
+            "text": "You’re not just living in their kingdom anymore."
+          },
+          {
+            "start": 3956,
+            "end": 4122,
+            "text": "You’re just two adults standing in the same room, both mildly confused by the universe, both trying to figure out how to make dinner without burning the kitchen down."
+          },
+          {
+            "start": 4124,
+            "end": 4241,
+            "text": "So next time your mom is struggling to open a PDF, or your dad is staring blankly at a shelf in the hardware store..."
+          },
+          {
+            "start": 4242,
+            "end": 4265,
+            "text": "just give them a break."
+          },
+          {
+            "start": 4266,
+            "end": 4342,
+            "text": "They’re doing a live playthrough of life with no tutorial, exactly like you."
+          }
+        ],
+        "review_flags": [
+          "ellipses",
+          "quotation_or_bracket"
+        ],
+        "segmentation_status": "REVIEW_REQUIRED"
+      },
+      "quality_status": "Historical content/scene example only; not independently factual-quality approved; not a new generated script",
+      "script_text_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33"
+    },
+    "operations": [
+      {
+        "name": "checking_planner",
+        "kind": "text",
+        "provider": "Gemini",
+        "model": "gemini-3.5-flash-lite",
+        "purpose": "Topic and brief; output proposes only queries, not spending.",
+        "required": "applicable_pasted_checking",
+        "maximum_logical_operations": 1,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 3,
+        "max_input_tokens": 4096,
+        "max_output_tokens_including_thinking": 1024,
+        "complete_request_UTF8_bytes_cap": 8192,
+        "thinking_cap": "Shares total output cap; no separate unbounded thinking allocation",
+        "max_total_attempts_per_operation": 3,
+        "retry_policy": "At most two automatic retries, only safe known outcomes within original authority; no SDK-hidden retries",
+        "unknown_blocks_another_paid_attempt": true,
+        "query_cap": 6,
+        "result_artifact": "Research Query Plan",
+        "depends_on": [],
+        "expected_tokens": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.003789",
+        "candidate_max_USD_all_attempts": "0.011367",
+        "usable_authorized_max_USD": null,
+        "input_bound_status": "UNKNOWN_NO_VALIDATED_LOCAL_TOKENIZER_FOR_CANDIDATE",
+        "cap_status": "Disposable application-candidate caps; not frozen production policy",
+        "endpoint": "S4 conditional tool-free single-turn Interactions with one-send guard; live endpoint/cap/account validation still required"
+      },
+      {
+        "name": "basic_search",
+        "kind": "search",
+        "provider": "Tavily",
+        "model": null,
+        "purpose": "Application executes only pinned validated query IDs, with no model-owned search loop.",
+        "required": "applicable_pasted_checking",
+        "maximum_logical_operations": 6,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 18,
+        "max_input_tokens": null,
+        "max_output_tokens_including_thinking": null,
+        "token_bounds_status": "NOT_APPLICABLE_SEARCH_BILLED_PER_REQUEST",
+        "query_cap": 6,
+        "query_utf8_bytes_cap": 400,
+        "query_words_cap": 50,
+        "max_total_attempts_per_operation": 3,
+        "configuration": {
+          "search_depth": "basic",
+          "auto_parameters": false,
+          "max_results": 3,
+          "chunks_per_source": 1,
+          "include_usage": true,
+          "include_answer": false,
+          "include_raw_content": false,
+          "include_images": false
+        },
+        "no_additional_endpoints": [
+          "pagination",
+          "Extract",
+          "Crawl",
+          "Research",
+          "autonomous Gemini grounding"
+        ],
+        "response_bytes_per_attempt_cap": 32768,
+        "snippet_bytes_cap": 1500,
+        "title_bytes_cap": 256,
+        "URL_bytes_cap": 2048,
+        "normalized_evidence_aggregate_bytes_cap": 32768,
+        "retry_policy": "Up to three persisted attempts/query only under safe outcomes and sufficient authority",
+        "unknown_blocks_another_paid_attempt": true,
+        "result_artifact": "Research source evidence, request/usage provenance",
+        "depends_on": [
+          "checking_planner"
+        ],
+        "expected_query_count": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.008",
+        "candidate_max_USD_all_attempts": "0.144",
+        "usable_authorized_max_USD": "CONDITIONAL_S4_SEARCH_CONTRACT_ACCOUNT_TERMS_NOT_ACTIVATED"
+      },
+      {
+        "name": "factual_check",
+        "kind": "text",
+        "provider": "Gemini",
+        "model": "gemini-3.5-flash-lite",
+        "purpose": "Bounded normalized search evidence; keep private sources separate from narration.",
+        "required": "applicable_pasted_checking",
+        "maximum_logical_operations": 1,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 3,
+        "max_input_tokens": 16384,
+        "max_output_tokens_including_thinking": 4096,
+        "complete_request_UTF8_bytes_cap": 49152,
+        "thinking_cap": "Shares total output cap; no separate unbounded thinking allocation",
+        "max_total_attempts_per_operation": 3,
+        "retry_policy": "At most two automatic retries, only safe known outcomes within original authority; no SDK-hidden retries",
+        "unknown_blocks_another_paid_attempt": true,
+        "query_cap": null,
+        "result_artifact": "Private factual warnings/source evidence; proposed text changes only",
+        "depends_on": [
+          "checking_planner",
+          "basic_search"
+        ],
+        "expected_tokens": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.015156",
+        "candidate_max_USD_all_attempts": "0.045468",
+        "usable_authorized_max_USD": null,
+        "input_bound_status": "UNKNOWN_NO_VALIDATED_LOCAL_TOKENIZER_FOR_CANDIDATE",
+        "cap_status": "Disposable application-candidate caps; not frozen production policy",
+        "endpoint": "S4 conditional tool-free single-turn Interactions with one-send guard; live endpoint/cap/account validation still required"
+      },
+      {
+        "name": "visual_prompt_planning",
+        "kind": "text",
+        "provider": "Gemini",
+        "model": "gemini-3.5-flash-lite",
+        "purpose": "One structured text request over locally pinned sentence/scene memberships; never rewrites narration.",
+        "required": "required_topic",
+        "maximum_logical_operations": 1,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 3,
+        "max_input_tokens": 16384,
+        "max_output_tokens_including_thinking": 16384,
+        "complete_request_UTF8_bytes_cap": 49152,
+        "thinking_cap": "Shares total output cap; no separate unbounded thinking allocation",
+        "max_total_attempts_per_operation": 3,
+        "retry_policy": "At most two automatic retries, only safe known outcomes within original authority; no SDK-hidden retries",
+        "unknown_blocks_another_paid_attempt": true,
+        "query_cap": null,
+        "result_artifact": "Scene Visual Descriptions and Image Prompts",
+        "depends_on": [
+          "approved_pasted_script",
+          "local_sentence_mapping"
+        ],
+        "expected_tokens": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.045876",
+        "candidate_max_USD_all_attempts": "0.137628",
+        "usable_authorized_max_USD": null,
+        "input_bound_status": "UNKNOWN_NO_VALIDATED_LOCAL_TOKENIZER_FOR_CANDIDATE",
+        "cap_status": "Disposable application-candidate caps; not frozen production policy",
+        "endpoint": "S4 conditional tool-free single-turn Interactions with one-send guard; live endpoint/cap/account validation still required"
+      }
+    ],
+    "query_axes": [
+      {
+        "axis": "definition and terminology",
+        "query_slots": [
+          1,
+          2
+        ]
+      },
+      {
+        "axis": "developmental timing/autonomy",
+        "query_slots": [
+          3,
+          4
+        ]
+      },
+      {
+        "axis": "emotional/relationship consequences and variation",
+        "query_slots": [
+          5,
+          6
+        ]
+      }
+    ],
+    "example_queries": [
+      "parental deidealization adolescence definition developmental psychology",
+      "parental idealization deidealization parent child relationships research review",
+      "adolescence autonomy individuation changing perceptions of parents research",
+      "emerging adulthood parents relationship autonomy individual differences study",
+      "parental deidealization emotional adjustment relationship quality adolescence",
+      "adolescent perception parents limitations cultural differences developmental research"
+    ],
+    "query_count_rationale": "Three fixture-specific coverage axes, <=2 query slots each; six is authorized candidate maximum, not expected usage or factual-quality guarantee; no adaptive expansion",
+    "expected_text_search_USD": null,
+    "candidate_one_attempt_each_max_USD": "0.112821",
+    "candidate_three_attempt_text_search_max_USD": "0.338463",
+    "usable_authorized_text_search_max_USD": null,
+    "financial_bound_status": "CONDITIONAL_CANDIDATE_ONLY; actual narrow text-token preflight is UNKNOWN so paid text admission fails closed",
+    "local_work": [
+      "input/entitlement validation",
+      "structured query validation and pinned plan",
+      "bounded evidence normalization",
+      "sentence spans/scene identity",
+      "source-ID/JSON/script validations",
+      "deterministic TTS preparation and coherent grouping",
+      "alignment/captions/render"
+    ],
+    "excluded_paid_operations": {
+      "generated_script_factual_check": "NOT_REQUIRED separate checking only pasted scripts; local structural/source-ID validation is not factual proof",
+      "scene_splitting": "LOCAL deterministic v5 witness counter, review ambiguities",
+      "visual_and_image_prompt_separate_calls": "COMBINED one bounded planning operation; candidate only",
+      "TTS_preparation": "LOCAL immutable approved words plus delivery metadata; no paid voice-tag rewriting",
+      "humanization_character_planning_topic_suggestions": "NOT_REQUIRED normal first Alpha video"
+    },
+    "other_limits": {
+      "script_result_utf8_bytes_cap": 12000,
+      "visual_description_bytes_cap": 1024,
+      "image_prompt_bytes_cap": 2048,
+      "planning_membership_cap": "Exact independently admitted script-derived scene ID set, not 60 by default",
+      "planning_review_gate": "Local sentence counter flags ellipses/quotes; reviewed segmentation and sufficient scene/image authority required before live planning",
+      "out_of_scope_script": "Preserve paid artifact; block enlarged image/planning scope pending existing authority/approval; never silently truncate approved words"
+    },
+    "clarification": "Same narrow fixture caps only, not all pasted inputs. No script writing or silent humanization; checking policy unchanged by Research entitlement; checking queries use claims, not topic research. Expected usage UNKNOWN."
+  },
+  "topic_without_Research": {
+    "fixture": {
+      "topic": "The Moment You Realize Your Parents Are Just Guys",
+      "requested_minutes": 5,
+      "language": "English",
+      "mode": "topic",
+      "Research_entitled": false,
+      "entitlement_fixture": "eligible 3 videos/week or 1 video/day; not an Alpha account grant",
+      "brief": "Explain parental de-idealization during adolescence/young adulthood, separating anecdotal metaphors from established developmental findings and noting individual variation.",
+      "historical_script_source": "demo-video-example/02_script_humanized.txt",
+      "historical_script_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+      "historical_script_words": 762,
+      "historical_script_utf8_bytes": 4376,
+      "sentence_scope": {
+        "counter_version": "s9-local-terminal-punctuation-v1",
+        "script_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+        "sentence_count": 59,
+        "predicted_image_count": 59,
+        "spans": [
+          {
+            "start": 0,
+            "end": 11,
+            "text": "Okay, so..."
+          },
+          {
+            "start": 12,
+            "end": 105,
+            "text": "it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it."
+          },
+          {
+            "start": 106,
+            "end": 186,
+            "text": "At some point between when you're like twelve and twenty-two, your brain just..."
+          },
+          {
+            "start": 187,
+            "end": 196,
+            "text": "glitches."
+          },
+          {
+            "start": 198,
+            "end": 362,
+            "text": "You’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you."
+          },
+          {
+            "start": 363,
+            "end": 410,
+            "text": "He’s not this all-knowing architect of reality."
+          },
+          {
+            "start": 411,
+            "end": 538,
+            "text": "He’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything."
+          },
+          {
+            "start": 540,
+            "end": 579,
+            "text": "Because think about when you were five."
+          },
+          {
+            "start": 580,
+            "end": 629,
+            "text": "Your parents aren't even people to you back then."
+          },
+          {
+            "start": 630,
+            "end": 645,
+            "text": "They're like..."
+          },
+          {
+            "start": 646,
+            "end": 665,
+            "text": "mythical creatures."
+          },
+          {
+            "start": 666,
+            "end": 712,
+            "text": "They know where the spare lightbulbs are kept."
+          },
+          {
+            "start": 713,
+            "end": 734,
+            "text": "They deal with wasps."
+          },
+          {
+            "start": 735,
+            "end": 869,
+            "text": "They carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major."
+          },
+          {
+            "start": 870,
+            "end": 903,
+            "text": "They're just environmental facts."
+          },
+          {
+            "start": 904,
+            "end": 930,
+            "text": "Like gravity, or the roof."
+          },
+          {
+            "start": 932,
+            "end": 985,
+            "text": "And then you get older, and the cracks start showing."
+          },
+          {
+            "start": 987,
+            "end": 1173,
+            "text": "Maybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag."
+          },
+          {
+            "start": 1175,
+            "end": 1253,
+            "text": "Or you hear your dad tell a casual story about his twenties and you realize..."
+          },
+          {
+            "start": 1254,
+            "end": 1327,
+            "text": "wait, he was a total menace who barely survived his own terrible choices?"
+          },
+          {
+            "start": 1329,
+            "end": 1545,
+            "text": "Or even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for."
+          },
+          {
+            "start": 1547,
+            "end": 1648,
+            "text": "I actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\""
+          },
+          {
+            "start": 1649,
+            "end": 1887,
+            "text": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel."
+          },
+          {
+            "start": 1889,
+            "end": 2011,
+            "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks."
+          },
+          {
+            "start": 2013,
+            "end": 2054,
+            "text": "And if you do the math, it’s even wilder."
+          },
+          {
+            "start": 2055,
+            "end": 2138,
+            "text": "When you were born, your parents were probably in their twenties or early thirties."
+          },
+          {
+            "start": 2139,
+            "end": 2182,
+            "text": "Look at anyone who's twenty-four right now."
+          },
+          {
+            "start": 2183,
+            "end": 2208,
+            "text": "They are a disaster zone."
+          },
+          {
+            "start": 2209,
+            "end": 2348,
+            "text": "They eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time."
+          },
+          {
+            "start": 2350,
+            "end": 2389,
+            "text": "Your parents were *those exact people*."
+          },
+          {
+            "start": 2390,
+            "end": 2454,
+            "text": "They didn't get summoned from some ancient order of wise elders."
+          },
+          {
+            "start": 2455,
+            "end": 2552,
+            "text": "They were literally just two random young adults who got handed a screaming baby and went, \"Oh..."
+          },
+          {
+            "start": 2553,
+            "end": 2558,
+            "text": "cool."
+          },
+          {
+            "start": 2559,
+            "end": 2587,
+            "text": "Guess we're doing this now.\""
+          },
+          {
+            "start": 2588,
+            "end": 2700,
+            "text": "Every rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling."
+          },
+          {
+            "start": 2701,
+            "end": 2726,
+            "text": "Making it up on the spot."
+          },
+          {
+            "start": 2728,
+            "end": 2771,
+            "text": "And once you notice it, you can't unsee it."
+          },
+          {
+            "start": 2772,
+            "end": 2851,
+            "text": "You start seeing their weird habits not as \"parent traits,\" but as human flaws."
+          },
+          {
+            "start": 2852,
+            "end": 2912,
+            "text": "You notice your mom is genuinely insecure about her cooking."
+          },
+          {
+            "start": 2913,
+            "end": 3016,
+            "text": "You notice your dad gets angry because he’s actually just overwhelmed and doesn't know what else to do."
+          },
+          {
+            "start": 3017,
+            "end": 3185,
+            "text": "You realize they have high school stuff they never got over, bad habits they can't break, and weird dreams they quietly gave up so you could have a bedroom with carpet."
+          },
+          {
+            "start": 3187,
+            "end": 3227,
+            "text": "And honestly, it kind of sucks at first."
+          },
+          {
+            "start": 3228,
+            "end": 3303,
+            "text": "Because when you stop seeing them as superheroes, you lose that safety net."
+          },
+          {
+            "start": 3304,
+            "end": 3353,
+            "text": "You realize no one is secretly steering the ship."
+          },
+          {
+            "start": 3354,
+            "end": 3421,
+            "text": "There is no shadow committee of adults who have it all figured out."
+          },
+          {
+            "start": 3422,
+            "end": 3537,
+            "text": "It’s just eight billion people pretending they know what’s going on while trying not to spill coffee on themselves."
+          },
+          {
+            "start": 3539,
+            "end": 3545,
+            "text": "But..."
+          },
+          {
+            "start": 3546,
+            "end": 3583,
+            "text": "I don't know, it’s also kind of nice?"
+          },
+          {
+            "start": 3585,
+            "end": 3661,
+            "text": "Because once you stop expecting them to be perfect, you can actually like..."
+          },
+          {
+            "start": 3662,
+            "end": 3672,
+            "text": "meet them."
+          },
+          {
+            "start": 3673,
+            "end": 3690,
+            "text": "As actual people."
+          },
+          {
+            "start": 3691,
+            "end": 3741,
+            "text": "You stop asking \"why did my parents ruin my life?\""
+          },
+          {
+            "start": 3742,
+            "end": 3841,
+            "text": "and you start going, \"man, what kind of chaotic mess were they dealing with when they were my age?\""
+          },
+          {
+            "start": 3843,
+            "end": 3906,
+            "text": "It turns it from this weird hierarchy into a real relationship."
+          },
+          {
+            "start": 3907,
+            "end": 3955,
+            "text": "You’re not just living in their kingdom anymore."
+          },
+          {
+            "start": 3956,
+            "end": 4122,
+            "text": "You’re just two adults standing in the same room, both mildly confused by the universe, both trying to figure out how to make dinner without burning the kitchen down."
+          },
+          {
+            "start": 4124,
+            "end": 4241,
+            "text": "So next time your mom is struggling to open a PDF, or your dad is staring blankly at a shelf in the hardware store..."
+          },
+          {
+            "start": 4242,
+            "end": 4265,
+            "text": "just give them a break."
+          },
+          {
+            "start": 4266,
+            "end": 4342,
+            "text": "They’re doing a live playthrough of life with no tutorial, exactly like you."
+          }
+        ],
+        "review_flags": [
+          "ellipses",
+          "quotation_or_bracket"
+        ],
+        "segmentation_status": "REVIEW_REQUIRED"
+      },
+      "quality_status": "Historical content/scene example only; not independently factual-quality approved; not a new generated script"
+    },
+    "operations": [
+      {
+        "name": "script_generation",
+        "kind": "text",
+        "provider": "Gemini",
+        "model": "gemini-3.5-flash-lite",
+        "purpose": "Write the requested factual educational narration from research; no paid humanization follow-up.",
+        "required": "required_topic",
+        "maximum_logical_operations": 1,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 3,
+        "max_input_tokens": 12288,
+        "max_output_tokens_including_thinking": 8192,
+        "complete_request_UTF8_bytes_cap": 49152,
+        "thinking_cap": "Shares total output cap; no separate unbounded thinking allocation",
+        "max_total_attempts_per_operation": 3,
+        "retry_policy": "At most two automatic retries, only safe known outcomes within original authority; no SDK-hidden retries",
+        "unknown_blocks_another_paid_attempt": true,
+        "query_cap": null,
+        "result_artifact": "Versioned Script",
+        "depends_on": [],
+        "expected_tokens": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.024167",
+        "candidate_max_USD_all_attempts": "0.072501",
+        "usable_authorized_max_USD": null,
+        "input_bound_status": "UNKNOWN_NO_VALIDATED_LOCAL_TOKENIZER_FOR_CANDIDATE",
+        "cap_status": "Disposable application-candidate caps; not frozen production policy",
+        "endpoint": "S4 conditional tool-free single-turn Interactions with one-send guard; live endpoint/cap/account validation still required"
+      },
+      {
+        "name": "visual_prompt_planning",
+        "kind": "text",
+        "provider": "Gemini",
+        "model": "gemini-3.5-flash-lite",
+        "purpose": "One structured text request over locally pinned sentence/scene memberships; never rewrites narration.",
+        "required": "required_topic",
+        "maximum_logical_operations": 1,
+        "maximum_calls_per_attempt": 1,
+        "maximum_total_calls": 3,
+        "max_input_tokens": 16384,
+        "max_output_tokens_including_thinking": 16384,
+        "complete_request_UTF8_bytes_cap": 49152,
+        "thinking_cap": "Shares total output cap; no separate unbounded thinking allocation",
+        "max_total_attempts_per_operation": 3,
+        "retry_policy": "At most two automatic retries, only safe known outcomes within original authority; no SDK-hidden retries",
+        "unknown_blocks_another_paid_attempt": true,
+        "query_cap": null,
+        "result_artifact": "Scene Visual Descriptions and Image Prompts",
+        "depends_on": [
+          "script_generation",
+          "local_sentence_mapping"
+        ],
+        "expected_tokens": null,
+        "expected_USD": null,
+        "candidate_max_USD_per_attempt": "0.045876",
+        "candidate_max_USD_all_attempts": "0.137628",
+        "usable_authorized_max_USD": null,
+        "input_bound_status": "UNKNOWN_NO_VALIDATED_LOCAL_TOKENIZER_FOR_CANDIDATE",
+        "cap_status": "Disposable application-candidate caps; not frozen production policy",
+        "endpoint": "S4 conditional tool-free single-turn Interactions with one-send guard; live endpoint/cap/account validation still required"
+      }
+    ],
+    "query_axes": [
+      {
+        "axis": "definition and terminology",
+        "query_slots": [
+          1,
+          2
+        ]
+      },
+      {
+        "axis": "developmental timing/autonomy",
+        "query_slots": [
+          3,
+          4
+        ]
+      },
+      {
+        "axis": "emotional/relationship consequences and variation",
+        "query_slots": [
+          5,
+          6
+        ]
+      }
+    ],
+    "example_queries": [
+      "parental deidealization adolescence definition developmental psychology",
+      "parental idealization deidealization parent child relationships research review",
+      "adolescence autonomy individuation changing perceptions of parents research",
+      "emerging adulthood parents relationship autonomy individual differences study",
+      "parental deidealization emotional adjustment relationship quality adolescence",
+      "adolescent perception parents limitations cultural differences developmental research"
+    ],
+    "query_count_rationale": "Three fixture-specific coverage axes, <=2 query slots each; six is authorized candidate maximum, not expected usage or factual-quality guarantee; no adaptive expansion",
+    "expected_text_search_USD": null,
+    "candidate_one_attempt_each_max_USD": "0.070043",
+    "candidate_three_attempt_text_search_max_USD": "0.210129",
+    "usable_authorized_text_search_max_USD": null,
+    "financial_bound_status": "CONDITIONAL_CANDIDATE_ONLY; actual narrow text-token preflight is UNKNOWN so paid text admission fails closed",
+    "local_work": [
+      "input/entitlement validation",
+      "structured query validation and pinned plan",
+      "bounded evidence normalization",
+      "sentence spans/scene identity",
+      "source-ID/JSON/script validations",
+      "deterministic TTS preparation and coherent grouping",
+      "alignment/captions/render"
+    ],
+    "excluded_paid_operations": {
+      "generated_script_factual_check": "NOT_REQUIRED separate checking only pasted scripts; local structural/source-ID validation is not factual proof",
+      "scene_splitting": "LOCAL deterministic v5 witness counter, review ambiguities",
+      "visual_and_image_prompt_separate_calls": "COMBINED one bounded planning operation; candidate only",
+      "TTS_preparation": "LOCAL immutable approved words plus delivery metadata; no paid voice-tag rewriting",
+      "humanization_character_planning_topic_suggestions": "NOT_REQUIRED normal first Alpha video"
+    },
+    "other_limits": {
+      "script_result_utf8_bytes_cap": 12000,
+      "visual_description_bytes_cap": 1024,
+      "image_prompt_bytes_cap": 2048,
+      "planning_membership_cap": "Exact independently admitted script-derived scene ID set, not 60 by default",
+      "planning_review_gate": "Local sentence counter flags ellipses/quotes; reviewed segmentation and sufficient scene/image authority required before live planning",
+      "out_of_scope_script": "Preserve paid artifact; block enlarged image/planning scope pending existing authority/approval; never silently truncate approved words"
+    },
+    "clarification": "No unentitled Research requests; required script/planning remain, factual quality is not waived, checking is a separate pasted workflow."
+  },
+  "prepared_prompt_metrics": {
+    "research_planner": {
+      "file": "docs/architecture/evidence/operating-economics/S9/fixtures-v7/research_planner-prepared.json",
+      "sha256": "2943afad8f4c8a381cb2cb27633000343d117e70a20c4a85bfd0c149803862ab",
+      "serialized_UTF8_bytes": 880,
+      "exact_input_tokens": null,
+      "warning": "Bytes are not tokens. Downstream placeholders and legacy script only; these are illustrative prepared envelopes, not wire-exact production requests or expected provider inputs."
+    },
+    "research_synthesis": {
+      "file": "docs/architecture/evidence/operating-economics/S9/fixtures-v7/research_synthesis-prepared.json",
+      "sha256": "ebc7dbc883b4ab350672b75080ed8cab286d91f77d1433c7e59055d31232a5df",
+      "serialized_UTF8_bytes": 4305,
+      "exact_input_tokens": null,
+      "warning": "Bytes are not tokens. Downstream placeholders and legacy script only; these are illustrative prepared envelopes, not wire-exact production requests or expected provider inputs."
+    },
+    "script_generation": {
+      "file": "docs/architecture/evidence/operating-economics/S9/fixtures-v7/script_generation-prepared.json",
+      "sha256": "aacde0dced50cb3d918457104fee8c4d2782b96c18fee191cdaab1729cb81315",
+      "serialized_UTF8_bytes": 1023,
+      "exact_input_tokens": null,
+      "warning": "Bytes are not tokens. Downstream placeholders and legacy script only; these are illustrative prepared envelopes, not wire-exact production requests or expected provider inputs."
+    },
+    "visual_prompt_planning": {
+      "file": "docs/architecture/evidence/operating-economics/S9/fixtures-v7/visual_prompt_planning-prepared.json",
+      "sha256": "dcd5e12e40bbe6b575f1a5a41b1885099f3d47894bf3427b43b99603049fa50c",
+      "serialized_UTF8_bytes": 8238,
+      "exact_input_tokens": null,
+      "warning": "Bytes are not tokens. Downstream placeholders and legacy script only; these are illustrative prepared envelopes, not wire-exact production requests or expected provider inputs."
+    }
+  },
+  "combined_5_minute_economics": {
+    "image_output_subtotal_USD": "2.0160",
+    "TTS_proxy_USD": "0.05818754373687893631910426872",
+    "image_output_plus_TTS_proxy_subtotal_USD": "2.074187543736878936319104269",
+    "expected_text_search_USD": null,
+    "expected_complete_variable_USD": null,
+    "candidate_text_search_three_attempt_max_USD": "0.410964",
+    "usable_text_search_max_USD": null,
+    "conditional_image_60_three_attempt_max_USD": "25.067520",
+    "conditional_TTS_max_USD_per_segment_three_attempts": "0.3072",
+    "TTS_segment_count": null,
+    "other_max_USD": null,
+    "whole_project_usable_authorized_max_USD": null,
+    "candidate_provider_subtotal_IF_60_images_and_one_TTS_segment_USD": "25.785684",
+    "qualification": "60 images is preliminary scope, not authority; one TTS segment is sensitivity only, not frozen B grouping. Excludes fees, liabilities/resources; candidate-only not whole-project maximum."
+  },
+  "source_hashes": {
+    "docs/architecture/evidence/research-feasibility/S4-R.md": "8e00fad31c1996f0838c98b8d0f7bc55534399b01d5a0e25b891b152cc33e17d",
+    "spikes/research-feasibility/witness.py": "f86c5b48c58c02bff71733f6c19c402f386da5ccfa95939e7a6e488d0312e87d",
+    "docs/architecture/evidence/provider-feasibility/capabilities.json": "ab42168911770dc1ae0bdd50c1beb8be9e2439b9a95c31246b828f27294b8333",
+    "docs/architecture/evidence/operating-economics/S9/pricing-v6.json": "f8867cac4900b19d5471afa5c929cefba1913e87068ba971c5ba58c3aec3070e",
+    "docs/architecture/evidence/operating-economics/S9/credits-v6.json": "03f50bb0131ad1916cd2cfc8ccf37b0f53a7720b7d701082346966350f52beb0",
+    "demo-video-example/02_script_humanized.txt": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+    "demo-video-example/01_script_raw.txt": "f844b669f1e9efeb3bb8513f72ab76bd683bef8f1c0f829f88ed7e720227af6b"
+  },
+  "query_and_token_caps_are": "Candidate local experiment limits, not frozen product defaults, allowances or current provider authorization",
+  "production_implementation": false,
+  "provider_API_calls": 0,
+  "paid_spend_USD": "0",
+  "final_credit_policy": null,
+  "Alpha_allowances": null,
+  "prelaunch_ceiling_USD": "30"
+}

@@ -1,0 +1,215 @@
+# S9 — operating economics
+
+## S9 revision 14 — bounded planning-feasibility closure
+
+2026-10-05. [Documentation-only closure](CREDITS-v14.md): **S9: PASS FOR PRIVATE-ALPHA ARCHITECTURE FEASIBILITY**, with explicit provider-enablement, cash-coverage and invitation conditions. Active ceiling remains **US$40 per Asia/Dhaka calendar month**; qualified 2-vCPU/4-GiB host sizing is closed unless failure. This does not freeze architecture, enable a provider, authorize spending/deployment or establish actual paid quality, complete expected costs or commercial profitability.
+
+The candidate three-minute educational workflow reserves **$6.598836 conditional provider maximum**, **$24.017182 nominal capped host/backup/transfer envelope**, leaving **$9.383982 cash-coverage capacity**. A five-minute alternative leaves $6.041646; the ten-minute broad fallback cannot fit this envelope. These are planning parameters, not final allowances/storage/grouping policy. Actual deterministic sentence scope and coherent B source count replace preliminary estimates before admission; one initially admitted attempt does not grant three attempts automatically. B initial/B corrections and continuous narration/mappings remain unchanged.
+
+All required taxes/fees/FX, unavoidable extras, owner reserve and unreconciled liabilities must have supported coverage within the residual **before paid commitment**; unknown or excessive coverage blocks activation. Exact endpoint/modal/token cap/one-send/rate/account/privacy proof remains mandatory before enabling any provider. No unvalidated narrow tokenizer, free generation capacity, zero unknown charges or live usable maximum is assumed. Storage/traffic limits, serialized heavy maintenance and S8 restore/purge/private access remain mandatory, with concrete implementation and remote operational acceptance before invitations. Creator credits never override internal USD authority.
+
+V1–V13 historical evidence remains unchanged; the earlier dated status/gap notes below are historical and are superseded at current **planning-feasibility** scope only. Ten-project owner calibration, final credit/debit policies, actual account quotes, provider/host selection and operational cap/allowance configuration remain later work. No production/TASKS.md, calls, spend, downloads, provisioning or purchase. Stop after this documentation update; no next phase is authorized.
+
+## S9 revision 13 — financial safety versus empirical calibration
+
+2026-10-05. [Current financial-authority evidence](CREDITS-v13.md): **S9: NOT_YET_PASS**. Active total ceiling **US$40 per Asia/Dhaka calendar month**; host sizing closed at locally qualified 2 vCPU / 4 GiB unless failure. Real paid generation/credit purchase is **not** required to prove the architecture's financial controls. Empirical expected costs, failure/retry/correction rates and quality measurements move to later owner validation; final commercial/creator-credit formulas do not authorize internal spending. **Creator-facing credits must never override internal USD financial authority.**
+
+Paid execution requires a trustworthy complete per-attempt maximum, atomic shared/project/creator reservations, finite attempts, persisted liabilities and fencing. Narrow token preflight is a pre-enablement requirement when no independently supported conservative fallback exists; missing bounds fail closed. Exact tax/fee/FX percentages and provider receipts need not be invented now: configure supported cash coverage before enabling paid work; unknown required coverage blocks admission. Storage/traffic caps, serialized heavy maintenance, private media and accepted S8 purge/restore obligations remain mandatory. These implementation/invitation gates are not waived by architecture evidence.
+
+The disposable fake-provider controls pass; the single remaining aggregate S9 gap is a **complete conservative cash-and-project planning envelope for one useful configuration under $40**. Current ~$24.005932 partial fixed sensitivity / ~$15.994068 nominal remainder and conditional serving-limit project figures do not prove that complete envelope. No final allowances, reserve percentage, provider selection, generation calls, production implementation, TASKS.md or architecture freeze. V1–V12 historical evidence unchanged; their former empirical/credit blocker lists are superseded by V13's explicit A/B/C classification, not retrospectively rewritten.
+
+Owner budget amendment / S9 revision 12, 2026-10-05: **active total ceiling US$40/month**, explicitly superseding $30 current authority. [Current economics and unresolved gates](CREDITS-v12.md): ~$24 locally qualified 2-vCPU/4-GiB class + measured two-snapshot backup-storage sensitivity $0.005932 = $24.005932 partial fixed cost; $15.994068 nominal remainder **before** unknown fees/reserves/current spending/holds. Actual available generation authority and full capacity UNKNOWN. **S9: NOT_YET_PASS.** No creator allowances/credit formula/provider selection/calls/production/architecture freeze. Host sizing remains closed unless failure. Historical V1–V11 evidence unchanged; their $30 references and prior execution notes below describe the limit then in force, not current authority.
+
+S9 revision 11, 2026-10-05: **NOT_YET_PASS**. [Final local host-sizing evidence](CREDITS-v11.md): whole native Linux guest 2 vCPU / 4 GiB, serialized maintenance, all unchanged workloads/media checks PASS. Minimum available RAM 1.791 GB (41.698%), no swap/OOM or failed status probes: **SAFE_ENOUGH_FOR_ALPHA at this local fixture scope**. ~$24 host class locally resource-qualified; no vendor selection or full economics PASS. Owner requires **no further host-sizing experiments unless failure**; sizing is closed here. $30/credits/allowances unchanged, no production/provider generation/downloads/token preflight/architecture freeze. V1–V10 preserved.
+
+S9 revision 10, 2026-10-05: **NOT_YET_PASS**. [Whole-Linux-guest evidence](CREDITS-v10.md): native ARM64 Ubuntu VM, actual 1 vCPU / 2 GiB, normal OS services included, serialized maintenance. All phases/media/cancellation completed, swap/OOM 0, but backup minimum available RAM 31.90 MB (1.486%): **MARGINAL**, ~$12 host class not resource-qualified. ~$24 / 4 GiB remains a candidate pending whole-guest proof; $30 ceiling unchanged. No provider generation, production, host selection, credits/allowances, tokenizer experiment or architecture freeze. Historical V1–V9 preserved.
+
+S9 revision 9, 2026-10-05: **NOT_YET_PASS**. [Local Linux resource envelopes](CREDITS-v9.md): one-CPU/2-GB serialized application phases pass at 1.972 GB peak; backup/render overlap causes OOM. Two-CPU/4-GB phases including overlap pass at 2.253 GB peak. Documented exact-frame mux repair preserves source audio; full scene/audio validator and five-language reference pixels pass. Emulated container tests exclude full VM OS overhead; no host selection, production, provider generation or token preflight. $30/credits/allowances unchanged.
+
+S9 revision 8, 2026-10-05: **NOT_YET_PASS**. [Infrastructure/storage/backup envelope](CREDITS-v8.md) records official candidate prices and unchanged-media measurements. $12–$24 persistent hosts are topology-compatible candidates, not resource-qualified selections; cheaper Hetzner candidate currently unavailable. Complete owner-cash fixed cost/reserve and full video economics remain UNKNOWN. $30 ceiling/credits/allowances unchanged; no token-preflight experiment, provisioning, production or provider generation.
+
+## Historical revision — v7, candidate text/research operation manifest
+
+**S9: NOT_YET_PASS.** [CREDITS-v7.md](CREDITS-v7.md), [manifest](text-research-manifest-v7.json), [48 local checks](witness-v7.json). Five-minute factual Research-entitled fixture: four candidate Gemini operations, <=6 bounded Basic searches, narrow token caps; conditional all-three-attempt envelope **$0.410964 before fees**. Expected text/search cost and usable live maximum remain UNKNOWN because model-specific complete-request token validation is not established. Preserved v6 image/TTS proxy ~$2.074188 is not a full cost. [Pre-v7 index](history-v7/s9-index-before-v7.md) preserves history. No provider calls, production, credit policy or Alpha allowances.
+
+## Current owner clarification — Research entitlement, 2026-10-05
+
+[OWNER-ENTITLEMENTS.md](OWNER-ENTITLEMENTS.md) qualifies the v6 interpretation:
+Research costs apply only when entitled and used; lower tiers receive no Research.
+Optional Topic/Custom/Expert discovery is accounted separately from per-video
+production. No calculations/results rewritten, no revision 7 executed.
+S9 remains NOT_YET_PASS. [Exact previous index](history-owner-entitlements/s9-index-before-amendment.md)
+preserves historical index/hash reconstruction. v6 remains the latest economics revision.
+
+## Historical revision — v6, variable production cost basis
+
+**S9: NOT_YET_PASS.** [CREDITS-v6.md](CREDITS-v6.md), [arithmetic/results](credits-v6.json) and [pricing](pricing-v6.json) separate real S5 B receipts, qualified duration proxies, expected unknowns and conditional maximum exposure. Image output + initial TTS proxy is ~$1.244513/$2.074188/$4.148375 for 3/5/10 minutes; full project cost remains UNKNOWN. No final credit formula or Alpha allowance adopted. v5 product decisions remain authoritative. [Exact pre-v6 index](history-v6/s9-index-before-v6.md) preserves history.
+
+## Historical revision — v5, owner sentence-driven scope
+
+**S9: NOT_YET_PASS.** [CREDITS-v5.md](CREDITS-v5.md) is the current decision/
+evidence record; [local results](credits-v5.json). Alpha shows **both credits and
+estimated USD**. Preliminary topic images ~12/minute (5 minutes ~60); generated
+or pasted script images = deterministic sentence count. Retain consumed valid
+script/research work when updating remaining estimates. Credit-debit rules and
+complete expected/maximum costs remain unresolved; USD authority stays separate.
+
+Everything below is retained historical v1–v4 evidence. Credits-only UI and
+selection of universal image-density policies are superseded. 30/40/56/80 are
+historical sensitivities, 40 only a disposable cap witness, 56 an S6 extrapolation.
+They do not control the new sentence-derived scope. The old next-step density
+question no longer blocks S9. [Pre-v5 index archive](history-v5/s9-index-before-v5.md)
+preserves the exact prior index. No paid calls, production or purchases.
+
+2026-10-05. **NOT_YET_PASS.** Started with owner-authorized local analysis and
+public pricing research. No generation request, account activation, purchase,
+deployment, production implementation or TASKS.md. Historical evidence retained.
+
+Continuation: [forecast revision 2](FORECAST-v2.md) combines explicit edit,
+text/search/TTS/storage sensitivities, monthly 3/5/10/20-project scenarios,
+additional official hosting evidence and maximum-liability stress checks.
+S9 remains NOT_YET_PASS; no complete-project measured cost is claimed.
+
+Owner future-plan clarification: [tier revision 3](TIERS-v3.md) records
+five-minute proportional video credits (six minutes = 1.2, ten = 2), default
+five-minute scripts and weekly/daily **future paid** capacities. These do not
+change free Alpha allowances; the current operating ceiling is $40 under the owner amendment. Retail pricing and
+final credit execution policies remain unselected.
+
+[Credit revision 4](CREDITS-v4.md) records creator-facing estimates in credits,
+internal dollar authority, a cost-derived Alpha capacity range (owner says
+capacity depends on cost) and local rejection of a synthetic 500-scene plan.
+Density/reserve figures are scenarios; no image-count constant, tester allowance
+or retail subscription price is selected. S9 remains NOT_YET_PASS.
+
+## Owner amendment — fixed tariff / no available image requests
+
+Owner directs S9 to use **$0.0336 per 1K image** as the authoritative Standard
+image-output tariff. No live image pilot is possible on the current Free tier.
+The pilot proposal below is historical and **DEFERRED**, not a next approval
+request. No upgrade, activation or paid call is authorized. Continue S9 using
+this fixed tariff, local evidence and explicitly labeled projections; do not
+invent observed image quality, acceptance rates, latency or generated byte sizes.
+
+Owner-provided account limits (2026-10-05, not independently authenticated):
+
+| Tier | RPM | Input TPM | RPD |
+|---|---:|---:|---:|
+| Free — active | 0 | 0 | 0 |
+| Tier 1 — conditional, not active | 150 | 100,000 | 1,000 |
+
+Current image generation capacity is zero. Under the supplied Tier 1 limits,
+RPD alone allows at most 29/17/8 complete initial 34/56/112-image projects per
+day, assuming one request per image and no other usage, edits or retries. These
+are request-only upper bounds, not invitation limits or affordability claims.
+Even pacing at the supplied RPM gives dispatch spans approximately 13.2/22.0/44.4
+seconds at evenly spaced 0.4-second starts; actual completion additionally
+depends on unknown latency, input TPM, account traffic and provider capacity.
+No account-wide throughput is established while Tier 1 is inactive.
+
+Other billed components and monthly operating obligations remain separate from
+this fixed image-output tariff; the tariff is not a per-request liability cap.
+The current reproducible analysis uses Standard only, not Batch savings.
+
+## Sources and measured evidence
+
+Selected image model: `gemini-3.1-flash-lite-image` (owner decision). Public
+[model documentation](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image)
+supports 1K/16:9, 65,536 input and 4,096 output tokens. Native 2K/4K are unsupported;
+1080p delivery entails scaling and needs owner image-quality review. Existing
+[image guide](https://ai.google.dev/gemini-api/docs/image-generation) references
+Lite but most wire examples use another model. Exact Lite endpoint/configuration
+compatibility is not claimed established by these examples or by a real call.
+
+[Pricing](https://ai.google.dev/gemini-api/docs/pricing), observed 2026-10-05:
+standard input $0.25/M tokens, text/thinking output $1.50/M, image output $30/M;
+listed 1K image equivalent $0.0336. Batch equivalents are half those rates,
+including $0.0168/image. No free API tier listed. Batch remains an alternative,
+not adopted or tested; latency/cancellation/retention must be evaluated first.
+The image-equivalent quote is not a flat all-in request price or maximum.
+
+Conservative full-cap attempt bound before fees: 65,536 × $0.25/M +
+4,096 × $30/M = **$0.139264**, using the highest output-modality rate.
+Prompt requests for one image do not prove an output-count limit. Account fees,
+endpoint serving-cap enforcement and hidden transport retries require preflight.
+[Active quotas](https://ai.google.dev/gemini-api/docs/rate-limits) are project/tier
+specific; RPM/TPM/RPD remain unknown, not inferred from TTS quotas.
+
+Existing S5 Call 4 and Call 6 usage imply historical tariff equivalents
+$0.033260 and $0.033128 for initial/coherent correction respectively (664 input,
+5488/5466 audio tokens; historical $0.50/$6 per M rates). These are single
+171.48/170.8-second sources, not complete 3/5/10-minute cost distributions or
+settled invoices. The eight-call experiment total $0.07897 is not per-video cost.
+B corrections regenerate the affected coherent segment and require realignment.
+
+Existing S6 local synthetic 3/5/10-minute renders took 44.64/79.42/237.20 seconds,
+outputs 17.88/29.43/59.55 MB, scratch 32.47/53.38/108.16 MB. Those sizes do not
+predict complex generated imagery compressibility, actual image bytes or VM CPU.
+S8 is a local backup protocol proof, not measured off-host traffic/billing.
+
+## Image-only projections
+
+| Minutes | S6 synthetic scenes | Standard output only | Batch output only |
+|---|---:|---:|---:|
+| 3 | 34 | $1.1424 | $0.5712 |
+| 5 | 56 | $1.8816 | $0.9408 |
+| 10 | 112 | $3.7632 | $1.8816 |
+
+Counts are workload scenarios, not fixed production segmentation. Input/thinking,
+corrections, charged failures, tax, research/text/TTS and infrastructure excluded.
+The local script also models 10% additional attempts as an explicit sensitivity,
+not a measured defect rate. No invitation allowances established.
+
+## Hosting / backups — preliminary comparison
+
+[DigitalOcean regular Basic](https://www.digitalocean.com/pricing/droplets):
+2 GiB/1 vCPU/50 GiB $12/month; 2 GiB/2 vCPU/60 GiB $18; 4 GiB/2 vCPU/80 GiB $24.
+Advertised before account taxes/extra traffic; machine size is not selected.
+[Daily managed backups](https://www.digitalocean.com/pricing/backups) add 30%
+and retain seven days. Standard retention alone does not establish the accepted
+next-day purge of expired project content: do not adopt without deletion proof.
+
+[Backblaze B2](https://www.backblaze.com/cloud-storage/pricing) advertises
+$6.95/TB/month and egress allowance 3× average storage, then $0.01/GB, observed
+2026-10-05. Regional/account terms and retained versions/purge need verification.
+No free-tier guarantee or backup vendor selected. Hetzner's public cloud page
+did not expose reproducible numeric plan pricing in the browser extraction;
+comparison is incomplete rather than using remembered prices.
+
+The locally qualified ~$24 host class leaves $16 of the active $40 ceiling before backup and all other costs. Using the measured two-snapshot backup-storage sensitivity leaves $15.994068 before fees, reserves, actual spending and liabilities. Complete fixed cost and usable generation authority remain UNKNOWN. The previously compared 30% managed daily backup would total $31.20 before generation/tax (nominal remainder $8.80), but its purge/restore semantics remain unproved and it is not selected. The ~$12/2-GiB class remains unqualified by V10; its cheap headline is not a viable configuration claim. No host/backup vendor selected.
+
+Monthly invariant: fixed host + backup/storage/egress + taxes/fees + all generated
+stages + edits + paid failures + unreconciled liabilities <= $40. Generation
+sample costs and present account spending must be included in their budget
+period, not assumed zero. Retained versions count; do not count scene references
+to the same shared source as duplicate paid generation/storage.
+
+## Historical proposed measurement — deferred by owner amendment
+
+[Proposed image pilot](proposed-image-pilot.json): eight explicitly listed
+standard 1K/16:9 requests, six initial images (two subjects × three accepted
+presets), two independent scene regenerations, no references/grounding/retries.
+Before-fee conservative maximum **$1.114112**; proposed all-in authorization
+**$1.50**, pending owner approval and verified fees/current budget headroom.
+This proposal is retained for history only; no approval is being sought now.
+No paid call may execute from this manifest alone. Endpoint/SDK bounds and
+account availability/quotas must be established first; any unknown outcome stops.
+Owner scores usability/style/prompt adherence/defects after outputs, including
+1080p scaling. Capture modality usage, latency, output count, dimensions, bytes,
+hashes, failures and actual invoice certainty. This is a small calibration pilot,
+not sufficient by itself for an S9 PASS or a reliability distribution.
+
+## Remaining blockers / closure
+
+Image acceptability/correction/size observations are unavailable on Free tier;
+retain scenario uncertainty instead of requiring an unauthorized live pilot.
+Need real project text/research usage, taxes/spend, intended monthly project volume,
+verified host/backup/egress terms and representative retained-volume traffic.
+Then prepare full per-project and monthly scenarios including stress/failure
+exposure and propose invitation limits for owner approval. S9 stays NOT_YET_PASS
+until meaningful use fits the complete ceiling or infeasibility is demonstrated.
+
+Reproduce: `python3 spikes/operating-economics/analyze.py` from repository root.
+[Analysis](analysis.json) contains Decimal arithmetic checks and hashed source
+receipts; no network/provider code exists in the script. Zero new provider calls,
+zero source-media modifications, no purchases/deployments or model downloads.

@@ -1,0 +1,8 @@
+{
+  "candidate_alpha.wav": "A_COMPARISON.wav",
+  "candidate_beta.wav": "A_ISOLATED_CORRECTION_COMPARISON.wav",
+  "candidate_gamma.wav": "../audio/call-04/attempt-04/source.wav",
+  "candidate_delta.wav": "../audio/call-06/attempt-06/source.wav",
+  "candidate_epsilon.wav": "../audio/call-07/attempt-07/source.wav",
+  "candidate_zeta.wav": "../audio/call-08/attempt-08/source.wav"
+}

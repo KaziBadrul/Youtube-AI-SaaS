@@ -1,0 +1,59 @@
+{
+  "gate": "S1",
+  "timestamp_utc": "2026-10-04T11:09:26.374561+00:00",
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "sqlite": "3.53.4",
+  "plan_sha256": "51343a5924d19a115dbbb6756100e6d0532c0a86b7906037c9e2b6a697bc5ff4",
+  "checks": [
+    "session_auth_private_assets_cross_user_range_csrf",
+    "optimistic_autosave_conflict_selective_invalidation",
+    "one_tap_queue_idempotency_script_preservation_separate_worker_polling",
+    "render_lock_server_enforcement_reads_cancel_confirmed_unlock_deleted_denial",
+    "safe_legacy_helper_python_runtime",
+    "executed_vanilla_js_scene_autosave_regen_polling_checks"
+  ],
+  "django": "5.2.17",
+  "command_response_seconds": 0.0020919580128975213,
+  "worker_states_observed": [
+    "queued",
+    "running"
+  ],
+  "worker_events": [
+    {
+      "stage": "Planning scenes"
+    },
+    {
+      "stage": "Creating narration"
+    },
+    {
+      "stage": "Preparing timing"
+    }
+  ],
+  "js_test_output": "PASS: enhancement selection, debounce/serialized autosave, paste disclosure, scope confirmation, polling/render lock, cancel and CSRF",
+  "limitations": [
+    "No full visual/browser-device acceptance; JS runs in a deterministic DOM/fetch witness plus real Django HTTP tests.",
+    "Provider/alignment native dependencies and FFmpeg caption/render compatibility remain S4/S5/S6; only safe Python helper and separate fake-child execution tested.",
+    "Fixtures are not product models or production code."
+  ],
+  "verdict": "PASS",
+  "elapsed_seconds": 1.58,
+  "scaffold_hashes": {
+    "s1.py": "1c5c1fc51ee7675ff8697181005305d15dc2c01901d398755b35c87f142e2929",
+    "backup.py": "6eb72fee009bed1328cccbcab8bef8cdd6b1b74d0478a91a479a5f35a5396380",
+    "core.py": "181705f3902516481dc7bc49b71fedc1e4ab751d3ceca216b6b545a460bd90e2",
+    "supervision.py": "d15b19f8678c6467cc278be21ed3da67524c0db2af3fe3ed736f732883963fd5",
+    "django_boundary.py": "dd5fe2a584e3b68356bbc79ef0b4ee9b389bf7c9cc54be439c5504575638d6e2",
+    "publication.py": "881ba9c84780ed3d4400fce513848b0297151f481dc596c0978d58b37cb5496c",
+    "s8.py": "e77bb17a9bf177a32f026d84d4f1006d389b2da34fa5ea33ed86e56410f3304a",
+    "s1worker.py": "c7c99dd28f5baded17ee966d39a518f28b463fa571824d64f846d3f678debd7b",
+    "s7.py": "cf66d972093a42dc06817d8655e739203794b0ca91d3c5d0587abd4c64d3fd06",
+    "s3.py": "fa6c7a715f0099b8b76a26a7531126a1004ff9fd92830e112f660a9379164526",
+    "evidence.py": "dc87b7bf14bbc32bd798036ef08a550b957ade778b4ff333588e158402fb6303",
+    "s2.py": "78201c4665c0c8246540e8e87a61690f337a83a984092eb975a0132ecd2ad033",
+    "fixtures.py": "e945965d990a5979d555b65cee36f7e3e0d4c984aa67dd0114b0fab27d10c6f5",
+    "static/boundary.js": "0d45569692df4471de4c633d9e4d4beb81fca19ed1f045bb10b140b5d4d8430f",
+    "static/boundary.test.js": "a1c3a1f4f5526697c3dbeead4020db735b5fb6deb39663246939a9aa2a603fc8",
+    "templates/boundary.html": "5b7b98e46bf50a0f8d1bdb6baf54bde8e03cfff58886766099a1511bc0934896"
+  }
+}

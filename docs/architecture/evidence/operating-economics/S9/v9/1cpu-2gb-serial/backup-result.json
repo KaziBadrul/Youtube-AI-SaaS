@@ -1,0 +1,11 @@
+{
+  "wall_seconds": 2.831940584999984,
+  "file_count": 311,
+  "uncompressed_payload_bytes": 426714542,
+  "archive_bytes": 426781033,
+  "sha256": "f6a6aa8fb29d73d7dd1f4e0b7c3175e74a632eb49d8704f6e5dab577f0bfcf29",
+  "restore_hashes_verified": true,
+  "implementation": "in-memory full archive + AES-GCM stress, ZIP_STORED avoids hiding cost through compression",
+  "remote_proof": false,
+  "key_retained": false
+}

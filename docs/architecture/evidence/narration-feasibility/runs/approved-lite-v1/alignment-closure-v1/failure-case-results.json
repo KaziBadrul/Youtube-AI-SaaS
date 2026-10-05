@@ -1,0 +1,15 @@
+{
+  "method": "Existing spikes/narration-feasibility/score_alignment.py with synthetic reviewed word records",
+  "cases": {
+    "normal_multi_scene": {"export_candidate": true, "edit_distance": 0, "sample_range_order_valid": true},
+    "very_short_scene": {"export_candidate": true, "edit_distance": 0, "sample_range_order_valid": true},
+    "punctuation_difference": {"export_candidate": true, "edit_distance": 0, "sample_range_order_valid": true},
+    "natural_pauses": {"export_candidate": true, "edit_distance": 0, "max_boundary_error_seconds": 0.05},
+    "ASR_substitution": {"export_candidate": false, "edit_distance": 1, "word_error_rate": 0.5},
+    "omitted_word": {"export_candidate": false, "edit_distance": 1},
+    "repeated_word": {"export_candidate": false, "edit_distance": 1},
+    "ambiguous_overlap": {"export_candidate": false, "edit_distance": 0, "sample_range_order_valid": false},
+    "incomplete_truncated_audio": {"export_candidate": false, "edit_distance": 1, "sample_range_order_valid": false}
+  },
+  "conclusion": "The disposable scorer fails closed for substitutions, omissions, repetitions, overlaps and truncation. Punctuation and natural pauses remain eligible for human review. No synthetic case is treated as provider-audio quality evidence."
+}

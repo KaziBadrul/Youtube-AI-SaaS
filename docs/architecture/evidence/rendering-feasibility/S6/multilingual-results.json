@@ -1,0 +1,1267 @@
+[
+  {
+    "text": "A clear caption: “It’s ready!” 1, 2, 3.",
+    "font": "/private/tmp/s6-render-fonts/notosans.ttf",
+    "language": "en",
+    "lines": [
+      "A clear caption: “It’s ready!” 1, 2, 3."
+    ],
+    "glyphs": [
+      {
+        "glyph_id": 36,
+        "cluster": 0,
+        "x_advance": 2208
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 1,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 70,
+        "cluster": 2,
+        "x_advance": 1659
+      },
+      {
+        "glyph_id": 79,
+        "cluster": 3,
+        "x_advance": 892
+      },
+      {
+        "glyph_id": 72,
+        "cluster": 4,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 68,
+        "cluster": 5,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 6,
+        "x_advance": 1427
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 7,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 70,
+        "cluster": 8,
+        "x_advance": 1659
+      },
+      {
+        "glyph_id": 68,
+        "cluster": 9,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 83,
+        "cluster": 10,
+        "x_advance": 2125
+      },
+      {
+        "glyph_id": 87,
+        "cluster": 11,
+        "x_advance": 1248
+      },
+      {
+        "glyph_id": 76,
+        "cluster": 12,
+        "x_advance": 892
+      },
+      {
+        "glyph_id": 82,
+        "cluster": 13,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 81,
+        "cluster": 14,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 29,
+        "cluster": 15,
+        "x_advance": 926
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 16,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 520,
+        "cluster": 17,
+        "x_advance": 1241
+      },
+      {
+        "glyph_id": 44,
+        "cluster": 18,
+        "x_advance": 1172
+      },
+      {
+        "glyph_id": 87,
+        "cluster": 19,
+        "x_advance": 1317
+      },
+      {
+        "glyph_id": 517,
+        "cluster": 20,
+        "x_advance": 501
+      },
+      {
+        "glyph_id": 86,
+        "cluster": 21,
+        "x_advance": 1655
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 22,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 23,
+        "x_advance": 1358
+      },
+      {
+        "glyph_id": 72,
+        "cluster": 24,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 68,
+        "cluster": 25,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 71,
+        "cluster": 26,
+        "x_advance": 2125
+      },
+      {
+        "glyph_id": 92,
+        "cluster": 27,
+        "x_advance": 1763
+      },
+      {
+        "glyph_id": 4,
+        "cluster": 28,
+        "x_advance": 930
+      },
+      {
+        "glyph_id": 521,
+        "cluster": 29,
+        "x_advance": 1241
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 30,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 20,
+        "cluster": 31,
+        "x_advance": 1977
+      },
+      {
+        "glyph_id": 15,
+        "cluster": 32,
+        "x_advance": 926
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 33,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 21,
+        "cluster": 34,
+        "x_advance": 1977
+      },
+      {
+        "glyph_id": 15,
+        "cluster": 35,
+        "x_advance": 926
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 36,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 22,
+        "cluster": 37,
+        "x_advance": 1977
+      },
+      {
+        "glyph_id": 17,
+        "cluster": 38,
+        "x_advance": 926
+      }
+    ],
+    "notdef_count": 0,
+    "fallback": false,
+    "clipped": false,
+    "mechanism": "HarfBuzz OpenType shaping + FreeType raster + Pillow composition",
+    "sha256": "e9cc3dd5fd18a9ef465dabcb1e57b1b0251ead36f0e03dfa6a90f6ffd11bc0c8",
+    "name": "English",
+    "font_family": "Noto Sans",
+    "frame": "frames/language-en.png",
+    "output": "exports/language-en.mp4",
+    "visual_shaping": "PASS",
+    "codec": "h264",
+    "decoded_frame": "frames/language-en-decoded.png",
+    "shaping_clusters": 39,
+    "source_codepoints": 39,
+    "glyph_count": 39,
+    "visual_review": "Codex inspected decoded MP4 frame; readable accents/quotes and contextual Bangla/Devanagari conjuncts, no split vowel marks or clipping; no translation-quality claim.",
+    "glyph_bounds_in_output": [
+      528,
+      951,
+      1386,
+      1004
+    ]
+  },
+  {
+    "text": "¿Qué ocurrió? El niño tomó café; acción y corazón.",
+    "font": "/private/tmp/s6-render-fonts/notosans.ttf",
+    "language": "es",
+    "lines": [
+      "¿Qué ocurrió? El niño tomó café; acción y corazón."
+    ],
+    "glyphs": [
+      {
+        "glyph_id": 129,
+        "cluster": 0,
+        "x_advance": 1500
+      },
+      {
+        "glyph_id": 52,
+        "cluster": 1,
+        "x_advance": 2699
+      },
+      {
+        "glyph_id": 88,
+        "cluster": 2,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 171,
+        "cluster": 3,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 4,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 82,
+        "cluster": 5,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 70,
+        "cluster": 6,
+        "x_advance": 1659
+      },
+      {
+        "glyph_id": 88,
+        "cluster": 7,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 8,
+        "x_advance": 1427
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 9,
+        "x_advance": 1427
+      },
+      {
+        "glyph_id": 76,
+        "cluster": 10,
+        "x_advance": 892
+      },
+      {
+        "glyph_id": 181,
+        "cluster": 11,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 34,
+        "cluster": 12,
+        "x_advance": 1500
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 13,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 40,
+        "cluster": 14,
+        "x_advance": 1922
+      },
+      {
+        "glyph_id": 79,
+        "cluster": 15,
+        "x_advance": 892
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 16,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 81,
+        "cluster": 17,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 76,
+        "cluster": 18,
+        "x_advance": 892
+      },
+      {
+        "glyph_id": 179,
+        "cluster": 19,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 82,
+        "cluster": 20,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 21,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 87,
+        "cluster": 22,
+        "x_advance": 1248
+      },
+      {
+        "glyph_id": 82,
+        "cluster": 23,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 80,
+        "cluster": 24,
+        "x_advance": 3231
+      },
+      {
+        "glyph_id": 181,
+        "cluster": 25,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 26,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 70,
+        "cluster": 27,
+        "x_advance": 1659
+      },
+      {
+        "glyph_id": 68,
+        "cluster": 28,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 73,
+        "cluster": 29,
+        "x_advance": 1189
+      },
+      {
+        "glyph_id": 171,
+        "cluster": 30,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 30,
+        "cluster": 31,
+        "x_advance": 926
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 32,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 68,
+        "cluster": 33,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 70,
+        "cluster": 34,
+        "x_advance": 1659
+      },
+      {
+        "glyph_id": 70,
+        "cluster": 35,
+        "x_advance": 1659
+      },
+      {
+        "glyph_id": 76,
+        "cluster": 36,
+        "x_advance": 892
+      },
+      {
+        "glyph_id": 181,
+        "cluster": 37,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 81,
+        "cluster": 38,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 39,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 92,
+        "cluster": 40,
+        "x_advance": 1763
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 41,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 70,
+        "cluster": 42,
+        "x_advance": 1659
+      },
+      {
+        "glyph_id": 82,
+        "cluster": 43,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 44,
+        "x_advance": 1358
+      },
+      {
+        "glyph_id": 68,
+        "cluster": 45,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 93,
+        "cluster": 46,
+        "x_advance": 1624
+      },
+      {
+        "glyph_id": 181,
+        "cluster": 47,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 81,
+        "cluster": 48,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 17,
+        "cluster": 49,
+        "x_advance": 926
+      }
+    ],
+    "notdef_count": 0,
+    "fallback": false,
+    "clipped": false,
+    "mechanism": "HarfBuzz OpenType shaping + FreeType raster + Pillow composition",
+    "sha256": "fb982827b270ca2e012d8fea87e99b2cfa8c574f9569567fab0bc2f58b9e1f38",
+    "name": "Spanish",
+    "font_family": "Noto Sans",
+    "frame": "frames/language-es.png",
+    "output": "exports/language-es.mp4",
+    "visual_shaping": "PASS",
+    "codec": "h264",
+    "decoded_frame": "frames/language-es-decoded.png",
+    "shaping_clusters": 50,
+    "source_codepoints": 50,
+    "glyph_count": 50,
+    "visual_review": "Codex inspected decoded MP4 frame; readable accents/quotes and contextual Bangla/Devanagari conjuncts, no split vowel marks or clipping; no translation-quality claim.",
+    "glyph_bounds_in_output": [
+      329,
+      951,
+      1588,
+      1004
+    ]
+  },
+  {
+    "text": "L’été à Montréal : « déjà prêt », cœur et français.",
+    "font": "/private/tmp/s6-render-fonts/notosans.ttf",
+    "language": "fr",
+    "lines": [
+      "L’été à Montréal : « déjà prêt », cœur et français."
+    ],
+    "glyphs": [
+      {
+        "glyph_id": 47,
+        "cluster": 0,
+        "x_advance": 1535
+      },
+      {
+        "glyph_id": 517,
+        "cluster": 1,
+        "x_advance": 398
+      },
+      {
+        "glyph_id": 171,
+        "cluster": 2,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 87,
+        "cluster": 3,
+        "x_advance": 1248
+      },
+      {
+        "glyph_id": 171,
+        "cluster": 4,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 5,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 162,
+        "cluster": 6,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 7,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 48,
+        "cluster": 8,
+        "x_advance": 3135
+      },
+      {
+        "glyph_id": 82,
+        "cluster": 9,
+        "x_advance": 2091
+      },
+      {
+        "glyph_id": 81,
+        "cluster": 10,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 87,
+        "cluster": 11,
+        "x_advance": 1248
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 12,
+        "x_advance": 1358
+      },
+      {
+        "glyph_id": 171,
+        "cluster": 13,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 68,
+        "cluster": 14,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 79,
+        "cluster": 15,
+        "x_advance": 892
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 16,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 29,
+        "cluster": 17,
+        "x_advance": 926
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 18,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 109,
+        "cluster": 19,
+        "x_advance": 1759
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 20,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 71,
+        "cluster": 21,
+        "x_advance": 2125
+      },
+      {
+        "glyph_id": 171,
+        "cluster": 22,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 77,
+        "cluster": 23,
+        "x_advance": 892
+      },
+      {
+        "glyph_id": 162,
+        "cluster": 24,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 25,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 83,
+        "cluster": 26,
+        "x_advance": 2125
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 27,
+        "x_advance": 1358
+      },
+      {
+        "glyph_id": 172,
+        "cluster": 28,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 87,
+        "cluster": 29,
+        "x_advance": 1248
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 30,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 125,
+        "cluster": 31,
+        "x_advance": 1759
+      },
+      {
+        "glyph_id": 15,
+        "cluster": 32,
+        "x_advance": 926
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 33,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 70,
+        "cluster": 34,
+        "x_advance": 1659
+      },
+      {
+        "glyph_id": 276,
+        "cluster": 35,
+        "x_advance": 3269
+      },
+      {
+        "glyph_id": 88,
+        "cluster": 36,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 37,
+        "x_advance": 1427
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 38,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 72,
+        "cluster": 39,
+        "x_advance": 1949
+      },
+      {
+        "glyph_id": 87,
+        "cluster": 40,
+        "x_advance": 1248
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 41,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 73,
+        "cluster": 42,
+        "x_advance": 1189
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 43,
+        "x_advance": 1358
+      },
+      {
+        "glyph_id": 68,
+        "cluster": 44,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 81,
+        "cluster": 45,
+        "x_advance": 2136
+      },
+      {
+        "glyph_id": 169,
+        "cluster": 46,
+        "x_advance": 1659
+      },
+      {
+        "glyph_id": 68,
+        "cluster": 47,
+        "x_advance": 1939
+      },
+      {
+        "glyph_id": 76,
+        "cluster": 48,
+        "x_advance": 892
+      },
+      {
+        "glyph_id": 86,
+        "cluster": 49,
+        "x_advance": 1655
+      },
+      {
+        "glyph_id": 17,
+        "cluster": 50,
+        "x_advance": 926
+      }
+    ],
+    "notdef_count": 0,
+    "fallback": false,
+    "clipped": false,
+    "mechanism": "HarfBuzz OpenType shaping + FreeType raster + Pillow composition",
+    "sha256": "0e0c4f1a729b0184b4ac9cc844f1a5177f349b5ae1b90e70f5c4aed21d1d1f56",
+    "name": "French",
+    "font_family": "Noto Sans",
+    "frame": "frames/language-fr.png",
+    "output": "exports/language-fr.mp4",
+    "visual_shaping": "PASS",
+    "codec": "h264",
+    "decoded_frame": "frames/language-fr-decoded.png",
+    "shaping_clusters": 51,
+    "source_codepoints": 51,
+    "glyph_count": 51,
+    "visual_review": "Codex inspected decoded MP4 frame; readable accents/quotes and contextual Bangla/Devanagari conjuncts, no split vowel marks or clipping; no translation-quality claim.",
+    "glyph_bounds_in_output": [
+      363,
+      951,
+      1557,
+      1004
+    ]
+  },
+  {
+    "text": "বাংলা ভাষায় শিক্ষা: ক্ষুদ্র প্রশ্ন, শ্রদ্ধা ও বিজ্ঞান।",
+    "font": "/private/tmp/s6-render-fonts/notosansbengali.ttf",
+    "language": "bn",
+    "lines": [
+      "বাংলা ভাষায় শিক্ষা: ক্ষুদ্র প্রশ্ন, শ্রদ্ধা ও বিজ্ঞান।"
+    ],
+    "glyphs": [
+      {
+        "glyph_id": 47,
+        "cluster": 0,
+        "x_advance": 2060
+      },
+      {
+        "glyph_id": 59,
+        "cluster": 0,
+        "x_advance": 919
+      },
+      {
+        "glyph_id": 11,
+        "cluster": 0,
+        "x_advance": 1514
+      },
+      {
+        "glyph_id": 52,
+        "cluster": 3,
+        "x_advance": 2526
+      },
+      {
+        "glyph_id": 59,
+        "cluster": 3,
+        "x_advance": 919
+      },
+      {
+        "glyph_id": 7,
+        "cluster": 5,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 48,
+        "cluster": 6,
+        "x_advance": 2423
+      },
+      {
+        "glyph_id": 59,
+        "cluster": 6,
+        "x_advance": 919
+      },
+      {
+        "glyph_id": 54,
+        "cluster": 8,
+        "x_advance": 2163
+      },
+      {
+        "glyph_id": 59,
+        "cluster": 8,
+        "x_advance": 919
+      },
+      {
+        "glyph_id": 50,
+        "cluster": 10,
+        "x_advance": 2163
+      },
+      {
+        "glyph_id": 57,
+        "cluster": 10,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 7,
+        "cluster": 12,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 353,
+        "cluster": 13,
+        "x_advance": 919
+      },
+      {
+        "glyph_id": 53,
+        "cluster": 13,
+        "x_advance": 2354
+      },
+      {
+        "glyph_id": 135,
+        "cluster": 15,
+        "x_advance": 2969
+      },
+      {
+        "glyph_id": 59,
+        "cluster": 15,
+        "x_advance": 919
+      },
+      {
+        "glyph_id": 442,
+        "cluster": 19,
+        "x_advance": 926
+      },
+      {
+        "glyph_id": 7,
+        "cluster": 20,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 135,
+        "cluster": 21,
+        "x_advance": 2969
+      },
+      {
+        "glyph_id": 62,
+        "cluster": 21,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 225,
+        "cluster": 25,
+        "x_advance": 2153
+      },
+      {
+        "glyph_id": 288,
+        "cluster": 25,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 7,
+        "cluster": 28,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 234,
+        "cluster": 29,
+        "x_advance": 2640
+      },
+      {
+        "glyph_id": 281,
+        "cluster": 29,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 245,
+        "cluster": 32,
+        "x_advance": 2354
+      },
+      {
+        "glyph_id": 309,
+        "cluster": 34,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 327,
+        "cluster": 34,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 428,
+        "cluster": 35,
+        "x_advance": 926
+      },
+      {
+        "glyph_id": 7,
+        "cluster": 36,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 246,
+        "cluster": 37,
+        "x_advance": 2509
+      },
+      {
+        "glyph_id": 281,
+        "cluster": 37,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 226,
+        "cluster": 40,
+        "x_advance": 2232
+      },
+      {
+        "glyph_id": 299,
+        "cluster": 42,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 323,
+        "cluster": 42,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 345,
+        "cluster": 42,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 59,
+        "cluster": 42,
+        "x_advance": 919
+      },
+      {
+        "glyph_id": 7,
+        "cluster": 44,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 23,
+        "cluster": 45,
+        "x_advance": 2551
+      },
+      {
+        "glyph_id": 7,
+        "cluster": 46,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 60,
+        "cluster": 47,
+        "x_advance": 919
+      },
+      {
+        "glyph_id": 47,
+        "cluster": 47,
+        "x_advance": 2060
+      },
+      {
+        "glyph_id": 143,
+        "cluster": 49,
+        "x_advance": 3245
+      },
+      {
+        "glyph_id": 59,
+        "cluster": 49,
+        "x_advance": 919
+      },
+      {
+        "glyph_id": 44,
+        "cluster": 53,
+        "x_advance": 2081
+      },
+      {
+        "glyph_id": 105,
+        "cluster": 54,
+        "x_advance": 1310
+      }
+    ],
+    "notdef_count": 0,
+    "fallback": false,
+    "clipped": false,
+    "mechanism": "HarfBuzz OpenType shaping + FreeType raster + Pillow composition",
+    "sha256": "9cd067a448a43af37f731a13592dba3b2f6babb37d1507ba8185af61fcb6371a",
+    "name": "Bangla",
+    "font_family": "Noto Sans Bengali",
+    "frame": "frames/language-bn.png",
+    "output": "exports/language-bn.mp4",
+    "visual_shaping": "PASS",
+    "codec": "h264",
+    "decoded_frame": "frames/language-bn-decoded.png",
+    "shaping_clusters": 29,
+    "source_codepoints": 55,
+    "glyph_count": 47,
+    "visual_review": "Codex inspected decoded MP4 frame; readable accents/quotes and contextual Bangla/Devanagari conjuncts, no split vowel marks or clipping; no translation-quality claim.",
+    "glyph_bounds_in_output": [
+      486,
+      944,
+      1428,
+      1003
+    ]
+  },
+  {
+    "text": "हिन्दी में शिक्षा: क्षत्रिय, श्रद्धा और विज्ञान।",
+    "font": "/private/tmp/s6-render-fonts/notosansdevanagari.ttf",
+    "language": "hi",
+    "lines": [
+      "हिन्दी में शिक्षा: क्षत्रिय, श्रद्धा और विज्ञान।"
+    ],
+    "glyphs": [
+      {
+        "glyph_id": 544,
+        "cluster": 0,
+        "x_advance": 895
+      },
+      {
+        "glyph_id": 88,
+        "cluster": 0,
+        "x_advance": 1835
+      },
+      {
+        "glyph_id": 245,
+        "cluster": 2,
+        "x_advance": 1068
+      },
+      {
+        "glyph_id": 73,
+        "cluster": 4,
+        "x_advance": 1835
+      },
+      {
+        "glyph_id": 33,
+        "cluster": 4,
+        "x_advance": 895
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 6,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 80,
+        "cluster": 7,
+        "x_advance": 2067
+      },
+      {
+        "glyph_id": 512,
+        "cluster": 7,
+        "x_advance": 0
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 10,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 549,
+        "cluster": 11,
+        "x_advance": 895
+      },
+      {
+        "glyph_id": 85,
+        "cluster": 11,
+        "x_advance": 2350
+      },
+      {
+        "glyph_id": 90,
+        "cluster": 13,
+        "x_advance": 2478
+      },
+      {
+        "glyph_id": 31,
+        "cluster": 13,
+        "x_advance": 895
+      },
+      {
+        "glyph_id": 814,
+        "cluster": 17,
+        "x_advance": 1016
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 18,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 90,
+        "cluster": 19,
+        "x_advance": 2478
+      },
+      {
+        "glyph_id": 545,
+        "cluster": 22,
+        "x_advance": 895
+      },
+      {
+        "glyph_id": 304,
+        "cluster": 22,
+        "x_advance": 1908
+      },
+      {
+        "glyph_id": 81,
+        "cluster": 26,
+        "x_advance": 2004
+      },
+      {
+        "glyph_id": 800,
+        "cluster": 27,
+        "x_advance": 926
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 28,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 317,
+        "cluster": 29,
+        "x_advance": 2447
+      },
+      {
+        "glyph_id": 448,
+        "cluster": 32,
+        "x_advance": 2761
+      },
+      {
+        "glyph_id": 31,
+        "cluster": 32,
+        "x_advance": 895
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 36,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 18,
+        "cluster": 37,
+        "x_advance": 3535
+      },
+      {
+        "glyph_id": 82,
+        "cluster": 38,
+        "x_advance": 1414
+      },
+      {
+        "glyph_id": 3,
+        "cluster": 39,
+        "x_advance": 899
+      },
+      {
+        "glyph_id": 545,
+        "cluster": 40,
+        "x_advance": 895
+      },
+      {
+        "glyph_id": 84,
+        "cluster": 40,
+        "x_advance": 1922
+      },
+      {
+        "glyph_id": 91,
+        "cluster": 42,
+        "x_advance": 2215
+      },
+      {
+        "glyph_id": 31,
+        "cluster": 42,
+        "x_advance": 895
+      },
+      {
+        "glyph_id": 75,
+        "cluster": 46,
+        "x_advance": 1918
+      },
+      {
+        "glyph_id": 128,
+        "cluster": 47,
+        "x_advance": 1310
+      }
+    ],
+    "notdef_count": 0,
+    "fallback": false,
+    "clipped": false,
+    "mechanism": "HarfBuzz OpenType shaping + FreeType raster + Pillow composition",
+    "sha256": "d984a82057245ef0b5e05c67f333ac360910364f0d8285b5dc4c6ab0b84da19d",
+    "name": "Hindi",
+    "font_family": "Noto Sans Devanagari",
+    "frame": "frames/language-hi.png",
+    "output": "exports/language-hi.mp4",
+    "visual_shaping": "PASS",
+    "codec": "h264",
+    "decoded_frame": "frames/language-hi-decoded.png",
+    "shaping_clusters": 25,
+    "source_codepoints": 48,
+    "glyph_count": 34,
+    "visual_review": "Codex inspected decoded MP4 frame; readable accents/quotes and contextual Bangla/Devanagari conjuncts, no split vowel marks or clipping; no translation-quality claim.",
+    "glyph_bounds_in_output": [
+      569,
+      944,
+      1344,
+      999
+    ]
+  }
+]

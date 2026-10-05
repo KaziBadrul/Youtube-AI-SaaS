@@ -1,0 +1,474 @@
+[
+  {
+    "scene_id": 1,
+    "source_span": [
+      0,
+      11
+    ],
+    "narration": "Okay, so..."
+  },
+  {
+    "scene_id": 2,
+    "source_span": [
+      12,
+      105
+    ],
+    "narration": "it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it."
+  },
+  {
+    "scene_id": 3,
+    "source_span": [
+      106,
+      186
+    ],
+    "narration": "At some point between when you're like twelve and twenty-two, your brain just..."
+  },
+  {
+    "scene_id": 4,
+    "source_span": [
+      187,
+      196
+    ],
+    "narration": "glitches."
+  },
+  {
+    "scene_id": 5,
+    "source_span": [
+      198,
+      362
+    ],
+    "narration": "You’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you."
+  },
+  {
+    "scene_id": 6,
+    "source_span": [
+      363,
+      410
+    ],
+    "narration": "He’s not this all-knowing architect of reality."
+  },
+  {
+    "scene_id": 7,
+    "source_span": [
+      411,
+      538
+    ],
+    "narration": "He’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything."
+  },
+  {
+    "scene_id": 8,
+    "source_span": [
+      540,
+      579
+    ],
+    "narration": "Because think about when you were five."
+  },
+  {
+    "scene_id": 9,
+    "source_span": [
+      580,
+      629
+    ],
+    "narration": "Your parents aren't even people to you back then."
+  },
+  {
+    "scene_id": 10,
+    "source_span": [
+      630,
+      645
+    ],
+    "narration": "They're like..."
+  },
+  {
+    "scene_id": 11,
+    "source_span": [
+      646,
+      665
+    ],
+    "narration": "mythical creatures."
+  },
+  {
+    "scene_id": 12,
+    "source_span": [
+      666,
+      712
+    ],
+    "narration": "They know where the spare lightbulbs are kept."
+  },
+  {
+    "scene_id": 13,
+    "source_span": [
+      713,
+      734
+    ],
+    "narration": "They deal with wasps."
+  },
+  {
+    "scene_id": 14,
+    "source_span": [
+      735,
+      869
+    ],
+    "narration": "They carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major."
+  },
+  {
+    "scene_id": 15,
+    "source_span": [
+      870,
+      903
+    ],
+    "narration": "They're just environmental facts."
+  },
+  {
+    "scene_id": 16,
+    "source_span": [
+      904,
+      930
+    ],
+    "narration": "Like gravity, or the roof."
+  },
+  {
+    "scene_id": 17,
+    "source_span": [
+      932,
+      985
+    ],
+    "narration": "And then you get older, and the cracks start showing."
+  },
+  {
+    "scene_id": 18,
+    "source_span": [
+      987,
+      1173
+    ],
+    "narration": "Maybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag."
+  },
+  {
+    "scene_id": 19,
+    "source_span": [
+      1175,
+      1253
+    ],
+    "narration": "Or you hear your dad tell a casual story about his twenties and you realize..."
+  },
+  {
+    "scene_id": 20,
+    "source_span": [
+      1254,
+      1327
+    ],
+    "narration": "wait, he was a total menace who barely survived his own terrible choices?"
+  },
+  {
+    "scene_id": 21,
+    "source_span": [
+      1329,
+      1545
+    ],
+    "narration": "Or even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for."
+  },
+  {
+    "scene_id": 22,
+    "source_span": [
+      1547,
+      1648
+    ],
+    "narration": "I actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\""
+  },
+  {
+    "scene_id": 23,
+    "source_span": [
+      1649,
+      1887
+    ],
+    "narration": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel."
+  },
+  {
+    "scene_id": 24,
+    "source_span": [
+      1889,
+      2011
+    ],
+    "narration": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks."
+  },
+  {
+    "scene_id": 25,
+    "source_span": [
+      2013,
+      2054
+    ],
+    "narration": "And if you do the math, it’s even wilder."
+  },
+  {
+    "scene_id": 26,
+    "source_span": [
+      2055,
+      2138
+    ],
+    "narration": "When you were born, your parents were probably in their twenties or early thirties."
+  },
+  {
+    "scene_id": 27,
+    "source_span": [
+      2139,
+      2182
+    ],
+    "narration": "Look at anyone who's twenty-four right now."
+  },
+  {
+    "scene_id": 28,
+    "source_span": [
+      2183,
+      2208
+    ],
+    "narration": "They are a disaster zone."
+  },
+  {
+    "scene_id": 29,
+    "source_span": [
+      2209,
+      2348
+    ],
+    "narration": "They eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time."
+  },
+  {
+    "scene_id": 30,
+    "source_span": [
+      2350,
+      2389
+    ],
+    "narration": "Your parents were *those exact people*."
+  },
+  {
+    "scene_id": 31,
+    "source_span": [
+      2390,
+      2454
+    ],
+    "narration": "They didn't get summoned from some ancient order of wise elders."
+  },
+  {
+    "scene_id": 32,
+    "source_span": [
+      2455,
+      2552
+    ],
+    "narration": "They were literally just two random young adults who got handed a screaming baby and went, \"Oh..."
+  },
+  {
+    "scene_id": 33,
+    "source_span": [
+      2553,
+      2558
+    ],
+    "narration": "cool."
+  },
+  {
+    "scene_id": 34,
+    "source_span": [
+      2559,
+      2587
+    ],
+    "narration": "Guess we're doing this now.\""
+  },
+  {
+    "scene_id": 35,
+    "source_span": [
+      2588,
+      2700
+    ],
+    "narration": "Every rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling."
+  },
+  {
+    "scene_id": 36,
+    "source_span": [
+      2701,
+      2726
+    ],
+    "narration": "Making it up on the spot."
+  },
+  {
+    "scene_id": 37,
+    "source_span": [
+      2728,
+      2771
+    ],
+    "narration": "And once you notice it, you can't unsee it."
+  },
+  {
+    "scene_id": 38,
+    "source_span": [
+      2772,
+      2851
+    ],
+    "narration": "You start seeing their weird habits not as \"parent traits,\" but as human flaws."
+  },
+  {
+    "scene_id": 39,
+    "source_span": [
+      2852,
+      2912
+    ],
+    "narration": "You notice your mom is genuinely insecure about her cooking."
+  },
+  {
+    "scene_id": 40,
+    "source_span": [
+      2913,
+      3016
+    ],
+    "narration": "You notice your dad gets angry because he’s actually just overwhelmed and doesn't know what else to do."
+  },
+  {
+    "scene_id": 41,
+    "source_span": [
+      3017,
+      3185
+    ],
+    "narration": "You realize they have high school stuff they never got over, bad habits they can't break, and weird dreams they quietly gave up so you could have a bedroom with carpet."
+  },
+  {
+    "scene_id": 42,
+    "source_span": [
+      3187,
+      3227
+    ],
+    "narration": "And honestly, it kind of sucks at first."
+  },
+  {
+    "scene_id": 43,
+    "source_span": [
+      3228,
+      3303
+    ],
+    "narration": "Because when you stop seeing them as superheroes, you lose that safety net."
+  },
+  {
+    "scene_id": 44,
+    "source_span": [
+      3304,
+      3353
+    ],
+    "narration": "You realize no one is secretly steering the ship."
+  },
+  {
+    "scene_id": 45,
+    "source_span": [
+      3354,
+      3421
+    ],
+    "narration": "There is no shadow committee of adults who have it all figured out."
+  },
+  {
+    "scene_id": 46,
+    "source_span": [
+      3422,
+      3537
+    ],
+    "narration": "It’s just eight billion people pretending they know what’s going on while trying not to spill coffee on themselves."
+  },
+  {
+    "scene_id": 47,
+    "source_span": [
+      3539,
+      3545
+    ],
+    "narration": "But..."
+  },
+  {
+    "scene_id": 48,
+    "source_span": [
+      3546,
+      3583
+    ],
+    "narration": "I don't know, it’s also kind of nice?"
+  },
+  {
+    "scene_id": 49,
+    "source_span": [
+      3585,
+      3661
+    ],
+    "narration": "Because once you stop expecting them to be perfect, you can actually like..."
+  },
+  {
+    "scene_id": 50,
+    "source_span": [
+      3662,
+      3672
+    ],
+    "narration": "meet them."
+  },
+  {
+    "scene_id": 51,
+    "source_span": [
+      3673,
+      3690
+    ],
+    "narration": "As actual people."
+  },
+  {
+    "scene_id": 52,
+    "source_span": [
+      3691,
+      3741
+    ],
+    "narration": "You stop asking \"why did my parents ruin my life?\""
+  },
+  {
+    "scene_id": 53,
+    "source_span": [
+      3742,
+      3841
+    ],
+    "narration": "and you start going, \"man, what kind of chaotic mess were they dealing with when they were my age?\""
+  },
+  {
+    "scene_id": 54,
+    "source_span": [
+      3843,
+      3906
+    ],
+    "narration": "It turns it from this weird hierarchy into a real relationship."
+  },
+  {
+    "scene_id": 55,
+    "source_span": [
+      3907,
+      3955
+    ],
+    "narration": "You’re not just living in their kingdom anymore."
+  },
+  {
+    "scene_id": 56,
+    "source_span": [
+      3956,
+      4122
+    ],
+    "narration": "You’re just two adults standing in the same room, both mildly confused by the universe, both trying to figure out how to make dinner without burning the kitchen down."
+  },
+  {
+    "scene_id": 57,
+    "source_span": [
+      4124,
+      4241
+    ],
+    "narration": "So next time your mom is struggling to open a PDF, or your dad is staring blankly at a shelf in the hardware store..."
+  },
+  {
+    "scene_id": 58,
+    "source_span": [
+      4242,
+      4265
+    ],
+    "narration": "just give them a break."
+  },
+  {
+    "scene_id": 59,
+    "source_span": [
+      4266,
+      4342
+    ],
+    "narration": "They’re doing a live playthrough of life with no tutorial, exactly like you."
+  }
+]

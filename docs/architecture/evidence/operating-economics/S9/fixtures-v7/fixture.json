@@ -1,0 +1,322 @@
+{
+  "topic": "The Moment You Realize Your Parents Are Just Guys",
+  "requested_minutes": 5,
+  "language": "English",
+  "mode": "topic",
+  "Research_entitled": true,
+  "entitlement_fixture": "eligible 3 videos/week or 1 video/day; not an Alpha account grant",
+  "brief": "Explain parental de-idealization during adolescence/young adulthood, separating anecdotal metaphors from established developmental findings and noting individual variation.",
+  "historical_script_source": "demo-video-example/02_script_humanized.txt",
+  "historical_script_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+  "historical_script_words": 762,
+  "historical_script_utf8_bytes": 4376,
+  "sentence_scope": {
+    "counter_version": "s9-local-terminal-punctuation-v1",
+    "script_sha256": "75a713656a3f59b7d369aa6c570366d8650495ac86f3ef59ca512c5c9e52cb33",
+    "sentence_count": 59,
+    "predicted_image_count": 59,
+    "spans": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Okay, so..."
+      },
+      {
+        "start": 12,
+        "end": 105,
+        "text": "it’s like 1 AM, but I was thinking about this earlier and now I can't stop thinking about it."
+      },
+      {
+        "start": 106,
+        "end": 186,
+        "text": "At some point between when you're like twelve and twenty-two, your brain just..."
+      },
+      {
+        "start": 187,
+        "end": 196,
+        "text": "glitches."
+      },
+      {
+        "start": 198,
+        "end": 362,
+        "text": "You’re sitting in the passenger seat, watching your dad try to figure out how to connect his phone to the car Bluetooth, and this overwhelming realization hits you."
+      },
+      {
+        "start": 363,
+        "end": 410,
+        "text": "He’s not this all-knowing architect of reality."
+      },
+      {
+        "start": 411,
+        "end": 538,
+        "text": "He’s literally just a guy named Steve who is getting actively defeated by a dashboard menu and is winging basically everything."
+      },
+      {
+        "start": 540,
+        "end": 579,
+        "text": "Because think about when you were five."
+      },
+      {
+        "start": 580,
+        "end": 629,
+        "text": "Your parents aren't even people to you back then."
+      },
+      {
+        "start": 630,
+        "end": 645,
+        "text": "They're like..."
+      },
+      {
+        "start": 646,
+        "end": 665,
+        "text": "mythical creatures."
+      },
+      {
+        "start": 666,
+        "end": 712,
+        "text": "They know where the spare lightbulbs are kept."
+      },
+      {
+        "start": 713,
+        "end": 734,
+        "text": "They deal with wasps."
+      },
+      {
+        "start": 735,
+        "end": 869,
+        "text": "They carry money in a wallet and they never seem to get lost or cry or sit in their driveway wondering if they picked the wrong major."
+      },
+      {
+        "start": 870,
+        "end": 903,
+        "text": "They're just environmental facts."
+      },
+      {
+        "start": 904,
+        "end": 930,
+        "text": "Like gravity, or the roof."
+      },
+      {
+        "start": 932,
+        "end": 985,
+        "text": "And then you get older, and the cracks start showing."
+      },
+      {
+        "start": 987,
+        "end": 1173,
+        "text": "Maybe you walk into the kitchen at midnight and catch your mom standing in front of the open fridge, staring blankly into the cold light, eating shredded cheddar straight out of the bag."
+      },
+      {
+        "start": 1175,
+        "end": 1253,
+        "text": "Or you hear your dad tell a casual story about his twenties and you realize..."
+      },
+      {
+        "start": 1254,
+        "end": 1327,
+        "text": "wait, he was a total menace who barely survived his own terrible choices?"
+      },
+      {
+        "start": 1329,
+        "end": 1545,
+        "text": "Or even worse—you watch them react to bad news, and instead of some calm, infinite adult wisdom, you see the exact same quiet, spiraling anxiety that you get when a teacher asks you a question you didn't prepare for."
+      },
+      {
+        "start": 1547,
+        "end": 1648,
+        "text": "I actually looked this up down a rabbithole earlier—psychologists call it \"parental de-idealization.\""
+      },
+      {
+        "start": 1649,
+        "end": 1887,
+        "text": "Which sounds like a fake academic phrase, but it’s basically the moment you pull back the curtain in *The Wizard of Oz* and realize the terrifying, powerful ruler of the kingdom is just an anxious middle-aged dude sweating behind a panel."
+      },
+      {
+        "start": 1889,
+        "end": 2011,
+        "text": "Except in real life, the wizard is your dad, and the panel is a tax document he’s been procrastinating on for three weeks."
+      },
+      {
+        "start": 2013,
+        "end": 2054,
+        "text": "And if you do the math, it’s even wilder."
+      },
+      {
+        "start": 2055,
+        "end": 2138,
+        "text": "When you were born, your parents were probably in their twenties or early thirties."
+      },
+      {
+        "start": 2139,
+        "end": 2182,
+        "text": "Look at anyone who's twenty-four right now."
+      },
+      {
+        "start": 2183,
+        "end": 2208,
+        "text": "They are a disaster zone."
+      },
+      {
+        "start": 2209,
+        "end": 2348,
+        "text": "They eat cereal out of mug because all the dishes are dirty, lose their keys three times a day, and rely on pure vibes to pay rent on time."
+      },
+      {
+        "start": 2350,
+        "end": 2389,
+        "text": "Your parents were *those exact people*."
+      },
+      {
+        "start": 2390,
+        "end": 2454,
+        "text": "They didn't get summoned from some ancient order of wise elders."
+      },
+      {
+        "start": 2455,
+        "end": 2552,
+        "text": "They were literally just two random young adults who got handed a screaming baby and went, \"Oh..."
+      },
+      {
+        "start": 2553,
+        "end": 2558,
+        "text": "cool."
+      },
+      {
+        "start": 2559,
+        "end": 2587,
+        "text": "Guess we're doing this now.\""
+      },
+      {
+        "start": 2588,
+        "end": 2700,
+        "text": "Every rule, every grounded weekend, every confident explanation about why the sky is blue—they were freestyling."
+      },
+      {
+        "start": 2701,
+        "end": 2726,
+        "text": "Making it up on the spot."
+      },
+      {
+        "start": 2728,
+        "end": 2771,
+        "text": "And once you notice it, you can't unsee it."
+      },
+      {
+        "start": 2772,
+        "end": 2851,
+        "text": "You start seeing their weird habits not as \"parent traits,\" but as human flaws."
+      },
+      {
+        "start": 2852,
+        "end": 2912,
+        "text": "You notice your mom is genuinely insecure about her cooking."
+      },
+      {
+        "start": 2913,
+        "end": 3016,
+        "text": "You notice your dad gets angry because he’s actually just overwhelmed and doesn't know what else to do."
+      },
+      {
+        "start": 3017,
+        "end": 3185,
+        "text": "You realize they have high school stuff they never got over, bad habits they can't break, and weird dreams they quietly gave up so you could have a bedroom with carpet."
+      },
+      {
+        "start": 3187,
+        "end": 3227,
+        "text": "And honestly, it kind of sucks at first."
+      },
+      {
+        "start": 3228,
+        "end": 3303,
+        "text": "Because when you stop seeing them as superheroes, you lose that safety net."
+      },
+      {
+        "start": 3304,
+        "end": 3353,
+        "text": "You realize no one is secretly steering the ship."
+      },
+      {
+        "start": 3354,
+        "end": 3421,
+        "text": "There is no shadow committee of adults who have it all figured out."
+      },
+      {
+        "start": 3422,
+        "end": 3537,
+        "text": "It’s just eight billion people pretending they know what’s going on while trying not to spill coffee on themselves."
+      },
+      {
+        "start": 3539,
+        "end": 3545,
+        "text": "But..."
+      },
+      {
+        "start": 3546,
+        "end": 3583,
+        "text": "I don't know, it’s also kind of nice?"
+      },
+      {
+        "start": 3585,
+        "end": 3661,
+        "text": "Because once you stop expecting them to be perfect, you can actually like..."
+      },
+      {
+        "start": 3662,
+        "end": 3672,
+        "text": "meet them."
+      },
+      {
+        "start": 3673,
+        "end": 3690,
+        "text": "As actual people."
+      },
+      {
+        "start": 3691,
+        "end": 3741,
+        "text": "You stop asking \"why did my parents ruin my life?\""
+      },
+      {
+        "start": 3742,
+        "end": 3841,
+        "text": "and you start going, \"man, what kind of chaotic mess were they dealing with when they were my age?\""
+      },
+      {
+        "start": 3843,
+        "end": 3906,
+        "text": "It turns it from this weird hierarchy into a real relationship."
+      },
+      {
+        "start": 3907,
+        "end": 3955,
+        "text": "You’re not just living in their kingdom anymore."
+      },
+      {
+        "start": 3956,
+        "end": 4122,
+        "text": "You’re just two adults standing in the same room, both mildly confused by the universe, both trying to figure out how to make dinner without burning the kitchen down."
+      },
+      {
+        "start": 4124,
+        "end": 4241,
+        "text": "So next time your mom is struggling to open a PDF, or your dad is staring blankly at a shelf in the hardware store..."
+      },
+      {
+        "start": 4242,
+        "end": 4265,
+        "text": "just give them a break."
+      },
+      {
+        "start": 4266,
+        "end": 4342,
+        "text": "They’re doing a live playthrough of life with no tutorial, exactly like you."
+      }
+    ],
+    "review_flags": [
+      "ellipses",
+      "quotation_or_bracket"
+    ],
+    "segmentation_status": "REVIEW_REQUIRED"
+  },
+  "quality_status": "Historical content/scene example only; not independently factual-quality approved; not a new generated script"
+}

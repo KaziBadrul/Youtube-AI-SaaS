@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/repo/spikes/operating-economics/v9/remux_check.py", line 18, in <module>
+    mod=renderer();v=mod.validate_output(m,record)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/out/adapted-s6.py", line 247, in validate_output
+    p=Path(result['output']);info=output_basic(p,m['duration']);transitions=[]
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/out/adapted-s6.py", line 240, in output_basic
+    a,b=map(int,video['avg_frame_rate'].split('/'));assert abs(a/b-FPS)<1e-6,'wrong_fps'
+                                                           ^^^^^^^^^^^^^^^^^
+AssertionError: wrong_fps

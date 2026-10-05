@@ -1,0 +1,18 @@
+{
+  "label": "recovery-retry",
+  "duration": 12,
+  "scene_count": 3,
+  "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/recovery-retry-0a57edaab9f7.mp4",
+  "sha256": "0a57edaab9f794d254060666174da2ad2e6c5b83a2bdbda8766fb0bdd679cacc",
+  "bytes": 273554,
+  "render_wall_seconds": 2.7308785829809494,
+  "peak_ffmpeg_rss_bytes": 121569280,
+  "cpu_seconds": 3.2600891109999997,
+  "scratch_peak_bytes": 331146,
+  "config": {
+    "captions": false,
+    "motion": false,
+    "music": false
+  },
+  "attempt": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/scratch/recovery-retry-da8e2975"
+}

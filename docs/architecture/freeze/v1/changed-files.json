@@ -1,0 +1,92 @@
+{
+  "canonical_changes": [
+    {
+      "path": "AGENTS.md",
+      "change": "modified"
+    },
+    {
+      "path": "GLOSSARY.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/ALPHA_PRODUCT_SPEC.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/ARCHITECTURE_DISCOVERY.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/ARCHITECTURE_SPIKES.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/ARTIFACT_MODEL.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/COST_MODEL.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/DESIGN.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/FEATURE_ROADMAP.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/JOB_EXECUTION_MODEL.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/PIPELINE_INVESTIGATION.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/PRODUCT_DECISIONS.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/README.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/UX_FLOWS.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/VALIDATION_PLAN.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/adr/0002-python-web-and-controlled-worker.md",
+      "change": "modified"
+    },
+    {
+      "path": "docs/adr/0003-single-host-sqlite-alpha.md",
+      "change": "modified"
+    },
+    {
+      "path": "README.md",
+      "change": "created"
+    },
+    {
+      "path": "docs/architecture/ARCHITECTURE_FREEZE.md",
+      "change": "created"
+    }
+  ],
+  "supporting_bundle": "docs/architecture/freeze/v1/",
+  "preexisting_unrelated_changes_untouched": [
+    ".DS_Store",
+    ".gitignore",
+    "docs/.DS_Store",
+    ":memory:.ses"
+  ],
+  "automatic_commit": false
+}

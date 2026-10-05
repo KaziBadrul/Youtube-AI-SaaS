@@ -1,0 +1,13 @@
+--- V10/controller.py
++++ V11/controller.py
+@@ -88,8 +88,8 @@
+              'escalated':escalated,'live_group_members':live,'lock_released_after_confirmed_cessation':True,'incomplete_registered':False,'previous_export_preserved':preserved,'status_request_during_render_succeeded':True}
+     dump('cancellation-result.json',receipt);results.append({'phase':'cancellation','start':start,'end':time.monotonic(),'wall_seconds':time.monotonic()-start,**receipt})
+ def main():
+-    assert os.cpu_count()==1
+-    m=meminfo(); assert 1.9*1024**3 < m['MemTotal'] <= 2*1024**3
++    assert os.cpu_count()==2
++    m=meminfo(); assert 3.8*1024**3 < m['MemTotal'] <= 4*1024**3
+     assert m['SwapTotal']==0 and len(text('/proc/swaps').splitlines())==1
+     env={'machine':platform.machine(),'platform':platform.platform(),'python':sys.version,'cpu_count':os.cpu_count(),'meminfo':m,
+          'os_release':text('/etc/os-release'),'kernel':cmd(['uname','-a']),'lscpu':cmd(['lscpu']),'findmnt':cmd(['findmnt','-T','/out']),

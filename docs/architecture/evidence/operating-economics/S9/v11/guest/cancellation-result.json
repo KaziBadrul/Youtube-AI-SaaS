@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "pid": 3040,
+  "start_identity": 1791159939.44,
+  "pgid": 3040,
+  "exit": 255,
+  "cessation_seconds": 0.12885434100002158,
+  "escalated": false,
+  "live_group_members": [],
+  "lock_released_after_confirmed_cessation": true,
+  "incomplete_registered": false,
+  "previous_export_preserved": true,
+  "status_request_during_render_succeeded": true
+}

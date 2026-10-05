@@ -1,0 +1,17 @@
+{
+  "docs/architecture/evidence/operating-economics/S9/v14/verification-results.json": "f133e5f638adeb1d2456eff4d778937ace043ff7d94a36316cf5b2c96af6f8f5",
+  "docs/architecture/evidence/operating-economics/S9/v14/preservation-before.json": "8e981e4ab969b0469c4b182a2be12d6276d4465092bec3d05924e13fa6a9b382",
+  "docs/architecture/evidence/operating-economics/S9/v14/changed-files.json": "569aee5e94ff4d0953fa422ae58bc5e5f8be7f9a1ab4dcbb530ff349709a662e",
+  "docs/architecture/evidence/operating-economics/S9/v14/preservation-result.json": "06afacbcd6eb0aff5b6531f857ce7381f1818c1e2d56b927562da3ef39986e47",
+  "docs/architecture/evidence/operating-economics/S9/v14/source-inspection.json": "4120e6ca4847a948bf43bc5d034cb321c796097735bbb8c9922765dd1d5288a2",
+  "docs/architecture/evidence/operating-economics/S9/v14/COMMANDS.md": "0048bdb0eb811e76cf751040cfd38bd3061a419c55fa5ad4fbf43cbb4d11667b",
+  "docs/architecture/evidence/operating-economics/S9/v14/planning-envelope.json": "38604bc7d5d5b066237e31d486dbf1b63c7122773ea885a28ab39482fc897266",
+  "docs/architecture/evidence/operating-economics/S9/v14/documentation-diff.patch": "96cc33d37f137c5d27232a807c369e307b2c32c04d36e105387f14953c80330f",
+  "docs/architecture/evidence/operating-economics/S9/v14/before/docs__ARCHITECTURE.md": "4e4576ca36de33b084b8f1ac88c5ff040c70e6a489dbef17ed297fe3644820b3",
+  "docs/architecture/evidence/operating-economics/S9/v14/before/docs__COST_MODEL.md": "3dea40b553800481e9be5eeeca6038a7acfeb90926219a4831d08f1e5d0144d6",
+  "docs/architecture/evidence/operating-economics/S9/v14/before/docs__ARCHITECTURE_SPIKES.md": "763b4495ffa92fb4762153070e1a7d7cdab5b9a3757868fd1f1c246dd85c6b9e",
+  "docs/architecture/evidence/operating-economics/S9/v14/before/docs__ALPHA_PRODUCT_SPEC.md": "9a64c31f725d89e6a0f5bf1f8827af7591130afffc3501166cc904dc6dc23a6a",
+  "docs/architecture/evidence/operating-economics/S9/v14/before/docs__architecture__evidence__operating-economics__S9__README.md": "8b1d78ed9033c9df08c12499fbddf9110e02e43a650d59922985b14fcfc9dfe3",
+  "docs/architecture/evidence/operating-economics/S9/v14/before/docs__README.md": "8556de2f283160f2cbcede8bf376b42f28d00156fec9c692d10d3e8c660c4f3e",
+  "docs/architecture/evidence/operating-economics/S9/CREDITS-v14.md": "24c78cf1557c0690866190b01afb077eeb2e0895d2ac91f7c7f638b2eed17ee2"
+}

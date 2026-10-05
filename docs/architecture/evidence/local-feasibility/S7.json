@@ -1,0 +1,228 @@
+{
+  "gate": "S7",
+  "timestamp_utc": "2026-10-04T11:17:04.224043+00:00",
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "sqlite": "3.53.4",
+  "plan_sha256": "51343a5924d19a115dbbb6756100e6d0532c0a86b7906037c9e2b6a697bc5ff4",
+  "publication_crashes": [
+    {
+      "repeat": 0,
+      "crash": "response_received",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 0,
+      "crash": "staged",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 0,
+      "crash": "validated",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 0,
+      "crash": "installed",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 0,
+      "crash": "inside_registration",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 0,
+      "crash": "metadata_registered",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 0,
+      "crash": "financial_registered",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 0,
+      "crash": "selected",
+      "selected_before_recovery": "a",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 0,
+      "crash": "export_published",
+      "selected_before_recovery": "a",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 1,
+      "crash": "response_received",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 1,
+      "crash": "staged",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 1,
+      "crash": "validated",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 1,
+      "crash": "installed",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 1,
+      "crash": "inside_registration",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 1,
+      "crash": "metadata_registered",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 1,
+      "crash": "financial_registered",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 1,
+      "crash": "selected",
+      "selected_before_recovery": "a",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 1,
+      "crash": "export_published",
+      "selected_before_recovery": "a",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 2,
+      "crash": "response_received",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 2,
+      "crash": "staged",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 2,
+      "crash": "validated",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 2,
+      "crash": "installed",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 2,
+      "crash": "inside_registration",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 2,
+      "crash": "metadata_registered",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 2,
+      "crash": "financial_registered",
+      "selected_before_recovery": "old",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 2,
+      "crash": "selected",
+      "selected_before_recovery": "a",
+      "recovered_without_resubmission": true
+    },
+    {
+      "repeat": 2,
+      "crash": "export_published",
+      "selected_before_recovery": "a",
+      "recovered_without_resubmission": true
+    }
+  ],
+  "invalid_files_rejected_and_recovered": [
+    "missing",
+    "corrupt"
+  ],
+  "shared_member_staleness": [
+    {
+      "edited_scene": 1,
+      "result": "history"
+    },
+    {
+      "edited_scene": 2,
+      "result": "history"
+    },
+    {
+      "edited_scene": 3,
+      "result": "selected"
+    }
+  ],
+  "restoration_checks": [
+    "same_words_voice_delivery_requires_approval",
+    "different_words_compound_approval",
+    "current_script_updated_original_input_preserved",
+    "scene_only_config_adoption",
+    "source_range_decoded",
+    "compatible_local_timing_captions_selected",
+    "missing_compatible_bundle_remains_outdated",
+    "incompatible_manual_versions_retained_outdated",
+    "provenance_and_sibling_unchanged",
+    "no_generation_charge_for_restore"
+  ],
+  "limitations": [
+    "Synthetic exports test durability/selection, not MP4 encoding or S6 render validation.",
+    "Silent WAV ranges prove extraction and provenance structurally; speech alignment and safe audible joins require S5.",
+    "Manual compatibility witness is conservative and deliberately simplified; production domain signatures still require implementation tests.",
+    "Process exits and fsync ordering do not emulate controller/power-loss faults on the eventual host filesystem."
+  ],
+  "verdict": "PASS",
+  "elapsed_seconds": 2.222,
+  "scaffold_hashes": {
+    "s1.py": "1c5c1fc51ee7675ff8697181005305d15dc2c01901d398755b35c87f142e2929",
+    "backup.py": "5c4ced89850fafbe773896ad029f0bf2de53a8074eadfa20a96c5d74fc826e2b",
+    "core.py": "181705f3902516481dc7bc49b71fedc1e4ab751d3ceca216b6b545a460bd90e2",
+    "supervision.py": "d15b19f8678c6467cc278be21ed3da67524c0db2af3fe3ed736f732883963fd5",
+    "django_boundary.py": "dd5fe2a584e3b68356bbc79ef0b4ee9b389bf7c9cc54be439c5504575638d6e2",
+    "publication.py": "881ba9c84780ed3d4400fce513848b0297151f481dc596c0978d58b37cb5496c",
+    "s8.py": "5d0e1d3cb9f8788d72c8ec6918870cb8a23494bbe6abb474c4bea9a83f9892f0",
+    "s1worker.py": "c7c99dd28f5baded17ee966d39a518f28b463fa571824d64f846d3f678debd7b",
+    "s7.py": "9aa107d23488e372fc4600429c0d323ef391df1236d0464b7890bc4fdf811784",
+    "s3.py": "fa6c7a715f0099b8b76a26a7531126a1004ff9fd92830e112f660a9379164526",
+    "evidence.py": "dc87b7bf14bbc32bd798036ef08a550b957ade778b4ff333588e158402fb6303",
+    "s2.py": "78201c4665c0c8246540e8e87a61690f337a83a984092eb975a0132ecd2ad033",
+    "fixtures.py": "e945965d990a5979d555b65cee36f7e3e0d4c984aa67dd0114b0fab27d10c6f5",
+    "static/boundary.js": "0d45569692df4471de4c633d9e4d4beb81fca19ed1f045bb10b140b5d4d8430f",
+    "static/boundary.test.js": "a1c3a1f4f5526697c3dbeead4020db735b5fb6deb39663246939a9aa2a603fc8",
+    "templates/boundary.html": "5b7b98e46bf50a0f8d1bdb6baf54bde8e03cfff58886766099a1511bc0934896"
+  }
+}

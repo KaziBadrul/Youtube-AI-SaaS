@@ -1,0 +1,56 @@
+[
+  {
+    "case": "cancel",
+    "result": "PASS",
+    "termination": {
+      "signals": [
+        "SIGTERM"
+      ],
+      "tracked_members": [
+        45303
+      ],
+      "confirmed_stopped": true
+    },
+    "lock_release": "after confirmed cessation",
+    "previous_export_preserved": true
+  },
+  {
+    "case": "worker_crash_recovery",
+    "result": "PASS",
+    "old_child_observed_alive": true,
+    "stale_lock_retained": true,
+    "pid_reuse_guard": true,
+    "termination": {
+      "signals": [
+        "SIGTERM"
+      ],
+      "tracked_members": [
+        45311
+      ],
+      "confirmed_stopped": true
+    },
+    "previous_export_preserved": true
+  },
+  {
+    "case": "bounded_escalation",
+    "result": "PASS",
+    "termination": {
+      "signals": [
+        "SIGTERM",
+        "SIGKILL"
+      ],
+      "tracked_members": [
+        45357,
+        45358
+      ],
+      "confirmed_stopped": true
+    }
+  },
+  {
+    "case": "retry_reuses_assets",
+    "result": "PASS",
+    "source_hashes_preserved": true,
+    "provider_calls": 0,
+    "output": "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/docs/architecture/evidence/rendering-feasibility/S6/exports/recovery-retry-0a57edaab9f7.mp4"
+  }
+]

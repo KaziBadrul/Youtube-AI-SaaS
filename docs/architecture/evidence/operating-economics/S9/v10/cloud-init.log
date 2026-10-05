@@ -1,0 +1,351 @@
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'init-local' at Sun, 04 Oct 2026 23:55:21 +0000. Up 2.58 seconds.
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'init' at Sun, 04 Oct 2026 23:55:22 +0000. Up 4.17 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address            |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: |  eth0  | True |         192.168.5.15         | 255.255.255.0 | global | 52:55:55:40:58:a8 |
+ci-info: |  eth0  | True | fe80::5055:55ff:fe40:58a8/64 |       .       |  link  | 52:55:55:40:58:a8 |
+ci-info: |   lo   | True |          127.0.0.1           |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128            |       .       |  host  |         .         |
+ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 192.168.5.2 |     0.0.0.0     |    eth0   |   UG  |
+ci-info: |   1   | 192.168.5.0 |   0.0.0.0   |  255.255.255.0  |    eth0   |   U   |
+ci-info: |   2   | 192.168.5.2 |   0.0.0.0   | 255.255.255.255 |    eth0   |   UH  |
+ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   0   |  fe80::/64  |    ::   |    eth0   |   U   |
+ci-info: |   2   |    local    |    ::   |    eth0   |   U   |
+ci-info: |   3   |  multicast  |    ::   |    eth0   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+2026-10-04 23:55:22,636 - loggers.py[DEPRECATED]: Deprecated cloud-config provided: users.0.ssh-authorized-keys:  Deprecated in version 18.3. Use **ssh_authorized_keys** instead., users.0.uid:  Changed in version 22.3. The use of ``string`` type is deprecated. Use an ``integer`` instead.
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:wykcW6Ay7q0DEam5PTbIjbwX8GEMYh3O2Q4QvqVETio root@lima-s9-v10
+The key's randomart image is:
++---[RSA 3072]----+
+| *o.. .          |
+|Xo+.o. .         |
+|E*=*... .        |
+|*o+*o. = .       |
+|oBB ..+ S        |
+|+===   . .       |
+| oooo            |
+| ..o             |
+|  o.             |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:gA/HXE/UEXLpD6YXUZTk3wXtTbNNxvNfnNj0PUkXzpc root@lima-s9-v10
+The key's randomart image is:
++---[ECDSA 256]---+
+|        ..+.+B==.|
+|     + . o o+.+*O|
+|    o =   .. .*E/|
+|     + .    =. B&|
+|      . S  o +  *|
+|          . . . .|
+|           .     |
+|                 |
+|                 |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:QUtzAVrR3Czshm8t+OSXUBdtE7ToOQJCq56MDroydQ4 root@lima-s9-v10
+The key's randomart image is:
++--[ED25519 256]--+
+|       .B*o+  .+.|
+|      .=.+= o o.+|
+|      .oo+ . . +.|
+|      . o.+ o o  |
+|     .  S+ + =   |
+|  E = . . * o .  |
+| o = +   = o .   |
+|+ o .     o o    |
+|+o .       .     |
++----[SHA256]-----+
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'modules:config' at Sun, 04 Oct 2026 23:55:23 +0000. Up 5.25 seconds.
+Cloud-init v. 26.1-0ubuntu1~24.04.1 running 'modules:final' at Sun, 04 Oct 2026 23:55:25 +0000. Up 6.91 seconds.
++ LIMA_CIDATA_MNT=/mnt/lima-cidata
++ uname -s
++ UNAME=Linux
++ [ Linux = Darwin ]
++ [ Linux = FreeBSD ]
++ [ Linux = Linux ]
++ LIMA_CIDATA_DEV=/dev/disk/by-label/cidata
++ mkdir -p -m 700 /mnt/lima-cidata
++ mount -o ro,mode=0700,dmode=0700,overriderockperm,exec,uid=0 /dev/disk/by-label/cidata /mnt/lima-cidata
++ export LIMA_CIDATA_MNT
++ exec /mnt/lima-cidata/boot.sh
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.essential.Linux/00-alpine-user-group.sh
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.essential.Linux/01-alpine-ash-as-bash.sh
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.essential.Linux/10-alpine-prep.sh
++ test -f /etc/alpine-release
++ exit 0
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/00-check-rtc-and-wait-ntp.sh
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/00-modprobe.sh
+Loading kernel module "fuse"
+Loading kernel module "tun"
+Loading kernel module "tap"
+Loading kernel module "bridge"
+Loading kernel module "veth"
+Loading kernel module "ip_tables"
+Loading kernel module "ip6_tables"
+Loading kernel module "iptable_nat"
+Loading kernel module "ip6table_nat"
+Loading kernel module "iptable_filter"
+Loading kernel module "ip6table_filter"
+Loading kernel module "nf_tables"
+Loading kernel module "x_tables"
+Loading kernel module "xt_MASQUERADE"
+Loading kernel module "xt_addrtype"
+Loading kernel module "xt_comment"
+Loading kernel module "xt_conntrack"
+Loading kernel module "xt_mark"
+Loading kernel module "xt_multiport"
+Loading kernel module "xt_nat"
+Loading kernel module "xt_tcpudp"
+Loading kernel module "overlay"
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/00-reboot-if-required.sh
++ '[' '' = 1 ']'
++ exit 0
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/00-systemd-user-group.sh
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/04-persistent-data-volume.sh
++ test -f /etc/alpine-release
++ exit 0
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/05-guest-home.sh
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/05-lima-disks.sh
++ test 0 -gt 0
++ exit 0
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/05-lima-mounts.sh
++ [[ vz == \v\z ]]
++ [[ virtiofs == \v\i\r\t\i\o\f\s ]]
++ grep -q virtiofs /etc/fstab
++ '[' -d /sys/fs/selinux ']'
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/05-rosetta-volume.sh
++ '[' false '!=' true ']'
++ exit 0
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/06-enable-mdns-on-systemd.sh
++ [[ -f /sbin/openrc-run ]]
++ command -v systemctl
++ command -v resolvectl
++ enable_mdns_conf_path=/etc/systemd/resolved.conf.d/00-lima-enable-mdns.conf
++ enable_mdns_conf_content='[Resolve]
+MulticastDNS=yes
+'
+++ echo '[Resolve]
+MulticastDNS=yes
+'
+++ sha256sum
+++ sha256sum
+/mnt/lima-cidata/boot.Linux/06-enable-mdns-on-systemd.sh: line 23: /etc/systemd/resolved.conf.d/00-lima-enable-mdns.conf: No such file or directory
++ '[' 'd1bcb38d7fc0dc6247b2057d76c106e42a5fad1b67b4927417e3535a34142b0d  -' '!=' '' ']'
+++ dirname /etc/systemd/resolved.conf.d/00-lima-enable-mdns.conf
++ mkdir -p /etc/systemd/resolved.conf.d
++ echo '[Resolve]
+MulticastDNS=yes
+'
++ systemctl daemon-reload
++ systemctl restart systemd-resolved.service
+++ resolvectl status
+++ sed -n -E 's/^Link +[0-9]+ \(([^)]+)\)/\1/p'
++ for iface in $(resolvectl status | sed -n -E 's/^Link +[0-9]+ \(([^)]+)\)/\1/p')
++ resolvectl mdns eth0 yes
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/06-etc-hosts.sh
++ sed -i /host.lima.internal/d /etc/hosts
++ echo -e '192.168.5.2\thost.lima.internal'
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/07-etc-environment.sh
++ test ! -f /etc/environment
++ cat /etc/environment
++ orig=PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
++ [ -e /etc/environment ]
++ sed -i /#LIMA-START/,/#LIMA-END/d /etc/environment
++ cat /mnt/lima-cidata/etc_environment
++ command -v loginctl
++ cat /etc/environment
++ [ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" != PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+#LIMA-START
+#LIMA-END ]
++ loginctl terminate-user kazibadrul
++ echo iid-1791158117
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/08-shell-prompt.sh
++ [ s9-v10 = default ]
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/09-host-dns-setup.sh
++ readonly chain=LIMADNS
++ command -v iptables
++ chain_exists
++ iptables --table nat -n --list LIMADNS
++ iptables --table nat --new-chain LIMADNS
++ iptables --table nat --insert PREROUTING 1 --jump LIMADNS
++ iptables --table nat --insert OUTPUT 1 --jump LIMADNS
++ iptables --table nat --flush LIMADNS
++ [ -n 0 ]
++ [ 0 -ne 0 ]
++ [ -n 0 ]
++ [ 0 -ne 0 ]
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/10-alpine-cgroups.sh
++ test -f /etc/alpine-release
++ exit 0
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/11-colorterm-environment.sh
++ [ -d /etc/ssh/sshd_config.d ]
++ [ -e /etc/ssh/sshd_config.d/10-acceptenv-colorterm.conf ]
++ echo AcceptEnv COLORTERM
++ [ -f /sbin/openrc-run ]
++ command -v systemctl
++ systemctl -q is-active ssh
++ systemctl reload ssh
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/20-rootless-base.sh
++ command -v systemctl
++ [ -O /home/kazibadrul.guest ]
++ grep -q # Lima BEGIN /home/kazibadrul.guest/.profile
++ cat
++ uname -r
++ compare_version.sh 6.8.0-142-generic -lt 5.13
++ cat
++ chown kazibadrul /home/kazibadrul.guest/.profile
++ grep -q # Lima BEGIN /home/kazibadrul.guest/.bashrc
++ cat
++ uname -r
++ compare_version.sh 6.8.0-142-generic -lt 5.13
++ cat
++ chown kazibadrul /home/kazibadrul.guest/.bashrc
++ grep -q # Lima BEGIN /home/kazibadrul.guest/.zshrc
+grep: /home/kazibadrul.guest/.zshrc: No such file or directory
++ cat
++ uname -r
++ compare_version.sh 6.8.0-142-generic -lt 5.13
++ cat
++ chown kazibadrul /home/kazibadrul.guest/.zshrc
++ [ ! -e /etc/systemd/system/user@.service.d/lima.conf ]
++ mkdir -p /etc/systemd/system/user@.service.d
++ cat
++ systemctl daemon-reload
++ sysctl_conf=/etc/sysctl.d/99-lima.conf
++ [ ! -e /etc/sysctl.d/99-lima.conf ]
++ [ -e /proc/sys/kernel/unprivileged_userns_clone ]
++ echo kernel.unprivileged_userns_clone=1
++ echo net.ipv4.ping_group_range = 0 2147483647
++ echo net.ipv4.ip_unprivileged_port_start=0
++ sysctl --system
+* Applying /usr/lib/sysctl.d/10-apparmor.conf ...
+* Applying /etc/sysctl.d/10-bufferbloat.conf ...
+* Applying /etc/sysctl.d/10-console-messages.conf ...
+* Applying /etc/sysctl.d/10-ipv6-privacy.conf ...
+* Applying /etc/sysctl.d/10-kernel-hardening.conf ...
+* Applying /etc/sysctl.d/10-magic-sysrq.conf ...
+* Applying /etc/sysctl.d/10-map-count.conf ...
+* Applying /etc/sysctl.d/10-network-security.conf ...
+* Applying /etc/sysctl.d/10-ptrace.conf ...
+* Applying /etc/sysctl.d/10-zeropage.conf ...
+* Applying /usr/lib/sysctl.d/50-pid-max.conf ...
+* Applying /etc/sysctl.d/99-cloudimg-ipv6.conf ...
+* Applying /etc/sysctl.d/99-lima.conf ...
+* Applying /usr/lib/sysctl.d/99-protect-links.conf ...
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+* Applying /etc/sysctl.conf ...
+kernel.apparmor_restrict_unprivileged_userns = 1
+net.core.default_qdisc = fq_codel
+kernel.printk = 4 4 1 7
+net.ipv6.conf.all.use_tempaddr = 2
+net.ipv6.conf.default.use_tempaddr = 2
+kernel.kptr_restrict = 1
+kernel.sysrq = 176
+vm.max_map_count = 1048576
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.all.rp_filter = 2
+kernel.yama.ptrace_scope = 1
+vm.mmap_min_addr = 32768
+kernel.pid_max = 4194304
+net.ipv6.conf.all.use_tempaddr = 0
+net.ipv6.conf.default.use_tempaddr = 0
+kernel.unprivileged_userns_clone = 1
+net.ipv4.ping_group_range = 0 2147483647
+net.ipv4.ip_unprivileged_port_start = 0
+fs.protected_fifos = 1
+fs.protected_hardlinks = 1
+fs.protected_regular = 2
+fs.protected_symlinks = 1
++ subuid_begin=524288
++ [ 501 -ge 524288 ]
++ grep -qw kazibadrul /etc/subuid
++ echo kazibadrul:524288:1073741824
++ subuid_begin=524288
++ [ 501 -ge 524288 ]
++ grep -qw kazibadrul /etc/subgid
++ echo kazibadrul:524288:1073741824
++ systemctl start systemd-logind.service
++ loginctl enable-linger kazibadrul
+LIMA 2026-10-05T05:55:25+06:00| Executing /mnt/lima-cidata/boot.Linux/25-guestagent-base.sh
++ '[' virtiofs = reverse-sshfs ']'
++ mkdir -p /usr/local/bin
++ guestagent_updated=false
+++ sha256sum
+++ sha256sum
+/mnt/lima-cidata/boot.Linux/25-guestagent-base.sh: line 23: /usr/local/bin/lima-guestagent: No such file or directory
++ '[' 'cee7d526aa7642cad47223e8cd9a7afe7ed663188213c67ed554304e7f6f1071  -' = '' ']'
++ install -m 755 /mnt/lima-cidata/lima-guestagent /usr/local/bin/lima-guestagent
++ guestagent_updated=true
++ '[' -f /sbin/openrc-run ']'
++ rm -f /home/kazibadrul.guest/.config/systemd/user/lima-guestagent.service
++ '[' 2222 '!=' 0 ']'
++ sudo /usr/local/bin/lima-guestagent install-systemd --debug=false --guestagent-updated=true --vsock-port 2222
+time="2026-10-05T05:55:25+06:00" level=info msg="Written file `/etc/systemd/system/lima-guestagent.service`"
+time="2026-10-05T05:55:25+06:00" level=info msg="Executing: systemctl --system daemon-reload"
+time="2026-10-05T05:55:25+06:00" level=info msg="Executing: systemctl --system enable lima-guestagent.service"
+Created symlink /etc/systemd/system/multi-user.target.wants/lima-guestagent.service → /etc/systemd/system/lima-guestagent.service.
+time="2026-10-05T05:55:26+06:00" level=info msg="Executing: systemctl --system try-restart lima-guestagent.service"
+time="2026-10-05T05:55:26+06:00" level=info msg="Executing: systemctl --system start lima-guestagent.service"
+time="2026-10-05T05:55:26+06:00" level=info msg=Done
+LIMA 2026-10-05T05:55:26+06:00| Executing /mnt/lima-cidata/boot.Linux/26-host-services.sh
++ mkdir -p /run/host-services
++ chmod 700 /run/host-services
++ chown -R kazibadrul /run/host-services
+LIMA 2026-10-05T05:55:26+06:00| Executing /mnt/lima-cidata/boot.Linux/30-install-packages.sh
++ INSTALL_IPTABLES=0
++ [  = 1 ]
++ [  = 1 ]
++ [ 0 -ne 0 ]
++ [ 0 -ne 0 ]
++ [ -d /mnt/lima-cidata/provision.dependency ]
++ [  = 1 ]
++ REMOUNT_VIRTIOFS=0
++ + command -v apt-get
++ head -c 4 /usr/bin/apt-get
+grep -qP \x7fELF
++ pkgs=
++ [ virtiofs = reverse-sshfs ]
++ [ 0 = 1 ]
++ [  = 1 ]
++ command -v rsync
++ [ -n  ]
++ [ 0 = 1 ]
+LIMA 2026-10-05T05:55:26+06:00| Executing /mnt/lima-cidata/boot.Linux/35-setup-packages.sh
++ [ virtiofs = reverse-sshfs ]
++ SETUP_DNS=0
++ [ -n 0 ]
++ [ 0 -ne 0 ]
++ [ -n 0 ]
++ [ 0 -ne 0 ]
++ [ 0 = 1 ]
+LIMA 2026-10-05T05:55:26+06:00| Executing /mnt/lima-cidata/boot.Linux/40-install-containerd.sh
++ : default
++ : overlayfs
++ '[' '' '!=' 1 ']'
++ '[' '' '!=' 1 ']'
++ exit 0
+LIMA 2026-10-05T05:55:26+06:00| Executing /mnt/lima-cidata/provision.system/00000000
+LIMA 2026-10-05T05:55:26+06:00| Exiting with code 0
+Cloud-init v. 26.1-0ubuntu1~24.04.1 finished at Sun, 04 Oct 2026 23:55:26 +0000. Datasource DataSourceNoCloud [seed=/dev/vdb].  Up 7.64 seconds

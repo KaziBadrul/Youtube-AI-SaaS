@@ -1,0 +1,1 @@
+{"pid": 42087, "process_start": 1791142648.791457, "pgid": 42087, "argv": ["/private/tmp/s6-render-venv/bin/python", "/Users/kazibadrul/Python Codes/YoutubeAISaaSFinal/spikes/rendering-feasibility/s6.py", "benchmark", "--duration", "600"]}

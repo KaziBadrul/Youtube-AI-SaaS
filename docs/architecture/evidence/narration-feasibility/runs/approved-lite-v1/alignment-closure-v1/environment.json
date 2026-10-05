@@ -1,0 +1,32 @@
+{
+  "status": "LOCAL_ALIGNMENT_EXECUTED",
+  "python": "3.12.14",
+  "platform": "macOS 26.5 arm64",
+  "temporary_environment": "/private/tmp/s5-align-venv",
+  "packages": {
+    "faster-whisper": "1.2.1",
+    "rapidfuzz": "3.14.3",
+    "av": "19.0.1",
+    "ctranslate2": "4.8.2",
+    "numpy": "2.5.3",
+    "onnxruntime": "1.30.0"
+  },
+  "model": {
+    "name": "Systran/faster-whisper-base",
+    "path": "/Users/kazibadrul/.cache/huggingface/hub/models--Systran--faster-whisper-base/snapshots/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+    "weights_bytes": 145217532,
+    "weights_sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9",
+    "downloaded_for_this_experiment": false
+  },
+  "runtime_note": "A disposable av.open compatibility shim removed the unsupported metadata_errors keyword for faster-whisper 1.2.1 with PyAV 19.0.1. No source files or provider state were changed.",
+  "recognition_configuration": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "word_timestamps": true,
+    "vad_filter": true,
+    "beam_size": 5,
+    "temperature": 0.0,
+    "condition_on_previous_text": true
+  },
+  "network": "No provider call; model loaded from local path with HF_HUB_OFFLINE=1."
+}

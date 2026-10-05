@@ -1,0 +1,28 @@
+ M .DS_Store
+ M .gitignore
+ M docs/.DS_Store
+?? :memory:.ses
+?? AGENTS.md
+?? CLAUDE.md
+?? GLOSSARY.md
+?? demo-video-example/
+?? design-exploration/
+?? design-motivation/
+?? design-prototypes/
+?? docs/ALPHA_PRODUCT_SPEC.md
+?? docs/ARCHITECTURE.md
+?? docs/ARCHITECTURE_DISCOVERY.md
+?? docs/ARCHITECTURE_SPIKES.md
+?? docs/ARTIFACT_MODEL.md
+?? docs/COST_MODEL.md
+?? docs/DESIGN.md
+?? docs/FEATURE_ROADMAP.md
+?? docs/JOB_EXECUTION_MODEL.md
+?? docs/PIPELINE_INVESTIGATION.md
+?? docs/PRODUCT_DECISIONS.md
+?? docs/README.md
+?? docs/UX_FLOWS.md
+?? docs/VALIDATION_PLAN.md
+?? docs/adr/
+?? docs/architecture/
+?? spikes/

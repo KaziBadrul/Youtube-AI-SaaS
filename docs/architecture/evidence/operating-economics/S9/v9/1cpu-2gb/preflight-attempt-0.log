@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/repo/spikes/operating-economics/v9/controller.py", line 145, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/repo/spikes/operating-economics/v9/controller.py", line 64, in main
+    assert read('memory.max')==os.environ['EXPECTED_MEMORY_BYTES']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

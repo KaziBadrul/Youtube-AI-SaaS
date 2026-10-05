@@ -1,0 +1,555 @@
+{
+  "verdict": "NOT_YET_PASS",
+  "measurements": "measurements-v8.json",
+  "backup_sensitivities": [
+    {
+      "retained_copies_sensitivity": 1,
+      "cohort_projects": 5,
+      "archive_upper_bytes_candidate": 361656636,
+      "stored_GB": "0.361656636",
+      "b2_paid_equivalent_storage_USD": "0.00251351362020",
+      "b2_possible_free_cash_storage_USD": "0.00000",
+      "r2_paid_equivalent_1000_A_1000_B_USD": "4.875",
+      "r2_possible_free_cash_USD": "0.000",
+      "complete_backup_cost_USD": null,
+      "notes": "Packaging/file bound is candidate. Shared DB/journal/logs/extra versions not included. Free cash conditional on unused verified allowance; no account activated."
+    },
+    {
+      "retained_copies_sensitivity": 2,
+      "cohort_projects": 5,
+      "archive_upper_bytes_candidate": 361656636,
+      "stored_GB": "0.723313272",
+      "b2_paid_equivalent_storage_USD": "0.00502702724040",
+      "b2_possible_free_cash_storage_USD": "0.00000",
+      "r2_paid_equivalent_1000_A_1000_B_USD": "4.875",
+      "r2_possible_free_cash_USD": "0.000",
+      "complete_backup_cost_USD": null,
+      "notes": "Packaging/file bound is candidate. Shared DB/journal/logs/extra versions not included. Free cash conditional on unused verified allowance; no account activated."
+    },
+    {
+      "retained_copies_sensitivity": 8,
+      "cohort_projects": 5,
+      "archive_upper_bytes_candidate": 361656636,
+      "stored_GB": "2.893253088",
+      "b2_paid_equivalent_storage_USD": "0.02010810896160",
+      "b2_possible_free_cash_storage_USD": "0.00000",
+      "r2_paid_equivalent_1000_A_1000_B_USD": "4.905",
+      "r2_possible_free_cash_USD": "0.000",
+      "complete_backup_cost_USD": null,
+      "notes": "Packaging/file bound is candidate. Shared DB/journal/logs/extra versions not included. Free cash conditional on unused verified allowance; no account activated."
+    }
+  ],
+  "monthly_envelopes": [
+    {
+      "host_USD": "12",
+      "fixed_partial_USD": "12.00502702724040",
+      "total_spend_uplift_sensitivity": "0",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "17.99497297275960",
+      "optimistic_partial_cost_only_capacity": 8,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 7,
+        "3": 5,
+        "4": 4,
+        "6": 2
+      }
+    },
+    {
+      "host_USD": "12",
+      "fixed_partial_USD": "12.00502702724040",
+      "total_spend_uplift_sensitivity": "0.10",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "15.26770024548687272727272727",
+      "optimistic_partial_cost_only_capacity": 7,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 6,
+        "3": 5,
+        "4": 3,
+        "6": 2
+      }
+    },
+    {
+      "host_USD": "12",
+      "fixed_partial_USD": "12.00502702724040",
+      "total_spend_uplift_sensitivity": "0.20",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "12.99497297275960",
+      "optimistic_partial_cost_only_capacity": 6,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 5,
+        "3": 4,
+        "4": 3,
+        "6": 2
+      }
+    },
+    {
+      "host_USD": "12",
+      "fixed_partial_USD": "12.00502702724040",
+      "total_spend_uplift_sensitivity": "0.30",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "11.07189604968267692307692308",
+      "optimistic_partial_cost_only_capacity": 5,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 4,
+        "3": 3,
+        "4": 2,
+        "6": 1
+      }
+    },
+    {
+      "host_USD": "18",
+      "fixed_partial_USD": "18.00502702724040",
+      "total_spend_uplift_sensitivity": "0",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "11.99497297275960",
+      "optimistic_partial_cost_only_capacity": 5,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 4,
+        "3": 3,
+        "4": 2,
+        "6": 1
+      }
+    },
+    {
+      "host_USD": "18",
+      "fixed_partial_USD": "18.00502702724040",
+      "total_spend_uplift_sensitivity": "0.10",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "9.26770024548687272727272727",
+      "optimistic_partial_cost_only_capacity": 4,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 3,
+        "3": 3,
+        "4": 2,
+        "6": 1
+      }
+    },
+    {
+      "host_USD": "18",
+      "fixed_partial_USD": "18.00502702724040",
+      "total_spend_uplift_sensitivity": "0.20",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "6.99497297275960",
+      "optimistic_partial_cost_only_capacity": 3,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 2,
+        "3": 2,
+        "4": 1,
+        "6": 1
+      }
+    },
+    {
+      "host_USD": "18",
+      "fixed_partial_USD": "18.00502702724040",
+      "total_spend_uplift_sensitivity": "0.30",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "5.07189604968267692307692308",
+      "optimistic_partial_cost_only_capacity": 2,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 2,
+        "3": 1,
+        "4": 1,
+        "6": 0
+      }
+    },
+    {
+      "host_USD": "24",
+      "fixed_partial_USD": "24.00502702724040",
+      "total_spend_uplift_sensitivity": "0",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "5.99497297275960",
+      "optimistic_partial_cost_only_capacity": 2,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 2,
+        "3": 1,
+        "4": 1,
+        "6": 0
+      }
+    },
+    {
+      "host_USD": "24",
+      "fixed_partial_USD": "24.00502702724040",
+      "total_spend_uplift_sensitivity": "0.10",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "3.26770024548687272727272727",
+      "optimistic_partial_cost_only_capacity": 1,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 1,
+        "3": 1,
+        "4": 0,
+        "6": 0
+      }
+    },
+    {
+      "host_USD": "24",
+      "fixed_partial_USD": "24.00502702724040",
+      "total_spend_uplift_sensitivity": "0.20",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "0.99497297275960",
+      "optimistic_partial_cost_only_capacity": 0,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 0,
+        "3": 0,
+        "4": 0,
+        "6": 0
+      }
+    },
+    {
+      "host_USD": "24",
+      "fixed_partial_USD": "24.00502702724040",
+      "total_spend_uplift_sensitivity": "0.30",
+      "approved_policy": false,
+      "cash_reserve_sensitivity_USD": "0",
+      "actual_cash_reserve_USD": null,
+      "nominal_generation_headroom_USD": "-0.92810395031732307692307692",
+      "optimistic_partial_cost_only_capacity": 0,
+      "complete_expected_capacity": null,
+      "unit_cost_sensitivities": {
+        "2.5": 0,
+        "3": 0,
+        "4": 0,
+        "6": 0
+      }
+    }
+  ],
+  "traffic_sensitivities": [
+    {
+      "projects_sensitivity": 5,
+      "downloads_per_project": 1,
+      "previews": "one full set of images and one source audio per project, sensitivity only",
+      "daily_full_backup_upload_bytes": 361656636,
+      "outbound_GB": "11.20481663",
+      "DO_12_host_overage_USD": "0.00",
+      "Linode_24_host_overage_USD": "0.000",
+      "excluded_unknown_bytes": "pages/provider prompts/TLS/HTTP overhead/retries/journal/log traffic"
+    },
+    {
+      "projects_sensitivity": 5,
+      "downloads_per_project": 2,
+      "previews": "one full set of images and one source audio per project, sensitivity only",
+      "daily_full_backup_upload_bytes": 361656636,
+      "outbound_GB": "11.35195847",
+      "DO_12_host_overage_USD": "0.00",
+      "Linode_24_host_overage_USD": "0.000",
+      "excluded_unknown_bytes": "pages/provider prompts/TLS/HTTP overhead/retries/journal/log traffic"
+    },
+    {
+      "projects_sensitivity": 5,
+      "downloads_per_project": 10,
+      "previews": "one full set of images and one source audio per project, sensitivity only",
+      "daily_full_backup_upload_bytes": 361656636,
+      "outbound_GB": "12.52909319",
+      "DO_12_host_overage_USD": "0.00",
+      "Linode_24_host_overage_USD": "0.000",
+      "excluded_unknown_bytes": "pages/provider prompts/TLS/HTTP overhead/retries/journal/log traffic"
+    },
+    {
+      "projects_sensitivity": 10,
+      "downloads_per_project": 1,
+      "previews": "one full set of images and one source audio per project, sensitivity only",
+      "daily_full_backup_upload_bytes": 361656636,
+      "outbound_GB": "11.55993418",
+      "DO_12_host_overage_USD": "0.00",
+      "Linode_24_host_overage_USD": "0.000",
+      "excluded_unknown_bytes": "pages/provider prompts/TLS/HTTP overhead/retries/journal/log traffic"
+    },
+    {
+      "projects_sensitivity": 10,
+      "downloads_per_project": 2,
+      "previews": "one full set of images and one source audio per project, sensitivity only",
+      "daily_full_backup_upload_bytes": 361656636,
+      "outbound_GB": "11.85421786",
+      "DO_12_host_overage_USD": "0.00",
+      "Linode_24_host_overage_USD": "0.000",
+      "excluded_unknown_bytes": "pages/provider prompts/TLS/HTTP overhead/retries/journal/log traffic"
+    },
+    {
+      "projects_sensitivity": 10,
+      "downloads_per_project": 10,
+      "previews": "one full set of images and one source audio per project, sensitivity only",
+      "daily_full_backup_upload_bytes": 361656636,
+      "outbound_GB": "14.2084873",
+      "DO_12_host_overage_USD": "0.00",
+      "Linode_24_host_overage_USD": "0.000",
+      "excluded_unknown_bytes": "pages/provider prompts/TLS/HTTP overhead/retries/journal/log traffic"
+    },
+    {
+      "projects_sensitivity": 20,
+      "downloads_per_project": 1,
+      "previews": "one full set of images and one source audio per project, sensitivity only",
+      "daily_full_backup_upload_bytes": 361656636,
+      "outbound_GB": "12.27016928",
+      "DO_12_host_overage_USD": "0.00",
+      "Linode_24_host_overage_USD": "0.000",
+      "excluded_unknown_bytes": "pages/provider prompts/TLS/HTTP overhead/retries/journal/log traffic"
+    },
+    {
+      "projects_sensitivity": 20,
+      "downloads_per_project": 2,
+      "previews": "one full set of images and one source audio per project, sensitivity only",
+      "daily_full_backup_upload_bytes": 361656636,
+      "outbound_GB": "12.85873664",
+      "DO_12_host_overage_USD": "0.00",
+      "Linode_24_host_overage_USD": "0.000",
+      "excluded_unknown_bytes": "pages/provider prompts/TLS/HTTP overhead/retries/journal/log traffic"
+    },
+    {
+      "projects_sensitivity": 20,
+      "downloads_per_project": 10,
+      "previews": "one full set of images and one source audio per project, sensitivity only",
+      "daily_full_backup_upload_bytes": 361656636,
+      "outbound_GB": "17.56727552",
+      "DO_12_host_overage_USD": "0.00",
+      "Linode_24_host_overage_USD": "0.000",
+      "excluded_unknown_bytes": "pages/provider prompts/TLS/HTTP overhead/retries/journal/log traffic"
+    }
+  ],
+  "policy": {
+    "video_tiers": [
+      "3/week",
+      "1/day"
+    ],
+    "alpha_allowances": null,
+    "final_credits": null,
+    "optional_discovery_per_video_USD": null,
+    "mandatory_discovery_operations": [],
+    "hosting_selection": null,
+    "complete_cash_fixed_USD": null,
+    "complete_project_expected_USD": null
+  },
+  "checks": [
+    {
+      "name": "unknown_component_not_zero",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_margin_not_zero",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_reserve_blocks_complete_budget",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_unit_cost_no_promised_capacity",
+      "result": "PASS"
+    },
+    {
+      "name": "capacity_floor",
+      "result": "PASS"
+    },
+    {
+      "name": "negative_budget_no_admission",
+      "result": "PASS"
+    },
+    {
+      "name": "whole_spend_margin",
+      "result": "PASS"
+    },
+    {
+      "name": "cash_reserve_subtracted_before_margin",
+      "result": "PASS"
+    },
+    {
+      "name": "fixed_variable_separate",
+      "result": "PASS"
+    },
+    {
+      "name": "owner_local_not_invited_host",
+      "result": "PASS"
+    },
+    {
+      "name": "images_3_min",
+      "result": "PASS"
+    },
+    {
+      "name": "active_sum_3",
+      "result": "PASS"
+    },
+    {
+      "name": "export_once_3",
+      "result": "PASS"
+    },
+    {
+      "name": "scratch_not_retained_3",
+      "result": "PASS"
+    },
+    {
+      "name": "shared_audio_not_multiplied_3",
+      "result": "PASS"
+    },
+    {
+      "name": "images_5_min",
+      "result": "PASS"
+    },
+    {
+      "name": "active_sum_5",
+      "result": "PASS"
+    },
+    {
+      "name": "export_once_5",
+      "result": "PASS"
+    },
+    {
+      "name": "scratch_not_retained_5",
+      "result": "PASS"
+    },
+    {
+      "name": "shared_audio_not_multiplied_5",
+      "result": "PASS"
+    },
+    {
+      "name": "images_10_min",
+      "result": "PASS"
+    },
+    {
+      "name": "active_sum_10",
+      "result": "PASS"
+    },
+    {
+      "name": "export_once_10",
+      "result": "PASS"
+    },
+    {
+      "name": "scratch_not_retained_10",
+      "result": "PASS"
+    },
+    {
+      "name": "shared_audio_not_multiplied_10",
+      "result": "PASS"
+    },
+    {
+      "name": "backup_two_copies_not_daily_upload_volume",
+      "result": "PASS"
+    },
+    {
+      "name": "backup_packaging_AES_and_headers",
+      "result": "PASS"
+    },
+    {
+      "name": "b2_paid_free_distinct",
+      "result": "PASS"
+    },
+    {
+      "name": "b2_storage_above_free",
+      "result": "PASS"
+    },
+    {
+      "name": "r2_rounding",
+      "result": "PASS"
+    },
+    {
+      "name": "r2_cash_free_separate",
+      "result": "PASS"
+    },
+    {
+      "name": "included_traffic_before_overage",
+      "result": "PASS"
+    },
+    {
+      "name": "traffic_overage_only_excess",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown_traffic_not_zero",
+      "result": "PASS"
+    },
+    {
+      "name": "b2_restore_within_allowance",
+      "result": "PASS"
+    },
+    {
+      "name": "b2_restore_excess_only",
+      "result": "PASS"
+    },
+    {
+      "name": "owner_cash_ceiling_unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "previous_export_preserved_disk",
+      "result": "PASS"
+    },
+    {
+      "name": "units_distinct",
+      "result": "PASS"
+    },
+    {
+      "name": "expected_partial_not_total",
+      "result": "PASS"
+    },
+    {
+      "name": "conditional_v7_not_expected",
+      "result": "PASS"
+    },
+    {
+      "name": "worst_case_holds_plus_host_not_safe",
+      "result": "PASS"
+    },
+    {
+      "name": "margins_not_owner_policy",
+      "result": "PASS"
+    },
+    {
+      "name": "tiers_not_allowances",
+      "result": "PASS"
+    },
+    {
+      "name": "credits_not_invented",
+      "result": "PASS"
+    },
+    {
+      "name": "optional_discovery_not_per_video",
+      "result": "PASS"
+    },
+    {
+      "name": "source_media_hashes_match",
+      "result": "PASS"
+    },
+    {
+      "name": "all_prior_evidence_preserved_or_index_archived",
+      "result": "PASS"
+    }
+  ],
+  "checks_passed": 48,
+  "provider_generation_calls": 0,
+  "paid_spend_USD": "0",
+  "downloads": 0,
+  "production_changes": false,
+  "TASKS_changes": false,
+  "deployments": 0,
+  "purchases": 0
+}

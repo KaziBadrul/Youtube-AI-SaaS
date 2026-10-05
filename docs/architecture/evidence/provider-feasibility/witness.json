@@ -1,0 +1,880 @@
+{
+  "scope": "No real network; synthetic SDK transport only",
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "versions": {
+    "google-genai": "2.3.0",
+    "httpx": "0.28.1",
+    "httpcore": "1.0.9",
+    "tenacity": "9.1.4"
+  },
+  "source_sha256": {
+    "client.py": "df88a1b12cac36b1e777cb3643d0dd47603605465f1aa4b04757402a8001e490",
+    "_api_client.py": "26bdd6daa419b154c4ed9970e8dfd1fc37c01d41748c9fabda6bce339ef2ecac",
+    "_interactions/_base_client.py": "f672911a555143f10e3374ecbc768c084ed58be27957bdccd34255992c8ed0a5"
+  },
+  "cases": [
+    {
+      "api": "generate",
+      "configured_attempts": null,
+      "behavior": 429,
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/models/gemini-3.8-flash:generateContent",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "contents": [
+              {
+                "parts": [
+                  {
+                    "text": "synthetic"
+                  }
+                ],
+                "role": "user"
+              }
+            ],
+            "generationConfig": {
+              "candidateCount": 1,
+              "maxOutputTokens": 128
+            }
+          }
+        }
+      ],
+      "error": "ClientError",
+      "response": null,
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "generate",
+      "configured_attempts": 1,
+      "behavior": 429,
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/models/gemini-3.8-flash:generateContent",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "contents": [
+              {
+                "parts": [
+                  {
+                    "text": "synthetic"
+                  }
+                ],
+                "role": "user"
+              }
+            ],
+            "generationConfig": {
+              "candidateCount": 1,
+              "maxOutputTokens": 128
+            }
+          }
+        }
+      ],
+      "error": "ClientError",
+      "response": null,
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "generate",
+      "configured_attempts": 0,
+      "behavior": 429,
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/models/gemini-3.8-flash:generateContent",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "contents": [
+              {
+                "parts": [
+                  {
+                    "text": "synthetic"
+                  }
+                ],
+                "role": "user"
+              }
+            ],
+            "generationConfig": {
+              "candidateCount": 1,
+              "maxOutputTokens": 128
+            }
+          }
+        }
+      ],
+      "error": "ClientError",
+      "response": null,
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "interactions",
+      "configured_attempts": null,
+      "behavior": 429,
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 4,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        }
+      ],
+      "error": "RateLimitError",
+      "response": null,
+      "expected_submissions": 4,
+      "pass": true
+    },
+    {
+      "api": "interactions",
+      "configured_attempts": 1,
+      "behavior": 429,
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 2,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        }
+      ],
+      "error": "RateLimitError",
+      "response": null,
+      "expected_submissions": 2,
+      "pass": true
+    },
+    {
+      "api": "interactions",
+      "configured_attempts": 0,
+      "behavior": 429,
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 2,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        }
+      ],
+      "error": "RateLimitError",
+      "response": null,
+      "expected_submissions": 2,
+      "pass": true
+    },
+    {
+      "api": "generate",
+      "configured_attempts": 1,
+      "behavior": "read_timeout",
+      "timeout_ms": 1234,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/models/gemini-3.8-flash:generateContent",
+          "timeout": {
+            "connect": 1.234,
+            "read": 1.234,
+            "write": 1.234,
+            "pool": 1.234
+          },
+          "idempotency_header": null,
+          "body": {
+            "contents": [
+              {
+                "parts": [
+                  {
+                    "text": "synthetic"
+                  }
+                ],
+                "role": "user"
+              }
+            ],
+            "generationConfig": {
+              "candidateCount": 1,
+              "maxOutputTokens": 128
+            }
+          }
+        }
+      ],
+      "error": "ReadTimeout",
+      "response": null,
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "generate",
+      "configured_attempts": 1,
+      "behavior": 400,
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/models/gemini-3.8-flash:generateContent",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "contents": [
+              {
+                "parts": [
+                  {
+                    "text": "synthetic"
+                  }
+                ],
+                "role": "user"
+              }
+            ],
+            "generationConfig": {
+              "candidateCount": 1,
+              "maxOutputTokens": 128
+            }
+          }
+        }
+      ],
+      "error": "ClientError",
+      "response": null,
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "generate",
+      "configured_attempts": 1,
+      "behavior": "success",
+      "timeout_ms": 1234,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/models/gemini-3.8-flash:generateContent",
+          "timeout": {
+            "connect": 1.234,
+            "read": 1.234,
+            "write": 1.234,
+            "pool": 1.234
+          },
+          "idempotency_header": null,
+          "body": {
+            "contents": [
+              {
+                "parts": [
+                  {
+                    "text": "synthetic"
+                  }
+                ],
+                "role": "user"
+              }
+            ],
+            "generationConfig": {
+              "candidateCount": 1,
+              "maxOutputTokens": 128
+            }
+          }
+        }
+      ],
+      "error": null,
+      "response": {
+        "sdk_http_response": {
+          "headers": {
+            "x-request-id": "synthetic-request",
+            "content-length": "258",
+            "content-type": "application/json"
+          }
+        },
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "fixture"
+                }
+              ]
+            },
+            "finish_reason": "STOP"
+          }
+        ],
+        "model_version": "synthetic-model",
+        "response_id": "synthetic-response",
+        "usage_metadata": {
+          "candidates_token_count": 25,
+          "prompt_token_count": 12,
+          "thoughts_token_count": 3,
+          "total_token_count": 40
+        }
+      },
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "generate",
+      "configured_attempts": 1,
+      "behavior": "success",
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/models/gemini-3.8-flash:generateContent",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "contents": [
+              {
+                "parts": [
+                  {
+                    "text": "synthetic"
+                  }
+                ],
+                "role": "user"
+              }
+            ],
+            "generationConfig": {
+              "candidateCount": 1,
+              "maxOutputTokens": 128
+            }
+          }
+        }
+      ],
+      "error": null,
+      "response": {
+        "sdk_http_response": {
+          "headers": {
+            "x-request-id": "synthetic-request",
+            "content-length": "258",
+            "content-type": "application/json"
+          }
+        },
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "fixture"
+                }
+              ]
+            },
+            "finish_reason": "STOP"
+          }
+        ],
+        "model_version": "synthetic-model",
+        "response_id": "synthetic-response",
+        "usage_metadata": {
+          "candidates_token_count": 25,
+          "prompt_token_count": 12,
+          "thoughts_token_count": 3,
+          "total_token_count": 40
+        }
+      },
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "interactions",
+      "configured_attempts": 1,
+      "behavior": "read_timeout",
+      "timeout_ms": 1234,
+      "guard": false,
+      "submissions": 2,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": 1.234,
+            "read": 1.234,
+            "write": 1.234,
+            "pool": 1.234
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        },
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": 1.234,
+            "read": 1.234,
+            "write": 1.234,
+            "pool": 1.234
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        }
+      ],
+      "error": "APITimeoutError",
+      "response": null,
+      "expected_submissions": 2,
+      "pass": true
+    },
+    {
+      "api": "interactions",
+      "configured_attempts": 1,
+      "behavior": 400,
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        }
+      ],
+      "error": "BadRequestError",
+      "response": null,
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "interactions",
+      "configured_attempts": 1,
+      "behavior": "success",
+      "timeout_ms": 1234,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": 1.234,
+            "read": 1.234,
+            "write": 1.234,
+            "pool": 1.234
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        }
+      ],
+      "error": null,
+      "response": {
+        "id": "synthetic-id",
+        "created": "2026-10-04T00:00:00Z",
+        "status": "completed",
+        "steps": [],
+        "updated": "2026-10-04T00:00:00Z",
+        "usage": {
+          "output_tokens_by_modality": [
+            {
+              "modality": "image",
+              "tokens": 25
+            }
+          ],
+          "total_input_tokens": 12,
+          "total_output_tokens": 25,
+          "total_thought_tokens": 3
+        }
+      },
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "interactions",
+      "configured_attempts": 1,
+      "behavior": "success",
+      "timeout_ms": null,
+      "guard": false,
+      "submissions": 1,
+      "blocked_reentries": 0,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": null,
+            "read": null,
+            "write": null,
+            "pool": null
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        }
+      ],
+      "error": null,
+      "response": {
+        "id": "synthetic-id",
+        "created": "2026-10-04T00:00:00Z",
+        "status": "completed",
+        "steps": [],
+        "updated": "2026-10-04T00:00:00Z",
+        "usage": {
+          "output_tokens_by_modality": [
+            {
+              "modality": "image",
+              "tokens": 25
+            }
+          ],
+          "total_input_tokens": 12,
+          "total_output_tokens": 25,
+          "total_thought_tokens": 3
+        }
+      },
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "interactions",
+      "configured_attempts": 1,
+      "behavior": "read_timeout",
+      "timeout_ms": 1234,
+      "guard": true,
+      "submissions": 1,
+      "blocked_reentries": 1,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": 1.234,
+            "read": 1.234,
+            "write": 1.234,
+            "pool": 1.234
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        }
+      ],
+      "error": "APIConnectionError",
+      "response": null,
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "api": "interactions",
+      "configured_attempts": 1,
+      "behavior": 429,
+      "timeout_ms": 1234,
+      "guard": true,
+      "submissions": 1,
+      "blocked_reentries": 1,
+      "requests": [
+        {
+          "method": "POST",
+          "path": "/v1beta/interactions",
+          "timeout": {
+            "connect": 1.234,
+            "read": 1.234,
+            "write": 1.234,
+            "pool": 1.234
+          },
+          "idempotency_header": null,
+          "body": {
+            "input": "synthetic",
+            "model": "gemini-3.1-flash-image",
+            "generation_config": {
+              "max_output_tokens": 128
+            },
+            "response_format": {
+              "type": "image",
+              "image_size": "1K"
+            }
+          }
+        }
+      ],
+      "error": "APIConnectionError",
+      "response": null,
+      "expected_submissions": 1,
+      "pass": true
+    },
+    {
+      "case": "known_id_retrieval",
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/v1beta/interactions/synthetic-id"
+        }
+      ],
+      "id": "synthetic-id",
+      "status": "completed",
+      "request_id": "synthetic-retrieval",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

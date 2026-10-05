@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-04",
+  "original_S4": "FAIL",
+  "S4_R": "PASS",
+  "overall_S4_after_remediation": "PASS",
+  "scope": "Conditional architecture/docs/local fixture; owner current instruction identifies research as sole original blocker. No all-alias/account adoption certification.",
+  "live_provider_calls": 0,
+  "source_inventory": [
+    {
+      "id": "google-overview",
+      "url": "https://developers.google.com/custom-search/v1/overview",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Closed to new customers; discontinuation 2027-01-01; legacy 100 free queries/day and $5/1000, max 10000/day."
+    },
+    {
+      "id": "google-request",
+      "url": "https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Documented GET customsearch/v1; num 1-10, total pagination limited to 100."
+    },
+    {
+      "id": "brave-pricing",
+      "url": "https://brave.com/search/api/",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Search $5/1000 requests; $5 monthly credit advertised; 50 QPS. FAQ requires special storage rights."
+    },
+    {
+      "id": "brave-api",
+      "url": "https://api-dashboard.search.brave.com/documentation/services/web-search",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Documented web search API; count max20, offset max9; URLs/title/descriptions/snippets."
+    },
+    {
+      "id": "brave-terms",
+      "url": "https://api-dashboard.search.brave.com/documentation/resources/terms-of-service",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Standard terms restrict durable storage/caching; additional rights required; no blanket publisher license."
+    },
+    {
+      "id": "brave-help",
+      "url": "https://api-dashboard.search.brave.com/documentation/resources/help-feedback",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Retention prohibited unless agreed; new prepaid accounts pause on zero balance, legacy postpaid may overage. No plan activated."
+    },
+    {
+      "id": "brave-rate",
+      "url": "https://api-dashboard.search.brave.com/documentation/guides/rate-limiting",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Plan-scoped sliding rate windows; X-RateLimit headers; effective plan unknown."
+    },
+    {
+      "id": "tavily-pricing",
+      "url": "https://docs.tavily.com/documentation/api-credits",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Basic 1 credit; Advanced2; 1000 free monthly/no card; PAYGO .008 USD/credit; no subscription chosen."
+    },
+    {
+      "id": "tavily-api",
+      "url": "https://docs.tavily.com/documentation/api-reference/endpoint/search",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "POST /search, explicit basic/auto_parameters=false; max_results<=20; chunks<=3; query/results/URL/title/content/request_id/usage.credits."
+    },
+    {
+      "id": "tavily-rate",
+      "url": "https://docs.tavily.com/documentation/rate-limits",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Development 100RPM; Production1000RPM requires paid/PAYGO; usage10 requests/10min."
+    },
+    {
+      "id": "tavily-usage",
+      "url": "https://docs.tavily.com/documentation/api-reference/endpoint/usage",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "GET /usage aggregate key/account usage/limits, optional project scope. No individual lost-result recovery guaranteed."
+    },
+    {
+      "id": "tavily-logs",
+      "url": "https://docs.tavily.com/documentation/api-reference/endpoint/logs",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Paid/PAYGO only; request id/timestamp/credits/depth; never input/output; not guaranteed idempotency or unique lost-ack matching."
+    },
+    {
+      "id": "tavily-terms",
+      "url": "https://www.tavily.com/terms",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Customer Application integration permitted; Output distinguished from Services. Third-party rights and AI-use restrictions remain; no blanket output copyright license established."
+    },
+    {
+      "id": "tavily-rag",
+      "url": "https://docs.tavily.com/examples/quick-tutorials/cookbook",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Official persisted vector-store/hybrid-agent/export examples support conditional RAG retention inference, not replacement of contract."
+    },
+    {
+      "id": "tavily-aup",
+      "url": "https://www.tavily.com/acceptable-use-policy",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Downstream compliance and output-vetting obligations; no factual guarantee."
+    },
+    {
+      "id": "tavily-privacy",
+      "url": "https://www.tavily.com/privacy",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Query processing/retention/improvement and potential third-party indexes; minimize data, no claimed seven-day provider deletion."
+    },
+    {
+      "id": "wikimedia-search",
+      "url": "https://www.mediawiki.org/wiki/API:Search",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Documented programmatic corpus search, srlimit1-500, title/snippet; corpus not broad web."
+    },
+    {
+      "id": "wikimedia-use",
+      "url": "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_API_Usage_Guidelines",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Identifying User-Agent, throttle, licensed content attribution; no fixed guaranteed rates or availability."
+    },
+    {
+      "id": "gemini-reused",
+      "url": "https://ai.google.dev/gemini-api/docs/thinking",
+      "retrieved_date": "2026-10-04",
+      "authority": "Official provider/API documentation or terms",
+      "finding": "Output cap includes thought tokens; reuse S4 pin/guard/cost evidence; no Gemini tool search."
+    }
+  ],
+  "candidates": [
+    {
+      "provider": "Google",
+      "capability": "Custom Search JSON",
+      "classification": "CONDITIONALLY_BOUNDED",
+      "suitability": "not recommended; eligibility unproved, near sunset",
+      "price_microUSD_per_request": 5000,
+      "free_allowance": "100/day for eligible existing accounts",
+      "max_results_per_request": 10,
+      "rate_limit": "10000/day; other effective quotas unknown",
+      "retry_control": "Direct REST application controls attempts; no SDK investigated due adoption exclusion",
+      "identifiers": "local attempt mandatory; provider operation/idempotency contract not established",
+      "uncertain_outcome": "PARTIALLY_RECONCILABLE at best; no bill-free retry inferred",
+      "provenance": "items links/titles/snippets",
+      "storage_terms": "not certified for adoption; eliminated for availability/lifecycle",
+      "sources": [
+        "google-overview",
+        "google-request"
+      ]
+    },
+    {
+      "provider": "Google",
+      "capability": "Vertex AI Search limited-domain alternative",
+      "classification": "UNKNOWN",
+      "suitability": "not a proposed broad-web Alpha replacement",
+      "price": "No verified complete adopted cost contract",
+      "limits": "Up to 50 domains per Google Custom Search migration notice",
+      "retry_control": "not investigated beyond exclusion",
+      "uncertain_outcome": "UNKNOWN",
+      "provenance": "not certified",
+      "storage_terms": "not certified",
+      "sources": [
+        "google-overview"
+      ]
+    },
+    {
+      "provider": "Brave",
+      "capability": "Web Search REST",
+      "classification": "CONDITIONALLY_BOUNDED",
+      "suitability": "financially feasible; standard retention rights insufficient",
+      "price_microUSD_per_request": 5000,
+      "free_allowance": "5USD monthly advertised; account unverified",
+      "max_results_per_request": 20,
+      "rate_limit": "50QPS advertised, plan headers effective at activation",
+      "retry_control": "one-send direct HTTPX; no SDK dependency proposed",
+      "identifiers": "persist local attempt; provider request/operation metadata availability unverified",
+      "uncertain_outcome": "PARTIALLY_RECONCILABLE, retain request fee/quota; billing/support, no assumed idempotency",
+      "provenance": "URL/title/description/extra snippets",
+      "storage_terms": "special storage agreement required; price unknown",
+      "sources": [
+        "brave-pricing",
+        "brave-api",
+        "brave-terms",
+        "brave-help",
+        "brave-rate"
+      ]
+    },
+    {
+      "provider": "Tavily",
+      "capability": "Basic Search REST",
+      "classification": "CONDITIONALLY_BOUNDED",
+      "suitability": "recommended conditional candidate",
+      "endpoint": "POST https://api.tavily.com/search",
+      "credits_per_request": 1,
+      "maximum_configured_price_microUSD_per_credit": 8000,
+      "free_allowance": "1000 credits/month no card documented, verify active free entitlement and PAYGO disabled",
+      "max_results_per_request": 20,
+      "chunks_per_source_max": 3,
+      "rate_limit": {
+        "development_RPM": 100,
+        "production_RPM": 1000,
+        "production_requires_paid_or_PAYGO": true,
+        "usage_requests_per_10min": 10
+      },
+      "retry_control": "HTTPX0.28.1 direct REST transport retries0, redirects false, app attempts <=3; witness no hidden retry",
+      "identifiers": "response request_id, local persisted attempt/config/query hash",
+      "idempotency": "not established",
+      "uncertain_outcome": "PARTIALLY_RECONCILABLE: holds; aggregate usage, paid logs/support, no result recovery/unique lost-id matching guarantee",
+      "provenance": "query, URL, title, snippet/content, retrieval UTC, provider/local request IDs, original input association and evidence IDs",
+      "storage_terms": "Public application/RAG workflows support bounded project evidence retention inference; third-party rights/order-form/actual terms activation remain required; no blanket copyright/retention guarantee",
+      "privacy": "minimal queries; private script not sent whole by default; no provider seven-day deletion guarantee",
+      "disabled_features": [
+        "auto_parameters",
+        "advanced depth",
+        "include_answer",
+        "include_raw_content",
+        "include_images",
+        "Gemini grounding",
+        "pagination",
+        "extract",
+        "crawl",
+        "agent/research"
+      ],
+      "sources": [
+        "tavily-api",
+        "tavily-pricing",
+        "tavily-rate",
+        "tavily-usage",
+        "tavily-logs",
+        "tavily-terms",
+        "tavily-rag",
+        "tavily-aup",
+        "tavily-privacy"
+      ]
+    },
+    {
+      "provider": "Wikimedia",
+      "capability": "Action API corpus search",
+      "classification": "BOUNDED",
+      "suitability": "no additional retrieval fee supplement; insufficient sole general factual search",
+      "fee": "No paid request unit in public API",
+      "limits": "srlimit1-500, choose smaller application bound, variable throttling",
+      "retry_control": "Direct REST same deterministic bounded attempts; no paid fee assumption beyond this public endpoint",
+      "identifiers": "local request; page/revision identifiers when retained",
+      "uncertain_outcome": "quota/resource consumption still unknown; no zero-quota retry assumption",
+      "provenance": "page title/url/snippet/revision where available plus license attribution",
+      "storage_terms": "Content-license attribution/compliance; no service availability guarantee or hidden white-label service resale",
+      "sources": [
+        "wikimedia-search",
+        "wikimedia-use"
+      ]
+    }
+  ],
+  "liability_formula": "A_P*T(I_P,O_P)+sum(A_i*c*p for i in 1..N)+A_S*T(I_S,O_S)+bounded fees/taxes; A<=3, c=1 for explicit Basic; integer microUSD/credits",
+  "tuning": "N=2,4,8 are economic/local witness examples only; final N/R/token caps unset",
+  "retention_inference_explicit": true,
+  "S5_dependency_ready": true,
+  "S5_execution_authorized": false,
+  "original_evidence_sha256": {
+    "docs/architecture/evidence/provider-feasibility/S4.md": "71f7780494795b00efda0c8b1779df7f7a6e4a1a1b7d4107350250c1c16cde7d",
+    "docs/architecture/evidence/provider-feasibility/capabilities.json": "ab42168911770dc1ae0bdd50c1beb8be9e2439b9a95c31246b828f27294b8333",
+    "docs/architecture/evidence/provider-feasibility/witness.json": "c8e855091c8dd7fe45f662a1b350b1417258733af46391f4ca4dd7ac600cab77",
+    "docs/architecture/evidence/provider-feasibility/accounting.json": "bc6fb92ac1d1bbd6046ccf5c2bd272fa157053cf23907fdb70f85606f3fa14c5",
+    "docs/architecture/evidence/provider-feasibility/tts-wire.json": "acc8b888bb3ab1fe6dae20c3e2a843d2d7e4bb625fe10ed5874e9649d7f417c1"
+  }
+}

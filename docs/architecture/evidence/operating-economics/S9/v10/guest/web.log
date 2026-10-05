@@ -1,0 +1,7 @@
+[2026-10-05 05:58:42 +0600] [3744] [INFO] Starting gunicorn 23.0.0
+[2026-10-05 05:58:42 +0600] [3744] [INFO] Listening at: http://127.0.0.1:8080 (3744)
+[2026-10-05 05:58:42 +0600] [3744] [INFO] Using worker: gthread
+[2026-10-05 05:58:42 +0600] [3745] [INFO] Booting worker with pid: 3745
+[2026-10-05 06:04:35 +0600] [3744] [INFO] Handling signal: term
+[2026-10-05 06:04:36 +0600] [3745] [INFO] Worker exiting (pid: 3745)
+[2026-10-05 06:04:36 +0600] [3744] [INFO] Shutting down: Master

@@ -1,0 +1,252 @@
+--- docs/ALPHA_PRODUCT_SPEC.md before budget amendment
++++ docs/ALPHA_PRODUCT_SPEC.md current
+@@ -1,4 +1,10 @@
+ # Private alpha product specification
++
++## Accepted owner budget amendment — 2026-10-05
++
++The active total prelaunch / Private Alpha operating ceiling is **US$40/month**, explicitly increased by the owner from US$30. This supersedes prior $30 wording wherever it described current financial authority. Historical interview/discovery notes and S9 V1–V11 evidence retain the $30 ceiling applicable when recorded; they do not control the current limit.
++
++The $40 is a total owner cash-spend ceiling, not a generation-only allocation, creator credit balance or per-project authorization. Fixed obligations, actual spending, financial reservations and unresolved liabilities remain accounted for; safety/tax/payment/FX reserves and creator allowances remain unresolved. No automatic increase in credits/allowances, provider purchase/call or production implementation follows. See [current S9 reassessment](architecture/evidence/operating-economics/S9/CREDITS-v12.md). The owner’s rule ending host-sizing experiments unless failure remains in force.
+ 
+ ## Owner decision — Research entitlement and topic discovery, 2026-10-05
+ 
+@@ -90,7 +96,7 @@
+ estimate changes. Post-script predicted credits, operation-specific debit and
+ correction credit rules remain unresolved; do not assume images / 60. Future
+ paid subscription tiers remain separate from free Alpha allocations. The
+-$30/month ceiling, internal USD bounds and reservation rules are unchanged.
++$40/month ceiling now applies under the owner budget amendment; internal USD bounds and reservation rules remain unchanged.
+ 
+ Status: confirmed Alpha product definition, approved by the user on 2026-10-03 after Round 11. Deferred choices below remain undecided. See [decision history](PRODUCT_DECISIONS.md), [provisional roadmap](FEATURE_ROADMAP.md), and [domain language](../GLOSSARY.md).
+ 
+@@ -108,7 +114,7 @@
+ 2. Invite approximately 3–5 target creators after the acceptance gate passes and private identities, project/asset isolation, and allowances are available.
+ 3. Deliver standalone vertical output and animated Emphasis Text as follow-up Alpha milestones, not requirements for the first end-to-end Alpha release; their relative order is uncommitted.
+ 
+-One solo engineer delivers the product. There is no fixed public-launch date. The current strict total prelaunch Alpha operating ceiling is US$30/month, ideally zero, including generation, research, hosting, storage, and tester usage. The ceiling is owner-configurable: explicit owner approval can revise it; it is not a permanent or hardcoded budget. Architecture decisions must not assume this ceiling remains permanent after validation. Pause new paid operations at the ceiling; only an explicit owner decision raises it. Do not choose fixed allowance/storage amounts before measuring actual production cost and asset sizes. Concrete limits must be recorded before invitations; no per-video cost or allocation formula has been agreed.
++One solo engineer delivers the product. There is no fixed public-launch date. The current strict total prelaunch Alpha operating ceiling is US$40/month, ideally zero, including generation, research, hosting, storage, and tester usage. The ceiling is owner-configurable: explicit owner approval can revise it; it is not a permanent or hardcoded budget. Architecture decisions must not assume this ceiling remains permanent after validation. Pause new paid operations at the ceiling; only an explicit owner decision raises it. Do not choose fixed allowance/storage amounts before measuring actual production cost and asset sizes. Concrete limits must be recorded before invitations; no per-video cost or allocation formula has been agreed.
+ 
+ ## Alpha operating experience
+ 
+@@ -235,7 +241,7 @@
+ 
+ ## Deferred operational and commercial specification
+ 
+-Before invitations: measure costs/asset sizes and set allowance/storage limits; substantiate provider cost bounds; choose providers/deployment; specify file-upload limits, technical per-asset checks and operational acceptance procedures. The US$30/month ceiling is a constraint, not a demonstrated feasibility result.
++Before invitations: measure costs/asset sizes and set allowance/storage limits; substantiate provider cost bounds; choose providers/deployment; specify file-upload limits, technical per-asset checks and operational acceptance procedures. The US$40/month ceiling is a constraint, not a demonstrated feasibility result.
+ 
+ Providers, deployment, exact storage and generation allowances, actual generation costs, public pricing and subscription structure remain deferred until sufficient implementation or Alpha data exists. After Alpha evidence, decide public readiness, support expectations and optional additions. Later roadmap capabilities require separate discovery. No implementation stack or provider choice has been made.
+ 
+--- docs/ARCHITECTURE.md before budget amendment
++++ docs/ARCHITECTURE.md current
+@@ -1,4 +1,10 @@
+ # Private Alpha architecture
++
++## Accepted owner budget amendment — 2026-10-05
++
++The active total prelaunch / Private Alpha operating ceiling is **US$40/month**, explicitly increased by the owner from US$30. This supersedes prior $30 wording wherever it described current financial authority. Historical interview/discovery notes and S9 V1–V11 evidence retain the $30 ceiling applicable when recorded; they do not control the current limit.
++
++The $40 is a total owner cash-spend ceiling, not a generation-only allocation, creator credit balance or per-project authorization. Fixed obligations, actual spending, financial reservations and unresolved liabilities remain accounted for; safety/tax/payment/FX reserves and creator allowances remain unresolved. No automatic increase in credits/allowances, provider purchase/call or production implementation follows. See [current S9 reassessment](architecture/evidence/operating-economics/S9/CREDITS-v12.md). The owner’s rule ending host-sizing experiments unless failure remains in force.
+ 
+ ## Owner amendment — feature entitlement and discovery boundaries, 2026-10-05
+ 
+@@ -230,7 +236,7 @@
+ 
+ Providers, exact limits/allowances, deployment vendor, actual costs and public subscriptions remain undecided. [Spikes](ARCHITECTURE_SPIKES.md) can establish evidence only when separately authorized. If the measured minimum cannot fit the current ceiling, the result is an explicit infeasibility finding: reduce usage or request an explicit budget revision, rather than bypass the constraint.
+ 
+-The user confirmed this document and its referenced authoritative architecture models/ADRs as the accepted baseline. This confirms design, not successful validation of Django, SQLite, single-host deployment, narration generation granularity, media/runtime compatibility, provider cost controls, backups or the current US$30/month operating envelope.
++The user confirmed this document and its referenced authoritative architecture models/ADRs as the accepted baseline. This confirms design, not successful validation of Django, SQLite, single-host deployment, narration generation granularity, media/runtime compatibility, provider cost controls, backups or the current US$40/month operating envelope.
+ 
+ A failed feasibility gate requires reconsidering the affected recommendation or surfacing an explicit scope/budget decision. Do not silently add infrastructure, weaken product requirements, bypass spending controls or increase the operating ceiling to make a gate pass.
+ 
+--- docs/ARCHITECTURE_DISCOVERY.md before budget amendment
++++ docs/ARCHITECTURE_DISCOVERY.md current
+@@ -1,4 +1,10 @@
+ # Architecture discovery
++
++## Accepted owner budget amendment — 2026-10-05
++
++The active total prelaunch / Private Alpha operating ceiling is **US$40/month**, explicitly increased by the owner from US$30. This supersedes prior $30 wording wherever it described current financial authority. Historical interview/discovery notes and S9 V1–V11 evidence retain the $30 ceiling applicable when recorded; they do not control the current limit.
++
++The $40 is a total owner cash-spend ceiling, not a generation-only allocation, creator credit balance or per-project authorization. Fixed obligations, actual spending, financial reservations and unresolved liabilities remain accounted for; safety/tax/payment/FX reserves and creator allowances remain unresolved. No automatic increase in credits/allowances, provider purchase/call or production implementation follows. See [current S9 reassessment](architecture/evidence/operating-economics/S9/CREDITS-v12.md). The owner’s rule ending host-sizing experiments unless failure remains in force.
+ 
+ Status: historical architecture-discovery interview record. Consolidated recommendations live in [ARCHITECTURE.md](ARCHITECTURE.md); this notebook is not a competing current contract, implementation plan or task list. Product authority remains the [confirmed Alpha specification](ALPHA_PRODUCT_SPEC.md). Source evidence is in [PIPELINE_INVESTIGATION.md](PIPELINE_INVESTIGATION.md).
+ 
+@@ -130,7 +136,7 @@
+ 
+ ## Accepted discovery policies — A5–A9
+ 
+-The user accepted A5–A9. A9 explicitly clarifies the product deletion promise. The current US$30 ceiling is owner-configurable rather than permanent or hardcoded; no revised amount or unlimited spending was authorized.
++The user accepted A5–A9. A9 explicitly clarifies the product deletion promise. At that discovery interview, the US$30 ceiling was owner-configurable rather than permanent or hardcoded; no revised amount or unlimited spending was authorized then. The later owner budget amendment above supplies the current US$40 authority.
+ 
+ ### A5: Cancellation after paid submission
+ 
+--- docs/ARCHITECTURE_SPIKES.md before budget amendment
++++ docs/ARCHITECTURE_SPIKES.md current
+@@ -1,4 +1,6 @@
+ # Architecture feasibility gates
++
++Owner budget amendment / S9 revision 12, 2026-10-05: **active total ceiling US$40/month**, explicitly superseding $30 current authority. [Current economics and unresolved gates](architecture/evidence/operating-economics/S9/CREDITS-v12.md): ~$24 locally qualified 2-vCPU/4-GiB class + measured two-snapshot backup-storage sensitivity $0.005932 = $24.005932 partial fixed cost; $15.994068 nominal remainder **before** unknown fees/reserves/current spending/holds. Actual available generation authority and full capacity UNKNOWN. **S9: NOT_YET_PASS.** No creator allowances/credit formula/provider selection/calls/production/architecture freeze. Host sizing remains closed unless failure. Historical V1–V11 evidence unchanged; their $30 references and prior execution notes below describe the limit then in force, not current authority.
+ 
+ S9 revision 11, 2026-10-05: **NOT_YET_PASS**. [Final local host-sizing evidence](architecture/evidence/operating-economics/S9/CREDITS-v11.md): whole native Linux guest 2 vCPU / 4 GiB, serialized maintenance, all unchanged workloads/media checks PASS. Minimum available RAM 1.791 GB (41.698%), no swap/OOM or failed status probes: **SAFE_ENOUGH_FOR_ALPHA at this local fixture scope**. ~$24 host class locally resource-qualified; no vendor selection or full economics PASS. Owner requires **no further host-sizing experiments unless failure**; sizing is closed here. $30/credits/allowances unchanged, no production/provider generation/downloads/token preflight/architecture freeze. V1–V10 preserved.
+ 
+--- docs/COST_MODEL.md before budget amendment
++++ docs/COST_MODEL.md current
+@@ -1,4 +1,6 @@
+ # Spending authorization, allowance and reconciliation
++
++Owner budget amendment / S9 revision 12, 2026-10-05: **active total ceiling US$40/month**, explicitly superseding $30 current authority. [Current economics and unresolved gates](architecture/evidence/operating-economics/S9/CREDITS-v12.md): ~$24 locally qualified 2-vCPU/4-GiB class + measured two-snapshot backup-storage sensitivity $0.005932 = $24.005932 partial fixed cost; $15.994068 nominal remainder **before** unknown fees/reserves/current spending/holds. Actual available generation authority and full capacity UNKNOWN. **S9: NOT_YET_PASS.** No creator allowances/credit formula/provider selection/calls/production/architecture freeze. Host sizing remains closed unless failure. Historical V1–V11 evidence unchanged; their $30 references and prior execution notes below describe the limit then in force, not current authority.
+ 
+ S9 revision 11, 2026-10-05: **NOT_YET_PASS**. [Final local host-sizing evidence](architecture/evidence/operating-economics/S9/CREDITS-v11.md): whole native Linux guest 2 vCPU / 4 GiB, serialized maintenance, all unchanged workloads/media checks PASS. Minimum available RAM 1.791 GB (41.698%), no swap/OOM or failed status probes: **SAFE_ENOUGH_FOR_ALPHA at this local fixture scope**. ~$24 host class locally resource-qualified; no vendor selection or full economics PASS. Owner requires **no further host-sizing experiments unless failure**; sizing is closed here. $30/credits/allowances unchanged, no production/provider generation/downloads/token preflight/architecture freeze. V1–V10 preserved.
+ 
+@@ -39,7 +41,7 @@
+ constant is selected. Optional discovery does not block the representative-video
+ S9 analysis absent an evidenced shared fixed-cost requirement.
+ 
+-The $30/month Alpha ceiling and S9 NOT_YET_PASS status remain unchanged. See the
++The active Alpha ceiling is now $40/month under the owner budget amendment; S9 remains NOT_YET_PASS. See the
+ [interpretation clarification](architecture/evidence/operating-economics/S9/OWNER-ENTITLEMENTS.md);
+ no historical S9 calculation is rewritten and no revision 7 is executed.
+ 
+@@ -109,7 +111,7 @@
+ | --- | --- |
+ | Estimate | Expected usage under a versioned rate/configuration basis, with uncertainty. Not a spending grant or maximum guarantee. |
+ | Request authorization | Creator approval of scope, relevant inputs, selected models/configuration and maximum authorized cost. Create Video grants this authority within the system-enforced ceiling; displaying or reviewing the ceiling is optional. |
+-| Shared operating budget | Owner-configured period ceiling, currently US$30/month. Includes generation, research, hosting, storage, backup, rendering, tester usage and paid failures. Explicit owner approval can revise it; never hardcode it as permanent. |
++| Shared operating budget | Owner-configured period ceiling, currently US$40/month. Includes generation, research, hosting, storage, backup, rendering, tester usage and paid failures. Explicit owner approval can revise it; never hardcode it as permanent. |
+ | Shared reservation | Held expected maximum liability for authorized future/submitted work or known infrastructure charges; not spent cash and not free capacity. |
+ | Tester allowance | Free USD-equivalent successful-output usage allocation for a private identity. Exact amounts remain measurement-dependent. |
+ | Allowance reservation | Held maximum possible successful-output usage for admitted work. Failed outputs release this hold, even if the owner incurred cost. |
+--- docs/FEATURE_ROADMAP.md before budget amendment
++++ docs/FEATURE_ROADMAP.md current
+@@ -1,4 +1,10 @@
+ # Provisional feature roadmap
++
++## Accepted owner budget amendment — 2026-10-05
++
++The active total prelaunch / Private Alpha operating ceiling is **US$40/month**, explicitly increased by the owner from US$30. This supersedes prior $30 wording wherever it described current financial authority. Historical interview/discovery notes and S9 V1–V11 evidence retain the $30 ceiling applicable when recorded; they do not control the current limit.
++
++The $40 is a total owner cash-spend ceiling, not a generation-only allocation, creator credit balance or per-project authorization. Fixed obligations, actual spending, financial reservations and unresolved liabilities remain accounted for; safety/tax/payment/FX reserves and creator allowances remain unresolved. No automatic increase in credits/allowances, provider purchase/call or production implementation follows. See [current S9 reassessment](architecture/evidence/operating-economics/S9/CREDITS-v12.md). The owner’s rule ending host-sizing experiments unless failure remains in force.
+ 
+ ## Accepted topic-discovery product decisions — 2026-10-05
+ 
+@@ -27,7 +33,7 @@
+ 
+ ## Confirmation status
+ 
+-The current documentation is the confirmed Alpha product definition as of 2026-10-03; the product interview is closed. The original candidate release table remains provisional. The strict US$30/month Alpha ceiling can only increase with explicit owner approval and must not be assumed permanent in architecture decisions. Providers, deployment, exact storage/generation allowances, actual costs, public pricing and subscription structure remain deferred until sufficient implementation or Alpha data exists. This confirmation does not authorize application implementation.
++The current documentation is the confirmed Alpha product definition as of 2026-10-03; the product interview is closed. The original candidate release table remains provisional. The strict US$40/month Alpha ceiling can only increase with explicit owner approval and must not be assumed permanent in architecture decisions. Providers, deployment, exact storage/generation allowances, actual costs, public pricing and subscription structure remain deferred until sufficient implementation or Alpha data exists. This confirmation does not authorize application implementation.
+ 
+ ## Product promise
+ 
+@@ -68,7 +74,7 @@
+ 
+ Invite approximately 3–5 creators only with private identities, isolated projects/assets and predefined allowances. Use announced availability windows, one active production job and queue status. Measure real costs/asset sizes before setting allowance/storage numbers. Include storage protection, seven-day recoverable deletion and a 14-day download window after an announced alpha end. Active content purges at seven days; backup copies purge within at most 24 additional hours, with no restoration of purged content.
+ 
+-One solo engineer, no fixed public-launch date, US$30/month total prelaunch operating ceiling ideally zero. The amount is owner-configurable; only explicit owner authorization revises it. Budget feasibility and provider spending bounds are unverified.
++One solo engineer, no fixed public-launch date, US$40/month total prelaunch operating ceiling ideally zero. The amount is owner-configurable; only explicit owner authorization revises it. Budget feasibility and provider spending bounds are unverified.
+ 
+ ### Follow-up alpha milestones
+ 
+--- docs/PRODUCT_DECISIONS.md before budget amendment
++++ docs/PRODUCT_DECISIONS.md current
+@@ -1,4 +1,10 @@
+ # Product decisions
++
++## Accepted owner budget amendment — 2026-10-05
++
++The active total prelaunch / Private Alpha operating ceiling is **US$40/month**, explicitly increased by the owner from US$30. This supersedes prior $30 wording wherever it described current financial authority. Historical interview/discovery notes and S9 V1–V11 evidence retain the $30 ceiling applicable when recorded; they do not control the current limit.
++
++The $40 is a total owner cash-spend ceiling, not a generation-only allocation, creator credit balance or per-project authorization. Fixed obligations, actual spending, financial reservations and unresolved liabilities remain accounted for; safety/tax/payment/FX reserves and creator allowances remain unresolved. No automatic increase in credits/allowances, provider purchase/call or production implementation follows. See [current S9 reassessment](architecture/evidence/operating-economics/S9/CREDITS-v12.md). The owner’s rule ending host-sizing experiments unless failure remains in force.
+ 
+ ## Accepted owner amendment — 2026-10-05, Research and topic discovery
+ 
+--- docs/README.md before budget amendment
++++ docs/README.md current
+@@ -1,4 +1,6 @@
+ # Product and architecture documentation
++
++Owner budget amendment / S9 revision 12, 2026-10-05: **active total ceiling US$40/month**, explicitly superseding $30 current authority. [Current economics and unresolved gates](architecture/evidence/operating-economics/S9/CREDITS-v12.md): ~$24 locally qualified 2-vCPU/4-GiB class + measured two-snapshot backup-storage sensitivity $0.005932 = $24.005932 partial fixed cost; $15.994068 nominal remainder **before** unknown fees/reserves/current spending/holds. Actual available generation authority and full capacity UNKNOWN. **S9: NOT_YET_PASS.** No creator allowances/credit formula/provider selection/calls/production/architecture freeze. Host sizing remains closed unless failure. Historical V1–V11 evidence unchanged; their $30 references and prior execution notes below describe the limit then in force, not current authority.
+ 
+ S9 revision 11, 2026-10-05: **NOT_YET_PASS**. [Final local host-sizing evidence](architecture/evidence/operating-economics/S9/CREDITS-v11.md): whole native Linux guest 2 vCPU / 4 GiB, serialized maintenance, all unchanged workloads/media checks PASS. Minimum available RAM 1.791 GB (41.698%), no swap/OOM or failed status probes: **SAFE_ENOUGH_FOR_ALPHA at this local fixture scope**. ~$24 host class locally resource-qualified; no vendor selection or full economics PASS. Owner requires **no further host-sizing experiments unless failure**; sizing is closed here. $30/credits/allowances unchanged, no production/provider generation/downloads/token preflight/architecture freeze. V1–V10 preserved.
+ 
+--- docs/VALIDATION_PLAN.md before budget amendment
++++ docs/VALIDATION_PLAN.md current
+@@ -1,4 +1,10 @@
+ # Alpha validation plan
++
++## Accepted owner budget amendment — 2026-10-05
++
++The active total prelaunch / Private Alpha operating ceiling is **US$40/month**, explicitly increased by the owner from US$30. This supersedes prior $30 wording wherever it described current financial authority. Historical interview/discovery notes and S9 V1–V11 evidence retain the $30 ceiling applicable when recorded; they do not control the current limit.
++
++The $40 is a total owner cash-spend ceiling, not a generation-only allocation, creator credit balance or per-project authorization. Fixed obligations, actual spending, financial reservations and unresolved liabilities remain accounted for; safety/tax/payment/FX reserves and creator allowances remain unresolved. No automatic increase in credits/allowances, provider purchase/call or production implementation follows. See [current S9 reassessment](architecture/evidence/operating-economics/S9/CREDITS-v12.md). The owner’s rule ending host-sizing experiments unless failure remains in force.
+ 
+ Status: confirmed Alpha product targets as of 2026-10-03; tests have not been executed. See [alpha specification](ALPHA_PRODUCT_SPEC.md).
+ 
+@@ -30,7 +36,7 @@
+ 
+ ## Measured invitation limits
+ 
+-Do not invent fixed allowances or storage caps before measurements. Record concrete limits before invitations, based on actual production cost and asset sizes. The shared US$30/month ceiling includes generation, research, hosting, storage, tester usage and paid failures. Only explicit owner approval may increase this strict Alpha ceiling. Architecture must not assume it remains permanent after validation.
++Do not invent fixed allowances or storage caps before measurements. Record concrete limits before invitations, based on actual production cost and asset sizes. The shared US$40/month ceiling includes generation, research, hosting, storage, tester usage and paid failures. Only explicit owner approval may increase this strict Alpha ceiling. Architecture must not assume it remains permanent after validation.
+ 
+ Provider cost bounds, deployment/provider choices, detailed per-asset validity checks and upload limits require a later operational specification. No spending feasibility is claimed here.
+ 
+--- docs/architecture/evidence/operating-economics/S9/README.md before budget amendment
++++ docs/architecture/evidence/operating-economics/S9/README.md current
+@@ -1,4 +1,6 @@
+ # S9 — operating economics
++
++Owner budget amendment / S9 revision 12, 2026-10-05: **active total ceiling US$40/month**, explicitly superseding $30 current authority. [Current economics and unresolved gates](CREDITS-v12.md): ~$24 locally qualified 2-vCPU/4-GiB class + measured two-snapshot backup-storage sensitivity $0.005932 = $24.005932 partial fixed cost; $15.994068 nominal remainder **before** unknown fees/reserves/current spending/holds. Actual available generation authority and full capacity UNKNOWN. **S9: NOT_YET_PASS.** No creator allowances/credit formula/provider selection/calls/production/architecture freeze. Host sizing remains closed unless failure. Historical V1–V11 evidence unchanged; their $30 references and prior execution notes below describe the limit then in force, not current authority.
+ 
+ S9 revision 11, 2026-10-05: **NOT_YET_PASS**. [Final local host-sizing evidence](CREDITS-v11.md): whole native Linux guest 2 vCPU / 4 GiB, serialized maintenance, all unchanged workloads/media checks PASS. Minimum available RAM 1.791 GB (41.698%), no swap/OOM or failed status probes: **SAFE_ENOUGH_FOR_ALPHA at this local fixture scope**. ~$24 host class locally resource-qualified; no vendor selection or full economics PASS. Owner requires **no further host-sizing experiments unless failure**; sizing is closed here. $30/credits/allowances unchanged, no production/provider generation/downloads/token preflight/architecture freeze. V1–V10 preserved.
+ 
+@@ -8,7 +10,7 @@
+ 
+ S9 revision 8, 2026-10-05: **NOT_YET_PASS**. [Infrastructure/storage/backup envelope](CREDITS-v8.md) records official candidate prices and unchanged-media measurements. $12–$24 persistent hosts are topology-compatible candidates, not resource-qualified selections; cheaper Hetzner candidate currently unavailable. Complete owner-cash fixed cost/reserve and full video economics remain UNKNOWN. $30 ceiling/credits/allowances unchanged; no token-preflight experiment, provisioning, production or provider generation.
+ 
+-## Current revision — v7, candidate text/research operation manifest
++## Historical revision — v7, candidate text/research operation manifest
+ 
+ **S9: NOT_YET_PASS.** [CREDITS-v7.md](CREDITS-v7.md), [manifest](text-research-manifest-v7.json), [48 local checks](witness-v7.json). Five-minute factual Research-entitled fixture: four candidate Gemini operations, <=6 bounded Basic searches, narrow token caps; conditional all-three-attempt envelope **$0.410964 before fees**. Expected text/search cost and usable live maximum remain UNKNOWN because model-specific complete-request token validation is not established. Preserved v6 image/TTS proxy ~$2.074188 is not a full cost. [Pre-v7 index](history-v7/s9-index-before-v7.md) preserves history. No provider calls, production, credit policy or Alpha allowances.
+ 
+@@ -21,11 +23,11 @@
+ S9 remains NOT_YET_PASS. [Exact previous index](history-owner-entitlements/s9-index-before-amendment.md)
+ preserves historical index/hash reconstruction. v6 remains the latest economics revision.
+ 
+-## Current revision — v6, variable production cost basis
++## Historical revision — v6, variable production cost basis
+ 
+ **S9: NOT_YET_PASS.** [CREDITS-v6.md](CREDITS-v6.md), [arithmetic/results](credits-v6.json) and [pricing](pricing-v6.json) separate real S5 B receipts, qualified duration proxies, expected unknowns and conditional maximum exposure. Image output + initial TTS proxy is ~$1.244513/$2.074188/$4.148375 for 3/5/10 minutes; full project cost remains UNKNOWN. No final credit formula or Alpha allowance adopted. v5 product decisions remain authoritative. [Exact pre-v6 index](history-v6/s9-index-before-v6.md) preserves history.
+ 
+-## Current revision — v5, owner sentence-driven scope
++## Historical revision — v5, owner sentence-driven scope
+ 
+ **S9: NOT_YET_PASS.** [CREDITS-v5.md](CREDITS-v5.md) is the current decision/
+ evidence record; [local results](credits-v5.json). Alpha shows **both credits and
+@@ -53,7 +55,7 @@
+ Owner future-plan clarification: [tier revision 3](TIERS-v3.md) records
+ five-minute proportional video credits (six minutes = 1.2, ten = 2), default
+ five-minute scripts and weekly/daily **future paid** capacities. These do not
+-change free Alpha allowances or the $30 operating ceiling. Retail pricing and
++change free Alpha allowances; the current operating ceiling is $40 under the owner amendment. Retail pricing and
+ final credit execution policies remain unselected.
+ 
+ [Credit revision 4](CREDITS-v4.md) records creator-facing estimates in credits,
+@@ -156,13 +158,10 @@
+ did not expose reproducible numeric plan pricing in the browser extraction;
+ comparison is incomplete rather than using remembered prices.
+ 
+-A $24 host leaves only $6 of the $30 ceiling before ALL other costs; native daily
+-backup would bring it to $31.20 before any generation/tax, so that particular
+-combination cannot fit. This does not disqualify other host/backup combinations.
+-A $12 host leaves at most $18, not a promise of generation capacity.
++The locally qualified ~$24 host class leaves $16 of the active $40 ceiling before backup and all other costs. Using the measured two-snapshot backup-storage sensitivity leaves $15.994068 before fees, reserves, actual spending and liabilities. Complete fixed cost and usable generation authority remain UNKNOWN. The previously compared 30% managed daily backup would total $31.20 before generation/tax (nominal remainder $8.80), but its purge/restore semantics remain unproved and it is not selected. The ~$12/2-GiB class remains unqualified by V10; its cheap headline is not a viable configuration claim. No host/backup vendor selected.
+ 
+ Monthly invariant: fixed host + backup/storage/egress + taxes/fees + all generated
+-stages + edits + paid failures + unreconciled liabilities <= $30. Generation
++stages + edits + paid failures + unreconciled liabilities <= $40. Generation
+ sample costs and present account spending must be included in their budget
+ period, not assumed zero. Retained versions count; do not count scene references
+ to the same shared source as duplicate paid generation/storage.

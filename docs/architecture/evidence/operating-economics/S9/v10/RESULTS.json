@@ -1,0 +1,319 @@
+{
+  "S9": "NOT_YET_PASS",
+  "resource_classification": "MARGINAL",
+  "reason": "All required phases completed without swap/OOM, but minimum available RAM was only 31,903,744 bytes (1.486% of configured RAM), with backup reclaim pressure. Additional service/version growth and a safe operational headroom/retained-volume bound are not established. Completion alone does not resource-qualify this host class; no universal numeric safety threshold is invented.",
+  "configured_RAM_bytes": 2147483648,
+  "kernel_visible_RAM_bytes": 2053734400,
+  "guest_reserved_RAM_bytes": 93749248,
+  "measurement_limit": "Sampled (~0.1s nominal; raw timestamps retain actual spacing), not an exact kernel high-water mark. MemAvailable estimates reclaimable headroom; reserved RAM counted in configured-total-unavailable metric; RSS sums may double-count shared pages.",
+  "phases": [
+    {
+      "phase": "guest_idle",
+      "samples": 92,
+      "wall_seconds": 9.918004605000021,
+      "status": "MEASURED",
+      "peak_whole_unavailable_including_reserved_bytes": 440045568,
+      "peak_kernel_visible_used_minus_available_bytes": 346296320,
+      "peak_used_minus_free_bytes": 1719345152,
+      "minimum_available_bytes": 1707438080,
+      "headroom_percent_of_configured_RAM": 79.50878143310547,
+      "peak_app_tree_rss_sum_bytes": 23937024,
+      "peak_all_process_rss_sum_bytes": 279666688,
+      "cache_at_min_headroom_bytes": 1389240320,
+      "memory_PSI_some_delta_us": 1,
+      "memory_PSI_full_delta_us": 0,
+      "peak_swap_bytes": 0,
+      "cpu_busy_percent": 5.864509605662127,
+      "web_requests": 0,
+      "web_failures": 0,
+      "web_p95_seconds": null,
+      "web_max_seconds": null,
+      "peak_disk_used_bytes": 3628056576,
+      "peak_output_bytes": 302628
+    },
+    {
+      "phase": "application_idle",
+      "samples": 93,
+      "wall_seconds": 10.060093360999986,
+      "status": "MEASURED",
+      "peak_whole_unavailable_including_reserved_bytes": 395608064,
+      "peak_kernel_visible_used_minus_available_bytes": 301858816,
+      "peak_used_minus_free_bytes": 1677410304,
+      "minimum_available_bytes": 1751875584,
+      "headroom_percent_of_configured_RAM": 81.57806396484375,
+      "peak_app_tree_rss_sum_bytes": 95256576,
+      "peak_all_process_rss_sum_bytes": 351014912,
+      "cache_at_min_headroom_bytes": 1390448640,
+      "memory_PSI_some_delta_us": 0,
+      "memory_PSI_full_delta_us": 0,
+      "peak_swap_bytes": 0,
+      "cpu_busy_percent": 7.470119521912377,
+      "web_requests": 40,
+      "web_failures": 0,
+      "web_p95_seconds": 0.00493528600000559,
+      "web_max_seconds": 0.006343393000008746,
+      "peak_disk_used_bytes": 3628281856,
+      "peak_output_bytes": 507978
+    },
+    {
+      "phase": "alignment",
+      "samples": 645,
+      "wall_seconds": 67.73784138200003,
+      "status": "PASS",
+      "peak_whole_unavailable_including_reserved_bytes": 865406976,
+      "peak_kernel_visible_used_minus_available_bytes": 771657728,
+      "peak_used_minus_free_bytes": 2022043648,
+      "minimum_available_bytes": 1282076672,
+      "headroom_percent_of_configured_RAM": 59.70134735107422,
+      "peak_app_tree_rss_sum_bytes": 629604352,
+      "peak_all_process_rss_sum_bytes": 886112256,
+      "cache_at_min_headroom_bytes": 1261150208,
+      "memory_PSI_some_delta_us": 93934,
+      "memory_PSI_full_delta_us": 19326,
+      "peak_swap_bytes": 0,
+      "cpu_busy_percent": 99.97045353818879,
+      "web_requests": 268,
+      "web_failures": 0,
+      "web_p95_seconds": 0.0030256670000028407,
+      "web_max_seconds": 0.005586691000019073,
+      "peak_disk_used_bytes": 3629846528,
+      "peak_output_bytes": 1966571
+    },
+    {
+      "phase": "render",
+      "samples": 2416,
+      "wall_seconds": 254.70113705999995,
+      "status": "PASS",
+      "peak_whole_unavailable_including_reserved_bytes": 607916032,
+      "peak_kernel_visible_used_minus_available_bytes": 514166784,
+      "peak_used_minus_free_bytes": 1819578368,
+      "minimum_available_bytes": 1539567616,
+      "headroom_percent_of_configured_RAM": 71.69170379638672,
+      "peak_app_tree_rss_sum_bytes": 336707584,
+      "peak_all_process_rss_sum_bytes": 603783168,
+      "cache_at_min_headroom_bytes": 1322135552,
+      "memory_PSI_some_delta_us": 16495,
+      "memory_PSI_full_delta_us": 13264,
+      "peak_swap_bytes": 0,
+      "cpu_busy_percent": 97.64289923394226,
+      "web_requests": 1011,
+      "web_failures": 0,
+      "web_p95_seconds": 0.00318392600001971,
+      "web_max_seconds": 0.006732682999995632,
+      "peak_disk_used_bytes": 3745099776,
+      "peak_output_bytes": 115221013
+    },
+    {
+      "phase": "validation",
+      "samples": 169,
+      "wall_seconds": 17.853309519999925,
+      "status": "PASS",
+      "peak_whole_unavailable_including_reserved_bytes": 915992576,
+      "peak_kernel_visible_used_minus_available_bytes": 822243328,
+      "peak_used_minus_free_bytes": 2015731712,
+      "minimum_available_bytes": 1231491072,
+      "headroom_percent_of_configured_RAM": 57.34577178955078,
+      "peak_app_tree_rss_sum_bytes": 605622272,
+      "peak_all_process_rss_sum_bytes": 848539648,
+      "cache_at_min_headroom_bytes": 1211359232,
+      "memory_PSI_some_delta_us": 81983,
+      "memory_PSI_full_delta_us": 79068,
+      "peak_swap_bytes": 0,
+      "cpu_busy_percent": 99.94356659142211,
+      "web_requests": 71,
+      "web_failures": 0,
+      "web_p95_seconds": 0.0024201680000714987,
+      "web_max_seconds": 0.007614594999949986,
+      "peak_disk_used_bytes": 3745804288,
+      "peak_output_bytes": 115906570
+    },
+    {
+      "phase": "backup",
+      "samples": 14,
+      "wall_seconds": 1.5209448370000018,
+      "status": "PASS",
+      "peak_whole_unavailable_including_reserved_bytes": 2115579904,
+      "peak_kernel_visible_used_minus_available_bytes": 2021830656,
+      "peak_used_minus_free_bytes": 2017492992,
+      "minimum_available_bytes": 31903744,
+      "headroom_percent_of_configured_RAM": 1.4856338500976562,
+      "peak_app_tree_rss_sum_bytes": 1824010240,
+      "peak_all_process_rss_sum_bytes": 1956331520,
+      "cache_at_min_headroom_bytes": 16482304,
+      "memory_PSI_some_delta_us": 157345,
+      "memory_PSI_full_delta_us": 116537,
+      "peak_swap_bytes": 0,
+      "cpu_busy_percent": 99.28057553956839,
+      "web_requests": 6,
+      "web_failures": 0,
+      "web_p95_seconds": 0.007581588999983069,
+      "web_max_seconds": 0.007581588999983069,
+      "peak_disk_used_bytes": 4172697600,
+      "peak_output_bytes": 542783421
+    },
+    {
+      "phase": "cancellation",
+      "samples": 22,
+      "wall_seconds": 2.175994945999946,
+      "status": "PASS",
+      "peak_whole_unavailable_including_reserved_bytes": 489762816,
+      "peak_kernel_visible_used_minus_available_bytes": 396013568,
+      "peak_used_minus_free_bytes": 516513792,
+      "minimum_available_bytes": 1657720832,
+      "headroom_percent_of_configured_RAM": 77.19364166259766,
+      "peak_app_tree_rss_sum_bytes": 210001920,
+      "peak_all_process_rss_sum_bytes": 362749952,
+      "cache_at_min_headroom_bytes": 97243136,
+      "memory_PSI_some_delta_us": 1196,
+      "memory_PSI_full_delta_us": 537,
+      "peak_swap_bytes": 0,
+      "cpu_busy_percent": 31.363636363637248,
+      "web_requests": 9,
+      "web_failures": 0,
+      "web_p95_seconds": 0.004048981999972057,
+      "web_max_seconds": 0.004048981999972057,
+      "peak_disk_used_bytes": 3750666240,
+      "peak_output_bytes": 120746210
+    }
+  ],
+  "OOM_kills_delta": 0,
+  "minimum_available_bytes": 31903744,
+  "backup_storage_sensitivity": {
+    "archive_bytes": 426785130,
+    "copies": 2,
+    "paid_equivalent_USD": "0.0059323133070",
+    "rate_source": "preserved V8 official B2 tariff .00695/decimal GB/month; backup-only, no vendor selection",
+    "retention_policy_or_allowance": false
+  },
+  "envelopes": [
+    {
+      "host_class_USD": "24",
+      "fixed_partial_USD": "24.0059323133070",
+      "uplift_sensitivity_not_policy": "0",
+      "remaining_nominal_USD": "5.9940676866930",
+      "optimistic_partial_only_capacity": 2,
+      "complete_expected_capacity": null,
+      "owner_allowance": null
+    },
+    {
+      "host_class_USD": "24",
+      "fixed_partial_USD": "24.0059323133070",
+      "uplift_sensitivity_not_policy": "0.10",
+      "remaining_nominal_USD": "3.26679495942027272727272727",
+      "optimistic_partial_only_capacity": 1,
+      "complete_expected_capacity": null,
+      "owner_allowance": null
+    },
+    {
+      "host_class_USD": "24",
+      "fixed_partial_USD": "24.0059323133070",
+      "uplift_sensitivity_not_policy": "0.20",
+      "remaining_nominal_USD": "0.9940676866930",
+      "optimistic_partial_only_capacity": 0,
+      "complete_expected_capacity": null,
+      "owner_allowance": null
+    }
+  ],
+  "checks": [
+    {
+      "name": "one_guest_cpu",
+      "result": "PASS"
+    },
+    {
+      "name": "whole_guest_2GiB_native_vz",
+      "result": "PASS"
+    },
+    {
+      "name": "actual_VM_allocation_not_just_yaml",
+      "result": "PASS"
+    },
+    {
+      "name": "complete_guest_kernel_systemd_services_ext4",
+      "result": "PASS"
+    },
+    {
+      "name": "global_not_cgroup_measurement",
+      "result": "PASS"
+    },
+    {
+      "name": "no_swap_config_or_activity",
+      "result": "PASS"
+    },
+    {
+      "name": "required_phases_measured",
+      "result": "PASS"
+    },
+    {
+      "name": "maintenance_serialized",
+      "result": "PASS"
+    },
+    {
+      "name": "kernel_OOM_checked",
+      "result": "PASS"
+    },
+    {
+      "name": "headroom_peak_CPU_probes_disk_recorded",
+      "result": "PASS"
+    },
+    {
+      "name": "unchanged_full_S6_validation",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieved_final_export_hash",
+      "result": "PASS"
+    },
+    {
+      "name": "cancellation_previous_export_lock_cessation",
+      "result": "PASS"
+    },
+    {
+      "name": "no_orphan_heavy_or_web_processes",
+      "result": "PASS"
+    },
+    {
+      "name": "five_language_identical_reference_pixels",
+      "result": "PASS"
+    },
+    {
+      "name": "source_guest_copies_verified",
+      "result": "PASS"
+    },
+    {
+      "name": "history_unchanged_or_live_index_archived",
+      "result": "PASS"
+    },
+    {
+      "name": "classification_does_not_turn_OOM_or_completion_into_safe",
+      "result": "PASS"
+    },
+    {
+      "name": "measured_backup_two_snapshot_sensitivity",
+      "result": "PASS"
+    },
+    {
+      "name": "envelope_arithmetic_0",
+      "result": "PASS"
+    },
+    {
+      "name": "envelope_arithmetic_0.10",
+      "result": "PASS"
+    },
+    {
+      "name": "envelope_arithmetic_0.20",
+      "result": "PASS"
+    },
+    {
+      "name": "zero_provider_spend_and_no_complete_cost_invention",
+      "result": "PASS"
+    }
+  ],
+  "checks_passed": 23,
+  "provider_generation_calls": 0,
+  "paid_spend_USD": "0",
+  "production_changes": false,
+  "TASKS_changes": false,
+  "cloud_provisioning": false,
+  "public_deployments": false,
+  "purchases": false
+}

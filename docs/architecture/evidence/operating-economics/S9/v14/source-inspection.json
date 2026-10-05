@@ -1,0 +1,54 @@
+{
+  "read_existing_sources": {
+    "docs/architecture/evidence/provider-feasibility/S4.md": {
+      "sha256": "71f7780494795b00efda0c8b1779df7f7a6e4a1a1b7d4107350250c1c16cde7d",
+      "bytes": 21358
+    },
+    "docs/architecture/evidence/provider-feasibility/capabilities.json": {
+      "sha256": "ab42168911770dc1ae0bdd50c1beb8be9e2439b9a95c31246b828f27294b8333",
+      "bytes": 29038
+    },
+    "docs/architecture/evidence/research-feasibility/S4-R.md": {
+      "sha256": "8e00fad31c1996f0838c98b8d0f7bc55534399b01d5a0e25b891b152cc33e17d",
+      "bytes": 21857
+    },
+    "docs/architecture/evidence/local-feasibility/S8.md": {
+      "sha256": "fe47457b2b7f21d4418127632a12436073aa764830d16d0c51fb1f071e075f35",
+      "bytes": 4368
+    },
+    "docs/architecture/evidence/operating-economics/S9/pricing-v6.json": {
+      "sha256": "f8867cac4900b19d5471afa5c929cefba1913e87068ba971c5ba58c3aec3070e",
+      "bytes": 1437
+    },
+    "docs/architecture/evidence/operating-economics/S9/text-research-manifest-v7.json": {
+      "sha256": "654f77fe6f23fe08eb41a0134a8d4632747b8204701e11fe764cc225bb74f80d",
+      "bytes": 66805
+    },
+    "docs/architecture/evidence/operating-economics/S9/v8/official-pricing-v8.json": {
+      "sha256": "4d0a31fe1e8401dca5ce1812f7e73da98497e24d8f103560cfd5a9f2a582358a",
+      "bytes": 4041
+    },
+    "docs/architecture/evidence/operating-economics/S9/v11/RESULTS.json": {
+      "sha256": "03097ec13cf317a6cb2c722cf5b87d33931dd7e07de77b16c4956f9d3c8515f9",
+      "bytes": 11204
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v12.md": {
+      "sha256": "2df1d7a03e2a9b3bb12b9d47179e85dfec8893b5ff616ec0a4baf8f356e85bbf",
+      "bytes": 12445
+    },
+    "docs/architecture/evidence/operating-economics/S9/CREDITS-v13.md": {
+      "sha256": "85b7fba1e98c6ccfc8954aad794b0aa59b021a6bd866394bb29eebff032db19f",
+      "bytes": 30916
+    },
+    "docs/architecture/evidence/operating-economics/S9/v13/financial-manifest.json": {
+      "sha256": "e7b63001da0641199627cf5b4cd4bf8d74d4e37868716ba32081528767e1bddf",
+      "bytes": 10441
+    },
+    "docs/architecture/evidence/operating-economics/S9/v13/RESULTS.json": {
+      "sha256": "0850fff4af7d8fb7f654bfa79107ba23b9e96e548c6b890c4644cbae5ba5460b",
+      "bytes": 54933
+    }
+  },
+  "pricing_status": "captured same-day/historical conditional source evidence; no fresh provider or public request",
+  "live_provider_proof": "UNKNOWN, mandatory before enablement"
+}

@@ -1,0 +1,1182 @@
+{
+  "docs/architecture/evidence/operating-economics/S9/v11/preservation-before.json": {
+    "bytes": 602760,
+    "sha256": "ee3b469c39e4dc1d0643fe35396d88fbccc6395a08a9835635180b5e1761f877"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/ARCHITECTURE_SPIKES-before.md": {
+    "bytes": 20995,
+    "sha256": "ba8437f80a7ed88e00211f143bd139cfe22eb0971394287f6f77c3573935b166"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/vm-inspection.json": {
+    "bytes": 2226,
+    "sha256": "eef48e5a097c0accdc567e12a5ee3b10f72c2975a52aa726ccd53e88a263aff8"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/controller-diff.patch": {
+    "bytes": 1008,
+    "sha256": "a44f2578996b29a57a0bd57613e5224f6f3137b94d9645bbf6a5622b50a44ec7"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/all-guest-inputs.json": {
+    "bytes": 109455,
+    "sha256": "68f704fb553aadcb2de9e51d790fa624f84b4b530c911efc420ff8f1c378553d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/effective-guest.yaml": {
+    "bytes": 585,
+    "sha256": "bd1dc6ce0015b6fd95ac82e7738c1a643f1e9aae8ac32488e23562f521d0c912"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/preservation-result.json": {
+    "bytes": 182,
+    "sha256": "a63e1fd2898cc4a78b3218bac13b2b165e134fca086d626164074c1fc85f8efe"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/run.log": {
+    "bytes": 1465,
+    "sha256": "b72f0c9d95ed5ffdd2b8d3ef2ee99bfb450ecd505b34035a34e08e6fda6d7c13"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/hash-proof-initial-error.txt": {
+    "bytes": 418,
+    "sha256": "6093a761d6ccd6e406a21bbd6cf93e5616e3630971958bf92800ca11a8766f8c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/COMMANDS.md": {
+    "bytes": 2795,
+    "sha256": "dbd99062e0ee6ac7cee40dd154eb742757219bd23b5e661faba28cd2c3f89763"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/inspection-restart.log": {
+    "bytes": 2190,
+    "sha256": "3d46c208580539323a8f6f77c5300916974a335f0344bdfc080f8256f7ccbb2e"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/RESULTS.json": {
+    "bytes": 11204,
+    "sha256": "03097ec13cf317a6cb2c722cf5b87d33931dd7e07de77b16c4956f9d3c8515f9"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/vm-final-stop.log": {
+    "bytes": 875,
+    "sha256": "80ca1f966fac005e75123426a73a1950d9b50486407bc0c1137eb2a31ba4c0ec"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/documentation-diff.patch": {
+    "bytes": 5836,
+    "sha256": "ee76838d088fe1a38b5f8c227a843a12d4fa6c60799d57805dcfd378e61b7ec5"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/README-before.md": {
+    "bytes": 13924,
+    "sha256": "cf40b829233c82a9b86c45bf3c015d133513306d4408af3dcb2105585ca3d5c6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/witness-adaptation.json": {
+    "bytes": 1072,
+    "sha256": "338797a1bcdd3d2e3a325ff6b6b68ed248bd5cd427f37702c3cd29efebe9759b"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest-source-verification.json": {
+    "bytes": 68909,
+    "sha256": "b0e2815ab06fb9881b6fd80ac303060f5802f55cc83d9c8e6ba74306cfc19fcb"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/processes-after.txt": {
+    "bytes": 4651,
+    "sha256": "e20dbd8b32002dd3633c8e5a6610d77aa2503fedc52e92456b2b1a38f3b5e1dc"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/vm-start.log": {
+    "bytes": 2190,
+    "sha256": "72e848d15a9cdf003e8239ee0654dc1dd81803fb813016b77e8c788f6a3bb61f"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/vm-stop.log": {
+    "bytes": 875,
+    "sha256": "9ac53e74eb2c5c1bee2c4d732e205c9ca2e75783f39b22fb997ab253f23b89c3"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/docs-index-before.md": {
+    "bytes": 13662,
+    "sha256": "0294a41ed9d9c8e8c99fb1b7581e3be63842b3e96b5a712cfda7e5f24c0addc0"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/PLAN.md": {
+    "bytes": 1359,
+    "sha256": "de61d2cd398817d06f431aae8a6e43c715666c240f667734be67032f1bba5347"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/vm-config-before.yaml": {
+    "bytes": 585,
+    "sha256": "2cc8d4c12012d1b93b8105b232eb71d66cb4c5c741b51edd933693ee623600d0"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/COST_MODEL-before.md": {
+    "bytes": 21143,
+    "sha256": "399959307e0f220b73f16d3785056500922359b9c1ef20da9583e65045e49431"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/classification.json": {
+    "bytes": 617,
+    "sha256": "06399a4b51d04399dbbff47d3c541655c60022f44384d05d3bb1a2e23d51fb9f"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/validation.log": {
+    "bytes": 20,
+    "sha256": "af85c714db63a4f378802aeab7c6da28e3029abd0043f6d7e089363083a2c77d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/summary.json": {
+    "bytes": 1833,
+    "sha256": "570ee1fb16bc586ebab2a07aa8b914e4d1d20933d076ca35400e164fdb00d132"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/render.log": {
+    "bytes": 277,
+    "sha256": "f24f1d6c2b9d255587f8ebefb8b93778f14172a63b8adda7a01e1c25b94a979b"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/render-generated.json": {
+    "bytes": 518,
+    "sha256": "ebf72a8d686890d70b54d049c7b9dc146633d5c75a446158d3f6beb9abe847c9"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/caption-es.png": {
+    "bytes": 19302,
+    "sha256": "f750eec216f40260e2e4ff13e9a585d0cf6846a49f64eccb2eb7c7f856d52e22"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/alignment-result.json": {
+    "bytes": 60155,
+    "sha256": "65c0a244a753a44441fc3c234b6f4b3b71e868fd50cf6eee357b4c7cd7af59dd"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/web.log": {
+    "bytes": 485,
+    "sha256": "2ccc85824aa6b303524b6c97d86d6a646cb6b078dd2d2e3ea86d8877a531c7f8"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/render-result.json": {
+    "bytes": 23424,
+    "sha256": "916b3f949faf9e8a3d2409261a1e1e88770fc61114a680cc8fc000c1741cb9bd"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/state.sqlite3": {
+    "bytes": 12288,
+    "sha256": "71c63569a0ee54f2562d4ccd2f2dc877b2ee148bddcce18e49de0279698381c3"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/cancel.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/backup-result.json": {
+    "bytes": 414,
+    "sha256": "48a4b205246150ec5a289e045d4b7c4cc0a4f12d6af548ba1510863a1f602344"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/cancellation-result.json": {
+    "bytes": 370,
+    "sha256": "bb44f3b2c2f94e1af946adf7fc5f5349720978d06cce05e19ef9e1f0869ec326"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/caption-hi.png": {
+    "bytes": 22403,
+    "sha256": "e8d86f4d5372f0bf3ce91d713fd1dd3e7a3960efadb4627d4de390e6c08566c1"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/caption-en.png": {
+    "bytes": 19595,
+    "sha256": "8f7a03e8ca27fa41253479ed02e68eef6e1e2dd14180e3c7409ab5e7866040a6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/caption-fr.png": {
+    "bytes": 21865,
+    "sha256": "0f1a70ec7ed3ef498be4afad793b6b01d905aed15d63dc84bb1de6af7a8e25f9"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/captions-result.json": {
+    "bytes": 30094,
+    "sha256": "d50be814ecca39980d3c6379c200243161bf6c109bc51cce7a5fbac8cb1edc0c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/renderer-adaptation.json": {
+    "bytes": 423,
+    "sha256": "17234ac44dcd0c85dfd2c5c49f7c384a72a4ed8a2de2c505a88fb6f0bba7ae2a"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/backup.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/adapted-s6.py": {
+    "bytes": 22424,
+    "sha256": "7c2dc22a7747e7c037317a572bbf57d2ec1077fccd5504804fa4776bac898903"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/kernel-after.json": {
+    "bytes": 90227,
+    "sha256": "5977a2713bb7655ae70ed2ff4bdc93ba0a218bd0803c5c0cf3acdc804a7e6532"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/alignment.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/environment.json": {
+    "bytes": 52137,
+    "sha256": "1e9e1716c440a20b59eb75dc0f04a7af3475948c55a9e0004c7ad037fef96558"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/telemetry.jsonl": {
+    "bytes": 4667010,
+    "sha256": "4fd5027aa3cc9ab90d35d66ffd78f876c90e486fba06cb255809d36f32b58f3d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/phases.json": {
+    "bytes": 718,
+    "sha256": "c68904742faad11b807dfd24d94ab3f3b380b91844e4d9e29894d6eae61627a8"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/caption-bn.png": {
+    "bytes": 26526,
+    "sha256": "af449487bc83369b80ddf5f4e42924886af44bfe4848a10e15fb5694b6461ab8"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/cancelled-incomplete.mp4": {
+    "bytes": 4891792,
+    "sha256": "92e5e6e357681d78f05c2070ac16f9f3000e1f191ad1ace698ebd0c04ccbf0e6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/probes.jsonl": {
+    "bytes": 79173,
+    "sha256": "cf8d839d904f6789a5b1ee444d42a870034caf175158c5c445583860eb8658c6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/export-registrations.json": {
+    "bytes": 288,
+    "sha256": "12e03fcfce253628d04a5df232cf97da514f90d1b35d3f5ae86f0f8fb7d22165"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/linux-600-validation.json": {
+    "bytes": 21183,
+    "sha256": "ee197383861490f5884fedbb76a79cd3d5fe0f0bc5cd93136654b8baff91e479"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/candidate-decode.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/linux-600-benchmark.json": {
+    "bytes": 512,
+    "sha256": "f55769c995079f9cdb6910785e212a35abb2bbd032e0936e6ffb88123f106729"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/fonts.json": {
+    "bytes": 1459,
+    "sha256": "39c9bbfbfccf37afdaa4fd8d3f534ed20cb3dd8982944ab947a9321ec7d5f864"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/frames/linux-600-scene-57.png": {
+    "bytes": 74530,
+    "sha256": "0054c224b3e301bfa57ba2a412827a24c182cd843640ef907bedb8918606eac9"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/frames/linux-600-scene-112.png": {
+    "bytes": 75256,
+    "sha256": "429b0e8eb02826352f8e6d7af0d33715943fc486726093031e33060cf4208f96"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/frames/linux-600-scene-1.png": {
+    "bytes": 62610,
+    "sha256": "41d23c745cbbe73f662c9f2a72de2a60ce010e1ff58ddb0000dcdf0f68994c66"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/exports/linux-600-2c958a022b2f.mp4": {
+    "bytes": 59491123,
+    "sha256": "2c958a022b2f905255c1cba13647e0f2fc89ec98ae820863848404cf90a4a63e"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-082.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-096.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-041.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-055.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-069.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-081.mp4": {
+    "bytes": 611973,
+    "sha256": "62af731e2d2b37ad6e1184bfec8181ddaaf9b4d30e926020514c38d94bfb55b8"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-095.mp4": {
+    "bytes": 435877,
+    "sha256": "f629c6c0de10fd0c1f7df22e0c6eb229f7fd3a029022110a4158ffce80c5cf3d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-042.mp4": {
+    "bytes": 199953,
+    "sha256": "616ab2e96b5e6e58055d7c60e61e97cfe557174f5216718f9684a7c177cf3c2d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-109.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-056.mp4": {
+    "bytes": 316604,
+    "sha256": "8943eef60fbaae23a7ff387c39b98fcef4f108d272fc9325ca632da50c397ed6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-057.mp4": {
+    "bytes": 491454,
+    "sha256": "8631d286e9d02becfbda280c52762df840db4a03388f8067219f1d18b69e3862"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-108.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-043.mp4": {
+    "bytes": 552601,
+    "sha256": "6251ad98c226338fffa80cfed892b54cf404e1e6ab8f731d235ce582890c009b"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-094.mp4": {
+    "bytes": 238806,
+    "sha256": "a62578a8a60e0cb448b6fc009c41dfb342e00831c859b012be28986d2fbd056c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-080.mp4": {
+    "bytes": 589933,
+    "sha256": "8d8a714a083b4b9aa6a5c5ac6c47854efe62a9cb24d45158d9d6c0511e975107"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-068.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-054.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-040.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-097.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-083.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-095.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-081.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-056.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-042.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-109.mp4": {
+    "bytes": 187676,
+    "sha256": "6d4636d65189742919a1645e9834029c35b06b89ac03635b6a0313d5347beb7d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-096.mp4": {
+    "bytes": 416790,
+    "sha256": "27d44be218aa8d95c895ea3da726627316ba1d567ce72b305243841441b80daa"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-082.mp4": {
+    "bytes": 436711,
+    "sha256": "0fe8a429aeba228d065f260acb8c38f5046d33e877a839be77f4112d02c9a3a2"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-069.mp4": {
+    "bytes": 526228,
+    "sha256": "ef89c9e8db8aa41ee632a7dafca9aa54f301e51b352499250954910cb1da12a7"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-055.mp4": {
+    "bytes": 283010,
+    "sha256": "cb0d6522d69322c1f78d98757f78dba916d7b31ce777041b134d1f10bf9d944a"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-041.mp4": {
+    "bytes": 366774,
+    "sha256": "ca937bc10c1a9e03e36b0c93af191f3985482d97cda1fe7a7e64c71ad7feac99"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-040.mp4": {
+    "bytes": 329962,
+    "sha256": "c3b0c90233b61bd86a07dc28a6c9928e1108bd7be1cf2524169ab2e8b0a9a96f"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-054.mp4": {
+    "bytes": 398954,
+    "sha256": "724f75767d61b9d2b7ba11b78196a4e3411e1d4b84d19055bc23de9029da8f7b"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-068.mp4": {
+    "bytes": 455527,
+    "sha256": "8b606bc99656658d3a84a43698ea8487d78958895c49297068b928f70aa4fce5"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-083.mp4": {
+    "bytes": 650138,
+    "sha256": "6fc0bb1e1e39f173e628541179af6aa07052d5211dc717bff6311aa4b353b83e"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-097.mp4": {
+    "bytes": 529465,
+    "sha256": "80536038e63288be8bae0907d55a4c593f243144d0b23c0c123af3b46e154646"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-108.mp4": {
+    "bytes": 390447,
+    "sha256": "4c4e2711c213807e8f4ccb8b14df21b99cfef6d75fa0fccccc120c1ad8cbe1bf"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-043.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-057.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-080.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-094.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-090.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-084.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-053.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-047.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-093.mp4": {
+    "bytes": 468594,
+    "sha256": "ff14b29ae4fde1af64fb10b9196daea89d0acd11be242ad5b6f74ecb97141f19"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-087.mp4": {
+    "bytes": 377692,
+    "sha256": "bb0dd40cc3fdbd2545299947e302c64343d1ba6181d8a8817e9c62b563709931"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-050.mp4": {
+    "bytes": 386365,
+    "sha256": "2ce4a8c7cbb83a947ba2bcf1faf96ab4f2babb7266af8c3de75abfd023a56841"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-044.mp4": {
+    "bytes": 437264,
+    "sha256": "0c2f0650aeeb2ded62681afd663d3ed89c25a0487ca56b50e2a705bd8e86374e"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-078.mp4": {
+    "bytes": 416807,
+    "sha256": "c50eb4ffc79bee99bc2d927d39963e60b15055e534dd0a1f38a8dbc05eb09709"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-079.mp4": {
+    "bytes": 533016,
+    "sha256": "58bcd5b838c75c77df8f5563096d7b85ef27801b60fb4a545582d6d2691a88c8"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-045.mp4": {
+    "bytes": 226430,
+    "sha256": "210bd1be586324a37de6f6097d9180aad2a7d85ef06e05fef6110a233ac1c0b6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-051.mp4": {
+    "bytes": 624218,
+    "sha256": "89c3898ea3bdc82dd56d36e5647427b72f1820faab14f1499c666badd1430284"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-086.mp4": {
+    "bytes": 440443,
+    "sha256": "63b94493d0a2c9bff9dc2c5ea2b3d8c364f7c2acbbb6b4f0540e47aaa7922a31"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-092.mp4": {
+    "bytes": 606807,
+    "sha256": "fb8702146968bd73ecfe0d777c6e5d5c784e6e67bb53f3b88ffd9daf32299192"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-046.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-052.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-085.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-091.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-087.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-093.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-078.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-044.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-050.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-084.mp4": {
+    "bytes": 415492,
+    "sha256": "e435aba4b9720c2b042fd848814e3cf7d15016f6c382b9b73a1a836b5d7b0adc"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-090.mp4": {
+    "bytes": 426824,
+    "sha256": "b1449cd20cf975bf20e3b0cca9515186fe3716b2cbdd0a22300717f451b386fb"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-047.mp4": {
+    "bytes": 540840,
+    "sha256": "bca7cb866c4474571b56e70036a605da83d307fe1e3992fe5a20857e9ee1269c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-053.mp4": {
+    "bytes": 425021,
+    "sha256": "c83b2bfc5e60f0e297356fc7286fb798d8ad113ae56ba8fd25cbf22e4eecdf04"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-052.mp4": {
+    "bytes": 519837,
+    "sha256": "fa5152603283980ed697fec21833e560674f7b842a00e02fa08d91310daa2f5a"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-046.mp4": {
+    "bytes": 424771,
+    "sha256": "6beb50146624aaa939cd7338ebd42159657c4ad18618433d1c748c56eaf7ee4c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-091.mp4": {
+    "bytes": 416908,
+    "sha256": "0e1065e98a65bee75ba779134566a0f979eb89209736856f2d48ea8405ad0e46"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-085.mp4": {
+    "bytes": 406187,
+    "sha256": "7fc3c16db8065345e674a39f7ad7bc495b2c76897f7d488e48225444811cddcc"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-051.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-045.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-079.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-092.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-086.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-022.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-036.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-009.mp4": {
+    "bytes": 352314,
+    "sha256": "8240a80c0187e74f406cb4e80af3a758be4401da34009a62964fe49159a09c0d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-021.mp4": {
+    "bytes": 412349,
+    "sha256": "614dc8c12ce90445537408e363f21d1460428f782f48118ab699adf83d0989cd"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-035.mp4": {
+    "bytes": 625926,
+    "sha256": "5ece1ceec1d488027f0eb8ecf288a4d65b3420dc25e5d9a57d4f7e04d58ce488"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-034.mp4": {
+    "bytes": 471233,
+    "sha256": "ac6e2b8facffb26e0fe44ec384a616850657b5f65671efe747ac9c51bd707de2"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-020.mp4": {
+    "bytes": 468372,
+    "sha256": "0debffe025c19d21e614c838f4368a7cb5170f32cb2ad588785adecc26df292f"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-008.mp4": {
+    "bytes": 306517,
+    "sha256": "6294973ae33911816f56be0fa076a3da67fda95bf120efd24a1323395cba728d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-037.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-023.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-035.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-021.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-009.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-036.mp4": {
+    "bytes": 453517,
+    "sha256": "a0f9ae8682979d2f91a66877d00cce921215afa3b3b0689cdba0911ca61c0f90"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-022.mp4": {
+    "bytes": 460776,
+    "sha256": "c8ceb22570eef453018efa839d3fbd6e23881861666cb3f891741ba2a7c15fd7"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-023.mp4": {
+    "bytes": 395891,
+    "sha256": "091d003cad0d0b095a1b7325687ad916faea08f199e6c25343e54b665a781390"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-037.mp4": {
+    "bytes": 439528,
+    "sha256": "5cba1f3a91a299b18f345de87d4b6760924f9bb1496757d9ddc830c009201197"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-008.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-020.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-034.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-018.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-030.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-024.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-033.mp4": {
+    "bytes": 500311,
+    "sha256": "33c076047a113068607c6a3d82195bb9aceebf468bdde0a6caf8623ab3494bdc"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-027.mp4": {
+    "bytes": 476470,
+    "sha256": "bcf5756759105119f2abee4ac55833c28e80b377195a207695473e4dccaff550"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-026.mp4": {
+    "bytes": 404591,
+    "sha256": "1edcbb4ec235c1e64970c48bab7355b3b81375bcb03a3594d139a50fb24ace48"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-032.mp4": {
+    "bytes": 457417,
+    "sha256": "122655015705adab5c5fb6a2db2ddc6230878e1a712ef4008dcce4c2ea00369b"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-025.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-031.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-019.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-027.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-033.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/mux.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-024.mp4": {
+    "bytes": 294858,
+    "sha256": "38d175a7cffce8306b6423954b9b30ee71c49dd7a3bbb39c9540d258fc8fda50"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-030.mp4": {
+    "bytes": 194124,
+    "sha256": "51b276a3f8f276689ca84ce45d2e1faf01cba2e93ec7e1abe27067b2307a7ce6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-018.mp4": {
+    "bytes": 475402,
+    "sha256": "c337056b38fc4989a674ee2042ddc2d56994f14857907f20848889595a9291e0"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-019.mp4": {
+    "bytes": 602190,
+    "sha256": "99ac510642488d532adfb997860f8b1c4bdfd38b746d24e1f549106df599a9f6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-031.mp4": {
+    "bytes": 399698,
+    "sha256": "823dfa62d95f9f317cf047f22d21f9fabcfac6fa2e280430882388be5f1ecb8d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-025.mp4": {
+    "bytes": 402221,
+    "sha256": "b55d7d576bb80adaf7329b6b144c88ea02d5c0b05efdcb3c4e02beb53a15fac6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-032.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-026.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/commands.json": {
+    "bytes": 101830,
+    "sha256": "0bcb81f9125d48b3ffe29702ea26f75afcd03590eaded854621025d3c24a33c0"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-003.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-017.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-028.mp4": {
+    "bytes": 491500,
+    "sha256": "10925f8146373b0bb8269aae16cdeab3dc482545034a65d549e934367102d491"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-014.mp4": {
+    "bytes": 452426,
+    "sha256": "59609f39d2e13622507ffb7b330afa8bbcb0e18072229375d0ba855ae858d56a"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-015.mp4": {
+    "bytes": 623605,
+    "sha256": "eb6b0ad390bb7f42a650862f2960e3744559393f304a98bb1a3e5a1236776426"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-001.mp4": {
+    "bytes": 419201,
+    "sha256": "9e8a337b588cbf58c3ea2a8532930673d95486f610055e15932746454b4ba8b3"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-029.mp4": {
+    "bytes": 497951,
+    "sha256": "006f73dcd20e4baeab34d9b8d77d1f34db3e9dbc083431cda6acde531a0290e1"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-016.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-002.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-014.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-028.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-017.mp4": {
+    "bytes": 524232,
+    "sha256": "aea660cf7914fa91a60c4c654bb9b914f39d871495f39b0d5007ebefbe8b2cd7"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-003.mp4": {
+    "bytes": 584585,
+    "sha256": "4405ebf34cc0ed18253c561e90ac2f965978bb67523b7fc8d402812cb19748c7"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-002.mp4": {
+    "bytes": 499776,
+    "sha256": "1357a73b49c55ef2f6690e1c0e393681f892c6945b3ed2b806c47bd23f84395d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-016.mp4": {
+    "bytes": 611373,
+    "sha256": "88611bebe0d97e9300c65436bed93794704a4649ca283fbcbdec88b5345e857a"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-029.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-001.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-015.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-039.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-011.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-005.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-012.mp4": {
+    "bytes": 398334,
+    "sha256": "fbabfd6656bd004acae12042228bfe3f415df03c8cfcca8caed02563c434f487"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-006.mp4": {
+    "bytes": 258198,
+    "sha256": "41bc074ac6cb2ced532e9442d663a838856cbb0933773b0d078b76f18407bbaa"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-007.mp4": {
+    "bytes": 391100,
+    "sha256": "f1d772f2bfec5b1dcd2df26bf6bfa81759bd4b21629624663d601a2cbea30c91"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-013.mp4": {
+    "bytes": 183918,
+    "sha256": "de28710aad052b86748f1856dbb48b4253dc1e53110217204ac74aca8cfbe01d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-004.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-010.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-038.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-006.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-012.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-005.mp4": {
+    "bytes": 450290,
+    "sha256": "4b63fdcb38c1a86cfbc4a50bed1b815d657429510ffb2a5361cc921f98ab938d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-011.mp4": {
+    "bytes": 588023,
+    "sha256": "708578dd49e85f5be8edf43e4a118f513a83a3f6f42022cd17ef701a5d02e661"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-039.mp4": {
+    "bytes": 469472,
+    "sha256": "71c3f6f0905f29193bf4777e083b1064823dadb145daa097a382e51adc2f663d"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-038.mp4": {
+    "bytes": 251071,
+    "sha256": "cd7f76ab3de65c72e9a782097f81b5ee1a1666cd3d35d414306de1e8ef5843c6"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-010.mp4": {
+    "bytes": 233053,
+    "sha256": "a968f0a91b6a777ffe020544d51e8ae2771e197741a40a166a6325241a3f5057"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-004.mp4": {
+    "bytes": 473894,
+    "sha256": "43faf239a04bd2ee8974da7d04c3a9d7b5919fc8481c11036af2af3680965a7c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-013.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-007.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-060.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-074.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-103.mp4": {
+    "bytes": 418109,
+    "sha256": "d98ab490aab00b60bd45f55f107d080cc0b3f20083633ea00c03229ee3988760"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-048.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-088.mp4": {
+    "bytes": 309199,
+    "sha256": "147173105165b301f0a593ca26b2af5433de1caa74fa7a1f3c6e6899d6d77ae4"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-100.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-063.mp4": {
+    "bytes": 419074,
+    "sha256": "c30e1440a9de84225de7a133fe516f9cdf3cc3104eb111b836d67754397e88a0"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-077.mp4": {
+    "bytes": 236546,
+    "sha256": "5982c41866a07d1fdddc7c51e21079bf3f33b004c3c5017719fd1e79d7b4f49f"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-076.mp4": {
+    "bytes": 393173,
+    "sha256": "59a351c219522b9187d8a1a9ab9a203f247f5fbb863f98baf0f44d11f5c7ec41"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-062.mp4": {
+    "bytes": 210678,
+    "sha256": "47ec205450b2a058ffd83ba5d32c7106db234874cc3813c8a5e85bdb5f2f513c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-101.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-089.mp4": {
+    "bytes": 541515,
+    "sha256": "e88f47fce718ec925ffdabf172b0868f6398008556f12a50f12e4e21b96995f4"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-049.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-102.mp4": {
+    "bytes": 257329,
+    "sha256": "57e70888bbaa1c88bf7f9e4cd7479db53ff0d87c9c252613d66710b8279a8799"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-075.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-061.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-088.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-077.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-063.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-100.mp4": {
+    "bytes": 473149,
+    "sha256": "066f557b422cefbd2b2dc5227f1576a9697b0d2c5bb67a3d06090d52f56e6f70"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-103.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-048.mp4": {
+    "bytes": 625125,
+    "sha256": "6517ca073eab8692d78eefbab295d152af9b86aa4fad42aa31537cd8f12cec9c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-074.mp4": {
+    "bytes": 209433,
+    "sha256": "c84da8464ee044fb1971f0bfce32eece8b9e48f1af940e65f7d2a699c0d6cb4e"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-060.mp4": {
+    "bytes": 549534,
+    "sha256": "10f95005637f6b1d33e3eb596d45562bd1ce085d43ac698208dd80eb8d99f512"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-061.mp4": {
+    "bytes": 488796,
+    "sha256": "5195f5fe65ee5b8bf1756f630026057d12fb96c00cd69f9d18a06c727d0d8d0f"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-075.mp4": {
+    "bytes": 561207,
+    "sha256": "94b18b4bcc7284abb7d5d0d79ec8bab236edfe7ba626fd084680ab76d59930ac"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-049.mp4": {
+    "bytes": 510152,
+    "sha256": "18aaf5ad9b34a42a4b096dbe3735b438eb3db49c7c8137212af9e39aef81d7b9"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-102.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-101.mp4": {
+    "bytes": 441662,
+    "sha256": "03c4bd873c9710f44ca2be61912567b6af74ed81dc2dd9cd709e9f0952122e96"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-062.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-076.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-089.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-099.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-105.mp4": {
+    "bytes": 343868,
+    "sha256": "3a6f2afcb90ee4ece6cc96e29b5b905f30c21ee6c076d3a09efae692ffb8ac40"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-111.mp4": {
+    "bytes": 645009,
+    "sha256": "35a10c47281c8767767bd0f78bb4156c8bbf5402c6213dde016b4782aa97749f"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-072.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-066.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-071.mp4": {
+    "bytes": 416299,
+    "sha256": "8a033fb105f6ea9ee131a525436efe47c0681643bc4f72e64bf95e8d1f0b594e"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-065.mp4": {
+    "bytes": 504491,
+    "sha256": "fa7edbcf8d48a5705d1f2d0f450d3247744b48949ae3082a8a9de169d87085c9"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-106.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-059.mp4": {
+    "bytes": 417645,
+    "sha256": "351faa6d1f286f804ec783c483538e6dbaa66a33f45441f2233cc74e8263a6a2"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-112.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-058.mp4": {
+    "bytes": 404258,
+    "sha256": "fe28c7053b8ed47b9d6f828e2652b2aea72c260b19f2efa49d0264e18491b86c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-107.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-064.mp4": {
+    "bytes": 491356,
+    "sha256": "fd575f98fb243ae26c17c9e37ac314b59857aacf20a2e192ddcc09d51227f0e2"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-070.mp4": {
+    "bytes": 247469,
+    "sha256": "817ff512a0307e368dc4e8a8ff0bf54488ae18a04bdd2532581790f947a51900"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/concat.txt": {
+    "bytes": 2352,
+    "sha256": "c708e573a80af0341e9f5b625c2b05084c2becc7b2ebcb8eef9e55a666c3df27"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-067.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-073.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-110.mp4": {
+    "bytes": 468720,
+    "sha256": "f3adbb4f6bfccd1e19011a90aa0c2f5b6ee02ad796cdbaba8e9da345553c704c"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-104.mp4": {
+    "bytes": 289801,
+    "sha256": "0fdf84240db67c2ad6cc2a3b987fcd01a243638f726e048c8e4e548262235b1b"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-098.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-059.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-112.mp4": {
+    "bytes": 604259,
+    "sha256": "a269eb43cd456d664989dcfe54054282c6fc976fc95aaaacd8e0aa34dda048e3"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-106.mp4": {
+    "bytes": 240665,
+    "sha256": "958e885438aae1eed9d48d28e7af501e5d79bda44592402348ec3cc6f93df1f4"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-065.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-071.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-099.mp4": {
+    "bytes": 602627,
+    "sha256": "305933b88e28504b47f28f7adffee7d53128522bdf22f09fb040fc82c2aaa714"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-066.mp4": {
+    "bytes": 459910,
+    "sha256": "0824140826a2255df526efe00feab4cd6468f3636d02cf2ea4b799ee11edea7a"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-072.mp4": {
+    "bytes": 260526,
+    "sha256": "edc0f970fbd96eecfde2aa32123bb598c3cceaf83b40dc6485684e217fb26c9b"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-111.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-105.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-104.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-110.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-073.mp4": {
+    "bytes": 340005,
+    "sha256": "c09fa20aec91a2a626e1fcab54b47d704986f423602d50ac9f6de4ff71fe008a"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-067.mp4": {
+    "bytes": 504311,
+    "sha256": "26ad61af8068cb39bc3cd2b3513363b95061dfb65ba46ab87395b88446703bb7"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-098.mp4": {
+    "bytes": 513320,
+    "sha256": "12d53eab0753a723aec8d96ac56fab6b028d5bf2297fe53453530aa34eaa5b91"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-070.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-064.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-107.mp4": {
+    "bytes": 582358,
+    "sha256": "e007ef997345545980d0d71c039c4aff58e6f136657d7aeb220bf24841ac8ca7"
+  },
+  "docs/architecture/evidence/operating-economics/S9/v11/guest/s6/scratch/linux-600-0609420d/scene-058.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "spikes/operating-economics/v11/phase.py": {
+    "bytes": 7961,
+    "sha256": "30bd65a7b3caefcf7041121cdfe8103a191f9766e5b620166a19fd702f4e4638"
+  },
+  "spikes/operating-economics/v11/web.py": {
+    "bytes": 740,
+    "sha256": "5003368c347a95eafafd1fb97cb2dcd5a3926aa9365e905d827acac52a8ecfdc"
+  },
+  "spikes/operating-economics/v11/controller.py": {
+    "bytes": 9765,
+    "sha256": "ea15f279d75f44aeb7145707edc7b145a45b60e8f995038b408d9e17a3c415ab"
+  },
+  "spikes/operating-economics/v11/run.sh": {
+    "bytes": 519,
+    "sha256": "bfacb7dd48cc2d03662d2f8452cb0170a9a1ca393c293347919fd4d9538d3918"
+  },
+  "spikes/operating-economics/v11/guest.yaml": {
+    "bytes": 585,
+    "sha256": "bd1dc6ce0015b6fd95ac82e7738c1a643f1e9aae8ac32488e23562f521d0c912"
+  },
+  "spikes/operating-economics/v11/verify.py": {
+    "bytes": 9725,
+    "sha256": "38540dea7bf0168b303837d6d7ca478e5635b754a7166aeb6d83f2fe96ddcac2"
+  },
+  "docs/architecture/evidence/operating-economics/S9/CREDITS-v11.md": {
+    "bytes": 11676,
+    "sha256": "1edcfbf989e9dc24b335519fff47aa75b7b6e414887e302abc618f1fa4483f62"
+  }
+}
