@@ -1,7 +1,4 @@
 .env
-# Local development orchestration runtime (config is intentional tooling)
-.orchestrator/*
-!.orchestrator/config.json
 __pycache__/
 /.venv
 

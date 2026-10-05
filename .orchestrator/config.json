@@ -1,7 +1,0 @@
-{
-  "max_repair_attempts": 3,
-  "agent_timeout_seconds": 7200,
-  "dashboard_port": 8765,
-  "auto_continue_after_pass": false,
-  "activated_optional_tasks": []
-}
