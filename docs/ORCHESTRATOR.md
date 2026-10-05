@@ -13,6 +13,7 @@ python3 orchestrator.py status
 # Only after separate owner authorization for the first real implementation run:
 python3 orchestrator.py run
 python3 orchestrator.py resume
+python3 orchestrator.py unblock T001 --reason "Created repository-local .venv with Django 5.2.17"
 python3 orchestrator.py pause
 python3 orchestrator.py stop
 python3 tools/orchestrator_dashboard.py
@@ -58,7 +59,18 @@ Pause prevents launching another agent after the current agent ends. Stop/Ctrl+C
 
 `resume` can continue a durably completed implementation into independent review, restart an interrupted review of unchanged files, or reconcile an interrupted accepted checkpoint. It does not blindly rerun an interrupted implementation, infer completion from files, clear a blocker, or repeat product operations. If a recorded process identity is still live, resume refuses to launch another agent; operator inspection is required. PID reuse is checked against recorded `ps` start/group/command identity, never accepted solely from a PID.
 
-Malformed reports/verdicts, crashes, timeouts, ambiguous modifications, missing decisions or exhausted repairs stop as BLOCKED/HUMAN_REVIEW_REQUIRED. Blocked `resume` does not auto-unblock. Operator reconciliation is deliberately manual in v1: stop the controller, inspect attempt receipts/logs/working tree, settle the blocker, then explicitly reconcile backed-up runtime state with the task's existing acceptance history. Never manufacture PASS or remove reservations/provider history. No unblock control appears in the dashboard. A changed TASKS.md hash requires human reconciliation before execution continues.
+Malformed reports/verdicts, crashes, timeouts, ambiguous modifications, missing decisions or exhausted repairs stop as BLOCKED/HUMAN_REVIEW_REQUIRED. Blocked `resume` does not auto-unblock. After the owner resolves a **TASK_BLOCKED prerequisite**, explicitly reconcile it:
+
+```sh
+python3 orchestrator.py unblock T001 --reason "Created repository-local .venv with Django 5.2.17"
+python3 orchestrator.py resume
+```
+
+`unblock` requires the exact active task ID and a nonempty reason, BLOCKED task/runtime state with a matching persisted prerequisite blocker, and no controlled subprocess metadata or held controller lock. It rejects staged Git changes, checkpoint-recovery state, SPEC_BLOCKED and HUMAN_REVIEW_REQUIRED blockers. Other recovery still needs manual inspection. It does not verify the owner's prerequisite claim, install anything, launch an agent, skip work or grant PASS: fresh Codex implementation and independent OpenCode review must follow on explicit `resume`.
+
+The command captures the current repository/Git baseline, including the owner's resolved prerequisite and any separately checkpointed tooling fixes. Finish prerequisite/tooling edits and checkpoints **before** unblock. The old record/baseline/blocker, attempt count, repair count and attempt logs are retained; counters are not reset or incremented by unblock. Existing partial implementation becomes protected baseline work; ambiguous overlapping edits still stop rather than being silently attributed to the retry. The same active task returns to NOT_STARTED with the controller PAUSED, and the next implementation gets a new attempt directory. No other task is selected.
+
+An append-only `BLOCKER_RECONCILED` event includes the task, timestamp, previous blocker, operator reason and reconciliation ID. Atomic state first records a pending intent while remaining BLOCKED, then the event is flushed before the final retryable state write. If interrupted, rerun **the same unblock command with the same reason** against unchanged repository content; the event is deduplicated and history remains intact. `resume` still refuses the pending BLOCKED state. A repeated unblock after success is rejected. Never manufacture PASS or remove reservations/provider history. The dashboard remains read-only. A changed TASKS.md hash requires human reconciliation before execution continues.
 
 ## Monitoring from desktop and phone
 

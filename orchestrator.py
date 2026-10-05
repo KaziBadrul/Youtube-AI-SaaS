@@ -528,12 +528,14 @@ class Engine:
         validate_state(self.state, self.tasks)
         atomic_json(self.root / '.orchestrator/state.json', self.state)
 
-    def event(self, kind, actor='orchestrator', message=''):
+    def event(self, kind, actor='orchestrator', message='', details=None):
         task_id = self.state.get('active_task_id')
         record = self.state['tasks'].get(task_id, {})
         value = {'timestamp': now(), 'run_id': self.state['run_id'], 'task_id': task_id,
                  'attempt': record.get('current_attempt', 0), 'actor': actor, 'event_type': kind,
                  'status': record.get('status', self.state['mode']), 'message': redact(message).splitlines()[0][:400] if message else ''}
+        if details:
+            value.update({key: redact(item) for key, item in details.items()})
         path = self.root / '.orchestrator/events.jsonl'
         with path.open('a') as stream:
             stream.write(json.dumps(value) + '\n')
@@ -558,6 +560,81 @@ class Engine:
         self.state['blocker_reason'] = redact(reason)
         self.save()
         self.event('TASK_BLOCKED' if reason.startswith('TASK_BLOCKED') else 'HUMAN_REVIEW_REQUIRED', message=reason)
+
+    def unblock(self, task_id, reason):
+        """Explicit operator reconciliation only; never runs an agent or accepts work."""
+        if not reason or not reason.strip():
+            raise SafetyError('unblock requires a nonempty operator --reason')
+        with RepositoryLock(self.root):
+            self.state = load_state(self.root, self.tasks)
+            if self.state['mode'] != 'BLOCKED':
+                raise SafetyError('unblock requires orchestrator mode BLOCKED')
+            if self.state.get('active_task_id') != task_id:
+                raise SafetyError('unblock task ID must match the active blocked task')
+            record = self.state['tasks'][task_id]
+            previous = record.get('blocker_reason')
+            if record['status'] != 'BLOCKED' or not previous or self.state.get('blocker_reason') != previous:
+                raise SafetyError('unblock requires a consistent persisted task/runtime blocker')
+            if not previous.startswith('TASK_BLOCKED:') or re.match(r'^TASK_BLOCKED:\s*SPEC_BLOCKED\b', previous):
+                raise SafetyError('unblock handles TASK_BLOCKED prerequisites only; other recovery requires human inspection')
+            if self.child is not None or self.state.get('process') is not None:
+                raise SafetyError('unblock refuses active or unreconciled controlled subprocess metadata')
+            if record.get('checkpoint_intent') or record.get('git_head_after'):
+                raise SafetyError('unblock cannot discard an accepted checkpoint or checkpoint recovery')
+            task = next(t for t in self.tasks if t.id == task_id)
+            if any(self.state['tasks'][dep]['status'] != 'PASS' for dep in task.dependencies):
+                raise SafetyError('unblock cannot bypass task dependencies')
+            if any(r['status'] == 'BLOCKED' for tid, r in self.state['tasks'].items() if tid != task_id):
+                raise SafetyError('Another persisted blocker needs human reconciliation')
+            if git(self.root, 'diff', '--cached', '--name-only').strip():
+                raise SafetyError('unblock refuses staged changes; reconcile the Git index first')
+            fresh_base = baseline(self.root)
+            reason = redact(reason.strip())
+            intent = self.state.get('pending_blocker_reconciliation')
+            if intent:
+                if intent['task_id'] != task_id or intent['reason'] != reason or intent['previous_blocker'] != previous:
+                    raise SafetyError('Interrupted unblock must be retried with the same task and reason')
+                if intent['baseline'] != fresh_base:
+                    raise SafetyError('Repository changed during interrupted unblock; human inspection required')
+            else:
+                intent = {'id': uuid.uuid4().hex, 'task_id': task_id, 'timestamp': now(),
+                          'reason': reason, 'previous_blocker': previous, 'baseline': fresh_base,
+                          'previous_record': {k: v for k, v in record.items() if k != 'reconciliations'}}
+                self.state['pending_blocker_reconciliation'] = intent
+                self.save()  # Still BLOCKED: durable intent before the append-only audit.
+            events = self.root / '.orchestrator/events.jsonl'
+            recorded = False
+            if events.exists():
+                for line in events.read_text().splitlines():
+                    try:
+                        event = json.loads(line)
+                    except ValueError:
+                        continue  # A partial final append is not an audit receipt.
+                    if event.get('event_type') == 'BLOCKER_RECONCILED' and event.get('reconciliation_id') == intent['id']:
+                        recorded = True
+                        break
+            # Separate a crash-truncated append, including a complete JSON object missing its newline.
+            if events.exists() and events.stat().st_size:
+                with events.open('rb+') as stream:
+                    stream.seek(-1, os.SEEK_END)
+                    if stream.read(1) != b'\n':
+                        stream.seek(0, os.SEEK_END)
+                        stream.write(b'\n')
+                        stream.flush()
+                        os.fsync(stream.fileno())
+            if not recorded:
+                self.event('BLOCKER_RECONCILED', actor='operator', message=reason, details={
+                    'reconciliation_id': intent['id'], 'previous_blocker': previous,
+                    'operator_reason': reason})
+            record.setdefault('reconciliations', []).append({
+                k: v for k, v in intent.items() if k != 'baseline'})
+            record.update(status='NOT_STARTED', blocker_reason=None, baseline=intent['baseline'],
+                          git_head_before=intent['baseline']['head'], last_transition_timestamp=now())
+            # An old review pin cannot bind the new, explicitly reconciled retry baseline.
+            record.pop('review_fingerprint', None)
+            self.state.update(mode='PAUSED', blocker_reason=None)
+            self.state.pop('pending_blocker_reconciliation', None)
+            self.save()  # Retryable only after the audit is durable; active task stays the SAME.
 
     def transition(self, task_id, status):
         self.state['tasks'][task_id].update(status=status, last_transition_timestamp=now())
@@ -871,9 +948,16 @@ def dry_run(root):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', nargs='?', choices=['status', 'run', 'resume', 'pause', 'stop'], default='status')
+    parser.add_argument('command', nargs='?', choices=['status', 'run', 'resume', 'pause', 'stop', 'unblock'], default='status')
+    parser.add_argument('task_id', nargs='?')
+    parser.add_argument('--reason')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args(argv)
+    if args.command == 'unblock':
+        if not args.task_id or not args.reason or not args.reason.strip() or args.dry_run:
+            parser.error('unblock requires TASK_ID and a nonempty --reason; --dry-run is not supported')
+    elif args.task_id or args.reason is not None:
+        parser.error('TASK_ID and --reason are only valid with unblock')
     try:
         if args.dry_run:
             print(json.dumps(dry_run(ROOT), indent=2))
@@ -882,7 +966,10 @@ def main(argv=None):
             print(f'{args.command} requested; controller will handle its owned process safely')
         else:
             engine = Engine(ROOT)
-            if args.command == 'status':
+            if args.command == 'unblock':
+                engine.unblock(args.task_id, args.reason)
+                print(f'{args.task_id} blocker reconciled. No agent started; explicitly run resume to retry the same task.')
+            elif args.command == 'status':
                 task = next_task(engine.tasks, engine.state, engine.config)
                 print(json.dumps({'mode': engine.state['mode'], 'active_task_id': engine.state['active_task_id'],
                                   'next_task': task.id if task else None, 'completed': sum(r['status'] == 'PASS' for r in engine.state['tasks'].values()),

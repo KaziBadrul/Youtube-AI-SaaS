@@ -365,6 +365,214 @@ class RepoTest(unittest.TestCase):
                 return result
         self.assert_blocked(TimeoutRunner(), 'reviewer timeout')
 
+    def prerequisite_blocked(self):
+        engine = self.engine()
+        engine.state.update(active_task_id='T001', run_id='b' * 32, mode='BLOCKED',
+                            blocker_reason='TASK_BLOCKED: Offline Django runtime required')
+        engine.state['tasks']['T001'].update(
+            status='BLOCKED', blocker_reason=engine.state['blocker_reason'],
+            current_attempt=1, repair_count=2, last_codex_exit_code=0,
+            baseline=o.baseline(self.root), git_head_before=o.head(self.root))
+        directory = engine.attempt_dir('T001')
+        directory.mkdir(parents=True)
+        (directory / 'codex-output.txt').write_text('TASK_BLOCKED\nOffline prerequisite missing')
+        engine.save()
+        return engine
+
+    def test_unblock_correct_task_preserves_history_no_agent(self):
+        engine = self.prerequisite_blocked()
+        old = json.loads(json.dumps(engine.state['tasks']['T001']))
+        evidence = engine.attempt_dir('T001') / 'codex-output.txt'
+        spec = (self.root / 'TASKS.md').read_bytes()
+        with patch('orchestrator.verify_capabilities', side_effect=AssertionError('CLI probes forbidden')):
+            engine.unblock('T001', 'Installed local Django runtime')
+        state = self.engine().state
+        record = state['tasks']['T001']
+        self.assertEqual('PAUSED', state['mode'])
+        self.assertEqual('T001', state['active_task_id'])
+        self.assertEqual('NOT_STARTED', record['status'])
+        self.assertIsNone(record['blocker_reason'])
+        self.assertIsNone(state['blocker_reason'])
+        self.assertEqual(1, record['current_attempt'])
+        self.assertEqual(2, record['repair_count'])
+        self.assertIsNone(record['git_head_after'])
+        self.assertEqual([], engine.runner.calls)
+        self.assertEqual(old, record['reconciliations'][0]['previous_record'])
+        self.assertIn('TASK_BLOCKED', evidence.read_text())
+        self.assertEqual(spec, (self.root / 'TASKS.md').read_bytes())
+        events = [json.loads(line) for line in (self.root / '.orchestrator/events.jsonl').read_text().splitlines()]
+        self.assertEqual(1, len(events))
+        self.assertEqual('BLOCKER_RECONCILED', events[0]['event_type'])
+        self.assertEqual('T001', events[0]['task_id'])
+        self.assertEqual(old['blocker_reason'], events[0]['previous_blocker'])
+        self.assertEqual('Installed local Django runtime', events[0]['operator_reason'])
+        self.assertTrue(events[0]['timestamp'])
+
+    def test_unblock_wrong_task_rejected(self):
+        engine = self.prerequisite_blocked()
+        before = (self.root / '.orchestrator/state.json').read_bytes()
+        with self.assertRaises(o.SafetyError):
+            engine.unblock('T002', 'Prerequisite provided')
+        self.assertEqual(before, (self.root / '.orchestrator/state.json').read_bytes())
+
+    def test_unblock_not_blocked_rejected(self):
+        with self.assertRaises(o.SafetyError):
+            self.engine().unblock('T001', 'Prerequisite provided')
+
+    def test_unblock_controlled_subprocess_rejected(self):
+        engine = self.prerequisite_blocked()
+        engine.state['process'] = {'actor': 'codex', 'pid': 999999, 'pgid': 999999}
+        engine.save()
+        with self.assertRaises(o.SafetyError):
+            engine.unblock('T001', 'Prerequisite provided')
+        self.assertEqual('BLOCKED', self.engine().state['mode'])
+
+    def test_unblock_owned_child_rejected(self):
+        engine = self.prerequisite_blocked()
+        engine.child = object()
+        with self.assertRaises(o.SafetyError):
+            engine.unblock('T001', 'Prerequisite provided')
+
+    def test_unblock_missing_blocker_rejected(self):
+        engine = self.prerequisite_blocked()
+        engine.state['tasks']['T001']['blocker_reason'] = None
+        engine.save()
+        with self.assertRaises(o.SafetyError):
+            engine.unblock('T001', 'Prerequisite provided')
+
+    def test_unblock_reason_required(self):
+        engine = self.prerequisite_blocked()
+        for reason in ['', '   ', None]:
+            with self.subTest(reason=reason), self.assertRaises(o.SafetyError):
+                engine.unblock('T001', reason)
+
+    def test_unblock_human_review_and_spec_blockers_rejected(self):
+        for reason in ['HUMAN_REVIEW_REQUIRED: repair limit exhausted', 'TASK_BLOCKED: SPEC_BLOCKED\nMaterial contradiction']:
+            engine = self.prerequisite_blocked() if not (self.root / '.orchestrator/state.json').exists() else self.engine()
+            engine.state['blocker_reason'] = reason
+            engine.state['tasks']['T001']['blocker_reason'] = reason
+            engine.save()
+            with self.subTest(reason=reason), self.assertRaises(o.SafetyError):
+                engine.unblock('T001', 'Prerequisite provided')
+
+    def test_unblock_repeated_rejected(self):
+        engine = self.prerequisite_blocked()
+        engine.unblock('T001', 'Prerequisite provided')
+        before = (self.root / '.orchestrator/state.json').read_bytes()
+        with self.assertRaises(o.SafetyError):
+            self.engine().unblock('T001', 'Prerequisite provided')
+        self.assertEqual(before, (self.root / '.orchestrator/state.json').read_bytes())
+
+    def test_unblock_lock_owner_rejected(self):
+        engine = self.prerequisite_blocked()
+        with o.RepositoryLock(self.root), self.assertRaises(o.SafetyError):
+            engine.unblock('T001', 'Prerequisite provided')
+
+    def test_unblock_staged_change_rejected(self):
+        engine = self.prerequisite_blocked()
+        (self.root / 'owner.txt').write_text('owner work')
+        o.git(self.root, 'add', 'owner.txt')
+        with self.assertRaises(o.SafetyError):
+            engine.unblock('T001', 'Prerequisite provided')
+        self.assertIn('owner.txt', o.git(self.root, 'diff', '--cached', '--name-only').decode())
+
+    def test_unblock_then_resume_retries_same_task_from_beginning(self):
+        engine = self.prerequisite_blocked()
+        # Owner may checkpoint an operational prerequisite while the task is blocked.
+        (self.root / '.gitignore').write_text((self.root / '.gitignore').read_text() + '.venv/\n')
+        o.git(self.root, 'add', '.gitignore')
+        o.git(self.root, 'commit', '-qm', 'owner prerequisite')
+        engine.unblock('T001', 'Repository-local prerequisite supplied')
+        runner = FakeRunner()
+        resumed = self.engine(runner)
+        resumed.run(resume=True, verify=False)
+        self.assertEqual(['codex', 'reviewer'], [c[0] for c in runner.calls])
+        self.assertEqual({'T001'}, {c[1] for c in runner.calls})
+        self.assertEqual(2, resumed.state['tasks']['T001']['current_attempt'])
+        self.assertEqual(2, resumed.state['tasks']['T001']['repair_count'])
+        self.assertEqual('PASS', resumed.state['tasks']['T001']['status'])
+        self.assertTrue((self.root / '.orchestrator/runs/T001' / resumed.state['run_id'] / 'attempt-01/codex-output.txt').exists())
+
+    def test_unblock_partial_implementation_preserved_and_reviewed(self):
+        engine = self.prerequisite_blocked()
+        (self.root / 'alpha.py').write_text('partial work from blocked attempt')
+        engine.unblock('T001', 'Prerequisite provided')
+        record = engine.state['tasks']['T001']
+        self.assertIn('alpha.py', record['baseline']['dirty'])
+        self.assertEqual('partial work from blocked attempt', (self.root / 'alpha.py').read_text())
+        # A retry cannot accidentally absorb old partial work as newly attributable edits.
+        runner = FakeRunner()
+        with self.assertRaises(o.SafetyError):
+            self.engine(runner).run(resume=True, verify=False)
+        self.assertEqual(['codex'], [c[0] for c in runner.calls])
+
+    def test_unblock_crash_before_intent_write_retains_blocker(self):
+        engine = self.prerequisite_blocked()
+        before = (self.root / '.orchestrator/state.json').read_bytes()
+        with patch('orchestrator.os.replace', side_effect=OSError('interrupted')), self.assertRaises(OSError):
+            engine.unblock('T001', 'Prerequisite provided')
+        self.assertEqual(before, (self.root / '.orchestrator/state.json').read_bytes())
+        self.engine().unblock('T001', 'Prerequisite provided')
+        self.assertEqual('NOT_STARTED', self.engine().state['tasks']['T001']['status'])
+
+    def test_unblock_crash_after_audit_before_final_write_recovers(self):
+        engine = self.prerequisite_blocked()
+        save = engine.save
+        def crash_final():
+            if engine.state['mode'] == 'PAUSED':
+                raise Crash()
+            save()
+        with patch.object(engine, 'save', side_effect=crash_final), self.assertRaises(Crash):
+            engine.unblock('T001', 'Prerequisite provided')
+        blocked = self.engine()
+        self.assertEqual('BLOCKED', blocked.state['mode'])
+        with self.assertRaises(o.SafetyError):
+            blocked.run(resume=True, verify=False)
+        blocked.unblock('T001', 'Prerequisite provided')
+        self.assertEqual('NOT_STARTED', self.engine().state['tasks']['T001']['status'])
+        events = (self.root / '.orchestrator/events.jsonl').read_text()
+        self.assertEqual(1, events.count('BLOCKER_RECONCILED'))
+        self.assertEqual(1, len(self.engine().state['tasks']['T001']['reconciliations']))
+
+    def test_unblock_crash_before_audit_recovers(self):
+        engine = self.prerequisite_blocked()
+        with patch.object(engine, 'event', side_effect=Crash()), self.assertRaises(Crash):
+            engine.unblock('T001', 'Prerequisite provided')
+        self.assertEqual('BLOCKED', self.engine().state['mode'])
+        self.engine().unblock('T001', 'Prerequisite provided')
+        self.assertEqual('PAUSED', self.engine().state['mode'])
+
+    def test_unblock_crash_truncated_event_append_recovers(self):
+        engine = self.prerequisite_blocked()
+        def partial_event(*args, **kwargs):
+            (self.root / '.orchestrator/events.jsonl').write_text('{"event_type":')
+            raise Crash()
+        with patch.object(engine, 'event', side_effect=partial_event), self.assertRaises(Crash):
+            engine.unblock('T001', 'Prerequisite provided')
+        self.engine().unblock('T001', 'Prerequisite provided')
+        lines = (self.root / '.orchestrator/events.jsonl').read_text().splitlines()
+        self.assertEqual('{"event_type":', lines[0])
+        self.assertEqual('BLOCKER_RECONCILED', json.loads(lines[1])['event_type'])
+        self.assertEqual('PAUSED', self.engine().state['mode'])
+
+    def test_unblock_changed_pending_baseline_rejected(self):
+        engine = self.prerequisite_blocked()
+        with patch.object(engine, 'event', side_effect=Crash()), self.assertRaises(Crash):
+            engine.unblock('T001', 'Prerequisite provided')
+        (self.root / 'owner.txt').write_text('new work after interrupted command')
+        with self.assertRaises(o.SafetyError):
+            self.engine().unblock('T001', 'Prerequisite provided')
+        self.assertEqual('BLOCKED', self.engine().state['mode'])
+
+    def test_unblock_cli_requires_task_and_reason(self):
+        for args in [['unblock'], ['unblock', 'T001'], ['unblock', '--reason', 'fixed'], ['unblock', 'T001', '--reason', ' ']]:
+            with self.subTest(args=args), contextlib.redirect_stderr(__import__('io').StringIO()), self.assertRaises(SystemExit):
+                o.main(args)
+        engine = self.prerequisite_blocked()
+        with patch.object(o, 'ROOT', self.root), contextlib.redirect_stdout(__import__('io').StringIO()):
+            self.assertEqual(0, o.main(['unblock', 'T001', '--reason', 'Local runtime supplied']))
+        self.assertEqual('NOT_STARTED', self.engine().state['tasks']['T001']['status'])
+
     def test_real_subprocess_adapter_with_fake_executables(self):
         fake = self.root / '.orchestrator/fake_agent.py'
         fake.write_text('''import sys,pathlib
