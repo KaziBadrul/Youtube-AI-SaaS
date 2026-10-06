@@ -1,0 +1,33 @@
+{% comment %}
+Theme Selector Component
+Supports Light, Dark, and System modes.
+{% endcomment %}
+<div class="theme-selector" role="radiogroup" aria-label="Theme preference">
+  <button
+    type="button"
+    class="theme-option"
+    role="radio"
+    data-theme-value="light"
+    aria-checked="false"
+  >
+    Light
+  </button>
+  <button
+    type="button"
+    class="theme-option"
+    role="radio"
+    data-theme-value="dark"
+    aria-checked="false"
+  >
+    Dark
+  </button>
+  <button
+    type="button"
+    class="theme-option active"
+    role="radio"
+    data-theme-value="system"
+    aria-checked="true"
+  >
+    System
+  </button>
+</div>

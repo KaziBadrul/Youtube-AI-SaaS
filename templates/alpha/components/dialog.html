@@ -1,0 +1,51 @@
+{% comment %}
+Accessible Modal Dialog Component
+Usage:
+  {% include "alpha/components/dialog.html" with id="confirm-modal" title="Confirm Action" body="Are you sure?" %}
+{% endcomment %}
+<div
+  id="{{ id }}"
+  class="dialog-backdrop"
+  aria-hidden="true"
+>
+  <div
+    class="dialog-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="{{ id }}-title"
+    tabindex="-1"
+  >
+    <div class="dialog-header">
+      <h2 id="{{ id }}-title" class="dialog-title">{{ title }}</h2>
+      <button
+        type="button"
+        class="dialog-close-btn"
+        data-dialog-close
+        aria-label="Close dialog"
+      >
+        ✕
+      </button>
+    </div>
+    <div class="dialog-body">
+      {{ body }}
+    </div>
+    <div class="dialog-actions">
+      <button
+        type="button"
+        class="btn btn-secondary"
+        data-dialog-close
+      >
+        {{ cancel_label|default:"Cancel" }}
+      </button>
+      {% if confirm_label %}
+      <button
+        type="button"
+        class="btn btn-primary"
+        {% if confirm_id %}id="{{ confirm_id }}"{% endif %}
+      >
+        {{ confirm_label }}
+      </button>
+      {% endif %}
+    </div>
+  </div>
+</div>

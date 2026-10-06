@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warm Creator Design System Showcase</title>
+  <link rel="stylesheet" href="{% static 'alpha/design.css' %}">
+  <style>
+    .showcase-container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: var(--space-8) var(--space-4);
+    }
+    .showcase-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: var(--space-4);
+      margin-bottom: var(--space-8);
+    }
+    .showcase-section {
+      margin-bottom: var(--space-8);
+      padding: var(--space-6);
+      background-color: var(--surface-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+    }
+    .showcase-row {
+      display: flex;
+      gap: var(--space-4);
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: var(--space-3);
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: var(--space-1) var(--space-3);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+    }
+    .status-success {
+      background-color: var(--status-success-bg);
+      color: var(--status-success-text);
+      border: 1px solid var(--status-success-border);
+    }
+    .status-warning {
+      background-color: var(--status-warning-bg);
+      color: var(--status-warning-text);
+      border: 1px solid var(--status-warning-border);
+    }
+    .status-error {
+      background-color: var(--status-error-bg);
+      color: var(--status-error-text);
+      border: 1px solid var(--status-error-border);
+    }
+  </style>
+</head>
+<body>
+  <div class="showcase-container">
+    <header class="showcase-header">
+      <div>
+        <h1 style="margin: 0; font-size: var(--text-2xl);">Warm Creator Design Showcase</h1>
+        <p style="margin: var(--space-1) 0 0 0; color: var(--text-secondary); font-size: var(--text-sm);">
+          Direction C Refined: Warm outside, serious inside.
+        </p>
+      </div>
+      <div>
+        {% include "alpha/components/theme_selector.html" %}
+      </div>
+    </header>
+
+    <section class="showcase-section" aria-labelledby="typography-heading">
+      <h2 id="typography-heading" style="margin-top: 0;">Typography & Contrast</h2>
+      <p style="color: var(--text-primary);">
+        <strong>Primary Text:</strong> Clear, readable sans-serif with high contrast against the canvas.
+      </p>
+      <p style="color: var(--text-secondary);">
+        <strong>Secondary Text:</strong> Muted metadata and supporting descriptions meeting WCAG 2.2 AA contrast rules.
+      </p>
+      <p style="color: var(--text-muted); font-size: var(--text-sm);">
+        <strong>Muted Text:</strong> Timestamps, IDs, and subtle guidance.
+      </p>
+    </section>
+
+    <section class="showcase-section" aria-labelledby="controls-heading">
+      <h2 id="controls-heading" style="margin-top: 0;">Semantic Buttons & Form Controls</h2>
+      <div class="showcase-row">
+        {% include "alpha/components/button.html" with label="Create Video" variant="primary" id="btn-create" %}
+        {% include "alpha/components/button.html" with label="Cancel" variant="secondary" id="btn-cancel" %}
+        {% include "alpha/components/button.html" with label="Disabled Action" variant="primary" disabled=True %}
+        <button type="button" class="btn btn-secondary" data-dialog-open="demo-dialog">Open Modal Dialog</button>
+      </div>
+      <div class="showcase-row" style="margin-top: var(--space-4);">
+        <label for="sample-input" style="font-weight: 500; font-size: var(--text-sm);">Test Input:</label>
+        <input type="text" id="sample-input" class="form-input" value="Sample script content" placeholder="Enter idea or script">
+      </div>
+    </section>
+
+    <section class="showcase-section" aria-labelledby="disclosures-heading">
+      <h2 id="disclosures-heading" style="margin-top: 0;">Accessible Disclosures</h2>
+      {% include "alpha/components/disclosure.html" with id="settings-disclosure" title="See more settings" content="Optional advanced controls: voice selection, captions styling, and pacing parameters." %}
+    </section>
+
+    <section class="showcase-section" aria-labelledby="status-heading">
+      <h2 id="status-heading" style="margin-top: 0;">Semantic Statuses</h2>
+      <div class="showcase-row">
+        <span class="status-badge status-success">✓ Audio Ready</span>
+        <span class="status-badge status-warning">⚠ Review Needed</span>
+        <span class="status-badge status-error">✕ Generation Failed</span>
+      </div>
+    </section>
+
+    {% include "alpha/components/dialog.html" with id="demo-dialog" title="Confirm Action" body="Are you sure you want to proceed with this scene correction?" confirm_label="Proceed" confirm_id="btn-dialog-confirm" %}
+  </div>
+
+  <script src="{% static 'alpha/theme.js' %}"></script>
+  <script src="{% static 'alpha/components.js' %}"></script>
+</body>
+</html>

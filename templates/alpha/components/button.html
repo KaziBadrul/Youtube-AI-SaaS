@@ -1,0 +1,16 @@
+{% comment %}
+Accessible Button Component
+Usage:
+  {% include "alpha/components/button.html" with label="Create Video" variant="primary" type="button" %}
+{% endcomment %}
+<button
+  type="{{ type|default:'button' }}"
+  class="btn btn-{{ variant|default:'primary' }}{% if extra_classes %} {{ extra_classes }}{% endif %}"
+  {% if id %}id="{{ id }}"{% endif %}
+  {% if disabled %}disabled aria-disabled="true"{% endif %}
+  {% if aria_label %}aria-label="{{ aria_label }}"{% endif %}
+  {{ attributes|default:'' }}
+>
+  {% if icon %}<span class="btn-icon" aria-hidden="true">{{ icon }}</span>{% endif %}
+  <span class="btn-label">{{ label }}</span>
+</button>
