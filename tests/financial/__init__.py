@@ -1,0 +1,1 @@
+"""Financial tests category package."""
