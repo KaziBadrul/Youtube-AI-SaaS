@@ -1,1 +1,4 @@
-"""Typed persistence records belong here; domain models are outside T001."""
+"""Typed persistence records."""
+from alpha.persistence.models import DurabilityChild, DurabilityJournal
+
+__all__ = ["DurabilityJournal", "DurabilityChild"]

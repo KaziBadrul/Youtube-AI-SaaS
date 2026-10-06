@@ -33,10 +33,23 @@ TEMPLATES = [{
         "django.contrib.auth.context_processors.auth",
     ]},
 }]
-DATABASES = {"default": {
-    "ENGINE": "django.db.backends.sqlite3", "NAME": BASE_DIR / "alpha.sqlite3",
-    "ATOMIC_REQUESTS": False,
-}}
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "alpha.sqlite3",
+        "ATOMIC_REQUESTS": False,
+        "OPTIONS": {
+            "timeout": 5.0,
+            "transaction_mode": "IMMEDIATE",
+            "init_command": (
+                "PRAGMA journal_mode = WAL; "
+                "PRAGMA synchronous = FULL; "
+                "PRAGMA foreign_keys = ON; "
+                "PRAGMA busy_timeout = 5000;"
+            ),
+        },
+    }
+}
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 TIME_ZONE = "Asia/Dhaka"
 USE_TZ = True

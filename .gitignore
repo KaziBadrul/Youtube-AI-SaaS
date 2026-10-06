@@ -1,6 +1,8 @@
 .env
 __pycache__/
 /.venv
+*.sqlite3*
+/alpha.sqlite3*
 
 # Large architecture feasibility artifacts
 docs/architecture/evidence/**/*.mp4
