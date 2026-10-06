@@ -33,6 +33,23 @@ from alpha.models.scenes import (
     SceneNarrationVersion,
     SceneNotFoundError,
 )
+from alpha.models.artifacts import (
+    ArtifactAttempt,
+    ArtifactDomainError,
+    ArtifactKind,
+    ArtifactSlot,
+    ArtifactSlotNotFoundError,
+    ArtifactSourceType,
+    ArtifactVersion,
+    ArtifactVersionNotFoundError,
+    CrossProjectArtifactReferenceError,
+    GenerationOutcome,
+    ImmutableArtifactVersionError,
+    InvalidArtifactPayloadError,
+    InvalidArtifactSelectionError,
+    SlotOutcome,
+    compute_canonical_json_hash,
+)
 
 __all__ = [
     "DurabilityJournal",
@@ -64,4 +81,20 @@ __all__ = [
     "ImmutableSceneNarrationError",
     "Scene",
     "SceneNarrationVersion",
+    "ArtifactDomainError",
+    "ImmutableArtifactVersionError",
+    "CrossProjectArtifactReferenceError",
+    "InvalidArtifactPayloadError",
+    "InvalidArtifactSelectionError",
+    "ArtifactVersionNotFoundError",
+    "ArtifactSlotNotFoundError",
+    "ArtifactKind",
+    "ArtifactSourceType",
+    "GenerationOutcome",
+    "SlotOutcome",
+    "ArtifactVersion",
+    "ArtifactSlot",
+    "ArtifactAttempt",
+    "compute_canonical_json_hash",
 ]
+

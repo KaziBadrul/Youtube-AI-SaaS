@@ -21,6 +21,16 @@ from alpha.services.script_projection import (
     update_scene_narration,
     update_scene_visuals,
 )
+from alpha.services.artifacts import (
+    create_artifact_version,
+    get_artifact_slot,
+    get_artifact_version,
+    get_or_create_artifact_slot,
+    record_generation_attempt,
+    select_artifact_version,
+    set_slot_compatibility,
+    set_slot_review_needed,
+)
 
 __all__ = [
     "create_project",
@@ -41,4 +51,13 @@ __all__ = [
     "get_script_version",
     "get_current_script_text",
     "compute_projection_payload",
+    "create_artifact_version",
+    "get_or_create_artifact_slot",
+    "select_artifact_version",
+    "record_generation_attempt",
+    "set_slot_compatibility",
+    "set_slot_review_needed",
+    "get_artifact_slot",
+    "get_artifact_version",
 ]
+
