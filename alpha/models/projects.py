@@ -127,7 +127,7 @@ class Project(models.Model):
                 name="unique_user_project_creation_token",
             ),
             models.CheckConstraint(
-                check=models.Q(rev__gte=1),
+                condition=models.Q(rev__gte=1),
                 name="check_project_rev_gte_1",
             ),
         ]

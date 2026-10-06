@@ -15,6 +15,24 @@ from alpha.models.projects import (
     RetentionWindowExpiredError,
     VisualStyle,
 )
+from alpha.models.scripts import (
+    ImmutableScriptVersionError,
+    InvalidSpanError,
+    MismatchedSourceVersionError,
+    ScriptDomainError,
+    ScriptProjection,
+    ScriptSourceType,
+    ScriptVersion,
+    ScriptVersionNotFoundError,
+)
+from alpha.models.scenes import (
+    ImmutableSceneNarrationError,
+    InvalidSceneOrderError,
+    Scene,
+    SceneDomainError,
+    SceneNarrationVersion,
+    SceneNotFoundError,
+)
 
 __all__ = [
     "DurabilityJournal",
@@ -32,4 +50,18 @@ __all__ = [
     "ProjectDeletedError",
     "RetentionWindowExpiredError",
     "ImmutableOriginalInputError",
+    "ScriptDomainError",
+    "ScriptVersionNotFoundError",
+    "MismatchedSourceVersionError",
+    "InvalidSpanError",
+    "ImmutableScriptVersionError",
+    "ScriptSourceType",
+    "ScriptVersion",
+    "ScriptProjection",
+    "SceneDomainError",
+    "SceneNotFoundError",
+    "InvalidSceneOrderError",
+    "ImmutableSceneNarrationError",
+    "Scene",
+    "SceneNarrationVersion",
 ]
